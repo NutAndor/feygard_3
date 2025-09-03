@@ -1,0 +1,402 @@
+[
+    {
+        "id":"fey3_oger",
+		"message":"Hi. Me Oger."
+    },
+    {
+        "id":"fey3_oger_nc",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_oger_nc_10",
+                "requires":[
+					{ 
+						"requireType":"questProgress", 
+						"requireID":"fey3_ogerwall", 
+						"value":51,
+						"negate":true 
+					}
+				]
+			},
+            {
+                "nextPhraseID":"fey3_oger_nc_20",
+                "requires":[
+					{ 
+						"requireType":"questProgress", 
+						"requireID":"fey3_ogerwall", 
+						"value":52,
+						"negate":true 
+					}
+				]
+			}
+		]
+    },
+    {
+        "id":"fey3_oger_nc_10",
+		"message":"... pre story ...",
+        "replies":[
+            {
+                "text":"Interesting.",
+				"nextPhraseID":"fey3_oger_nc_20"
+			}
+		],
+        "rewards":[
+			{
+				"rewardType":"questProgress",
+				"rewardID":"fey3_ogerwall",
+				"value":51
+			}
+		]
+    },
+    {
+        "id":"fey3_oger_nc_20",
+		"message":"... Take things ...",
+        "replies":[
+            {
+                "text":"OK ...",
+				"nextPhraseID":"X"
+			}
+		],
+        "rewards":[
+			{
+				"rewardType":"questProgress",
+				"rewardID":"fey3_ogerwall",
+				"value":52
+			},
+			{
+				"rewardType":"giveItem",
+				"rewardID":"ogercrystal",
+				"value":4
+			},
+			{
+				"rewardType":"giveItem",
+				"rewardID":"ogertorch",
+				"value":6
+			},
+			{
+				"rewardType":"giveItem",
+				"rewardID":"ogersign",
+				"value":1
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_b1",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogerwall_b1_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":1, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogercrystal", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_b1_10",
+        "message":"Do you want to place an oger crystal here?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogerwall_b1_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogercrystal", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_b1_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogerwall", "value":1 }]
+    },
+    {
+        "id":"fey3_ogerwall_b2",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogerwall_b2_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":2, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogercrystal", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_b2_10",
+        "message":"Do you want to place an oger crystal here?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogerwall_b2_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogercrystal", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_b2_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogerwall", "value":2 }]
+    },
+    {
+        "id":"fey3_ogerwall_b3",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogerwall_b3_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":3, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogercrystal", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_b3_10",
+        "message":"Do you want to place an oger crystal here?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogerwall_b3_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogercrystal", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_b3_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogerwall", "value":3 }]
+    },
+    {
+        "id":"fey3_ogerwall_b4",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogerwall_b4_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":4, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogercrystal", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_b4_10",
+        "message":"Do you want to place an oger crystal here?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogerwall_b4_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogercrystal", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_b4_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogerwall", "value":4 }]
+    },
+    {
+        "id":"fey3_ogerwall_f1",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogerwall_f1_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":11, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogertorch", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_f1_10",
+        "message":"Do you want to place a bright shining torch next to you?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogerwall_f1_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogertorch", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_f1_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogerwall", "value":14 }]
+    },
+    {
+        "id":"fey3_ogerwall_f2",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogerwall_f2_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":12, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogertorch", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_f2_10",
+        "message":"Do you want to place a bright shining torch next to you?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogerwall_f2_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogertorch", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_f2_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogerwall", "value":12 }]
+    },
+    {
+        "id":"fey3_ogerwall_f3",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogerwall_f3_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":13, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogertorch", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_f3_10",
+        "message":"Do you want to place a bright shining torch next to you?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogerwall_f3_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogertorch", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_f3_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogerwall", "value":13 }]
+    },
+    {
+        "id":"fey3_ogerwall_f4",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogerwall_f4_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":14, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogertorch", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_f4_10",
+        "message":"Do you want to place a bright shining torch next to you?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogerwall_f4_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogertorch", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_f4_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogerwall", "value":14 }]
+    },
+    {
+        "id":"fey3_ogerwall_f5",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogerwall_f5_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":15, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogertorch", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_f5_10",
+        "message":"Do you want to place a bright shining torch next to you?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogerwall_f5_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogertorch", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_f5_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogerwall", "value":15 }]
+    },
+    {
+        "id":"fey3_ogerwall_f6",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogerwall_f6_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":16, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogertorch", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_f6_10",
+        "message":"Do you want to place a bright shining torch next to you?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogerwall_f6_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogertorch", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_f6_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogerwall", "value":16 }]
+    },
+    {
+        "id":"fey3_ogerwall_sign",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogerwall_sign_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":5, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogersign", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_sign_10",
+        "message":"Here is a good place to put an exit sign on the wall.",
+        "replies":[
+            {
+                "text":"Let's do it.",
+				"nextPhraseID":"fey3_ogerwall_sign_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogersign", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogerwall_sign_20",
+        "message":"Nice.",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogerwall", "value":5 }]
+    }
+]

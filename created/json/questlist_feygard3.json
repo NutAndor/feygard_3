@@ -1,0 +1,24 @@
+[
+    {
+        "id":"fey3_ogerwall",
+        "name":"fey3_ogerwall",
+        "showInLog":1,
+        "stages":[
+            { "progress":1, "logText":"1=Oger crystal 1" },
+            { "progress":2, "logText":"2=Oger crystal 2" },
+            { "progress":3, "logText":"3=Oger crystal 3" },
+            { "progress":4, "logText":"4=Oger crystal 4" },
+            { "progress":5, "logText":"5=Oger sign put" },
+            { "progress":6, "logText":"6=Oger wall open" },
+            { "progress":9, "logText":"9=Oger wall open" },
+            { "progress":11, "logText":"11=Oger torch 1" },
+            { "progress":12, "logText":"12=Oger torch 2" },
+            { "progress":13, "logText":"13=Oger torch 3" },
+            { "progress":14, "logText":"14=Oger torch 4" },
+            { "progress":15, "logText":"15=Oger torch 5" },
+            { "progress":16, "logText":"16=Oger torch 6" },
+            { "progress":51, "logText":"51=Pre story" },
+            { "progress":51, "logText":"52=Torches given" }
+		]
+	}
+]

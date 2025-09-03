@@ -1,0 +1,36 @@
+[
+    {
+        "id":"fey3_oger",
+        "items":[
+            {
+                "itemID":"gem5",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":20
+                }
+            }
+        ]
+    },
+    {
+        "id":"fey3_oger_nc",
+        "items":[
+            {
+                "itemID":"gem5",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":15
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":100,
+                    "max":200
+                }
+            }
+        ]
+    }
+]

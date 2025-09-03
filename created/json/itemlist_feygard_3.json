@@ -1,0 +1,21 @@
+[
+    {
+        "id":"ogercrystal",
+        "iconID":"items_weapons_3:18",
+        "name":"Crystal for Oger banning",
+        "category":"quest"
+    },
+    {
+        "id":"ogertorch",
+        "iconID":"items_weapons_3:18",
+        "name":"Torch for Oger banning",
+        "category":"quest"
+    },
+    {
+        "id":"ogersign",
+        "iconID":"items_weapons_3:18",
+        "name":"Sign for Oger banning",
+        "description":"E X I T",
+        "category":"quest"
+    }
+]

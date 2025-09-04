@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="27" nextobjectid="58">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="32" nextobjectid="72">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -190,7 +190,7 @@
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
  <tileset firstgid="8281" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/drawable/map_guynmart.png" width="512" height="256"/>
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
  <layer id="1" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
@@ -204,17 +204,27 @@
  </layer>
  <layer id="3" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgxEs5MQuvgiHODVANBuETmRnYEhFwyAQxUZ9O+uAZmZDzW0E2tOEhkEgiw2ijlZgItCeSWiYEvBMkIHhmiCCD2I/E8RUtxBozyI0PBQBNr9hE6MFQA9negFk/9HLr8SCl5L4+ejgDj8Dw0FW2rkHG1glQD2zSPXvUAfD3b/oaWO4+xcdjDT/joJRMAoGBwAAaFglqw==
+   eJxjYBgFgxEs5MQuvgiHODVANBuETmRnYEhFwyAQxUZ9O+uAZmZDzW0E2tOEhkEgiw2ijlZgItCeSWiYVMAjhGA/F2RguCaI4IPYzwUx9SwE2rMIDeMzd7ACbH7DJkYLgB7OpAA2CsIW2X/08iux4KUkfj46uMPPwHCQlXz7yAnHVQK45abgkUMGsLxBqn8HI2AUJl7tYPUvB5XKKvS0QUv/0qt8JcWewRq/o2AUjILhDQCX1SdJ
+  </data>
+ </layer>
+ <layer id="30" name="Objects0" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUUBM8F2RguCaI4IPYzwVxqx/qAJvf6OVf9HCmF0D233CO21EwCkbBKBgFo2AUDH8AANsyCW0=
+  </data>
+ </layer>
+ <layer id="5" name="Objects_sign" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6A1sJX9I/maQB9IQAI3ur4HAADANuuiAFY=
   </data>
  </layer>
  <layer id="4" name="Objects_hole" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFIwmkMA2MvffYGBjuA/EDIE6moxveAe17D8QfgLiYTvb+EcLOphcYCDtHwSgYBaNgFIyCUTAKRsHQBABIgQn5
+   eJxjYBgFIwmkMA2MvffYGBjuA/EDIE6moxveAe17D8QfgLiYjvZqCzMwvBRjYPgpBGHTE/wRoq99AwmQw5be4TwKRsEoGAWjYBSMglEwHAAALbwK3w==
   </data>
  </layer>
- <layer id="5" name="Objects1" width="30" height="30" visible="0">
+ <layer id="28" name="Objects_free" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztzjEBAAAIA6A1sJX9I/maQB9IQAI3ur4HAADANuuiAFY=
+   eJxjYBgFIwmkMA2MvffYGBjuA/EDIE6moxveAe17D8QfgLiYTva+EGRguAHEL8UYGH4KQdggMXqBP0L0swsEsPmNXv69IYidTWuA7D96xu0oGAWjYBSMglEwCkYBtQEA1w8TYQ==
   </data>
  </layer>
  <layer id="16" name="Objects_b1" width="30" height="30" visible="0">
@@ -272,34 +282,29 @@
    eJxjYBgFowAVbFNgYNiOhHcAcaUC7e09BrTjOBI+McztvQa04zoSvgHEWXSwdxTQB9yUxM8fbmDUvwPjDnqBUf8OjDtGwSgYBaOAHgAAHMEd1g==
   </data>
  </layer>
- <layer id="7" name="Top" width="30" height="30" visible="0">
+ <layer id="7" name="Top" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
  <layer id="8" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcHEA8EABarl1IMJsoOJnqNtLjFm0SCPkpsNRMAooAdjS83AGo/4dGHfQC4z6d2DcMQpGwSgYWQAAIXCkOw==
+   eJy7KMbAcHEA8EABarl1IMJsoOJnqNtLjHm0SCPkpsNRMAooAdjS83AGo/4dGHfQChDy33DzLzoYaf4dBaNgFAwOAAAC8aQ7
   </data>
  </layer>
- <layer id="26" name="Walkable_hole" width="30" height="30" visible="0">
+ <layer id="31" name="Walkable0" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFIwVcFMOOh7u96G6gh73Y2PQCA2HnKBgFo2AUjIJRMApGwSgYmgAAhZkSDQ==
+   eJxjYBgFIwVcFMOOh7u9uPijYBSMglEwCkbBKBgFo2AUjHQAAOH4DnE=
   </data>
  </layer>
- <layer id="9" name="Walkable0" width="30" height="30" visible="0">
+ <layer id="29" name="Walkable_free" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztlMENwCAMA5mi+6/UjfqNEETnmPJoscSjJPgSGtHa0dE/dF/aGp3L9nZwY2w1t/d0uGo9o7zZt8qvcrNeaB2EO8t9g0vuZge3P0f9q3xHDjebMeKb1aDet/JeZTH1HSG+NF6dMYdL+TFH9XO4at/Ex/nPDl9ZVbZbh9onjdH5otwV8xVzjr6vB3Vv6bY=
+   eJxjYBgFIwVcFMOOh7u96G6gJ6C3fQNl5ygYBaNgFIyCUTAKRsEoGJoAANV1ESY=
   </data>
  </layer>
  <layer id="10" name="Walkable1" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUUBNcFINgXHxa2kuM2HCyd6DCGRseBaNgFIyCUTAKRsEoGIoAAAj0ED8=
-  </data>
- </layer>
- <layer id="11" name="Walkable2" width="30" height="30" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJztVUEOgCAM4xX+/0v+yJMJLmvXOk7KEiMwWFs2YIxt2/5h5/H84tjdn/+xncVycRE2wkX4b3CR1kxLB9cZR7xR38VnmhmuwxnxUDAyXh3cLC7jsxIX5Y7FderC9a/SVPmzfazy7+iptFW4cb6Kq/rYuVLiKn4Uv1u77r3E6tvh4b4hnfVoHeJd3YPd/a7qlr2Dq3Kt7EPHqrOgvj/OnRHXKHpYPuY5275vF7vMoYY=
+   eJxjYBgFo4A+4KIYBA93e9Hto5f92OwY7vYOVDhjw6NgFIyCUTAKRsEoGAVDEQAALysT2w==
   </data>
  </layer>
  <objectgroup id="12" name="Mapevents" visible="0">
@@ -313,10 +318,33 @@
   <object id="13" name="fey3_ogerwall_b2" type="script" x="128" y="320" width="32" height="32"/>
   <object id="13" name="fey3_ogerwall_b3" type="script" x="224" y="320" width="32" height="32"/>
   <object id="13" name="fey3_ogerwall_b4" type="script" x="224" y="224" width="32" height="32"/>
+  <object id="62" name="fey3_ogerwall_s9" type="script" x="96" y="224" width="192" height="160">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object id="58" name="fey3_ogerwall_s2" type="script" x="0" y="224" width="96" height="128">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object id="59" name="fey3_ogerwall_s2" type="script" x="0" y="384" width="416" height="352">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object id="60" name="fey3_ogerwall_s2" type="script" x="288" y="224" width="160" height="160">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object id="61" name="haystack" type="mapchange" x="32" y="448" width="32" height="32"/>
+  <object id="63" name="fey3_ogerwall_entry" type="script" x="160" y="192" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="13" name="Spawn" visible="0">
-  <object id="19" name="fey3_oger" type="spawn" x="128" y="192" width="128" height="160">
+  <object id="19" name="fey3_oger" type="spawn" x="160" y="192" width="64" height="96">
    <properties>
+    <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="1"/>
     <property name="spawngroup" value="fey3_oger"/>
@@ -324,30 +352,35 @@
   </object>
   <object id="18" name="fey3_oger_nc1" type="spawn" x="256" y="544" width="96" height="96">
    <properties>
+    <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="1"/>
     <property name="spawngroup" value="fey3_oger_nc1"/>
    </properties>
   </object>
   <object id="54" name="fey3_oger_nc2" type="spawn" x="256" y="544" width="96" height="96">
    <properties>
+    <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="1"/>
     <property name="spawngroup" value="fey3_oger_nc2"/>
    </properties>
   </object>
   <object id="55" name="fey3_oger_nc3" type="spawn" x="256" y="544" width="96" height="96">
    <properties>
+    <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="1"/>
     <property name="spawngroup" value="fey3_oger_nc3"/>
    </properties>
   </object>
   <object id="56" name="fey3_oger_nc4" type="spawn" x="256" y="544" width="96" height="96">
    <properties>
+    <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="1"/>
     <property name="spawngroup" value="fey3_oger_nc4"/>
    </properties>
   </object>
   <object id="57" name="fey3_oger_nc5" type="spawn" x="256" y="544" width="96" height="96">
    <properties>
+    <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="1"/>
     <property name="spawngroup" value="fey3_oger_nc5"/>
    </properties>
@@ -357,64 +390,65 @@
   <object id="25" name="fey3_ogerwall_f1" type="key" x="96" y="224" width="32" height="32">
    <properties>
     <property name="phrase" value="fey3_ogerwall_f1"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireNegation" value="true"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
+    <property name="requireValue" value="90"/>
    </properties>
   </object>
   <object id="47" name="fey3_ogerwall_f2" type="key" x="96" y="288" width="32" height="32">
    <properties>
     <property name="phrase" value="fey3_ogerwall_f2"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireNegation" value="true"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
+    <property name="requireValue" value="90"/>
    </properties>
   </object>
   <object id="48" name="fey3_ogerwall_f3" type="key" x="128" y="352" width="32" height="32">
    <properties>
     <property name="phrase" value="fey3_ogerwall_f3"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireNegation" value="true"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
+    <property name="requireValue" value="90"/>
    </properties>
   </object>
   <object id="49" name="fey3_ogerwall_f4" type="key" x="224" y="352" width="32" height="32">
    <properties>
     <property name="phrase" value="fey3_ogerwall_f4"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireNegation" value="true"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
+    <property name="requireValue" value="90"/>
    </properties>
   </object>
   <object id="50" name="fey3_ogerwall_f5" type="key" x="256" y="288" width="32" height="32">
    <properties>
     <property name="phrase" value="fey3_ogerwall_f5"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireNegation" value="true"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
+    <property name="requireValue" value="90"/>
    </properties>
   </object>
   <object id="51" name="fey3_ogerwall_f6" type="key" x="256" y="224" width="32" height="32">
    <properties>
     <property name="phrase" value="fey3_ogerwall_f6"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireNegation" value="true"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
+    <property name="requireValue" value="90"/>
    </properties>
   </object>
   <object id="52" name="fey3_ogerwall_sign" type="key" x="160" y="192" width="64" height="32">
    <properties>
     <property name="phrase" value="fey3_ogerwall_sign"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireNegation" value="true"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
+    <property name="requireValue" value="90"/>
+   </properties>
+  </object>
+  <object id="65" name="fey3_oger_nc_10" type="key" x="224" y="512" width="160" height="160">
+   <properties>
+    <property name="phrase" value="fey3_oger_nc_10"/>
+    <property name="requireId" value="fey3_ogerwall"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="50"/>
    </properties>
   </object>
  </objectgroup>
@@ -423,7 +457,7 @@
    <properties>
     <property name="Objects" value="Objects_b1"/>
     <property name="Walkable" value="Walkable1"/>
-    <property name="requireId" value="feygard3_ogerwall"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="1"/>
    </properties>
@@ -432,7 +466,7 @@
    <properties>
     <property name="Objects" value="Objects_b2"/>
     <property name="Walkable" value="Walkable1"/>
-    <property name="requireId" value="feygard3_ogerwall"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="2"/>
    </properties>
@@ -441,7 +475,7 @@
    <properties>
     <property name="Objects" value="Objects_b3"/>
     <property name="Walkable" value="Walkable1"/>
-    <property name="requireId" value="feygard3_ogerwall"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="3"/>
    </properties>
@@ -450,7 +484,7 @@
    <properties>
     <property name="Objects" value="Objects_b4"/>
     <property name="Walkable" value="Walkable1"/>
-    <property name="requireId" value="feygard3_ogerwall"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="4"/>
    </properties>
@@ -459,7 +493,7 @@
    <properties>
     <property name="Objects" value="Objects_f1"/>
     <property name="Walkable" value="Walkable1"/>
-    <property name="requireId" value="feygard3_ogerwall"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="11"/>
    </properties>
@@ -468,7 +502,7 @@
    <properties>
     <property name="Objects" value="Objects_f2"/>
     <property name="Walkable" value="Walkable1"/>
-    <property name="requireId" value="feygard3_ogerwall"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="12"/>
    </properties>
@@ -477,7 +511,7 @@
    <properties>
     <property name="Objects" value="Objects_f3"/>
     <property name="Walkable" value="Walkable1"/>
-    <property name="requireId" value="feygard3_ogerwall"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="13"/>
    </properties>
@@ -486,7 +520,7 @@
    <properties>
     <property name="Objects" value="Objects_f4"/>
     <property name="Walkable" value="Walkable1"/>
-    <property name="requireId" value="feygard3_ogerwall"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="14"/>
    </properties>
@@ -495,7 +529,7 @@
    <properties>
     <property name="Objects" value="Objects_f5"/>
     <property name="Walkable" value="Walkable1"/>
-    <property name="requireId" value="feygard3_ogerwall"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="15"/>
    </properties>
@@ -504,26 +538,96 @@
    <properties>
     <property name="Objects" value="Objects_f6"/>
     <property name="Walkable" value="Walkable1"/>
-    <property name="requireId" value="feygard3_ogerwall"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="16"/>
    </properties>
   </object>
-  <object id="46" name="fey3_ogerwall_sign" type="replace" x="160" y="160" width="64" height="32">
+  <object id="46" name="fey3_ogerwall_sign" type="replace" x="160" y="160" width="64" height="64">
    <properties>
     <property name="Objects" value="Objects_sign"/>
-    <property name="requireId" value="feygard3_ogerwall"/>
+    <property name="Walkable" value="Walkable1"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="5"/>
    </properties>
   </object>
-  <object id="53" name="fey3_ogerwall_hole" type="replace" x="128" y="128" width="128" height="96">
+  <object id="53" name="fey3_ogerwall_hole" type="replace" x="128" y="128" width="128" height="224">
    <properties>
     <property name="Objects" value="Objects_hole"/>
-    <property name="Walkable" value="Walkable1"/>
-    <property name="requireId" value="feygard3_ogerwall"/>
+    <property name="Walkable" value="Walkable_free"/>
+    <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="6"/>
+    <property name="requireValue" value="70"/>
+   </properties>
+  </object>
+  <object id="64" name="fey3_ogerwall_free" type="replace" x="96" y="128" width="192" height="256">
+   <properties>
+    <property name="Objects" value="Objects_free"/>
+    <property name="Walkable" value="Walkable_free"/>
+    <property name="requireId" value="fey3_ogerwall"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="90"/>
+   </properties>
+  </object>
+  <object id="66" name="fey3_ogerwall_f1r" type="replace" x="96" y="224" width="32" height="64">
+   <properties>
+    <property name="Objects" value="Objects0"/>
+    <property name="Walkable" value="Walkable0"/>
+    <property name="requireId" value="fey3_ogerwall"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="11"/>
+   </properties>
+  </object>
+  <object id="67" name="fey3_ogerwall_f2r" type="replace" x="96" y="288" width="32" height="64">
+   <properties>
+    <property name="Objects" value="Objects0"/>
+    <property name="Walkable" value="Walkable0"/>
+    <property name="requireId" value="fey3_ogerwall"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="12"/>
+   </properties>
+  </object>
+  <object id="68" name="fey3_ogerwall_f3r" type="replace" x="96" y="352" width="96" height="32">
+   <properties>
+    <property name="Objects" value="Objects0"/>
+    <property name="Walkable" value="Walkable0"/>
+    <property name="requireId" value="fey3_ogerwall"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="13"/>
+   </properties>
+  </object>
+  <object id="69" name="fey3_ogerwall_f4r" type="replace" x="192" y="352" width="96" height="32">
+   <properties>
+    <property name="Objects" value="Objects0"/>
+    <property name="Walkable" value="Walkable0"/>
+    <property name="requireId" value="fey3_ogerwall"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="14"/>
+   </properties>
+  </object>
+  <object id="70" name="fey3_ogerwall_f5r" type="replace" x="256" y="288" width="32" height="64">
+   <properties>
+    <property name="Objects" value="Objects0"/>
+    <property name="Walkable" value="Walkable0"/>
+    <property name="requireId" value="fey3_ogerwall"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="15"/>
+   </properties>
+  </object>
+  <object id="71" name="fey3_ogerwall_f6r" type="replace" x="256" y="224" width="32" height="64">
+   <properties>
+    <property name="Objects" value="Objects0"/>
+    <property name="Walkable" value="Walkable0"/>
+    <property name="requireId" value="fey3_ogerwall"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="16"/>
    </properties>
   </object>
  </objectgroup>

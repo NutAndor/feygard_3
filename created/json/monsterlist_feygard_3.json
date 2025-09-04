@@ -42,8 +42,8 @@
     },
     {
         "id":"fey3_oger_nc1",
-        "name":"Bell man",
-        "iconID":"monsters_tometik8:26",
+        "name":"Bellman",
+        "iconID":"monsters_ld1:71",
         "maxHP":220,
         "maxAP":10,
         "moveCost":5,
@@ -76,8 +76,8 @@
     },
     {
         "id":"fey3_oger_nc2",
-        "name":"Baker",
-        "iconID":"monsters_tometik8:26",
+        "name":"Butcher",
+        "iconID":"monsters_ld1:72",
         "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
@@ -86,8 +86,8 @@
     },
     {
         "id":"fey3_oger_nc3",
-        "name":"Butcher",
-        "iconID":"monsters_tometik8:26",
+        "name":"Baker",
+        "iconID":"monsters_ld1:73",
         "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
@@ -96,8 +96,8 @@
     },
     {
         "id":"fey3_oger_nc4",
-        "name":"Billion maker",
-        "iconID":"monsters_tometik8:26",
+        "name":"Billiard-marker",
+        "iconID":"monsters_ld1:68",
         "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
@@ -107,7 +107,7 @@
     {
         "id":"fey3_oger_nc5",
         "name":"Mild man",
-        "iconID":"monsters_tometik8:26",
+        "iconID":"monsters_ld1:69",
         "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",

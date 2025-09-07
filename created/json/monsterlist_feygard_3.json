@@ -77,7 +77,7 @@
     {
         "id":"fey3_oger_nc2",
         "name":"Butcher",
-        "iconID":"monsters_ld1:72",
+        "iconID":"monsters_ld1:69",
         "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
@@ -97,7 +97,7 @@
     {
         "id":"fey3_oger_nc4",
         "name":"Billiard-marker",
-        "iconID":"monsters_ld1:68",
+        "iconID":"monsters_rltiles1:84",
         "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
@@ -106,12 +106,21 @@
     },
     {
         "id":"fey3_oger_nc5",
-        "name":"Mild man",
-        "iconID":"monsters_ld1:69",
+        "name":"Maker of bonnets",
+        "iconID":"monsters_rltiles1:83",
         "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
         "droplistID":"fey3_oger_nc",
         "phraseID":"fey3_oger_nc"
+    },
+    {
+        "id":"fey3_guard_maingate",
+        "name":"Feygard guard",
+        "iconID":"monsters_ld1:40",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "droplistID":"fey3_guard",
+        "phraseID":"fey3_guard_maingate"
     }
 ]

@@ -1,8 +1,19 @@
 [
     {
+        "id":"fey3_nd",
+        "name":"fey3_nondisplayed",
+        "showInLog":1,
+        "stages":[
+			{ 
+				"progress":1, 
+				"logText":"1=Feygard available" 
+			}
+		]
+	},
+    {
         "id":"fey3_ogerwall",
         "name":"fey3_ogerwall",
-        "showInLog":1,
+        "showInLog":0,
         "stages":[
   { "progress":1, 
 	"logText":"1=Oger crystal 1" },
@@ -36,6 +47,8 @@
 	"logText":"60=Oger spawned" },
   { "progress":61, 
 	"logText":"61=Timer started" },
+  { "progress":62, 
+	"logText":"62=Timer continued" },
   { "progress":70, 
 	"logText":"70=Hole visible" },
   { "progress":80, 

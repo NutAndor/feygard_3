@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="32" nextobjectid="72">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="32" nextobjectid="80">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -199,15 +199,15 @@
  </layer>
  <layer id="2" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxr4mRgaBoAPFCAVHdOwuHWiWT610cW1Rxc/IU4zFnESZo59ABK0vSzaxQMbcAmzsDAAcSc4vS197kYA8NlYN55ITZq76i9o/aO2jtq76i9o2AUjAJkAAD2yUoD
+   eJxr4mRgaBoAPFCAVHdOwuHWiTT270Ic5iwi0SwfWdL45JirJE2+OdQGQdykYWqZRY47SREfLoBNnIGBA4g5xelr73MxBobLwLzzQmzU3lF7R+0dtXfU3lF7R8EoGAXIAADPfVKv
   </data>
  </layer>
  <layer id="3" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgw1Es+GXjyIgTw6oA5qZTcDcLDaIusEMeIQQ7OeCDAzXBBF8EPu5IKYeUs0drACb38j1L6kAPZxJAWwUhC2y/+jlV2LBS0n8fHRwh5+B4SAr+faRE46rBHDLTcEjhwxgeYNU/w5GwChMvNrB6l8OKpVV6GmDlv6lV/lKij2DNX5HwSgYBaOAFgAARgIa6A==
+   eJxjYBgFgw1Es+GXjyIgTw6oA5qZTcDcLDaIusEMeIQQ7OeCDAzXBBF8EPu5IKYeUs0drACb38j1L6kAPZxJAWwUhC2y/+jlV2LBS0n8fHRwh5+B4SAr+faRE46rBMi3DwZgeYNU/w5GwChMvNrB6l8OKpVV6GmDlv6lV/lKij2DNX6JBVOokLdHwSgYBSMHAADe1Rro
   </data>
  </layer>
- <layer id="30" name="Objects0" width="30" height="30">
+ <layer id="30" name="Objects0" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2B4gueCDAzXBBF8EPu5IG71Qx1g8xu9/IsezvQCyP4bznE7CkbBKBgFo2AUjIJRQCsAAEYdCW0=
   </data>
@@ -217,62 +217,62 @@
    eJztzgENAAAIA6A3sJX9IxlDNyEBCd90bQ8AAIALBhOJAFY=
   </data>
  </layer>
- <layer id="4" name="Objects_hole" width="30" height="30">
+ <layer id="4" name="Objects_hole" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFAwFSmAbG3ntsDAz3gfgBECfT0Q3vgPa9B+IPQFxMR3u1hRkYXooxMPwUgrDpCf4I0de+gQTIYUvvcB4Fo2AUjIJRMApGwSgYBeQDAEYXCt8=
   </data>
  </layer>
- <layer id="28" name="Objects_free" width="30" height="30">
+ <layer id="28" name="Objects_free" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFAwFSmAbG3ntsDAz3gfgBECfT0Q3vgPa9B+IPQFxMJ3tfCDIw3ADil2IMDD+FIGyQGL3AHyH62QUC2PxGL//eEMTOpjVA9h8943YUjIJRMApGwSgYBaNguAAA7JYTYQ==
   </data>
  </layer>
- <layer id="16" name="Objects_b1" width="30" height="30">
+ <layer id="16" name="Objects_b1" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzgENAAAIA6B3MIb9+xlD5yABCfzVtT0AAIC7BsO7AD8=
   </data>
  </layer>
- <layer id="17" name="Objects_b2" width="30" height="30">
+ <layer id="17" name="Objects_b2" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzjEBAAAIA6B1MIb9+9lBDx9IQAJw0/U9AABgYwBsiwA/
   </data>
  </layer>
- <layer id="18" name="Objects_b3" width="30" height="30">
+ <layer id="18" name="Objects_b3" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzjENAAAIA7B5QAb+/WGBg4SnVdAE4E7X9wAAgK0BaaMAPw==
   </data>
  </layer>
- <layer id="19" name="Objects_b4" width="30" height="30">
+ <layer id="19" name="Objects_b4" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzgENAAAIA6B3MIb9+xlDNyEBCfzQtT0AAIBbBsDTAD8=
   </data>
  </layer>
- <layer id="20" name="Objects_f1" width="30" height="30">
+ <layer id="20" name="Objects_f1" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzgENAAAIA6BXsJ39kxhD5yABCfzUtT0AAIDbBqaPAGo=
   </data>
  </layer>
- <layer id="21" name="Objects_f2" width="30" height="30">
+ <layer id="21" name="Objects_f2" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzgENAAAIA6BXsJ39kxjD6SABCfBB1/YAAIBrBkQfAGo=
   </data>
  </layer>
- <layer id="22" name="Objects_f3" width="30" height="30">
+ <layer id="22" name="Objects_f3" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzgENAAAIA6BXsJ39kxjDfYMEJACddr4HAADdDt/8AGo=
   </data>
  </layer>
- <layer id="23" name="Objects_f4" width="30" height="30">
+ <layer id="23" name="Objects_f4" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzgENAAAIA6BXsJ39kxjDfYMEJAD9dr4HAAB9DtsQAGo=
   </data>
  </layer>
- <layer id="24" name="Objects_f5" width="30" height="30">
+ <layer id="24" name="Objects_f5" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzgENAAAIA6BXsJ39kxhD5yABCfBV1/YAAIDLBjvrAGo=
   </data>
  </layer>
- <layer id="25" name="Objects_f6" width="30" height="30">
+ <layer id="25" name="Objects_f6" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzgENAAAIA6BXsJ39kxhDNyEBCfzRtT0AAIA7Bp5bAGo=
   </data>
@@ -289,7 +289,7 @@
  </layer>
  <layer id="8" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcHEA8EABarl1IMJsqGNiwo4WcUVuehgFo4ASgC09D2cw6t+BcQetACH/DTf/ooOR5t9RMApGwcgGAIDzjpM=
+   eJy7KMbAcHEA8EABarl1IMJsoOKH2mbS0l5y0wMhsVEwCkgF2NLVcAaj/h0Yd9AKEPLfcPMvOhhp/h0Fo2AUjGwAAFB9iSk=
   </data>
  </layer>
  <layer id="31" name="Walkable0" width="30" height="30" visible="0">
@@ -308,10 +308,16 @@
   </data>
  </layer>
  <objectgroup id="12" name="Mapevents">
-  <object id="1" name="south" type="mapchange" x="192" y="928" width="576" height="32">
+  <object id="75" name="south" type="mapchange" x="192" y="928" width="576" height="32">
    <properties>
     <property name="map" value="guynmart_wood_17b"/>
     <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object id="1" name="north" type="mapchange" x="448" y="128" width="96" height="32">
+   <properties>
+    <property name="map" value="feygard_outside1"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
   <object id="13" name="fey3_ogerwall_b1" type="script" x="128" y="192" width="32" height="32"/>
@@ -323,12 +329,12 @@
     <property name="when" value="always"/>
    </properties>
   </object>
-  <object id="58" name="fey3_ogerwall_s2" type="script" x="0" y="192" width="96" height="128">
+  <object id="58" name="fey3_ogerwall_s2" type="script" x="0" y="192" width="96" height="160">
    <properties>
     <property name="when" value="always"/>
    </properties>
   </object>
-  <object id="59" name="fey3_ogerwall_s2" type="script" x="0" y="352" width="448" height="352">
+  <object id="59" name="fey3_ogerwall_s2" type="script" x="0" y="352" width="448" height="320">
    <properties>
     <property name="when" value="always"/>
    </properties>
@@ -338,10 +344,10 @@
     <property name="when" value="always"/>
    </properties>
   </object>
-  <object id="61" name="haystack" type="mapchange" x="32" y="416" width="32" height="32"/>
+  <object id="61" name="haystack" type="mapchange" x="32" y="672" width="32" height="32"/>
   <object id="63" name="fey3_ogerwall_entry" type="script" x="160" y="160" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="13" name="Spawn" visible="0">
+ <objectgroup id="13" name="Spawn">
   <object id="19" name="fey3_oger" type="spawn" x="160" y="160" width="64" height="96">
    <properties>
     <property name="active" value="false"/>
@@ -383,6 +389,48 @@
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="1"/>
     <property name="spawngroup" value="fey3_oger_nc5"/>
+   </properties>
+  </object>
+  <object id="72" name="fey3_guard_maingate" type="spawn" x="384" y="224" width="64" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="fey3_guard_maingate"/>
+   </properties>
+  </object>
+  <object id="73" name="fey3_guard_maingate" type="spawn" x="544" y="224" width="64" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="fey3_guard_maingate"/>
+   </properties>
+  </object>
+  <object id="76" name="fey3_guard_maingate" type="spawn" x="64" y="32" width="352" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="fey3_guard_maingate"/>
+   </properties>
+  </object>
+  <object id="77" name="fey3_guard_maingate" type="spawn" x="416" y="64" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="fey3_guard_maingate"/>
+   </properties>
+  </object>
+  <object id="78" name="fey3_guard_maingate" type="spawn" x="544" y="64" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="fey3_guard_maingate"/>
+   </properties>
+  </object>
+  <object id="79" name="fey3_guard_maingate" type="spawn" x="576" y="32" width="320" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="fey3_guard_maingate"/>
    </properties>
   </object>
  </objectgroup>
@@ -449,6 +497,14 @@
     <property name="requireId" value="fey3_ogerwall"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="50"/>
+   </properties>
+  </object>
+  <object id="74" name="fey3_available" type="key" x="416" y="192" width="160" height="32">
+   <properties>
+    <property name="phrase" value="fey3_available"/>
+    <property name="requireId" value="fey3_nd"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
    </properties>
   </object>
  </objectgroup>

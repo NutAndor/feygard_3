@@ -1,5 +1,13 @@
 [
     {
+        "id":"fey3_available",
+		"message":"You can't enter Feygard yet."
+    },
+    {
+        "id":"fey3_guard_maingate",
+		"message":"No entry."
+    },
+    {
         "id":"fey3_oger",
 		"message":"Go away.",
         "replies":[
@@ -268,10 +276,10 @@
   {
     "id": "fey3_oger_nc_10_m",
     "switchToNPC": "fey3_oger_nc1",
-    "message": "My brother means to make a great sacrifice.",
+    "message": "My brother meant we don't have enough gold to make a great sacrifice for Elythara.",
     "replies": [
       {
-        "text": "Gold sometimes helps. And what will you do now?",
+        "text": "Gold can be of help sometimes. What will you do now?",
         "nextPhraseID":"fey3_oger_nc_10_n"
       }
     ]
@@ -379,7 +387,7 @@
   {
     "id": "fey3_oger_nc_20_a",
     "switchToNPC": "fey3_oger_nc1",
-    "message": "At the tiny flowers you place one of these crystals each.",
+    "message": "At the flowers near to the wall, the tiny ones, you place one of these crystals each.",
         "replies":[
             {
 				"text": "N",
@@ -400,7 +408,7 @@
   },
   {
     "id": "fey3_oger_nc_20_c",
-    "switchToNPC": "fey3_oger_nc1",
+    "switchToNPC": "fey3_oger_nc4",
     "message": "Nonsense. The torches block the passage. If the torches are placed first, you can't get in anymore.",
         "replies":[
             {
@@ -411,7 +419,7 @@
   },
   {
     "id": "fey3_oger_nc_20_d",
-    "switchToNPC": "fey3_oger_nc3",
+    "switchToNPC": "fey3_oger_nc5",
     "message": "But you can't get out either.",
         "replies":[
             {
@@ -422,7 +430,7 @@
   },
   {
     "id": "fey3_oger_nc_20_e",
-    "switchToNPC": "fey3_oger_nc4",
+    "switchToNPC": "fey3_oger_nc2",
     "message": "Exactly. First we must ...",
         "replies":[
             {
@@ -455,7 +463,7 @@
   },
   {
     "id": "fey3_oger_nc_20_h",
-    "switchToNPC": "fey3_oger_nc4",
+    "switchToNPC": "fey3_oger_nc5",
     "message": "Then you place all the torches at the bigger plants and light them.",
         "replies":[
             {
@@ -521,7 +529,7 @@
   },
   {
     "id": "fey3_oger_nc_20_o",
-    "switchToNPC": "fey3_oger_nc2",
+    "switchToNPC": "fey3_oger_nc5",
     "message": "You don't want to be trapped with the ogre inside a circle of torches.",
     "replies": [
       {
@@ -554,6 +562,17 @@
   },
   {
     "id": "fey3_oger_nc_20_r",
+    "switchToNPC": "fey3_oger_nc3",
+    "message": "Huh?",
+    "replies": [
+      {
+        "text": "N",
+        "nextPhraseID":"fey3_oger_nc_20_r2"
+      }
+    ]
+  },
+  {
+    "id": "fey3_oger_nc_20_r2",
     "switchToNPC": "fey3_oger_nc1",
     "message": "You hang a sign with 'EXIT' in big letters on the wall.",
         "replies":[
@@ -566,7 +585,7 @@
   {
     "id": "fey3_oger_nc_20_s",
     "switchToNPC": "fey3_oger_nc3",
-    "message": "Huh? But there is no exit.",
+    "message": "But there is no exit ...",
     "replies": [
       {
         "text": "Not yet.",
@@ -576,7 +595,7 @@
   },
   {
     "id": "fey3_oger_nc_20_t",
-    "switchToNPC": "fey3_oger_nc5",
+    "switchToNPC": "fey3_oger_nc4",
     "message": "Exactly - not yet! Clever child.",
         "replies":[
             {
@@ -621,10 +640,10 @@
   {
     "id": "fey3_oger_nc_20_x",
     "switchToNPC": "fey3_oger_nc1",
-    "message": "Do you understand everything?",
+    "message": "Do you understand it all?",
     "replies": [
       {
-        "text": "I think so. First I hang up the sign.",
+        "text": "I think so. First I'll hang up the sign.",
         "nextPhraseID":"fey3_oger_nc_20_y"
       }
     ]
@@ -635,7 +654,7 @@
     "message": "Good.",
     "replies": [
       {
-        "text": "Then I place the crystals and torches, leaving one of each until the end.",
+        "text": "Then I'll place the crystals and torches, leaving one of each until the end.",
         "nextPhraseID":"fey3_oger_nc_20_z"
       }
     ]
@@ -657,7 +676,7 @@
     "message": "From outside, yes. Otherwise no one can help you anymore.",
     "replies": [
       {
-        "text": "This will be exciting. Where are the items?",
+        "text": "This will be exciting. Where do you have the items?",
         "nextPhraseID":"fey3_oger_nc_30_b"
       }
     ]
@@ -665,7 +684,7 @@
   {
     "id": "fey3_oger_nc_30_b",
     "switchToNPC": "fey3_oger_nc1",
-    "message": "The baker has them in his pack. Hand ye over the crystals and the torches!",
+    "message": "The baker has them in his pack. Baker, hand ye over the crystals and the torches!",
         "replies":[
             {
 				"text": "N",
@@ -724,7 +743,7 @@
         "replies":[
             {
                 "text":"OK ...",
-				"nextPhraseID":"X"
+				"nextPhraseID":"fey3_oger_nc_30_h"
 			}
 		],
         "rewards":[
@@ -751,6 +770,22 @@
 		]
     },
   {
+    "id": "fey3_oger_nc_30_h",
+    "switchToNPC": "fey3_oger_nc1",
+    "message": "And now do all that you know and try all that you don't.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"fey3_oger_nc_30_i"
+			}
+		]
+  },
+  {
+    "id": "fey3_oger_nc_30_i",
+    "switchToNPC": "fey3_oger_nc1",
+    "message": "Not a chance must be wasted today."
+  },
+  {
     "id": "fey3_oger_nc_40",
     "switchToNPC": "fey3_oger_nc1",
     "message": "Oh, you useless kid! Closed the ring of torches without placing the crystals!",
@@ -763,7 +798,7 @@
   },
   {
     "id": "fey3_oger_nc_41",
-    "switchToNPC": "fey3_oger_nc4",
+    "switchToNPC": "fey3_oger_nc2",
     "message": "Do you want to undo all our efforts? You have to fix this!",
     "replies":[
 		{
@@ -775,7 +810,7 @@
   {
     "id": "fey3_oger_nc_42",
     "switchToNPC": "fey3_oger_nc1",
-    "message": "Baker! Go and collect the torches again. This incompetent child needs to do it again.",
+    "message": "Baker! Go and collect the torches again. This incompetent child needs to do it all again.",
     "replies":[
 		{
 			"text": "N",
@@ -890,6 +925,27 @@
 				]
 			},
             {
+                "nextPhraseID":"fey3_ogerwall_s_14",
+                "requires":[
+					{ 
+						"requireType":"questProgress", 
+						"requireID":"fey3_ogerwall", 
+						"value":5
+					},
+					{ 
+						"requireType":"questProgress", 
+						"requireID":"fey3_ogerwall", 
+						"value":62,
+						"negate":true 
+					},
+					{
+                        "requireType":"timerElapsed",
+                        "requireID":"fey3_ogerwall",
+                        "value":1
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"fey3_ogerwall_s_20",
                 "requires":[
 					{ 
@@ -938,7 +994,29 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"fey3_ogerwall",
-                        "value":15
+                        "value":13
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fey3_ogerwall_s_14",
+                "requires":[
+					{ 
+						"requireType":"questProgress", 
+						"requireID":"fey3_ogerwall", 
+						"value":5,
+						"negate":true
+					},
+					{ 
+						"requireType":"questProgress", 
+						"requireID":"fey3_ogerwall", 
+						"value":62,
+						"negate":true 
+					},
+					{
+                        "requireType":"timerElapsed",
+                        "requireID":"fey3_ogerwall",
+                        "value":2
                     }
                 ]
             },
@@ -960,7 +1038,7 @@
 					{
                         "requireType":"timerElapsed",
                         "requireID":"fey3_ogerwall",
-                        "value":105
+                        "value":100
                     }
                 ]
             },
@@ -1001,7 +1079,6 @@
     },
     {
         "id":"fey3_ogerwall_s_12",
-        "message":"The fence of torches is closed. I'm curious to see what the ogre will do.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1011,6 +1088,17 @@
             {
                 "rewardType":"createTimer",
                 "rewardID":"fey3_ogerwall"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogerwall_s_14",
+        "message":"The fence of torches is closed. I'm curious to see what the ogre will do.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_ogerwall",
+                "value":62
             }
         ]
     },
@@ -1120,7 +1208,7 @@
   {
     "id": "fey3_ogerwall_entry_12",
     "switchToNPC": "fey3_oger_nc3",
-    "message": "In the next release! Hahaha!",
+    "message": "In one of the next releases! Hahaha!",
         "replies":[
             {
 				"text": "N",

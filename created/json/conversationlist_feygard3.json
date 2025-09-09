@@ -8,6 +8,154 @@
 		"message":"No entry."
     },
     {
+        "id":"fey3_guard_maingate1",
+		"message":"No entry. Go away.",
+        "replies":[
+            {
+				"text": "I'd like to explain ...",
+                "nextPhraseID":"fey3_guard_maingate1_10",
+                "requires":[
+					{ 
+						"requireType":"questProgress", 
+						"requireID":"fey3_ogerwall", 
+						"value":60
+					}
+				]
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate1_10",
+		"message":"I don't want to hear anything. You're dealing with those weirdly dressed weirdos back there. I've been watching you..",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate1_12"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate1_12",
+		"message":"You're dealing with those weirdly dressed weirdos back there. I've been watching you..",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate1_20"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate1_20",
+		"message":"I chased them away from the wall yesterday. They were doing something very suspicious there.",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate1_30"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate1_30",
+		"message":"And what did it get me? 1 day of house arrest and 3 days of peeling potatoes.",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate1_40"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate1_40",
+		"message":"I had left my post - they said.",
+        "replies":[
+            {
+				"text": "And hadd you?",
+                "nextPhraseID":"fey3_guard_maingate1_50"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate1_50",
+		"message":"Of course. But I was supposed to guard the gate - they said.",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate1_60"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate1_60",
+		"message":"And that's exactly what I'm going to do now: guard the gate. Nothing else.",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate1_70"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate1_70",
+		"message":"Go away."
+    },
+    {
+        "id":"fey3_guard_maingate2",
+		"message":"No entry. Go away.",
+        "replies":[
+            {
+				"text": "I ...",
+                "nextPhraseID":"fey3_guard_maingate2_10",
+                "requires":[
+					{ 
+						"requireType":"questProgress", 
+						"requireID":"fey3_ogerwall", 
+						"value":60
+					}
+				]
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate2_10",
+		"message":"Oh dear. My head.",
+        "replies":[
+            {
+				"text": "What ...",
+                "nextPhraseID":"fey3_guard_maingate2_20"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate2_20",
+		"message":"Don't scream like that. Oh, oh, oh.",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate2_30"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate2_30",
+		"message":"The tenth mead last night must have been bad."
+    },
+    {
+        "id":"fey3_guard_maingate3",
+		"message":"No entry. Go away."
+    },
+    {
+        "id":"fey3_guard_maingate4",
+		"message":"No entry. Go away."
+    },
+    {
+        "id":"fey3_guard_maingate5",
+		"message":"No entry. Go away."
+    },
+    {
+        "id":"fey3_guard_maingate6",
+		"message":"No entry. Go away."
+    },
+    {
         "id":"fey3_oger",
 		"message":"Go away.",
         "replies":[

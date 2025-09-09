@@ -122,5 +122,59 @@
         "monsterClass":"humanoid",
         "droplistID":"fey3_guard",
         "phraseID":"fey3_guard_maingate"
+    },
+    {
+        "id":"fey3_guard_maingate1",
+        "name":"Feygard guard",
+        "iconID":"monsters_ld1:40",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "droplistID":"fey3_guard",
+        "phraseID":"fey3_guard_maingate1"
+    },
+    {
+        "id":"fey3_guard_maingate2",
+        "name":"Feygard guard",
+        "iconID":"monsters_ld1:40",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "droplistID":"fey3_guard",
+        "phraseID":"fey3_guard_maingate2"
+    },
+    {
+        "id":"fey3_guard_maingate3",
+        "name":"Feygard guard",
+        "iconID":"monsters_ld1:40",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "droplistID":"fey3_guard",
+        "phraseID":"fey3_guard_maingate3"
+    },
+    {
+        "id":"fey3_guard_maingate4",
+        "name":"Feygard guard",
+        "iconID":"monsters_ld1:40",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "droplistID":"fey3_guard",
+        "phraseID":"fey3_guard_maingate4"
+    },
+    {
+        "id":"fey3_guard_maingate5",
+        "name":"Feygard guard",
+        "iconID":"monsters_ld1:40",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "droplistID":"fey3_guard",
+        "phraseID":"fey3_guard_maingate5"
+    },
+    {
+        "id":"fey3_guard_maingate6",
+        "name":"Feygard guard",
+        "iconID":"monsters_ld1:40",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "droplistID":"fey3_guard",
+        "phraseID":"fey3_guard_maingate6"
     }
 ]

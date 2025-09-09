@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="32" nextobjectid="82">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="32" nextobjectid="85">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -194,7 +194,7 @@
  </tileset>
  <layer id="1" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJx7yMnA8JCOeL3CyMRK0qRhappFCk5QwB5vCUPE3oucpOECHPaCxEk1axSP4lE8ikfxKB7Fo3gUj+KhhgHuJ9Hz
+   eJx7yMnA8HAA8HqFkYWVpEnD1DSLFJyggD2+EoaIvRc5ScMFOOwFiZNq1igexaN4FI/iUTyKR/EoHsVDDQMAzdbSKQ==
   </data>
  </layer>
  <layer id="2" name="Ground" width="30" height="30">
@@ -289,7 +289,7 @@
  </layer>
  <layer id="8" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcHEA8EABarl1IMJsoOKH2mbS0l5y0wMhsVEwCkgF2NLVcAaj/h0Yd9AKEPLfcPMvOhhp/h0Fo2AUjGwAAFB9iSk=
+   eJy7KMbAcHEA8EABarl1IMJsoOKH2maSYy+x8UoqwGfvKBgFlABs6Wo4g1H/Dow7aAUI+W+4+RcdjDT/joJRMApGNgAAWq+B8Q==
   </data>
  </layer>
  <layer id="31" name="Walkable0" width="30" height="30" visible="0">
@@ -440,15 +440,23 @@
     <property name="spawngroup" value="fey3_guard_maingate"/>
    </properties>
   </object>
-  <object id="79" name="fey3_guard_maingate_right" type="spawn" x="576" y="32" width="320" height="32">
+  <object id="79" name="fey3_guard_maingate_right" type="spawn" x="640" y="32" width="256" height="32">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="1"/>
     <property name="spawngroup" value="fey3_guard_maingate_right"/>
    </properties>
   </object>
+  <object id="83" name="fey3_guard_maingate_left2" type="spawn" x="608" y="32" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="fey3_guard_maingate_left2"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="14" name="Keys" visible="0">
+ <objectgroup id="14" name="Keys">
   <object id="25" name="fey3_ogerwall_f1" type="key" x="96" y="192" width="32" height="32">
    <properties>
     <property name="phrase" value="fey3_ogerwall_f1"/>
@@ -517,6 +525,15 @@
    <properties>
     <property name="phrase" value="fey3_available"/>
     <property name="requireId" value="fey3_nd"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="82" name="fey3_guard_maingate_right" type="key" x="640" y="160" width="256" height="32">
+   <properties>
+    <property name="phrase" value="fey3_guard_maingate_right"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="1"/>
    </properties>

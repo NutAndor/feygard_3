@@ -26,7 +26,7 @@
     },
     {
         "id":"fey3_guard_maingate1_10",
-		"message":"I don't want to hear anything. You're dealing with those weirdly dressed weirdos back there. I've been watching you..",
+		"message":"I don't want to hear anything.",
         "replies":[
             {
 				"text": "N",
@@ -36,7 +36,7 @@
     },
     {
         "id":"fey3_guard_maingate1_12",
-		"message":"You're dealing with those weirdly dressed weirdos back there. I've been watching you..",
+		"message":"You were dealing with those weirdly dressed weirdos back there. I've been watching you.",
         "replies":[
             {
 				"text": "N",
@@ -56,7 +56,7 @@
     },
     {
         "id":"fey3_guard_maingate1_30",
-		"message":"And what did it get me? 1 day of house arrest and 3 days of peeling potatoes.",
+		"message":"And what did it get me? A night in arrest and next 3 days of peeling potatoes.",
         "replies":[
             {
 				"text": "N",
@@ -69,14 +69,14 @@
 		"message":"I had left my post - they said.",
         "replies":[
             {
-				"text": "And hadd you?",
+				"text": "And had you?",
                 "nextPhraseID":"fey3_guard_maingate1_50"
 			}
 		]
     },
     {
         "id":"fey3_guard_maingate1_50",
-		"message":"Of course. But I was supposed to guard the gate - they said.",
+		"message":"Of course. Yet I was supposed to guard the gate - they said.",
         "replies":[
             {
 				"text": "N",
@@ -141,11 +141,77 @@
     },
     {
         "id":"fey3_guard_maingate3",
-		"message":"No entry. Go away."
+		"message":"No entry. Go away.",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate3_10"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate3_10",
+		"switchToNPC":"fey3_guard_maingate3",
+		"message":"Can't you see we are busy?",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate3_20"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate3_20",
+		"switchToNPC":"fey3_guard_maingate4",
+		"message":"Yes. Come again tomorrow. Or the day after.",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate3_40"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate3_40",
+		"message":"Where were we? Oh yes... when the Mead ran out in the pub, things got loud.",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate3_50"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate3_50",
+		"switchToNPC":"fey3_guard_maingate3",
+		"message":"You probably weren't innocent of the mead shortage.",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate3_60"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate3_60",
+		"switchToNPC":"fey3_guard_maingate4",
+		"message":"Well ... Hey, kid! Don't stand here and waste our time. Get lost!",
+        "replies":[
+            {
+				"text": "As you wish, mead head",
+                "nextPhraseID":"X"
+			}
+		]
     },
     {
         "id":"fey3_guard_maingate4",
-		"message":"No entry. Go away."
+		"message":"No entry. Go away.",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate3_10"
+			}
+		]
     },
     {
         "id":"fey3_guard_maingate5",
@@ -154,6 +220,229 @@
     {
         "id":"fey3_guard_maingate6",
 		"message":"No entry. Go away."
+    },
+    {
+        "id":"fey3_guard_maingate_right",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "requires":[
+					{ 
+						"requireType":"questProgress", 
+						"requireID":"fey3_ogerwall", 
+						"value":52,
+						"negate":true
+					}
+				]
+			},
+            {
+                "nextPhraseID":"fey3_guard_maingate_right_10",
+                "requires":[
+					{ 
+						"requireType":"questProgress", 
+						"requireID":"fey3_nd", 
+						"value":10,
+						"negate":true
+					}
+				]
+			},
+            {
+                "nextPhraseID":"fey3_guard_maingate_right_100"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate_right_10",
+		"switchToNPC":"fey3_guard_maingate_right",
+		"message":"Child - explain yourself! What do you want here at the gates of Feygard?",
+        "replies":[
+            {
+				"text": "I heard the guard on the wall on the other side of the gate talking about you. It was interesting, but not particularly pleasant.",
+                "nextPhraseID":"fey3_guard_maingate_right_20"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate_right_20",
+		"message":"So? Keep talking.",
+        "replies":[
+            {
+				"text":"I don't want to spread rumors. If I were you, I'd confront him directly.",
+                "nextPhraseID":"fey3_guard_maingate_right_30"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate_right_30",
+		"message":"What a nerve! I'll pay him a visit immediately.",
+        "replies":[
+            {
+				"text":"Don't! That would only make him look better.",
+                "nextPhraseID":"fey3_guard_maingate_right_40"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate_right_40",
+		"message":"Hmm. What do you suggest?",
+        "replies":[
+            {
+				"text":"Summon him and put him down here. Preferably in a way that all the other guards can hear.",
+                "nextPhraseID":"fey3_guard_maingate_right_50"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate_right_50",
+		"message":"I'll do that immediately. That rascal will regret his words!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":10
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"fey3_guard_maingate_left2",
+                "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fey3_guard_maingate_left",
+                "mapName":"feygard_outside1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_guard_maingate_right_100",
+		"switchToNPC":"fey3_guard_maingate_right",
+		"message":"Take back your words!",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate_right_110"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate_right_110",
+	    "replies":[
+            {
+                "nextPhraseID":"fey3_guard_maingate_right_119",
+                "requires":[{ "requireType":"random", "requireID":"1/9" }]
+			},
+            {
+                "nextPhraseID":"fey3_guard_maingate_right_118",
+                "requires":[{ "requireType":"random", "requireID":"1/8" }]
+			},
+            {
+                "nextPhraseID":"fey3_guard_maingate_right_117",
+                "requires":[{ "requireType":"random", "requireID":"1/7" }]
+			},
+            {
+                "nextPhraseID":"fey3_guard_maingate_right_116",
+                "requires":[{ "requireType":"random", "requireID":"1/6" }]
+			},
+            {
+                "nextPhraseID":"fey3_guard_maingate_right_115",
+                "requires":[{ "requireType":"random", "requireID":"1/5" }]
+			},
+            {
+                "nextPhraseID":"fey3_guard_maingate_right_114",
+                "requires":[{ "requireType":"random", "requireID":"1/4" }]
+			},
+            {
+                "nextPhraseID":"fey3_guard_maingate_right_113",
+                "requires":[{ "requireType":"random", "requireID":"1/3" }]
+			},
+            {
+                "nextPhraseID":"fey3_guard_maingate_right_112",
+                "requires":[{ "requireType":"random", "requireID":"1/2" }]
+			},
+            {
+                "nextPhraseID":"fey3_guard_maingate_right_111"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate_right_111",
+		"message":"You liar!",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate_right_110"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate_right_112",
+		"message":"You gossiping knave!",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate_right_110"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate_right_113",
+		"message":"You snake!",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate_right_110"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate_right_114",
+		"message":"You rotter!",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate_right_110"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate_right_115",
+		"message":"Well, aren’t you a loyal friend.",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate_right_110"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate_right_116",
+		"message":"That was rather two-faced of you.",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate_right_110"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate_right_117",
+		"message":"You hypocrite!",
+        "replies":[
+            {
+				"text": "N",
+                "nextPhraseID":"fey3_guard_maingate_right_110"
+			}
+		]
+    },
+    {
+        "id":"fey3_guard_maingate_right_119",
+		"message":"What a fine friend you are.",
+        "replies":[
+            {
+				"text": "Let's leave this theatre.",
+                "nextPhraseID":"X"
+			}
+		]
     },
     {
         "id":"fey3_oger",
@@ -1382,6 +1671,11 @@
         "id":"fey3_ogerwall_b1",
         "replies":[
             {
+                "nextPhraseID":"fey3_ogerwall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogercrystal", "value":1 }]
+			},
+            {
                 "nextPhraseID":"fey3_ogerwall_b1_10",
                 "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":1, "negate":true },
 							{ "requireType":"inventoryKeep", "requireID":"ogercrystal", "value":1 }]
@@ -1419,6 +1713,11 @@
     {
         "id":"fey3_ogerwall_b2",
         "replies":[
+            {
+                "nextPhraseID":"fey3_ogerwall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogercrystal", "value":1 }]
+			},
             {
                 "nextPhraseID":"fey3_ogerwall_b2_10",
                 "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":2, "negate":true },
@@ -1458,6 +1757,11 @@
         "id":"fey3_ogerwall_b3",
         "replies":[
             {
+                "nextPhraseID":"fey3_ogerwall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogercrystal", "value":1 }]
+			},
+            {
                 "nextPhraseID":"fey3_ogerwall_b3_10",
                 "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":3, "negate":true },
 							{ "requireType":"inventoryKeep", "requireID":"ogercrystal", "value":1 }]
@@ -1496,6 +1800,11 @@
         "id":"fey3_ogerwall_b4",
         "replies":[
             {
+                "nextPhraseID":"fey3_ogerwall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogercrystal", "value":1 }]
+			},
+            {
                 "nextPhraseID":"fey3_ogerwall_b4_10",
                 "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":4, "negate":true },
 							{ "requireType":"inventoryKeep", "requireID":"ogercrystal", "value":1 }]
@@ -1531,8 +1840,17 @@
         "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogerwall", "value":4 }]
     },
     {
+        "id":"fey3_ogerwall_bx",
+        "message":"It's better not to place anything suspicious while you are being watched by a guard."
+    },
+    {
         "id":"fey3_ogerwall_f1",
         "replies":[
+            {
+                "nextPhraseID":"fey3_ogerwall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogertorch", "value":1 }]
+			},
             {
                 "nextPhraseID":"fey3_ogerwall_f1_10",
                 "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":11, "negate":true },
@@ -1563,6 +1881,11 @@
         "id":"fey3_ogerwall_f2",
         "replies":[
             {
+                "nextPhraseID":"fey3_ogerwall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogertorch", "value":1 }]
+			},
+            {
                 "nextPhraseID":"fey3_ogerwall_f2_10",
                 "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":12, "negate":true },
 							{ "requireType":"inventoryKeep", "requireID":"ogertorch", "value":1 }]
@@ -1591,6 +1914,11 @@
     {
         "id":"fey3_ogerwall_f3",
         "replies":[
+            {
+                "nextPhraseID":"fey3_ogerwall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogertorch", "value":1 }]
+			},
             {
                 "nextPhraseID":"fey3_ogerwall_f3_10",
                 "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":13, "negate":true },
@@ -1621,6 +1949,11 @@
         "id":"fey3_ogerwall_f4",
         "replies":[
             {
+                "nextPhraseID":"fey3_ogerwall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogertorch", "value":1 }]
+			},
+            {
                 "nextPhraseID":"fey3_ogerwall_f4_10",
                 "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":14, "negate":true },
 							{ "requireType":"inventoryKeep", "requireID":"ogertorch", "value":1 }]
@@ -1650,6 +1983,11 @@
         "id":"fey3_ogerwall_f5",
         "replies":[
             {
+                "nextPhraseID":"fey3_ogerwall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogertorch", "value":1 }]
+			},
+            {
                 "nextPhraseID":"fey3_ogerwall_f5_10",
                 "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":15, "negate":true },
 							{ "requireType":"inventoryKeep", "requireID":"ogertorch", "value":1 }]
@@ -1678,6 +2016,11 @@
     {
         "id":"fey3_ogerwall_f6",
         "replies":[
+            {
+                "nextPhraseID":"fey3_ogerwall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogertorch", "value":1 }]
+			},
             {
                 "nextPhraseID":"fey3_ogerwall_f6_10",
                 "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogerwall", "value":16, "negate":true },

@@ -7,6 +7,10 @@
 			{ 
 				"progress":1, 
 				"logText":"1=Feygard available" 
+			},
+			{ 
+				"progress":10, 
+				"logText":"10=Left gate guard went east" 
 			}
 		]
 	},

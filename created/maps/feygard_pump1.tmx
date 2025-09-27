@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="64" nextobjectid="118">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
+  <image source="../drawable/map_bed_1.png" width="512" height="320"/>
+ </tileset>
+ <tileset firstgid="161" name="map_border_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_border_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="289" name="map_bridge_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_bridge_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="417" name="map_bridge_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_bridge_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="545" name="map_broken_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_broken_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="673" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
+  <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
+ </tileset>
+ <tileset firstgid="781" name="map_cavewall_2" tilewidth="32" tileheight="32" tilecount="108" columns="18">
+  <image source="../drawable/map_cavewall_2.png" width="576" height="192"/>
+ </tileset>
+ <tileset firstgid="889" name="map_cavewall_3" tilewidth="32" tileheight="32" tilecount="108" columns="18">
+  <image source="../drawable/map_cavewall_3.png" width="576" height="192"/>
+ </tileset>
+ <tileset firstgid="997" name="map_cavewall_4" tilewidth="32" tileheight="32" tilecount="108" columns="18">
+  <image source="../drawable/map_cavewall_4.png" width="576" height="192"/>
+ </tileset>
+ <tileset firstgid="1105" name="map_chair_table_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_chair_table_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="1233" name="map_chair_table_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_chair_table_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="1361" name="map_crate_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_crate_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="1489" name="map_cupboard_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_cupboard_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="1617" name="map_curtain_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_curtain_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="1745" name="map_entrance_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="1873" name="map_entrance_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_entrance_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2001" name="map_fence_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_fence_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2129" name="map_fence_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_fence_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2257" name="map_fence_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_fence_3.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2385" name="map_fence_4" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_fence_4.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2513" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_ground_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2641" name="map_ground_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_ground_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2769" name="map_ground_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_ground_3.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="2897" name="map_ground_4" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_ground_4.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="3025" name="map_ground_5" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_ground_5.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="3153" name="map_ground_6" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_ground_6.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="3281" name="map_ground_7" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_ground_7.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="3409" name="map_ground_8" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_ground_8.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="3537" name="map_house_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_house_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="3665" name="map_house_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_house_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="3793" name="map_indoor_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_indoor_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="3921" name="map_indoor_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_indoor_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4049" name="map_kitchen_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_kitchen_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4177" name="map_outdoor_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_outdoor_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4305" name="map_pillar_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_pillar_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4433" name="map_pillar_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_pillar_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4561" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_plant_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4689" name="map_plant_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_plant_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4817" name="map_rock_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_rock_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="4945" name="map_rock_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_rock_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="5073" name="map_roof_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_roof_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="5201" name="map_roof_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_roof_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="5329" name="map_roof_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_roof_3.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="5457" name="map_shop_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_shop_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="5585" name="map_sign_ladder_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_sign_ladder_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="5713" name="map_table_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_table_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="5841" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="5969" name="map_transition_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_transition_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6097" name="map_transition_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_transition_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6225" name="map_transition_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_transition_3.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6353" name="map_transition_4" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_transition_4.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6481" name="map_transition_5" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_transition_5.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6609" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6737" name="map_tree_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_tree_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6865" name="map_wall_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_wall_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6993" name="map_wall_2" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+  <image source="../drawable/map_wall_2.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="7113" name="map_wall_3" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+  <image source="../drawable/map_wall_3.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="7233" name="map_wall_4" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+  <image source="../drawable/map_wall_4.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="7353" name="map_window_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_window_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_window_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7609" name="map_tree_4" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_tree_4.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7737" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
+ </tileset>
+ <tileset firstgid="8281" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
+ <layer id="1" name="Base" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJx7yMnA8HAA8HqFkYWVpEnD1DSLFJyggD2+EoaIvRc5ScMFOOwFiZNizigYBaNgeILLYtixhgwDgxCwzFGTwa1mKNqbJo0dI9uLSw2l9mIr05HtxSZPDXuFsGBke7HJD2X/vuDExMj2YpMfrvaa0tle8wG0F5mml72E8Ki9pAFGLvIxIQAAQCQRNg==
+  </data>
+ </layer>
+ <layer id="2" name="Ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxr4mRgaBoAPFCAVHdOwuHWiTT270Ic5iwi0SwfWdL45JirJE2+OdQGQdykYWqZNQpGwSgYecBQbNTeUXuHr73pjAwMn+ngFmz20gOMJHtLxSH2gGha2wsylxCmBSiFml2OA1fQMJzplXZoaS8A1S48pA==
+  </data>
+ </layer>
+ <layer id="3" name="Objects" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgw1Es+GXjyIgTw6oA5qZTcDcLDaIusEMeIQQ7OeCDAzXBBF8EPu5IKYeUs0dBaNgFIwCECgVHxh7X3AOjL1XBAbG3pEWzuj2ZijQx97BFL/VCrS3F1v8Dmd7YQA5vOlpLzKgpb1deMyOoqG9AxWW1AIAGdQUoA==
+  </data>
+ </layer>
+ <layer id="33" name="Objects_111a" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAangisDA2FsqPjD2vuAcWfaOxu/wtnekxe8oGAX4AABLoQgV
+  </data>
+ </layer>
+ <layer id="34" name="Objects_111b" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAamgVHxg7H3BObLsvSIwMPaOxi99wGj8joJRMPAAAAoACCI=
+  </data>
+ </layer>
+ <layer id="35" name="Objects_111c" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAangBefIsveKwMDYWyo+MPaOxi99wGj8joJRMPAAAE9cCIc=
+  </data>
+ </layer>
+ <layer id="32" name="Objects_111d" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAangBefA2HtFYGDsLRUfGHsHKpxH45c+YDR+R8EoGHgAAMKuCHo=
+  </data>
+ </layer>
+ <layer id="43" name="Objects_011a" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAangisDA2FsqPjD2vuAcWfaOxu/wtneg4ncUjILBCADgegeJ
+  </data>
+ </layer>
+ <layer id="42" name="Objects_011b" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAamgVHxg7H3BObLsvSIwMPaOxi99wEDF7ygYBaMAAQDr/Qal
+  </data>
+ </layer>
+ <layer id="41" name="Objects_011c" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAangBefIsveKwMDYWyo+MPaOxu8oGAWjYKQAAA2UBhk=
+  </data>
+ </layer>
+ <layer id="40" name="Objects_011d" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAangBefA2HtFYGDsLRUfGHsHKpxHWvyOAvqA0fgdBYMRAABdRwYM
+  </data>
+ </layer>
+ <layer id="47" name="Objects_001a" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAangisDA2FsqPjD2vuAcWfYOVPyOAvqA0fgdBaMAAQBXdAUb
+  </data>
+ </layer>
+ <layer id="46" name="Objects_001b" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAamgVHxg7H3BObLsvSIwMPaOAvqA0fgdBaNg4AEAP1gENw==
+  </data>
+ </layer>
+ <layer id="45" name="Objects_001c" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAangBefIsveKwMDYOwroA0bjdxSMgpELAD1BA6s=
+  </data>
+ </layer>
+ <layer id="44" name="Objects_001d" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAangBefA2HtFYGDsHQX0AaPxO7zBaPyOgsEIAGlVA54=
+  </data>
+ </layer>
+ <layer id="51" name="Objects_000a" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAangisBAu2AU0BKMxu/wBqPxOwpGAQIAAD/jAq0=
+  </data>
+ </layer>
+ <layer id="50" name="Objects_000b" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt0UENAAAIxLCTgH9dCEIFgUerYMkSAICfuq4L2OQv3BsEKAHJ
+  </data>
+ </layer>
+ <layer id="49" name="Objects_000c" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt0TENAAAIwDAk4F8XgnDARzhoFSxZBADArPK6gE3+wl8N2egByQ==
+  </data>
+ </layer>
+ <layer id="48" name="Objects_000d" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt0QkNADAIADEk4F8XgqZi4Umr4JKLAAC2qOwu4Cd/b/OXiR7/JQKt
+  </data>
+ </layer>
+ <layer id="55" name="Objects_100a" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAangisBAu2AU0BKMxu/wBgMVv6XiA2PvKBgF+AAAqvsDOQ==
+  </data>
+ </layer>
+ <layer id="54" name="Objects_100b" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYnOCKwEC7YBTQEgxU/JaKD4y9LzgHxt5RMArwAQAiHANG
+  </data>
+ </layer>
+ <layer id="53" name="Objects_100c" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSjAD64IDLQLRgEtwUDFb6n4wNj7gnNk2TsKRgE+AAAbvwQ3
+  </data>
+ </layer>
+ <layer id="52" name="Objects_100d" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVABVwQG2gWjgJZgoOK3VHxg7H3BObLsHc2/o2AwAgBkmwUb
+  </data>
+ </layer>
+ <layer id="59" name="Objects_110a" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAangisBAu2AU0BIMVPyWig+MvS84R5a9Iy1+R8EowAcANBAFpw==
+  </data>
+ </layer>
+ <layer id="58" name="Objects_110b" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYnOCKwMDYWyo+MPa+4BxZ9o7G7ygYBQMPAM7BBbQ=
+  </data>
+ </layer>
+ <layer id="57" name="Objects_110c" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSjAD64IDIy9peIDY+8LzpFl72j8Dm97R8EowAcA7AMGpQ==
+  </data>
+ </layer>
+ <layer id="56" name="Objects_110d" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVABVwQGxt5S8YGx9wXnyLJ3NH6Ht70DFb+jYBTgAwBYjQeJ
+  </data>
+ </layer>
+ <layer id="30" name="Objects0" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztyrENACAMA0GvkP33YoWsgaiosgDcVW/JCbypK1l19+mu+Q8AAL/Z118Dvw==
+  </data>
+ </layer>
+ <layer id="6" name="Above" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQw18FqOt+YUKDAxFSLhYASL+mMb2NgLtaULCzXSydyLQnklIeDLU3k80tncUjIJRMLQBrGyidRk12Oylt/m09u+ovaP2Dnd7H4rhl6eVvfQAI81eWgEA9JosoA==
+  </data>
+ </layer>
+ <layer id="7" name="Top" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzdENABAQBNH9uyZRASpA7baKS8S8ZL5HAgAAAP5QQqquRe63+zfcTP4u/7Y7yV+84wJ1LwQV
+  </data>
+ </layer>
+ <layer id="8" name="Walkable" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJy7KMbAcHEA8EABarl1IMJsoOKH2maSYy+x8UoqwGfvKBgFo2AUDFQ9N2rvqL3I9ozaO3zsxWbPcLKXFuqJMQebn+iVf4eDvQBf5jEO
+  </data>
+ </layer>
+ <layer id="31" name="Walkable0" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9AYXxbDj4W4vLv4oGAWjYBSMglEwCkbBKBgFo2BgAACm4Q5x
+  </data>
+ </layer>
+ <objectgroup id="12" name="Mapevents">
+  <object id="75" name="south" type="mapchange" x="352" y="928" width="32" height="32">
+   <properties>
+    <property name="map" value="guynmart_wood_17b"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object id="1" name="north" type="mapchange" x="448" y="128" width="96" height="32">
+   <properties>
+    <property name="map" value="feygard_outside1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object id="13" name="fey3_pump1" type="script" x="448" y="768" width="32" height="32"/>
+  <object id="85" name="fey3_pump2" type="script" x="448" y="736" width="32" height="32"/>
+  <object id="93" name="fey3_pump3" type="script" x="448" y="704" width="32" height="32"/>
+  <object id="92" name="fey3_pump4" type="script" x="448" y="672" width="32" height="32"/>
+  <object id="91" name="fey3_pump5" type="script" x="448" y="640" width="32" height="32"/>
+  <object id="90" name="fey3_pump6" type="script" x="448" y="608" width="32" height="32"/>
+  <object id="89" name="fey3_pump7" type="script" x="448" y="576" width="32" height="32"/>
+  <object id="88" name="fey3_pump8" type="script" x="448" y="544" width="32" height="32"/>
+  <object id="87" name="fey3_pump9" type="script" x="448" y="512" width="32" height="32"/>
+  <object id="86" name="fey3_pump10" type="script" x="448" y="480" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="13" name="Spawn">
+  <object id="72" name="fey3_guard_maingate1" type="spawn" x="384" y="224" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="fey3_guard_maingate1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="14" name="Keys">
+  <object id="25" name="fey3_pump_entry" type="key" x="448" y="768" width="32" height="32">
+   <properties>
+    <property name="phrase" value="fey3_pump_entry"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="117" name="fey3_pump_lever" type="key" x="576" y="640" width="32" height="32">
+   <properties>
+    <property name="phrase" value="fey3_pump_lever"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="15" name="Replace" visible="0">
+  <object id="32" name="fey3_pump_000a" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_000a"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="0"/>
+   </properties>
+  </object>
+  <object id="94" name="fey3_pump_000b" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_000b"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="95" name="fey3_pump_000c" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_000c"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="96" name="fey3_pump_000d" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_000d"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="97" name="fey3_pump_100a" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_000a"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="4"/>
+   </properties>
+  </object>
+  <object id="98" name="fey3_pump_100b" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_100b"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="5"/>
+   </properties>
+  </object>
+  <object id="99" name="fey3_pump_100c" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_100c"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="6"/>
+   </properties>
+  </object>
+  <object id="100" name="fey3_pump_100d" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_100d"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="7"/>
+   </properties>
+  </object>
+  <object id="101" name="fey3_pump_110a" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_110a"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="8"/>
+   </properties>
+  </object>
+  <object id="102" name="fey3_pump_110b" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_110b"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="9"/>
+   </properties>
+  </object>
+  <object id="103" name="fey3_pump_110c" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_110c"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="10"/>
+   </properties>
+  </object>
+  <object id="104" name="fey3_pump_110d" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_110d"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="11"/>
+   </properties>
+  </object>
+  <object id="105" name="fey3_pump_111a" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_111a"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="12"/>
+   </properties>
+  </object>
+  <object id="106" name="fey3_pump_111b" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_111b"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="13"/>
+   </properties>
+  </object>
+  <object id="107" name="fey3_pump_111c" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_111c"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="14"/>
+   </properties>
+  </object>
+  <object id="108" name="fey3_pump_111d" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_111d"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="15"/>
+   </properties>
+  </object>
+  <object id="109" name="fey3_pump_011a" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_011a"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="16"/>
+   </properties>
+  </object>
+  <object id="110" name="fey3_pump_011b" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_011b"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="17"/>
+   </properties>
+  </object>
+  <object id="111" name="fey3_pump_011c" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_011c"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="18"/>
+   </properties>
+  </object>
+  <object id="112" name="fey3_pump_011d" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_011d"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="19"/>
+   </properties>
+  </object>
+  <object id="113" name="fey3_pump_001a" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_001a"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="20"/>
+   </properties>
+  </object>
+  <object id="114" name="fey3_pump_001b" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_001b"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="21"/>
+   </properties>
+  </object>
+  <object id="115" name="fey3_pump_001c" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_001c"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="22"/>
+   </properties>
+  </object>
+  <object id="116" name="fey3_pump_001d" type="replace" x="448" y="480" width="32" height="320">
+   <properties>
+    <property name="Objects" value="Objects_001d"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="23"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

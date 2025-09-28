@@ -11,6 +11,18 @@
 			{ 
 				"progress":10, 
 				"logText":"10=Left gate guard went east" 
+			},
+			{ 
+				"progress":100, 
+				"logText":"100=Pump: water off" 
+			},
+			{ 
+				"progress":101, 
+				"logText":"101=In escalator" 
+			},
+			{ 
+				"progress":102, 
+				"logText":"102=Pump entry free" 
 			}
 		]
 	},

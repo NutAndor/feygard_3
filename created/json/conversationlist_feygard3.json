@@ -2076,5 +2076,158 @@
         "id":"fey3_ogerwall_sign_20",
         "message":"Nice.",
         "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogerwall", "value":5 }]
+    },
+    {
+        "id":"fey3_pump_reset",
+        "rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"fey3_nd", "value":100 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"fey3_nd", "value":101 },
+					{ "rewardType":"alignmentSet", "rewardID":"fey3_pump_j", "value":0 }]
+    },
+    {
+        "id":"fey3_pump_lever",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_pump_lever_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":100 }]
+			},
+            {
+                "nextPhraseID":"fey3_pump_lever_20"
+			}
+		]
+    },
+    {
+        "id":"fey3_pump_lever_10",
+        "message":"The noise of the rushing water starts again.",
+        "rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"fey3_nd", "value":100 }]
+    },
+    {
+        "id":"fey3_pump_lever_20",
+        "message":"The loud noise of the rushing water decreases.",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_nd", "value":100 }]
+    },
+    {
+        "id":"fey3_pump",
+        "replies":[ { "nextPhraseID":"fey3_pump_set_0", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump", "value":3 },
+													 			{ "requireType":"questProgress", "requireID":"fey3_nd", "value":100, "negate":true }] },
+					{ "nextPhraseID":"fey3_pump_set_20", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump", "value":11 },
+													 			{ "requireType":"questProgress", "requireID":"fey3_nd", "value":100, "negate":true }] },
+					{ "nextPhraseID":"fey3_pump_set_9", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump", "value":12 },
+													 			{ "requireType":"questProgress", "requireID":"fey3_nd", "value":100 }] },
+					{ "nextPhraseID":"fey3_pump_set_2", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump", "value":28 }] },
+					{ "nextPhraseID":"fey3_pump_inc" } ]
+    },
+    {
+        "id":"fey3_pump_inc",
+        "replies":[{ "nextPhraseID":"fey3_pump_j" }],
+        "rewards":[{ "rewardType":"alignmentChange", "rewardID":"fey3_pump", "value":1 }]
+    },
+    {
+        "id":"fey3_pump_set_0",
+        "replies":[{ "nextPhraseID":"fey3_pump_j" }],
+        "rewards":[{ "rewardType":"alignmentSet", "rewardID":"fey3_pump", "value":0 }]
+    },
+    {
+        "id":"fey3_pump_set_2",
+        "replies":[{ "nextPhraseID":"fey3_pump_j" }],
+        "rewards":[{ "rewardType":"alignmentSet", "rewardID":"fey3_pump", "value":2 }]
+    },
+    {
+        "id":"fey3_pump_set_9",
+        "replies":[{ "nextPhraseID":"fey3_pump_j" }],
+        "rewards":[{ "rewardType":"alignmentSet", "rewardID":"fey3_pump", "value":9 }]
+    },
+    {
+        "id":"fey3_pump_set_20",
+        "replies":[{ "nextPhraseID":"fey3_pump_j" }],
+        "rewards":[{ "rewardType":"alignmentSet", "rewardID":"fey3_pump", "value":20 }]
+    },
+    {
+        "id":"fey3_pump_entry",
+        "replies":[ { "nextPhraseID":"fey3_pump_entry_10", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump", "value":7  }] },
+					{ "nextPhraseID":"fey3_pump_entry_10", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump", "value":11 }] }]
+    },
+    {
+        "id":"fey3_pump_entry_10",
+        "rewards":[ { "rewardType":"alignmentChange", "rewardID":"fey3_pump_j", "value":0 },
+					{ "rewardType":"questProgress", "rewardID":"fey3_nd", "value":101 },
+					{ "rewardType":"mapchange", "rewardID":"fey3_j0", "mapName":"feygard_pump1" }]
+    },
+    {
+        "id":"fey3_pump_j",
+        "replies":[ { "nextPhraseID":"fey3_pump_jx", "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":101 }] },
+					{ "nextPhraseID":"fey3_pump_j_entry_free", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump", "value":7 }] },
+					{ "nextPhraseID":"fey3_pump_j_entry_free", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump", "value":11 }] },
+					{ "nextPhraseID":"fey3_pump_j_entry_blocked", "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":102 }] }]
+    },
+    {
+        "id":"fey3_pump_j_entry_free",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_nd", "value":102 }]
+    },
+    {
+        "id":"fey3_pump_j_entry_blocked",
+        "rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"fey3_nd", "value":102 }]
+    },
+    {
+        "id":"fey3_pump_jx",
+        "replies":[ { "nextPhraseID":"fey3_pump_j1", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump_j", "value":1 }] },
+					{ "nextPhraseID":"fey3_pump_j2", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump_j", "value":2 }] },
+					{ "nextPhraseID":"fey3_pump_j3", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump_j", "value":3 }] },
+					{ "nextPhraseID":"fey3_pump_j4", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump_j", "value":4 }] },
+					{ "nextPhraseID":"fey3_pump_j5", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump_j", "value":5 }] },
+					{ "nextPhraseID":"fey3_pump_j6", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump_j", "value":6 }] },
+					{ "nextPhraseID":"fey3_pump_j7", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump_j", "value":7 }] },
+					{ "nextPhraseID":"fey3_pump_j8", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump_j", "value":8 }] },
+					{ "nextPhraseID":"fey3_pump_j9", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump_j", "value":9 }] },
+					{ "nextPhraseID":"fey3_pump_j10", "requires":[{ "requireType":"factionScoreEquals", "requireID":"fey3_pump_j", "value":10 }] },
+					{ "nextPhraseID":"fey3_pump_exit" }],
+        "rewards":[{ "rewardType":"alignmentChange", "rewardID":"fey3_pump_j", "value":1 }]
+    },
+    {
+        "id":"fey3_pump_j0",
+        "rewards":[{ "rewardType":"mapchange", "rewardID":"fey3_j0", "mapName":"feygard_pump1" }]
+    },
+    {
+        "id":"fey3_pump_j1",
+        "rewards":[{ "rewardType":"mapchange", "rewardID":"fey3_j1", "mapName":"feygard_pump1" }]
+    },
+    {
+        "id":"fey3_pump_j2",
+        "rewards":[{ "rewardType":"mapchange", "rewardID":"fey3_j2", "mapName":"feygard_pump1" }]
+    },
+    {
+        "id":"fey3_pump_j3",
+        "rewards":[{ "rewardType":"mapchange", "rewardID":"fey3_j3", "mapName":"feygard_pump1" }]
+    },
+    {
+        "id":"fey3_pump_j4",
+        "rewards":[{ "rewardType":"mapchange", "rewardID":"fey3_j4", "mapName":"feygard_pump1" }]
+    },
+    {
+        "id":"fey3_pump_j5",
+        "rewards":[{ "rewardType":"mapchange", "rewardID":"fey3_j5", "mapName":"feygard_pump1" }]
+    },
+    {
+        "id":"fey3_pump_j6",
+        "rewards":[{ "rewardType":"mapchange", "rewardID":"fey3_j6", "mapName":"feygard_pump1" }]
+    },
+    {
+        "id":"fey3_pump_j7",
+        "rewards":[{ "rewardType":"mapchange", "rewardID":"fey3_j7", "mapName":"feygard_pump1" }]
+    },
+    {
+        "id":"fey3_pump_j8",
+        "rewards":[{ "rewardType":"mapchange", "rewardID":"fey3_j8", "mapName":"feygard_pump1" }]
+    },
+    {
+        "id":"fey3_pump_j9",
+        "rewards":[{ "rewardType":"mapchange", "rewardID":"fey3_j9", "mapName":"feygard_pump1" }]
+    },
+    {
+        "id":"fey3_pump_j10",
+        "rewards":[{ "rewardType":"mapchange", "rewardID":"fey3_j10", "mapName":"feygard_pump1" }]
+    },
+    {
+        "id":"fey3_pump_exit",
+        "rewards":[{ "rewardType":"mapchange", "rewardID":"south", "mapName":"feygard_outside1" }]
     }
 ]

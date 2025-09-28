@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="64" nextobjectid="118">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="70" nextobjectid="133">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -192,209 +192,234 @@
  <tileset firstgid="8281" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Base" width="30" height="30">
+ <layer id="1" name="Base" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJx7yMnA8HAA8HqFkYWVpEnD1DSLFJyggD2+EoaIvRc5ScMFOOwFiZNizigYBaNgeILLYtixhgwDgxCwzFGTwa1mKNqbJo0dI9uLSw2l9mIr05HtxSZPDXuFsGBke7HJD2X/vuDExMj2YpMfrvaa0tle8wG0F5mml72E8Ki9pAFGLvIxIQAAQCQRNg==
+   eJy7LMbAcBkL1pBhYBCSZmBQk8Eujw8TozdNGjtG1otLDQgrYcHIerHJw/QKYcHIerHJU8PeF5yYGFkvNnla6zUlQ685FfSak6GXEB5IvYxc5GMANZqJ7Q==
   </data>
  </layer>
- <layer id="2" name="Ground" width="30" height="30">
+ <layer id="2" name="Ground" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxr4mRgaBoAPFCAVHdOwuHWiTT270Ic5iwi0SwfWdL45JirJE2+OdQGQdykYWqZNQpGwSgYecBQbNTeUXuHr73pjAwMn+ngFmz20gOMJHtLxSH2gGha2wsylxCmBSiFml2OA1fQMJzplXZoaS8A1S48pA==
+   eJxjYMANKhTwSBIAo3rJ15vOyMDwWYx8vZTYS2u9peIQvSCaGL0gOUIYp11Q+XIcuIKAm0kJD0r0AgB3MRNR
   </data>
  </layer>
- <layer id="3" name="Objects" width="30" height="30">
+ <layer id="3" name="Objects" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgw1Es+GXjyIgTw6oA5qZTcDcLDaIusEMeIQQ7OeCDAzXBBF8EPu5IKYeUs0dBaNgFIwCECgVHxh7X3AOjL1XBAbG3pEWzuj2ZijQx97BFL/VCrS3F1v8Dmd7YQA5vOlpLzKgpb1deMyOoqG9AxWW1AIAGdQUoA==
+   eJxjYBgFtAAZCgNndzUFdtNTb6k4feztwiMfRUAvJe4iFgAAUKMF2w==
   </data>
  </layer>
- <layer id="33" name="Objects_111a" width="30" height="30" visible="0">
+ <layer id="32" name="Objects_1x111x111x1" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAangisDA2FsqPjD2vuAcWfaOxu/wtnekxe8oGAX4AABLoQgV
+   eJxjYMANXnDikSQArgiQr7dUnHy9lLh51L/Eg4Hy73AEAHI+CQY=
   </data>
  </layer>
- <layer id="34" name="Objects_111b" width="30" height="30" visible="0">
+ <layer id="33" name="Objects_11x111x111x" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAamgVHxg7H3BObLsvSIwMPaOxi99wGj8joJRMPAAAAoACCI=
+   eJxjYMANrgjgkSQASsXJ1/uCc2D0jvqXeDBQ/h2OAAAiFgkG
   </data>
  </layer>
- <layer id="35" name="Objects_111c" width="30" height="30" visible="0">
+ <layer id="34" name="Objects_111x111x111" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAangBefIsveKwMDYWyo+MPaOxi99wGj8joJRMPAAAE9cCIc=
+   eJxjYMANSsXxSBIALzgHRu8VAfL1jvqXeDBQ/h2OAAABSQkT
   </data>
  </layer>
- <layer id="32" name="Objects_111d" width="30" height="30" visible="0">
+ <layer id="35" name="Objects_x111x111x11" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAangBefA2HtFYGDsLRUfGHsHKpxH45c+YDR+R8EoGHgAAMKuCHo=
+   eJxjYMANXnDikSQAKNF7RYB8vaXi5Osd9S999FLi3+EIABYnCWs=
   </data>
  </layer>
- <layer id="43" name="Objects_011a" width="30" height="30" visible="0">
+ <layer id="67" name="Objects_0x111x111x1" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAangisDA2FsqPjD2vuAcWfaOxu/wtneg4ncUjILBCADgegeJ
+   eJxjYMANXnDikSQArgiQr7dUnHy9lLh51L/EA0r8OwpQAQDdhgh6
   </data>
  </layer>
- <layer id="42" name="Objects_011b" width="30" height="30" visible="0">
+ <layer id="66" name="Objects_00x111x111x" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAamgVHxg7H3BObLsvSIwMPaOxi99wEDF7ygYBaMAAQDr/Qal
+   eJxjYMANrgjgkSQASsXJ1/uCc2D0jvp3FAwEAABseAeJ
   </data>
  </layer>
- <layer id="41" name="Objects_011c" width="30" height="30" visible="0">
+ <layer id="65" name="Objects_000x111x111" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAangBefIsveKwMDYWyo+MPaOxu8oGAWjYKQAAA2UBhk=
+   eJxjYMANSsXxSBIALzgHRu8VAfL1jvqXeDBQ/h2OAAABSQkT
   </data>
  </layer>
- <layer id="40" name="Objects_011d" width="30" height="30" visible="0">
+ <layer id="64" name="Objects_x000x111x11" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAangBefA2HtFYGDsLRUfGHsHKpxHWvyOAvqA0fgdBYMRAABdRwYM
+   eJxjYMANXnDikSQAKNF7RYB8vaXi5Osdiv4dimCk+ZcQAAB1UAb9
   </data>
  </layer>
- <layer id="47" name="Objects_001a" width="30" height="30" visible="0">
+ <layer id="42" name="Objects_000x111x111" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAangisDA2FsqPjD2vuAcWfYOVPyOAvqA0fgdBaMAAQBXdAUb
+   eJxjYMANSsXxSBIALzgHRu8VAfL1jjT/joLBAQDyOgal
   </data>
  </layer>
- <layer id="46" name="Objects_001b" width="30" height="30" visible="0">
+ <layer id="41" name="Objects_x000x111x11" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAamgVHxg7H3BObLsvSIwMPaOAvqA0fgdBaNg4AEAP1gENw==
+   eJxjYMANXnDikSQAKNF7RYB8vaXi5Osdiv4dimCk+ZcQAAB1UAb9
   </data>
  </layer>
- <layer id="45" name="Objects_001c" width="30" height="30" visible="0">
+ <layer id="40" name="Objects_0x000x111x1" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAangBefIsveKwMDYOwroA0bjdxSMgpELAD1BA6s=
+   eJxjYMANXnDikSQArgiQr7dUnHy9lLh5oPw7FMFI8y8tAQCq5wYM
   </data>
  </layer>
- <layer id="44" name="Objects_001d" width="30" height="30" visible="0">
+ <layer id="43" name="Objects_00x000x111x" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAangBefA2HtFYGDsHQX0AaPxO7zBaPyOgsEIAGlVA54=
+   eJxjYMANrgjgkSQASsXJ1/uCc2D0UuLfoQhGmn8HKwAAqAIFGw==
   </data>
  </layer>
- <layer id="51" name="Objects_000a" width="30" height="30" visible="0">
+ <layer id="46" name="Objects_000x000x111" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAangisBAu2AU0BKMxu/wBqPxOwpGAQIAAD/jAq0=
+   eJxjYMANSsXxSBIALzgHRu8VAfL1DkUw0vw7HAEAm/wENw==
   </data>
  </layer>
- <layer id="50" name="Objects_000b" width="30" height="30" visible="0">
+ <layer id="45" name="Objects_x000x000x11" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt0UENAAAIxLCTgH9dCEIFgUerYMkSAICfuq4L2OQv3BsEKAHJ
+   eJxjYMANXnDikSQAKNF7RYB8vUMRjPp3ZAMAjTsEjw==
   </data>
  </layer>
- <layer id="49" name="Objects_000c" width="30" height="30" visible="0">
+ <layer id="44" name="Objects_0x000x000x1" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt0TENAAAIwDAk4F8XgnDARzhoFSxZBADArPK6gE3+wl8N2egByQ==
+   eJxjYMANXnDikSQArgiQr3coglH/jgJyAQAxCgOe
   </data>
  </layer>
- <layer id="48" name="Objects_000d" width="30" height="30" visible="0">
+ <layer id="51" name="Objects_00x000x000x" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt0QkNADAIADEk4F8XgqZi4Umr4JKLAAC2qOwu4Cd/b/OXiR7/JQKt
+   eJxjYMANrgjgkRyGYNS/o2AgAACcTgKt
   </data>
  </layer>
- <layer id="55" name="Objects_100a" width="30" height="30" visible="0">
+ <layer id="50" name="Objects_000x000x000" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAangisBAu2AU0BKMxu/wBgMVv6XiA2PvKBgF+AAAqvsDOQ==
+   eJxjYBhe4IrAQLuAvmCk+Xc4AgD+cQHJ
   </data>
  </layer>
- <layer id="54" name="Objects_100b" width="30" height="30" visible="0">
+ <layer id="49" name="Objects_x000x000x00" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYnOCKwEC7YBTQEgxU/JaKD4y9LzgHxt5RMArwAQAiHANG
+   eJxjYBh84IrAQLuAvmDUvyMbAABbnwKt
   </data>
  </layer>
- <layer id="53" name="Objects_100c" width="30" height="30" visible="0">
+ <layer id="48" name="Objects_0x000x000x0" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSjAD64IDLQLRgEtwUDFb6n4wNj7gnNk2TsKRgE+AAAbvwQ3
+   eJxjYKANuCJAI4MHKRj17yggFwAA++8CrQ==
   </data>
  </layer>
- <layer id="52" name="Objects_100d" width="30" height="30" visible="0">
+ <layer id="69" name="Objects_1x000x000x0" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwVABVwQG2gWjgJZgoOK3VHxg7H3BObLsHc2/o2AwAgBkmwUb
+   eJxjYKANuCJAI4MHKRj1L/GgVJx67hgOAACQpwM5
   </data>
  </layer>
- <layer id="59" name="Objects_110a" width="30" height="30" visible="0">
+ <layer id="55" name="Objects_11x000x000x" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAangisBAu2AU0BIMVPyWig+MvS84R5a9Iy1+R8EowAcANBAFpw==
+   eJxjYMANrgjgkRyGYNS/xINScfL1vuAkX+9wBABR7AQq
   </data>
  </layer>
- <layer id="58" name="Objects_110b" width="30" height="30" visible="0">
+ <layer id="54" name="Objects_111x000x000" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYnOCKwMDYWyo+MPa+4BxZ9o7G7ygYBQMPAM7BBbQ=
+   eJxjYBhe4IrAQLuAvoAS/5aKk6/3BefA6B2OAAANgAQ3
   </data>
  </layer>
- <layer id="57" name="Objects_110c" width="30" height="30" visible="0">
+ <layer id="53" name="Objects_x111x000x00" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSjAD64IDIy9peIDY+8LzpFl72j8Dm97R8EowAcA7AMGpQ==
+   eJxjYBh84IrAQLuAvoAS/5aKk6/3BefA6B1p8UsIAAD8ZwUb
   </data>
  </layer>
- <layer id="56" name="Objects_110d" width="30" height="30" visible="0">
+ <layer id="52" name="Objects_1x111x000x0" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwVABVwQGxt5S8YGx9wXnyLJ3NH6Ht70DFb+jYBTgAwBYjQeJ
+   eJxjYKANuCJAI4MHKaDEv6Xi5Ot9wTkwegfKv8MRAADDRgWn
   </data>
  </layer>
- <layer id="30" name="Objects0" width="30" height="30" visible="0">
+ <layer id="59" name="Objects_11x111x000x" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztyrENACAMA0GvkP33YoWsgaiosgDcVW/JCbypK1l19+mu+Q8AAL/Z118Dvw==
+   eJxjYMANrgjgkRyGgBL/loqTr/cF58DoHYr+HY4AABZiBpg=
   </data>
  </layer>
- <layer id="6" name="Above" width="30" height="30">
+ <layer id="58" name="Objects_111x111x000" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFQw18FqOt+YUKDAxFSLhYASL+mMb2NgLtaULCzXSydyLQnklIeDLU3k80tncUjIJRMLQBrGyidRk12Oylt/m09u+ovaP2Dnd7H4rhl6eVvfQAI81eWgEA9JosoA==
+   eJxjYBhe4IoA+XpLxcnX+4JzYPSONP8ORwAAY74GpQ==
   </data>
  </layer>
- <layer id="7" name="Top" width="30" height="30">
+ <layer id="57" name="Objects_111x111x000" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztzdENABAQBNH9uyZRASpA7baKS8S8ZL5HAgAAAP5QQqquRe63+zfcTP4u/7Y7yV+84wJ1LwQV
+   eJxjYBh84IoA+XpLxcnX+4JzYPSO+ndkAwDkfAeJ
   </data>
  </layer>
- <layer id="8" name="Walkable" width="30" height="30" visible="0">
+ <layer id="56" name="Objects_1x111x111x0" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcHEA8EABarl1IMJsoOKH2maSYy+x8UoqwGfvKBgFo2AUDFQ9N2rvqL3I9ozaO3zsxWbPcLKXFuqJMQebn+iVf4eDvQBf5jEO
+   eJxjYKANuCJAvt5ScfL1vuAcGL2j/iUeUOLf4QgAPTIIFQ==
   </data>
  </layer>
- <layer id="31" name="Walkable0" width="30" height="30" visible="0">
+ <layer id="68" name="Objects_11x111x111x" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF9AYXxbDj4W4vLv4oGAWjYBSMglEwCkbBKBgFo2BgAACm4Q5x
+   eJxjYMANrgjgkSQASsXJ1/uCc2D0jvqXeDBQ/h2OAAAiFgkG
   </data>
  </layer>
- <objectgroup id="12" name="Mapevents">
-  <object id="75" name="south" type="mapchange" x="352" y="928" width="32" height="32">
+ <layer id="30" name="Objects0" width="15" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCQAAAOEAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Above" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANHouh0qQAauglRw0x9o7qpY7eR2Kk630oRr5eYsFA6SUXAABZhSII
+  </data>
+ </layer>
+ <layer id="7" name="Top" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIxHEsDMwxAJxHDvpenOAenKBOI8MvTVAPbVAXEeG3uEKADboBBU=
+  </data>
+ </layer>
+ <layer id="8" name="Walkable" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJy7KMbAcBEHBgFccoTwSNdLilmjevGrJQSGQnrAhwHm3bDd
+  </data>
+ </layer>
+ <objectgroup id="12" name="Mapevents" visible="0">
+  <object id="118" name="fey3_pump" type="script" x="96" y="0" width="288" height="480"/>
+  <object id="75" name="south" type="mapchange" x="128" y="448" width="32" height="32">
    <properties>
     <property name="map" value="guynmart_wood_17b"/>
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="1" name="north" type="mapchange" x="448" y="128" width="96" height="32">
+  <object id="1" name="fey3_j1" type="mapchange" x="224" y="288" width="32" height="32"/>
+  <object id="13" name="fey3_pump1" type="script" x="224" y="288" width="32" height="32"/>
+  <object id="85" name="fey3_pump2" type="script" x="224" y="256" width="32" height="32"/>
+  <object id="93" name="fey3_pump3" type="script" x="224" y="224" width="32" height="32"/>
+  <object id="92" name="fey3_pump4" type="script" x="224" y="192" width="32" height="32"/>
+  <object id="91" name="fey3_pump5" type="script" x="224" y="160" width="32" height="32"/>
+  <object id="90" name="fey3_pump6" type="script" x="224" y="128" width="32" height="32"/>
+  <object id="89" name="fey3_pump7" type="script" x="224" y="96" width="32" height="32"/>
+  <object id="88" name="fey3_pump8" type="script" x="224" y="64" width="32" height="32"/>
+  <object id="87" name="fey3_pump9" type="script" x="224" y="32" width="32" height="32"/>
+  <object id="86" name="fey3_pump10" type="script" x="224" y="0" width="32" height="32"/>
+  <object id="129" name="fey3_j0" type="mapchange" x="224" y="320" width="32" height="32"/>
+  <object id="119" name="fey3_j1" type="mapchange" x="224" y="288" width="32" height="32"/>
+  <object id="120" name="fey3_j2" type="mapchange" x="224" y="256" width="32" height="32"/>
+  <object id="121" name="fey3_j3" type="mapchange" x="224" y="224" width="32" height="32"/>
+  <object id="122" name="fey3_j4" type="mapchange" x="224" y="192" width="32" height="32"/>
+  <object id="123" name="fey3_j5" type="mapchange" x="224" y="160" width="32" height="32"/>
+  <object id="124" name="fey3_j6" type="mapchange" x="224" y="128" width="32" height="32"/>
+  <object id="125" name="fey3_j7" type="mapchange" x="224" y="96" width="32" height="32"/>
+  <object id="126" name="fey3_j8" type="mapchange" x="224" y="64" width="32" height="32"/>
+  <object id="127" name="fey3_j9" type="mapchange" x="224" y="32" width="32" height="32"/>
+  <object id="128" name="fey3_j10" type="mapchange" x="224" y="0" width="32" height="32"/>
+  <object id="130" name="fey3_pump" type="script" x="96" y="0" width="288" height="480">
    <properties>
-    <property name="map" value="feygard_outside1"/>
-    <property name="place" value="south"/>
+    <property name="when" value="always"/>
    </properties>
   </object>
-  <object id="13" name="fey3_pump1" type="script" x="448" y="768" width="32" height="32"/>
-  <object id="85" name="fey3_pump2" type="script" x="448" y="736" width="32" height="32"/>
-  <object id="93" name="fey3_pump3" type="script" x="448" y="704" width="32" height="32"/>
-  <object id="92" name="fey3_pump4" type="script" x="448" y="672" width="32" height="32"/>
-  <object id="91" name="fey3_pump5" type="script" x="448" y="640" width="32" height="32"/>
-  <object id="90" name="fey3_pump6" type="script" x="448" y="608" width="32" height="32"/>
-  <object id="89" name="fey3_pump7" type="script" x="448" y="576" width="32" height="32"/>
-  <object id="88" name="fey3_pump8" type="script" x="448" y="544" width="32" height="32"/>
-  <object id="87" name="fey3_pump9" type="script" x="448" y="512" width="32" height="32"/>
-  <object id="86" name="fey3_pump10" type="script" x="448" y="480" width="32" height="32"/>
+  <object id="132" name="fey3_pump_reset" type="script" x="128" y="416" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="13" name="Spawn">
-  <object id="72" name="fey3_guard_maingate1" type="spawn" x="384" y="224" width="32" height="32">
-   <properties>
-    <property name="ignoreAreas" value="true"/>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="fey3_guard_maingate1"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup id="13" name="Spawn" visible="0"/>
  <objectgroup id="14" name="Keys">
-  <object id="25" name="fey3_pump_entry" type="key" x="448" y="768" width="32" height="32">
+  <object id="25" name="fey3_pump_entry" type="key" x="224" y="320" width="32" height="32">
    <properties>
     <property name="phrase" value="fey3_pump_entry"/>
-    <property name="requireId" value="fey3_pump"/>
+    <property name="requireId" value="fey3_nondisplayed"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
+    <property name="requireValue" value="102"/>
    </properties>
   </object>
-  <object id="117" name="fey3_pump_lever" type="key" x="576" y="640" width="32" height="32">
+  <object id="117" name="fey3_pump_lever" type="key" x="352" y="160" width="32" height="32">
    <properties>
     <property name="phrase" value="fey3_pump_lever"/>
     <property name="requireId" value="andor"/>
@@ -403,198 +428,191 @@
     <property name="requireValue" value="1"/>
    </properties>
   </object>
+  <object id="131" name="fey3_pump_dummy" type="key" x="192" y="0" width="32" height="320">
+   <properties>
+    <property name="phrase" value="fey3_pump_dummy"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="15" name="Replace" visible="0">
-  <object id="32" name="fey3_pump_000a" type="replace" x="448" y="480" width="32" height="320">
+  <object id="32" name="Objects_1x111x111x1" type="replace" x="224" y="0" width="32" height="352">
    <properties>
-    <property name="Objects" value="Objects_000a"/>
+    <property name="Objects" value="Objects_1x111x111x1"/>
     <property name="requireId" value="fey3_pump"/>
     <property name="requireType" value="factionScoreEquals"/>
     <property name="requireValue" value="0"/>
    </properties>
   </object>
-  <object id="94" name="fey3_pump_000b" type="replace" x="448" y="480" width="32" height="320">
+  <object id="94" name="Objects_11x111x111x" type="replace" x="224" y="0" width="32" height="352">
    <properties>
-    <property name="Objects" value="Objects_000b"/>
+    <property name="Objects" value="Objects_11x111x111x"/>
     <property name="requireId" value="fey3_pump"/>
     <property name="requireType" value="factionScoreEquals"/>
     <property name="requireValue" value="1"/>
    </properties>
   </object>
-  <object id="95" name="fey3_pump_000c" type="replace" x="448" y="480" width="32" height="320">
+  <object id="95" name="Objects_111x111x111" type="replace" x="224" y="0" width="32" height="352">
    <properties>
-    <property name="Objects" value="Objects_000c"/>
+    <property name="Objects" value="Objects_111x111x111"/>
     <property name="requireId" value="fey3_pump"/>
     <property name="requireType" value="factionScoreEquals"/>
     <property name="requireValue" value="2"/>
    </properties>
   </object>
-  <object id="96" name="fey3_pump_000d" type="replace" x="448" y="480" width="32" height="320">
+  <object id="96" name="Objects_x111x111x11" type="replace" x="224" y="0" width="32" height="352">
    <properties>
-    <property name="Objects" value="Objects_000d"/>
+    <property name="Objects" value="Objects_x111x111x11"/>
     <property name="requireId" value="fey3_pump"/>
     <property name="requireType" value="factionScoreEquals"/>
     <property name="requireValue" value="3"/>
    </properties>
   </object>
-  <object id="97" name="fey3_pump_100a" type="replace" x="448" y="480" width="32" height="320">
+  <object id="99" name="Objects_0x111x111x1" type="replace" x="224" y="0" width="32" height="352">
    <properties>
-    <property name="Objects" value="Objects_000a"/>
+    <property name="Objects" value="Objects_0x111x111x1"/>
     <property name="requireId" value="fey3_pump"/>
     <property name="requireType" value="factionScoreEquals"/>
     <property name="requireValue" value="4"/>
    </properties>
   </object>
-  <object id="98" name="fey3_pump_100b" type="replace" x="448" y="480" width="32" height="320">
+  <object id="100" name="Objects_00x000x111x" type="replace" x="224" y="0" width="32" height="352">
    <properties>
-    <property name="Objects" value="Objects_100b"/>
+    <property name="Objects" value="Objects_00x000x111x"/>
     <property name="requireId" value="fey3_pump"/>
     <property name="requireType" value="factionScoreEquals"/>
     <property name="requireValue" value="5"/>
    </properties>
   </object>
-  <object id="99" name="fey3_pump_100c" type="replace" x="448" y="480" width="32" height="320">
+  <object id="97" name="Objects_000x000x111" type="replace" x="224" y="0" width="32" height="352">
    <properties>
-    <property name="Objects" value="Objects_100c"/>
+    <property name="Objects" value="Objects_000x000x111"/>
     <property name="requireId" value="fey3_pump"/>
     <property name="requireType" value="factionScoreEquals"/>
     <property name="requireValue" value="6"/>
    </properties>
   </object>
-  <object id="100" name="fey3_pump_100d" type="replace" x="448" y="480" width="32" height="320">
+  <object id="98" name="Objects_x000x000x11" type="replace" x="224" y="0" width="32" height="352">
    <properties>
-    <property name="Objects" value="Objects_100d"/>
+    <property name="Objects" value="Objects_x000x000x11"/>
     <property name="requireId" value="fey3_pump"/>
     <property name="requireType" value="factionScoreEquals"/>
     <property name="requireValue" value="7"/>
    </properties>
   </object>
-  <object id="101" name="fey3_pump_110a" type="replace" x="448" y="480" width="32" height="320">
+  <object id="103" name="Objects_0x000x000x1" type="replace" x="224" y="0" width="32" height="352">
    <properties>
-    <property name="Objects" value="Objects_110a"/>
+    <property name="Objects" value="Objects_0x000x000x1"/>
     <property name="requireId" value="fey3_pump"/>
     <property name="requireType" value="factionScoreEquals"/>
     <property name="requireValue" value="8"/>
    </properties>
   </object>
-  <object id="102" name="fey3_pump_110b" type="replace" x="448" y="480" width="32" height="320">
+  <object id="104" name="Objects_00x000x000x" type="replace" x="224" y="0" width="32" height="352">
    <properties>
-    <property name="Objects" value="Objects_110b"/>
+    <property name="Objects" value="Objects_00x000x000x"/>
     <property name="requireId" value="fey3_pump"/>
     <property name="requireType" value="factionScoreEquals"/>
     <property name="requireValue" value="9"/>
    </properties>
   </object>
-  <object id="103" name="fey3_pump_110c" type="replace" x="448" y="480" width="32" height="320">
+  <object id="101" name="Objects_000x000x000" type="replace" x="224" y="0" width="32" height="352">
    <properties>
-    <property name="Objects" value="Objects_110c"/>
+    <property name="Objects" value="Objects_000x000x000"/>
     <property name="requireId" value="fey3_pump"/>
     <property name="requireType" value="factionScoreEquals"/>
     <property name="requireValue" value="10"/>
    </properties>
   </object>
-  <object id="104" name="fey3_pump_110d" type="replace" x="448" y="480" width="32" height="320">
+  <object id="102" name="Objects_x000x000x00" type="replace" x="224" y="0" width="32" height="352">
    <properties>
-    <property name="Objects" value="Objects_110d"/>
+    <property name="Objects" value="Objects_x000x000x00"/>
     <property name="requireId" value="fey3_pump"/>
     <property name="requireType" value="factionScoreEquals"/>
     <property name="requireValue" value="11"/>
    </properties>
   </object>
-  <object id="105" name="fey3_pump_111a" type="replace" x="448" y="480" width="32" height="320">
+  <object id="107" name="Objects_0x000x000x0" type="replace" x="224" y="0" width="32" height="352">
    <properties>
-    <property name="Objects" value="Objects_111a"/>
+    <property name="Objects" value="Objects_0x000x000x0"/>
     <property name="requireId" value="fey3_pump"/>
     <property name="requireType" value="factionScoreEquals"/>
     <property name="requireValue" value="12"/>
    </properties>
   </object>
-  <object id="106" name="fey3_pump_111b" type="replace" x="448" y="480" width="32" height="320">
+  <object id="108" name="Objects_1x000x000x0" type="replace" x="224" y="0" width="32" height="352">
    <properties>
-    <property name="Objects" value="Objects_111b"/>
-    <property name="requireId" value="fey3_pump"/>
-    <property name="requireType" value="factionScoreEquals"/>
-    <property name="requireValue" value="13"/>
-   </properties>
-  </object>
-  <object id="107" name="fey3_pump_111c" type="replace" x="448" y="480" width="32" height="320">
-   <properties>
-    <property name="Objects" value="Objects_111c"/>
-    <property name="requireId" value="fey3_pump"/>
-    <property name="requireType" value="factionScoreEquals"/>
-    <property name="requireValue" value="14"/>
-   </properties>
-  </object>
-  <object id="108" name="fey3_pump_111d" type="replace" x="448" y="480" width="32" height="320">
-   <properties>
-    <property name="Objects" value="Objects_111d"/>
-    <property name="requireId" value="fey3_pump"/>
-    <property name="requireType" value="factionScoreEquals"/>
-    <property name="requireValue" value="15"/>
-   </properties>
-  </object>
-  <object id="109" name="fey3_pump_011a" type="replace" x="448" y="480" width="32" height="320">
-   <properties>
-    <property name="Objects" value="Objects_011a"/>
-    <property name="requireId" value="fey3_pump"/>
-    <property name="requireType" value="factionScoreEquals"/>
-    <property name="requireValue" value="16"/>
-   </properties>
-  </object>
-  <object id="110" name="fey3_pump_011b" type="replace" x="448" y="480" width="32" height="320">
-   <properties>
-    <property name="Objects" value="Objects_011b"/>
-    <property name="requireId" value="fey3_pump"/>
-    <property name="requireType" value="factionScoreEquals"/>
-    <property name="requireValue" value="17"/>
-   </properties>
-  </object>
-  <object id="111" name="fey3_pump_011c" type="replace" x="448" y="480" width="32" height="320">
-   <properties>
-    <property name="Objects" value="Objects_011c"/>
-    <property name="requireId" value="fey3_pump"/>
-    <property name="requireType" value="factionScoreEquals"/>
-    <property name="requireValue" value="18"/>
-   </properties>
-  </object>
-  <object id="112" name="fey3_pump_011d" type="replace" x="448" y="480" width="32" height="320">
-   <properties>
-    <property name="Objects" value="Objects_011d"/>
-    <property name="requireId" value="fey3_pump"/>
-    <property name="requireType" value="factionScoreEquals"/>
-    <property name="requireValue" value="19"/>
-   </properties>
-  </object>
-  <object id="113" name="fey3_pump_001a" type="replace" x="448" y="480" width="32" height="320">
-   <properties>
-    <property name="Objects" value="Objects_001a"/>
+    <property name="Objects" value="Objects_1x000x000x0"/>
     <property name="requireId" value="fey3_pump"/>
     <property name="requireType" value="factionScoreEquals"/>
     <property name="requireValue" value="20"/>
    </properties>
   </object>
-  <object id="114" name="fey3_pump_001b" type="replace" x="448" y="480" width="32" height="320">
+  <object id="105" name="Objects_11x000x000x" type="replace" x="224" y="0" width="32" height="352">
    <properties>
-    <property name="Objects" value="Objects_001b"/>
+    <property name="Objects" value="Objects_11x000x000x"/>
     <property name="requireId" value="fey3_pump"/>
     <property name="requireType" value="factionScoreEquals"/>
     <property name="requireValue" value="21"/>
    </properties>
   </object>
-  <object id="115" name="fey3_pump_001c" type="replace" x="448" y="480" width="32" height="320">
+  <object id="106" name="Objects_111x000x000" type="replace" x="224" y="0" width="32" height="352">
    <properties>
-    <property name="Objects" value="Objects_001c"/>
+    <property name="Objects" value="Objects_111x000x000"/>
     <property name="requireId" value="fey3_pump"/>
     <property name="requireType" value="factionScoreEquals"/>
     <property name="requireValue" value="22"/>
    </properties>
   </object>
-  <object id="116" name="fey3_pump_001d" type="replace" x="448" y="480" width="32" height="320">
+  <object id="111" name="Objects_x111x000x00" type="replace" x="224" y="0" width="32" height="352">
    <properties>
-    <property name="Objects" value="Objects_001d"/>
+    <property name="Objects" value="Objects_x111x000x00"/>
     <property name="requireId" value="fey3_pump"/>
     <property name="requireType" value="factionScoreEquals"/>
     <property name="requireValue" value="23"/>
+   </properties>
+  </object>
+  <object id="112" name="Objects_1x111x000x0" type="replace" x="224" y="0" width="32" height="352">
+   <properties>
+    <property name="Objects" value="Objects_1x111x000x0"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="24"/>
+   </properties>
+  </object>
+  <object id="109" name="Objects_11x111x000x" type="replace" x="224" y="0" width="32" height="352">
+   <properties>
+    <property name="Objects" value="Objects_11x111x000x"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="25"/>
+   </properties>
+  </object>
+  <object id="110" name="Objects_111x111x000" type="replace" x="224" y="0" width="32" height="352">
+   <properties>
+    <property name="Objects" value="Objects_111x111x000"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="26"/>
+   </properties>
+  </object>
+  <object id="115" name="Objects_1x111x111x0" type="replace" x="224" y="0" width="32" height="352">
+   <properties>
+    <property name="Objects" value="Objects_1x111x111x0"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="27"/>
+   </properties>
+  </object>
+  <object id="116" name="Objects_11x111x111x" type="replace" x="224" y="0" width="32" height="352">
+   <properties>
+    <property name="Objects" value="Objects_11x111x111x"/>
+    <property name="requireId" value="fey3_pump"/>
+    <property name="requireType" value="factionScoreEquals"/>
+    <property name="requireValue" value="28"/>
    </properties>
   </object>
  </objectgroup>

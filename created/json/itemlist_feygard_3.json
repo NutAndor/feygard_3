@@ -1,20 +1,20 @@
 [
     {
-        "id":"ogercrystal",
+        "id":"ogrecrystal",
         "iconID":"items_weapons_3:18",
-        "name":"Crystal for Oger banning",
+        "name":"Crystal for ogre banning",
         "category":"quest"
     },
     {
-        "id":"ogertorch",
+        "id":"ogretorch",
         "iconID":"items_weapons_3:18",
-        "name":"Torch for Oger banning",
+        "name":"Torch for ogre banning",
         "category":"quest"
     },
     {
-        "id":"ogersign",
+        "id":"ogresign",
         "iconID":"items_weapons_3:18",
-        "name":"Sign for Oger banning",
+        "name":"Sign for ogre banning",
         "description":"E X I T",
         "category":"quest"
     }

@@ -1,0 +1,610 @@
+[
+    {
+        "id":"fey3_ogre_nc",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogre_nc_90",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":90 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogre_nc_80",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":80 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogre_nc_70",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":70 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogre_nc_60",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":60 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogre_nc_40",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":11 },
+							{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":12 },
+							{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":13 },
+							{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":14 },
+							{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":15 },
+							{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":16 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogre_nc_52",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":52 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogre_nc_20",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":51 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogre_nc_10_e"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_s2",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogrewall_s_12",
+                "requires":[
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":11 },
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":12 },
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":13 },
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":14 },
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":15 },
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":16 },
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":60 },
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":61, "negate":true }
+				]
+			},
+            {
+                "nextPhraseID":"fey3_ogrewall_s_14",
+                "requires":[
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":5 },
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":62, "negate":true },
+					{ "requireType":"timerElapsed",  "requireID":"fey3_ogrewall", "value":1 }]
+            },
+            {
+                "nextPhraseID":"fey3_ogrewall_s_20",
+                "requires":[
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":5 },
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":70, "negate":true },
+					{ "requireType":"timerElapsed",  "requireID":"fey3_ogrewall", "value":5 }]
+            },
+            {
+                "nextPhraseID":"fey3_ogrewall_s_30",
+                "requires":[
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":80, "negate":true },
+                    { "requireType":"timerElapsed",  "requireID":"fey3_ogrewall", "value":8 }]
+            },
+            {
+                "nextPhraseID":"fey3_ogrewall_s_40",
+                "requires":[
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":90, "negate":true },
+                    { "requireType":"timerElapsed", "requireID":"fey3_ogrewall", "value":13 }]
+            },
+            {
+                "nextPhraseID":"fey3_ogrewall_s_14",
+                "requires":[
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":5, "negate":true },
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":62, "negate":true  }, 
+					{ "requireType":"timerElapsed",  "requireID":"fey3_ogrewall", "value":2 }]
+            },
+            {
+                "nextPhraseID":"fey3_ogrewall_s_20",
+                "requires":[
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":5, "negate":true },
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":70, "negate":true },
+					{ "requireType":"timerElapsed",  "requireID":"fey3_ogrewall", "value":100 }]
+            },
+            {
+                "nextPhraseID":"fey3_ogrewall_s9"
+            }
+		]
+    },
+    {
+        "id":"fey3_ogrewall_s9",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogrewall_s_10",
+                "requires":[
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":1 },
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":2 },
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":3 },
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":4 },
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":60, "negate":true }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_s_10",
+        "rewards":[
+			{ "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":60 },
+            { "rewardType":"spawnAll", "rewardID":"fey3_ogre", "mapName":"feygard_outside1" }]
+    },
+    {
+        "id":"fey3_ogrewall_s_12",
+        "rewards":[
+            { "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":61 },
+            { "rewardType":"createTimer", "rewardID":"fey3_ogrewall" }]
+    },
+    {
+        "id":"fey3_ogrewall_s_14",
+        "message":"The fence of torches is closed. I'm curious to see what the ogre will do.",
+        "rewards":[
+            { "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":62 }]
+    },
+    {
+        "id":"fey3_ogrewall_s_20",
+        "message":"[Shocked] The ogre has torn a huge hole in the wall!",
+        "replies":[
+            {
+                "text": "N",
+                "nextPhraseID":"X"
+			}
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_ogrewall",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogrewall_s_30",
+        "message":"And now the Ogre vanishes through that hole.",
+        "replies":[
+            {
+                "text": "N",
+                "nextPhraseID":"X"
+			}
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_ogrewall",
+                "value":80
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fey3_ogre",
+                "mapName":"feygard_outside1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogrewall_s_40",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+			}
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_ogrewall",
+                "value":90
+            }
+        ]
+    },
+  {
+    "id": "fey3_ogrewall_s_90",
+    "message": "The Ogre must have gotten impatient and smashed the wall even without an Exit sign.",
+        "rewards":[
+            { "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":70 },
+            { "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":80 },
+            { "rewardType":"removeSpawnArea", "rewardID":"fey3_ogre", "mapName":"feygard_outside1" },
+            { "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":90 } ]
+  
+  },
+    {
+        "id":"fey3_ogrewall_b1",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogrewall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogrecrystal", "value":1 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogrewall_b1_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":1, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogrecrystal", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_b1_10",
+        "message":"Do you want to place an ogre crystal here?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogrewall_b1_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogrecrystal", "value":1 }]
+			},
+            {
+                "text":"I should put the sign on the wall first.",
+				"nextPhraseID":"X",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":2 },
+							{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":3 },
+							{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":4 },
+							{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":5, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogrecrystal", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_b1_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":1 }]
+    },
+    {
+        "id":"fey3_ogrewall_b2",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogrewall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogrecrystal", "value":1 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogrewall_b2_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":2, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogrecrystal", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_b2_10",
+        "message":"Do you want to place an ogre crystal here?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogrewall_b2_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogrecrystal", "value":1 }]
+			},
+            {
+                "text":"I should put the sign on the wall first.",
+				"nextPhraseID":"X",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":1 },
+							{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":3 },
+							{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":4 },
+							{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":5, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogrecrystal", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_b2_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":2 }]
+    },
+    {
+        "id":"fey3_ogrewall_b3",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogrewall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogrecrystal", "value":1 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogrewall_b3_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":3, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogrecrystal", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_b3_10",
+        "message":"Do you want to place an ogre crystal here?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogrewall_b3_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogrecrystal", "value":1 }]
+			},
+            {
+                "text":"I should put the sign on the wall first.",
+				"nextPhraseID":"X",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":1 },
+							{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":2 },
+							{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":4 },
+							{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":5, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogrecrystal", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_b3_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":3 }]
+    },
+    {
+        "id":"fey3_ogrewall_b4",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogrewall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogrecrystal", "value":1 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogrewall_b4_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":4, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogrecrystal", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_b4_10",
+        "message":"Do you want to place an ogre crystal here?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogrewall_b4_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogrecrystal", "value":1 }]
+			},
+            {
+                "text":"I should put the sign on the wall first.",
+				"nextPhraseID":"X",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":1 },
+							{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":2 },
+							{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":3 },
+							{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":5, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogrecrystal", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_b4_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":4 }]
+    },
+    {
+        "id":"fey3_ogrewall_bx",
+        "message":"It's better not to place anything suspicious while you are being watched by a guard."
+    },
+    {
+        "id":"fey3_ogrewall_f1",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogrewall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogretorch", "value":1 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogrewall_f1_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":11, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogretorch", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_f1_10",
+        "message":"Do you want to place a bright shining torch next to you?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogrewall_f1_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogretorch", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_f1_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":11 }]
+    },
+    {
+        "id":"fey3_ogrewall_f2",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogrewall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogretorch", "value":1 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogrewall_f2_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":12, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogretorch", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_f2_10",
+        "message":"Do you want to place a bright shining torch next to you?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogrewall_f2_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogretorch", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_f2_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":12 }]
+    },
+    {
+        "id":"fey3_ogrewall_f3",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogrewall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogretorch", "value":1 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogrewall_f3_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":13, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogretorch", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_f3_10",
+        "message":"Do you want to place a bright shining torch next to you?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogrewall_f3_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogretorch", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_f3_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":13 }]
+    },
+    {
+        "id":"fey3_ogrewall_f4",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogrewall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogretorch", "value":1 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogrewall_f4_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":14, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogretorch", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_f4_10",
+        "message":"Do you want to place a bright shining torch next to you?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogrewall_f4_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogretorch", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_f4_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":14 }]
+    },
+    {
+        "id":"fey3_ogrewall_f5",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogrewall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogretorch", "value":1 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogrewall_f5_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":15, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogretorch", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_f5_10",
+        "message":"Do you want to place a bright shining torch next to you?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogrewall_f5_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogretorch", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_f5_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":15 }]
+    },
+    {
+        "id":"fey3_ogrewall_f6",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogrewall_bx",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_nd", "value":10, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogretorch", "value":1 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogrewall_f6_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":16, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogretorch", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_f6_10",
+        "message":"Do you want to place a bright shining torch next to you?",
+        "replies":[
+            {
+                "text":"Yes",
+				"nextPhraseID":"fey3_ogrewall_f6_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogretorch", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_f6_20",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":16 }]
+    },
+    {
+        "id":"fey3_ogrewall_sign",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogrewall_sign_10",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":5, "negate":true },
+							{ "requireType":"inventoryKeep", "requireID":"ogresign", "value":1 }]
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_sign_10",
+        "message":"Here is a good place to put an exit sign on the wall.",
+        "replies":[
+            {
+                "text":"Let's do it.",
+				"nextPhraseID":"fey3_ogrewall_sign_20",
+                "requires":[{ "requireType":"inventoryRemove", "requireID":"ogresign", "value":1 }]
+			},
+            {
+                "text":"No",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_sign_20",
+        "message":"Nice.",
+        "rewards":[{ "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":5 }]
+    }
+]

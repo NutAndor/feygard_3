@@ -59,7 +59,6 @@
             {
                 "nextPhraseID":"fey3_ogrewall_s_14",
                 "requires":[
-					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":5 },
 					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":62, "negate":true },
 					{ "requireType":"timerElapsed",  "requireID":"fey3_ogrewall", "value":1 }]
             },
@@ -68,32 +67,27 @@
                 "requires":[
 					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":5 },
 					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":70, "negate":true },
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":71, "negate":true },
 					{ "requireType":"timerElapsed",  "requireID":"fey3_ogrewall", "value":5 }]
             },
             {
                 "nextPhraseID":"fey3_ogrewall_s_30",
                 "requires":[
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":70 },
 					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":80, "negate":true },
                     { "requireType":"timerElapsed",  "requireID":"fey3_ogrewall", "value":8 }]
             },
             {
                 "nextPhraseID":"fey3_ogrewall_s_40",
                 "requires":[
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":70 },
 					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":90, "negate":true },
                     { "requireType":"timerElapsed", "requireID":"fey3_ogrewall", "value":13 }]
             },
             {
-                "nextPhraseID":"fey3_ogrewall_s_14",
+                "nextPhraseID":"fey3_ogrewall_s_90",
                 "requires":[
-					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":5, "negate":true },
-					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":62, "negate":true  }, 
-					{ "requireType":"timerElapsed",  "requireID":"fey3_ogrewall", "value":2 }]
-            },
-            {
-                "nextPhraseID":"fey3_ogrewall_s_20",
-                "requires":[
-					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":5, "negate":true },
-					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":70, "negate":true },
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":71 },
 					{ "requireType":"timerElapsed",  "requireID":"fey3_ogrewall", "value":100 }]
             },
             {
@@ -135,7 +129,19 @@
     },
     {
         "id":"fey3_ogrewall_s_20",
-        "message":"[Shocked] The ogre has torn a huge hole in the wall!",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_ogrewall_s_22",
+                "requires":[{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":5 }]
+			},
+            {
+                "nextPhraseID":"fey3_ogrewall_s_24"
+			}
+		]
+    },
+    {
+        "id":"fey3_ogrewall_s_22",
+        "message":"[Shocked] The ogre has torn a huge hole into the wall!",
         "replies":[
             {
                 "text": "N",
@@ -147,6 +153,23 @@
                 "rewardType":"questProgress",
                 "rewardID":"fey3_ogrewall",
                 "value":70
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogrewall_s_24",
+        "message":"Oh no! I have forgotten to install the Exit sign!",
+        "replies":[
+            {
+                "text": "N",
+                "nextPhraseID":"X"
+			}
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_ogrewall",
+                "value":71
             }
         ]
     },
@@ -189,7 +212,7 @@
     },
   {
     "id": "fey3_ogrewall_s_90",
-    "message": "The Ogre must have gotten impatient and smashed the wall even without an Exit sign.",
+    "message": "Phew! The Ogre must have gotten impatient and smashed the wall even without an Exit sign.",
         "rewards":[
             { "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":70 },
             { "rewardType":"questProgress", "rewardID":"fey3_ogrewall", "value":80 },

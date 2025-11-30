@@ -55,6 +55,8 @@
 	"logText":"62=Timer continued" },
   { "progress":70, 
 	"logText":"70=Hole visible" },
+  { "progress":71, 
+	"logText":"71=Exit sign forgotten" },
   { "progress":80, 
 	"logText":"80=Ogre despawned" },
   { "progress":90, 

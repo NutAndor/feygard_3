@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="32" nextobjectid="86">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="32" nextobjectid="87">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -278,6 +278,11 @@
   </data>
  </layer>
  <layer id="6" name="Above" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQw18FqOt+YUKDAxFSLhYASL+mMb2NgLtaULCzXSydyLQnklIeDLU3k80tncU0AfclMTPH25g1L8D4w56AUr8e3EIlmkjLX5HwSgYBaNgIAAAyWcX3Q==
+  </data>
+ </layer>
+ <layer name="Above_new" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJxjYBgFQw18FqOt+YUKDAxFSLhYASL+mMb2NgLtaULCzXSydyLQnklIeDLU3k80tncU0AfclMTPH25g1L8D4w56gVH/Dow7RsEoGAWjYDgDAEJSFvY=
   </data>

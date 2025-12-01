@@ -43,6 +43,12 @@
     {
         "id":"fey3_ogrewall_s2",
         "replies":[
+,
+            {
+                "nextPhraseID":"X",
+                "requires":[
+					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":90 }]
+            },
             {
                 "nextPhraseID":"fey3_ogrewall_s_12",
                 "requires":[
@@ -65,7 +71,6 @@
             {
                 "nextPhraseID":"fey3_ogrewall_s_20",
                 "requires":[
-					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":5 },
 					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":70, "negate":true },
 					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":71, "negate":true },
 					{ "requireType":"timerElapsed",  "requireID":"fey3_ogrewall", "value":5 }]
@@ -81,14 +86,13 @@
                 "nextPhraseID":"fey3_ogrewall_s_40",
                 "requires":[
 					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":70 },
-					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":90, "negate":true },
                     { "requireType":"timerElapsed", "requireID":"fey3_ogrewall", "value":13 }]
             },
             {
                 "nextPhraseID":"fey3_ogrewall_s_90",
                 "requires":[
 					{ "requireType":"questProgress", "requireID":"fey3_ogrewall", "value":71 },
-					{ "requireType":"timerElapsed",  "requireID":"fey3_ogrewall", "value":100 }]
+					{ "requireType":"timerElapsed",  "requireID":"fey3_ogrewall", "value":25 }]
             },
             {
                 "nextPhraseID":"fey3_ogrewall_s9"
@@ -394,7 +398,7 @@
     },
     {
         "id":"fey3_ogrewall_bx",
-        "message":"It's better not to place anything suspicious while you are being watched by a guard."
+        "message":"It is better not to place anything suspicious while being observed from above by a guard."
     },
     {
         "id":"fey3_ogrewall_f1",

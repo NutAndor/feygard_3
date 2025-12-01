@@ -17,7 +17,7 @@
     {
         "id":"fey3_ogrewall",
         "name":"fey3_ogrewall",
-        "showInLog":0,
+        "showInLog":1,
         "stages":[
   { "progress":1, 
 	"logText":"1=Ogre crystal 1" },

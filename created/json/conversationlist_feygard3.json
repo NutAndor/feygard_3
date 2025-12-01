@@ -1285,6 +1285,10 @@
     "message": "Now there's a nice entrance, but the Ogre is watching it. Make him go away!"
   },
   {
+    "id": "fey3_ogre_nc_71",
+    "message": "The Ogre is there. But you have forgotten to install the sign! It's all your fault, you blockhead!"
+  },
+  {
     "id": "fey3_ogre_nc_80",
     "message": "Why are the torches still burning and barring the way? It's all your fault."
   },

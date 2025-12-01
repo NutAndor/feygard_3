@@ -457,6 +457,7 @@
   </object>
   <object id="85" name="fey3_guard_maingate0_left2" type="spawn" x="512" y="64" width="32" height="32">
    <properties>
+    <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="1"/>
     <property name="spawngroup" value="fey3_guard_maingate0_left2"/>

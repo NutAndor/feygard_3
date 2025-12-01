@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="32" nextobjectid="87">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="33" nextobjectid="87">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -227,62 +227,57 @@
    eJxjYBgFAwFSmAbG3ntsDAz3gfgBECfT0Q3vgPa9B+IPQFxMJ3tfCDIw3ADil2IMDD+FIGyQGL3AHyH62QUC2PxGL//eEMTOpjVA9h8943YUjIJRMApGwSgYBaNguAAA7JYTYQ==
   </data>
  </layer>
- <layer id="16" name="Objects_b1" width="30" height="30" visible="0">
+ <layer id="16" name="Objects_b1" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztzgENAAAIA6B3MIb9+xlD5yABCfzVtT0AAIC7BsO7AD8=
   </data>
  </layer>
- <layer id="17" name="Objects_b2" width="30" height="30" visible="0">
+ <layer id="17" name="Objects_b2" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztzjEBAAAIA6B1MIb9+9lBDx9IQAJw0/U9AABgYwBsiwA/
   </data>
  </layer>
- <layer id="18" name="Objects_b3" width="30" height="30" visible="0">
+ <layer id="18" name="Objects_b3" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztzjENAAAIA7B5QAb+/WGBg4SnVdAE4E7X9wAAgK0BaaMAPw==
   </data>
  </layer>
- <layer id="19" name="Objects_b4" width="30" height="30" visible="0">
+ <layer id="19" name="Objects_b4" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztzgENAAAIA6B3MIb9+xlDNyEBCfzQtT0AAIBbBsDTAD8=
   </data>
  </layer>
- <layer id="20" name="Objects_f1" width="30" height="30" visible="0">
+ <layer id="20" name="Objects_f1" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztzgENAAAIA6BXsJ39kxhD5yABCfzUtT0AAIDbBqaPAGo=
   </data>
  </layer>
- <layer id="21" name="Objects_f2" width="30" height="30" visible="0">
+ <layer id="21" name="Objects_f2" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztzgENAAAIA6BXsJ39kxjD6SABCfBB1/YAAIBrBkQfAGo=
   </data>
  </layer>
- <layer id="22" name="Objects_f3" width="30" height="30" visible="0">
+ <layer id="22" name="Objects_f3" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztzgENAAAIA6BXsJ39kxjDfYMEJACddr4HAADdDt/8AGo=
   </data>
  </layer>
- <layer id="23" name="Objects_f4" width="30" height="30" visible="0">
+ <layer id="23" name="Objects_f4" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztzgENAAAIA6BXsJ39kxjDfYMEJAD9dr4HAAB9DtsQAGo=
   </data>
  </layer>
- <layer id="24" name="Objects_f5" width="30" height="30" visible="0">
+ <layer id="24" name="Objects_f5" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztzgENAAAIA6BXsJ39kxhD5yABCfBV1/YAAIDLBjvrAGo=
   </data>
  </layer>
- <layer id="25" name="Objects_f6" width="30" height="30" visible="0">
+ <layer id="25" name="Objects_f6" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztzgENAAAIA6BXsJ39kxhDNyEBCfzRtT0AAIA7Bp5bAGo=
   </data>
  </layer>
  <layer id="6" name="Above" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFQw18FqOt+YUKDAxFSLhYASL+mMb2NgLtaULCzXSydyLQnklIeDLU3k80tncU0AfclMTPH25g1L8D4w56AUr8e3EIlmkjLX5HwSgYBaNgIAAAyWcX3Q==
-  </data>
- </layer>
- <layer name="Above_new" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJxjYBgFQw18FqOt+YUKDAxFSLhYASL+mMb2NgLtaULCzXSydyLQnklIeDLU3k80tncU0AfclMTPH25g1L8D4w56gVH/Dow7RsEoGAWjYDgDAEJSFvY=
   </data>
@@ -552,7 +547,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="15" name="Replace" visible="0">
+ <objectgroup id="15" name="Replace">
   <object id="32" name="fey3_ogrewall_b1" type="replace" x="128" y="192" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_b1"/>

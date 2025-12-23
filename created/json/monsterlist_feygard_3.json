@@ -53,6 +53,7 @@
             "min":8,
             "max":20
         },
+        "phraseID":"fey3_ogre_nc",
         "droplistID":"fey3_ogre_nc",
         "attackCost":6,
         "attackChance":140,
@@ -71,8 +72,7 @@
                     "chance":"50"
                 }
             ]
-        },
-        "phraseID":"fey3_ogre_nc"
+        }
     },
     {
         "id":"fey3_ogre_nc2",
@@ -81,8 +81,8 @@
         "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
-        "droplistID":"fey3_ogre_nc",
-        "phraseID":"fey3_ogre_nc"
+        "phraseID":"fey3_ogre_nc",
+        "droplistID":"fey3_ogre_nc"
     },
     {
         "id":"fey3_ogre_nc3",
@@ -91,8 +91,8 @@
         "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
-        "droplistID":"fey3_ogre_nc",
-        "phraseID":"fey3_ogre_nc"
+        "phraseID":"fey3_ogre_nc",
+        "droplistID":"fey3_ogre_nc"
     },
     {
         "id":"fey3_ogre_nc4",
@@ -101,8 +101,8 @@
         "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
-        "droplistID":"fey3_ogre_nc",
-        "phraseID":"fey3_ogre_nc"
+        "phraseID":"fey3_ogre_nc",
+        "droplistID":"fey3_ogre_nc"
     },
     {
         "id":"fey3_ogre_nc5",
@@ -111,8 +111,8 @@
         "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
-        "droplistID":"fey3_ogre_nc",
-        "phraseID":"fey3_ogre_nc"
+        "phraseID":"fey3_ogre_nc",
+        "droplistID":"fey3_ogre_nc"
     },
     {
         "id":"fey3_guard_maingate",
@@ -120,8 +120,8 @@
         "iconID":"monsters_ld1:40",
         "moveCost":5,
         "monsterClass":"humanoid",
-        "droplistID":"fey3_guard",
-        "phraseID":"fey3_guard_maingate"
+        "phraseID":"fey3_guard_maingate",
+        "droplistID":"fey3_guard"
     },
     {
         "id":"fey3_guard_maingate0_left",
@@ -129,8 +129,8 @@
         "iconID":"monsters_ld1:40",
         "moveCost":5,
         "monsterClass":"humanoid",
-        "droplistID":"fey3_guard",
-        "phraseID":"fey3_guard_maingate0"
+        "phraseID":"fey3_guard_maingate0",
+        "droplistID":"fey3_guard"
     },
     {
         "id":"fey3_guard_maingate0_left2",
@@ -138,8 +138,8 @@
         "iconID":"monsters_ld1:40",
         "moveCost":5,
         "monsterClass":"humanoid",
-        "droplistID":"fey3_guard",
-        "phraseID":"fey3_guard_maingate0"
+        "phraseID":"fey3_guard_maingate0",
+        "droplistID":"fey3_guard"
     },
     {
         "id":"fey3_guard_maingate0_right",
@@ -147,8 +147,8 @@
         "iconID":"monsters_ld1:40",
         "moveCost":5,
         "monsterClass":"humanoid",
-        "droplistID":"fey3_guard",
-        "phraseID":"fey3_guard_maingate0"
+        "phraseID":"fey3_guard_maingate0",
+        "droplistID":"fey3_guard"
     },
     {
         "id":"fey3_guard_maingate1",
@@ -156,8 +156,8 @@
         "iconID":"monsters_ld1:67",
         "moveCost":5,
         "monsterClass":"humanoid",
-        "droplistID":"fey3_guard",
-        "phraseID":"fey3_guard_maingate1"
+        "phraseID":"fey3_guard_maingate1",
+        "droplistID":"fey3_guard"
     },
     {
         "id":"fey3_guard_maingate2",
@@ -165,8 +165,8 @@
         "iconID":"monsters_ld1:66",
         "moveCost":5,
         "monsterClass":"humanoid",
-        "droplistID":"fey3_guard",
-        "phraseID":"fey3_guard_maingate2"
+        "phraseID":"fey3_guard_maingate2",
+        "droplistID":"fey3_guard"
     },
     {
         "id":"fey3_guard_maingate3",
@@ -174,8 +174,8 @@
         "iconID":"monsters_ld1:66",
         "moveCost":5,
         "monsterClass":"humanoid",
-        "droplistID":"fey3_guard",
-        "phraseID":"fey3_guard_maingate3"
+        "phraseID":"fey3_guard_maingate3",
+        "droplistID":"fey3_guard"
     },
     {
         "id":"fey3_guard_maingate4",
@@ -183,8 +183,8 @@
         "iconID":"monsters_ld1:67",
         "moveCost":5,
         "monsterClass":"humanoid",
-        "droplistID":"fey3_guard",
-        "phraseID":"fey3_guard_maingate4"
+        "phraseID":"fey3_guard_maingate4",
+        "droplistID":"fey3_guard"
     },
     {
         "id":"fey3_guard_maingate5",
@@ -192,8 +192,8 @@
         "iconID":"monsters_ld1:66",
         "moveCost":5,
         "monsterClass":"humanoid",
-        "droplistID":"fey3_guard",
-        "phraseID":"fey3_guard_maingate5"
+        "phraseID":"fey3_guard_maingate5",
+        "droplistID":"fey3_guard"
     },
     {
         "id":"fey3_guard_maingate6",
@@ -201,8 +201,8 @@
         "iconID":"monsters_ld1:66",
         "moveCost":5,
         "monsterClass":"humanoid",
-        "droplistID":"fey3_guard",
-        "phraseID":"fey3_guard_maingate6"
+        "phraseID":"fey3_guard_maingate6",
+        "droplistID":"fey3_guard"
     },
     {
         "id":"fey3_guard_maingate_left",
@@ -210,8 +210,8 @@
         "iconID":"monsters_ld1:67",
         "moveCost":5,
         "monsterClass":"humanoid",
-        "droplistID":"fey3_guard",
-        "phraseID":"fey3_guard_maingate_left"
+        "phraseID":"fey3_guard_maingate_left",
+        "droplistID":"fey3_guard"
     },
     {
         "id":"fey3_guard_maingate_left2",
@@ -219,8 +219,8 @@
         "iconID":"monsters_ld1:67",
         "moveCost":5,
         "monsterClass":"humanoid",
-        "droplistID":"fey3_guard",
-        "phraseID":"fey3_guard_maingate_left2"
+        "phraseID":"fey3_guard_maingate_left2",
+        "droplistID":"fey3_guard"
     },
     {
         "id":"fey3_guard_maingate_right",
@@ -228,7 +228,43 @@
         "iconID":"monsters_ld1:66",
         "moveCost":5,
         "monsterClass":"humanoid",
-        "droplistID":"fey3_guard",
-        "phraseID":"fey3_guard_maingate_right"
+        "phraseID":"fey3_guard_maingate_right",
+        "droplistID":"fey3_guard"
+    },
+    {
+        "id":"feygard_linenpc1_1",
+        "name":"Roswald",
+        "iconID":"monsters_ld1:8",
+        "phraseID":"feygard3_roswald"
+    },
+    {
+        "id":"feygard_linenpc2_1",
+        "name":"Orfevre",
+        "iconID":"monsters_ld1:97",
+        "phraseID":"feygard3_orfevre"
+    },
+    {
+        "id":"feygard_linenpc2_2",
+        "name":"Orfevre",
+        "iconID":"monsters_ld1:96",
+        "phraseID":"feygard3_orfevre"
+    },
+    {
+        "id":"feygard_linenpc3_1",
+        "name":"Mathers",
+        "iconID":"monsters_ld1:35",
+        "phraseID":"feygard3_mathers0"
+    },
+    {
+        "id":"feygard_linenpc3_2",
+        "name":"Mathers",
+        "iconID":"monsters_ld1:34",
+        "phraseID":"feygard3_mathers"
+    },
+    {
+        "id":"feygard_linenpc3_3",
+        "name":"Mathers",
+        "iconID":"monsters_ld1:34",
+        "phraseID":"feygard3_mathers"
     }
 ]

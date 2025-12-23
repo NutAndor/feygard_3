@@ -1,229 +1,229 @@
 [
     {
         "id":"fey3_available",
-		"message":"You can't enter Feygard yet."
+        "message":"You can't enter Feygard yet."
     },
     {
         "id":"fey3_guard_maingate",
-		"message":"No entry."
+        "message":"No entry."
     },
     {
         "id":"fey3_guard_maingate0",
-		"message":"You have no business here."
+        "message":"You have no business here."
     },
     {
         "id":"fey3_guard_maingate1",
-		"message":"No entry. Go away.",
+        "message":"No entry. Go away.",
         "replies":[
             {
-				"text": "I'd like to explain ...",
+                "text":"I'd like to explain ...",
                 "nextPhraseID":"fey3_guard_maingate1_10",
                 "requires":[
-					{ 
-						"requireType":"questProgress", 
-						"requireID":"fey3_ogrewall", 
-						"value":60
-					}
-				]
-			}
-		]
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_ogrewall",
+                        "value":60
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate1_10",
-		"message":"I don't want to hear anything.",
+        "message":"I don't want to hear anything.",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate1_12"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate1_12",
-		"message":"You were dealing with those weirdly dressed weirdos back there. I've been watching you.",
+        "message":"You were dealing with those weirdly dressed weirdos back there. I've been watching you.",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate1_20"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate1_20",
-		"message":"I chased them away from the wall yesterday. They were doing something very suspicious there.",
+        "message":"I chased them away from the wall yesterday. They were doing something very suspicious there.",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate1_30"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate1_30",
-		"message":"And what did it get me? A night in arrest and next 3 days of peeling potatoes.",
+        "message":"And what did it get me? A night in arrest and next 3 days of peeling potatoes.",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate1_40"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate1_40",
-		"message":"I had left my post - they said.",
+        "message":"I had left my post - they said.",
         "replies":[
             {
-				"text": "And had you?",
+                "text":"And had you?",
                 "nextPhraseID":"fey3_guard_maingate1_50"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate1_50",
-		"message":"Of course. Yet I was supposed to guard the gate - they said.",
+        "message":"Of course. Yet I was supposed to guard the gate - they said.",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate1_60"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate1_60",
-		"message":"And that's exactly what I'm going to do now: guard the gate. Nothing else.",
+        "message":"And that's exactly what I'm going to do now: guard the gate. Nothing else.",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate1_70"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate1_70",
-		"message":"Go away."
+        "message":"Go away."
     },
     {
         "id":"fey3_guard_maingate2",
-		"message":"No entry. Go away.",
+        "message":"No entry. Go away.",
         "replies":[
             {
-				"text": "I ...",
+                "text":"I ...",
                 "nextPhraseID":"fey3_guard_maingate2_10",
                 "requires":[
-					{ 
-						"requireType":"questProgress", 
-						"requireID":"fey3_ogrewall", 
-						"value":60
-					}
-				]
-			}
-		]
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_ogrewall",
+                        "value":60
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate2_10",
-		"message":"Oh dear. My head.",
+        "message":"Oh dear. My head.",
         "replies":[
             {
-				"text": "What ...",
+                "text":"What ...",
                 "nextPhraseID":"fey3_guard_maingate2_20"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate2_20",
-		"message":"Don't scream like that. Oh, oh, oh.",
+        "message":"Don't scream like that. Oh, oh, oh.",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate2_30"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate2_30",
-		"message":"The tenth mead last night must have been bad."
+        "message":"The tenth mead last night must have been bad."
     },
     {
         "id":"fey3_guard_maingate3",
-		"message":"No entry. Go away.",
+        "message":"No entry. Go away.",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate3_10"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate3_10",
-		"switchToNPC":"fey3_guard_maingate3",
-		"message":"Can't you see we are busy?",
+        "message":"Can't you see we are busy?",
+        "switchToNPC":"fey3_guard_maingate3",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate3_20"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate3_20",
-		"switchToNPC":"fey3_guard_maingate4",
-		"message":"Yes. Come again tomorrow. Or the day after.",
+        "message":"Yes. Come again tomorrow. Or the day after.",
+        "switchToNPC":"fey3_guard_maingate4",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate3_40"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate3_40",
-		"message":"Where were we? Oh yes... when the Mead ran out in the pub, things got loud.",
+        "message":"Where were we? Oh yes... when the Mead ran out in the pub, things got loud.",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate3_50"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate3_50",
-		"switchToNPC":"fey3_guard_maingate3",
-		"message":"You probably weren't innocent of the mead shortage.",
+        "message":"You probably weren't innocent of the mead shortage.",
+        "switchToNPC":"fey3_guard_maingate3",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate3_60"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate3_60",
-		"switchToNPC":"fey3_guard_maingate4",
-		"message":"Well ... Hey, kid! Don't stand here and waste our time. Get lost!",
+        "message":"Well ... Hey, kid! Don't stand here and waste our time. Get lost!",
+        "switchToNPC":"fey3_guard_maingate4",
         "replies":[
             {
-				"text": "As you wish, mead head",
+                "text":"As you wish, mead head",
                 "nextPhraseID":"X"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate4",
-		"message":"No entry. Go away.",
+        "message":"No entry. Go away.",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate3_10"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate5",
-		"message":"No entry. Go away."
+        "message":"No entry. Go away."
     },
     {
         "id":"fey3_guard_maingate6",
-		"message":"No entry. Go away."
+        "message":"No entry. Go away."
     },
     {
         "id":"fey3_guard_maingate_right",
@@ -231,74 +231,74 @@
             {
                 "nextPhraseID":"X",
                 "requires":[
-					{ 
-						"requireType":"questProgress", 
-						"requireID":"fey3_ogrewall", 
-						"value":52,
-						"negate":true
-					}
-				]
-			},
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_ogrewall",
+                        "value":52,
+                        "negate":true
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"fey3_guard_maingate_right_10",
                 "requires":[
-					{ 
-						"requireType":"questProgress", 
-						"requireID":"fey3_nd", 
-						"value":10,
-						"negate":true
-					}
-				]
-			},
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"fey3_guard_maingate_right_100"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate_right_10",
-		"switchToNPC":"fey3_guard_maingate_right",
-		"message":"Child - explain yourself! What do you want here at the gates of Feygard?",
+        "message":"Child - explain yourself! What do you want here at the gates of Feygard?",
+        "switchToNPC":"fey3_guard_maingate_right",
         "replies":[
             {
-				"text": "I heard the guard on the wall on the other side of the gate talking about you. It was interesting, but not particularly pleasant.",
+                "text":"I heard the guard on the wall on the other side of the gate talking about you. It was interesting, but not particularly pleasant.",
                 "nextPhraseID":"fey3_guard_maingate_right_20"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate_right_20",
-		"message":"So? Keep talking.",
+        "message":"So? Keep talking.",
         "replies":[
             {
-				"text":"I don't want to spread rumors. If I were you, I'd confront him directly.",
+                "text":"I don't want to spread rumors. If I were you, I'd confront him directly.",
                 "nextPhraseID":"fey3_guard_maingate_right_30"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate_right_30",
-		"message":"What a nerve! I'll pay him a visit immediately.",
+        "message":"What a nerve! I'll pay him a visit immediately.",
         "replies":[
             {
-				"text":"Don't! That would only make him look better.",
+                "text":"Don't! That would only make him look better.",
                 "nextPhraseID":"fey3_guard_maingate_right_40"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate_right_40",
-		"message":"Hmm. What do you suggest?",
+        "message":"Hmm. What do you suggest?",
         "replies":[
             {
-				"text":"Summon him and put him down here. Preferably in a way that all the other guards can hear.",
+                "text":"Summon him and put him down here. Preferably in a way that all the other guards can hear.",
                 "nextPhraseID":"fey3_guard_maingate_right_50"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate_right_50",
-		"message":"I'll do that immediately. That rascal will regret his words!",
+        "message":"I'll do that immediately. That rascal will regret his words!",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -329,165 +329,205 @@
     },
     {
         "id":"fey3_guard_maingate_right_100",
-		"switchToNPC":"fey3_guard_maingate_right",
-		"message":"Take back your words!",
+        "message":"Take back your words!",
+        "switchToNPC":"fey3_guard_maingate_right",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate_right_110"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate_right_110",
-	    "replies":[
+        "replies":[
             {
                 "nextPhraseID":"fey3_guard_maingate_right_119",
-                "requires":[{ "requireType":"random", "requireID":"1/9" }]
-			},
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/9"
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"fey3_guard_maingate_right_118",
-                "requires":[{ "requireType":"random", "requireID":"1/8" }]
-			},
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/8"
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"fey3_guard_maingate_right_117",
-                "requires":[{ "requireType":"random", "requireID":"1/7" }]
-			},
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/7"
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"fey3_guard_maingate_right_116",
-                "requires":[{ "requireType":"random", "requireID":"1/6" }]
-			},
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/6"
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"fey3_guard_maingate_right_115",
-                "requires":[{ "requireType":"random", "requireID":"1/5" }]
-			},
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/5"
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"fey3_guard_maingate_right_114",
-                "requires":[{ "requireType":"random", "requireID":"1/4" }]
-			},
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/4"
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"fey3_guard_maingate_right_113",
-                "requires":[{ "requireType":"random", "requireID":"1/3" }]
-			},
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/3"
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"fey3_guard_maingate_right_112",
-                "requires":[{ "requireType":"random", "requireID":"1/2" }]
-			},
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/2"
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"fey3_guard_maingate_right_111"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate_right_111",
-		"message":"You liar!",
+        "message":"You liar!",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate_right_110"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate_right_112",
-		"message":"You gossiping knave!",
+        "message":"You gossiping knave!",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate_right_110"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate_right_113",
-		"message":"You snake!",
+        "message":"You snake!",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate_right_110"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate_right_114",
-		"message":"You rotter!",
+        "message":"You rotter!",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate_right_110"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate_right_115",
-		"message":"Well, aren’t you a loyal friend.",
+        "message":"Well, aren\u2019t you a loyal friend.",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate_right_110"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate_right_116",
-		"message":"That was rather two-faced of you.",
+        "message":"That was rather two-faced of you.",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate_right_110"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate_right_117",
-		"message":"You hypocrite!",
+        "message":"You hypocrite!",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate_right_110"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate_right_118",
-		"message":"What did I do to deserve you talking so badly about me behind my back?",
+        "message":"What did I do to deserve you talking so badly about me behind my back?",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_guard_maingate_right_110"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_guard_maingate_right_119",
-		"message":"What a fine friend you are.",
+        "message":"What a fine friend you are.",
         "replies":[
             {
-				"text": "Let's leave this theatre.",
+                "text":"Let's leave this theatre.",
                 "nextPhraseID":"X"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_ogre",
-		"message":"Go away.",
+        "message":"Go away.",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_ogre_10"
-			}
-		]
+            }
+        ]
     },
     {
         "id":"fey3_ogre_10",
-		"switchToNPC": "none",
-		"message":"The ogre grabs you with his left hand and throws you high into the air.",
+        "message":"The ogre grabs you with his left hand and throws you high into the air.",
+        "switchToNPC":"none",
         "replies":[
             {
-				"text": "N",
+                "text":"N",
                 "nextPhraseID":"fey3_ogre_20"
-			}
-		],
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"mapchange",
@@ -503,841 +543,1052 @@
     },
     {
         "id":"fey3_ogre_20",
-		"message":"Luckily, a haystack slows your impact."
+        "message":"Luckily, a haystack slows your impact."
     },
-  {
-    "id": "fey3_ogre_nc_10",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "... and now we've come this far just to fail at these ridiculous walls?",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_10_a"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_10_a",
-    "switchToNPC": "fey3_ogre_nc2",
-    "message": "We tried. Time was just enough to place the markings, then the Feygard guards came and chased us away from the wall.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_10_b"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_10_b",
-    "switchToNPC": "fey3_ogre_nc3",
-    "message": "Cursed be those pesky guards.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_10_c"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_10_c",
-    "switchToNPC": "fey3_ogre_nc2",
-    "message": "And yet we look so harmless and peaceful.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_10_d"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_10_d",
-    "switchToNPC": "fey3_ogre_nc4",
-    "message": "We need a foolish helper. But where do we get one?",
-        "replies":[
-            {
-				"text": "N",
-				"nextPhraseID":"fey3_ogre_nc_10_d2"
-			}
-		],
-        "rewards":[
-			{
-				"rewardType":"questProgress",
-				"rewardID":"fey3_ogrewall",
-				"value":50
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_10_d2",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "Hush ... someone is listening ..."
-  },
-  {
-    "id": "fey3_ogre_nc_10_e",
-    "switchToNPC": "fey3_ogre_nc5",
-    "message": "Look who's coming ...",
-    "replies": [
-      {
-        "text": "Hello. What are you supposed to be?",
-        "nextPhraseID":"fey3_ogre_nc_10_f"
-      },
-      {
-        "text": "Is this a costume party?",
-        "nextPhraseID":"fey3_ogre_nc_10_f"
-      },
-      {
-        "text": "Do you know how I could get into the city?",
-        "nextPhraseID":"fey3_ogre_nc_10_f"
-      }
-    ]
-  },
-  {
-    "id": "fey3_ogre_nc_10_f",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "Ohh, brothers, our prayers have been answered!",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_10_g"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_10_g",
-    "switchToNPC": "fey3_ogre_nc3",
-    "message": "Which praye ... Ouch, why are you kicking me ... oh, right: Our prayers have been answered.",
-    "replies": [
-      {
-        "text": "What did you pray for?",
-        "nextPhraseID":"fey3_ogre_nc_10_h"
-      }
-    ]
-  },
-  {
-    "id": "fey3_ogre_nc_10_h",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "We traveled a long way to honor the eternal Elythara.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_10_i"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_10_i",
-    "switchToNPC": "fey3_ogre_nc3",
-    "message": "Yes, exactly.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_10_j"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_10_j",
-    "switchToNPC": "fey3_ogre_nc5",
-    "message": "And now they deny us entry to the city. They say we are not properly dressed!",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_10_k"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_10_k",
-    "switchToNPC": "fey3_ogre_nc4",
-    "message": "And above all, we don't have enough gold to bribe the guards.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_10_m"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_10_m",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "My brother meant we don't have enough gold to make a great sacrifice for Elythara.",
-    "replies": [
-      {
-        "text": "Gold can be of help sometimes. What will you do now?",
-        "nextPhraseID":"fey3_ogre_nc_10_n"
-      }
-    ]
-  },
-  {
-    "id": "fey3_ogre_nc_10_n",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "We'll take the new entrance. Elythara herself showed us in a vision how we can reach her.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_10_o"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_10_o",
-    "switchToNPC": "fey3_ogre_nc3",
-    "message": "Really? How ... Ouch!",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_10_p"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_10_p",
-    "switchToNPC": "fey3_ogre_nc5",
-    "message": "Do you see the little flowers in front of the city walls back there?",
-    "replies": [
-      {
-        "text": "What about them?",
-        "nextPhraseID":"fey3_ogre_nc_10_q"
-      }
-    ]
-  },
-  {
-    "id": "fey3_ogre_nc_10_q",
-    "switchToNPC": "fey3_ogre_nc5",
-    "message": "A gate will appear there if we perform the invocations correctly.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_10_r"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_10_r",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "Exactly. Unfortunately, the guards are suspicious, probably because they fear us. They no longer allow us to go there.",
-    "replies": [
-      {
-        "text": "I see.",
-        "nextPhraseID":"fey3_ogre_nc_10_s"
-      },
-      {
-        "text": "Yeah, so what?",
-        "nextPhraseID":"fey3_ogre_nc_10_s"
-      }
-    ]
-  },
-  {
-    "id": "fey3_ogre_nc_10_s",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "That's why Elythara sent you to us. Will you help us?",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_10_t"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_10_t",
-    "switchToNPC": "fey3_ogre_nc4",
-    "message": "You can also use the new gate yourself.",
-    "replies": [
-      {
-        "text": "Sure, I'll be glad to help.",
-        "nextPhraseID":"fey3_ogre_nc_20"
-      }
-    ]
-  },
-  {
-    "id": "fey3_ogre_nc_20",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "So you want to help, great! I'll explain what you have to do:",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_a"
-			}
-		],
-        "rewards":[
-			{
-				"rewardType":"questProgress",
-				"rewardID":"fey3_ogrewall",
-				"value":51
-			}
-		]
-
-  },
-  {
-    "id": "fey3_ogre_nc_20_a",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "At the flowers near to the wall, the tiny ones, you place one of these crystals each.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_b"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_b",
-    "switchToNPC": "fey3_ogre_nc2",
-    "message": "No, the torches first!",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_c"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_c",
-    "switchToNPC": "fey3_ogre_nc4",
-    "message": "Nonsense. The torches block the passage. If the torches are placed first, you can't get in anymore.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_d"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_d",
-    "switchToNPC": "fey3_ogre_nc5",
-    "message": "But you can't get out either.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_e"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_e",
-    "switchToNPC": "fey3_ogre_nc2",
-    "message": "Exactly. First we must ...",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_f"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_f",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "SILENCE! I'll explain it.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_g"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_g",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "So: First you place all but one crystal.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_h"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_h",
-    "switchToNPC": "fey3_ogre_nc5",
-    "message": "Then you place all the torches at the bigger plants and light them.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_i"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_i",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "All - except one. That's important.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_j"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_j",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "When all four crystals are placed, an ogre will appear.",
-    "replies": [
-      {
-        "text": "An ogre?!",
-        "nextPhraseID":"fey3_ogre_nc_20_k"
-      }
-    ]
-  },
-  {
-    "id": "fey3_ogre_nc_20_k",
-    "switchToNPC": "fey3_ogre_nc4",
-    "message": "Exactly. And he mustn't roam around freely. That's why the torches.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_m"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_m",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "The torches block the way. So make sure to light the last torch from outside.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_n"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_n",
-    "switchToNPC": "fey3_ogre_nc3",
-    "message": "Otherwise ... hahaha ... you'll be trapped! Hahaha!",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_o"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_o",
-    "switchToNPC": "fey3_ogre_nc5",
-    "message": "You don't want to be trapped with the ogre inside a circle of torches.",
-    "replies": [
-      {
-        "text": "But isn't the ogre trapped then?",
-        "nextPhraseID":"fey3_ogre_nc_20_p"
-      }
-    ]
-  },
-  {
-    "id": "fey3_ogre_nc_20_p",
-    "switchToNPC": "fey3_ogre_nc3",
-    "message": "Uh, yeah. [scratches his head]",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_q"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_q",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "Of course there will be no torch at the wall. That's where the ogre will go through.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_r"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_r",
-    "switchToNPC": "fey3_ogre_nc3",
-    "message": "Huh?",
-    "replies": [
-      {
-        "text": "N",
-        "nextPhraseID":"fey3_ogre_nc_20_r2"
-      }
-    ]
-  },
-  {
-    "id": "fey3_ogre_nc_20_r2",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "You hang a sign with 'EXIT' in big letters on the wall.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_s"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_s",
-    "switchToNPC": "fey3_ogre_nc3",
-    "message": "But there is no exit ...",
-    "replies": [
-      {
-        "text": "Not yet.",
-        "nextPhraseID":"fey3_ogre_nc_20_t"
-      }
-    ]
-  },
-  {
-    "id": "fey3_ogre_nc_20_t",
-    "switchToNPC": "fey3_ogre_nc4",
-    "message": "Exactly - not yet! Clever child.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_u"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_u",
-    "switchToNPC": "fey3_ogre_nc5",
-    "message": "The ogre will smash the exit into the wall!",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_v"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_v",
-    "switchToNPC": "fey3_ogre_nc3",
-    "message": "Oh, I see! Clever idea from you.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_w"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_w",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "Clever idea from Elythara, you mean. [another ouch from the baker]",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_20_x"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_20_x",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "Do you understand it all?",
-    "replies": [
-      {
-        "text": "I think so. First I'll hang up the sign.",
-        "nextPhraseID":"fey3_ogre_nc_20_y"
-      }
-    ]
-  },
-  {
-    "id": "fey3_ogre_nc_20_y",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "Good.",
-    "replies": [
-      {
-        "text": "Then I'll place the crystals and torches, leaving one of each until the end.",
-        "nextPhraseID":"fey3_ogre_nc_20_z"
-      }
-    ]
-  },
-  {
-    "id": "fey3_ogre_nc_20_z",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "Good.",
-    "replies": [
-      {
-        "text": "Then the last crystal and finally the last torch. From outside.",
-        "nextPhraseID":"fey3_ogre_nc_30_a"
-      }
-    ]
-  },
-  {
-    "id": "fey3_ogre_nc_30_a",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "From outside, yes. Otherwise no one can help you anymore.",
-    "replies": [
-      {
-        "text": "This will be exciting. Where do you have the items?",
-        "nextPhraseID":"fey3_ogre_nc_30_b"
-      }
-    ]
-  },
-  {
-    "id": "fey3_ogre_nc_30_b",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "The baker has them in his pack. Baker, hand ye over the crystals and the torches!",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_30_c"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_30_c",
-    "switchToNPC": "fey3_ogre_nc3",
-    "message": "Finally I don't have to carry them anymore.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_30_d"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_30_d",
-    "switchToNPC": "fey3_ogre_nc3",
-    "message": "Why did I have to carry them all the way anyway?",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_30_e"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_30_e",
-    "switchToNPC": "fey3_ogre_nc5",
-    "message": "Because only you could bear the heavy burden of responsibility for them.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_30_f"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_30_f",
-    "switchToNPC": "fey3_ogre_nc3",
-    "message": "Ah, that's fine then. Hoho.",
-        "replies":[
-            {
-				"text": "N",
-                "nextPhraseID":"fey3_ogre_nc_30_g"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_30_g",
-    "switchToNPC": "fey3_ogre_nc3",
-    "message": "So here are the four crystals, the six torches, and most important: the sign.",
-        "replies":[
-            {
-                "text":"OK ...",
-				"nextPhraseID":"fey3_ogre_nc_30_h"
-			}
-		],
-        "rewards":[
-			{
-				"rewardType":"questProgress",
-				"rewardID":"fey3_ogrewall",
-				"value":52
-			},
-			{
-				"rewardType":"giveItem",
-				"rewardID":"ogrecrystal",
-				"value":4
-			},
-			{
-				"rewardType":"giveItem",
-				"rewardID":"ogretorch",
-				"value":6
-			},
-			{
-				"rewardType":"giveItem",
-				"rewardID":"ogresign",
-				"value":1
-			}
-		]
-    },
-  {
-    "id": "fey3_ogre_nc_30_h",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "And now do all that you know and try all that you don't.",
+    {
+        "id":"fey3_ogre_nc_10",
+        "message":"... and now we've come this far just to fail at these ridiculous walls?",
+        "switchToNPC":"fey3_ogre_nc1",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"fey3_ogre_nc_30_i"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_30_i",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "Not a chance must be wasted today."
-  },
-  {
-    "id": "fey3_ogre_nc_40",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "Oh, you useless kid! Closed the ring of torches without placing the crystals!",
-    "replies":[
-		{
-			"text": "Sorry.",
-			"nextPhraseID":"fey3_ogre_nc_41"
-		}
-	]
-  },
-  {
-    "id": "fey3_ogre_nc_41",
-    "switchToNPC": "fey3_ogre_nc2",
-    "message": "Do you want to undo all our efforts? You have to fix this!",
-    "replies":[
-		{
-			"text": "Of course. But how?",
-			"nextPhraseID":"fey3_ogre_nc_42"
-		}
-	]
-  },
-  {
-    "id": "fey3_ogre_nc_42",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "Baker! Go and collect the torches again. This incompetent child needs to do it all again.",
-    "replies":[
-		{
-			"text": "N",
-			"nextPhraseID":"fey3_ogre_nc_43"
-		}
-	]
-  },
-  {
-    "id": "fey3_ogre_nc_43",
-    "switchToNPC": "fey3_ogre_nc3",
-    "message": "Very well! At least I carry out my duties responsibly. Take me as an example.",
-    "replies":[
-		{
-			"text": "N",
-			"nextPhraseID":"fey3_ogre_nc_44"
-		}
-	]
-  },
-  {
-    "id": "fey3_ogre_nc_44",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "Hurry up, baker!",
-    "replies":[
-		{
-			"text": "N",
-			"nextPhraseID":"fey3_ogre_nc_45"
-		}
-	]
-  },
-  {
-    "id": "fey3_ogre_nc_45",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "Now at last. Here are the torches again. Do better now!",
-    "replies":[
-		{
-			"text": "Yes.",
-			"nextPhraseID":"X"
-		}
-	],
+                "nextPhraseID":"fey3_ogre_nc_10_a"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_a",
+        "message":"We tried. Time was just enough to place the markings, then the Feygard guards came and chased us away from the wall.",
+        "switchToNPC":"fey3_ogre_nc2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_10_b"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_b",
+        "message":"Cursed be those pesky guards.",
+        "switchToNPC":"fey3_ogre_nc3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_10_c"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_c",
+        "message":"And yet we look so harmless and peaceful.",
+        "switchToNPC":"fey3_ogre_nc2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_10_d"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_d",
+        "message":"We need a foolish helper. But where do we get one?",
+        "switchToNPC":"fey3_ogre_nc4",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_10_d2"
+            }
+        ],
         "rewards":[
-			{
-				"rewardType":"removeQuestProgress",
-				"rewardID":"fey3_ogrewall",
-				"value":11
-			},
-			{
-				"rewardType":"removeQuestProgress",
-				"rewardID":"fey3_ogrewall",
-				"value":12
-			},
-			{
-				"rewardType":"removeQuestProgress",
-				"rewardID":"fey3_ogrewall",
-				"value":13
-			},
-			{
-				"rewardType":"removeQuestProgress",
-				"rewardID":"fey3_ogrewall",
-				"value":14
-			},
-			{
-				"rewardType":"removeQuestProgress",
-				"rewardID":"fey3_ogrewall",
-				"value":15
-			},
-			{
-				"rewardType":"removeQuestProgress",
-				"rewardID":"fey3_ogrewall",
-				"value":16
-			},
-			{
-				"rewardType":"giveItem",
-				"rewardID":"ogretorch",
-				"value":6
-			}
-		]
-  },
-  {
-    "id": "fey3_ogre_nc_52",
-    "message": "Go and finish your work. We have hardly a minute to waste!"
-  },
-  {
-    "id": "fey3_ogre_nc_60",
-    "message": "The Ogre hasn't done anything useful yet. It's all your fault."
-  },
-  {
-    "id": "fey3_ogre_nc_70",
-    "message": "Now there's a nice entrance, but the Ogre is watching it. Make him go away!"
-  },
-  {
-    "id": "fey3_ogre_nc_71",
-    "message": "The Ogre is there. But you have forgotten to install the sign! It's all your fault, you blockhead!"
-  },
-  {
-    "id": "fey3_ogre_nc_80",
-    "message": "Why are the torches still burning and barring the way? It's all your fault."
-  },
-  {
-    "id": "fey3_ogre_nc_90",
-    "message": "The entrance is free now. We just have to wait for a good opportunity to go through - probably in the night."
-  },
-  {
-    "id": "fey3_ogrewall_entry",
-    "switchToNPC": "fey3_ogre_nc1",
-    "message": "Hey, kid! Don't you dare to use the entrance before us!",
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_ogrewall",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_d2",
+        "message":"Hush ... someone is listening ...",
+        "switchToNPC":"fey3_ogre_nc1"
+    },
+    {
+        "id":"fey3_ogre_nc_10_e",
+        "message":"Look who's coming ...",
+        "switchToNPC":"fey3_ogre_nc5",
         "replies":[
             {
-				"text": "OK. What are you waiting for?",
-                "nextPhraseID":"fey3_ogrewall_entry_10"
-			}
-		]
-  
-  },
-  {
-    "id": "fey3_ogrewall_entry_10",
-    "message": "For the blessing of Elythara.",
+                "text":"Hello. What are you supposed to be?",
+                "nextPhraseID":"fey3_ogre_nc_10_f"
+            },
+            {
+                "text":"Is this a costume party?",
+                "nextPhraseID":"fey3_ogre_nc_10_f"
+            },
+            {
+                "text":"Do you know how I could get into the city?",
+                "nextPhraseID":"fey3_ogre_nc_10_f"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_f",
+        "message":"Ohh, brothers, our prayers have been answered!",
+        "switchToNPC":"fey3_ogre_nc1",
         "replies":[
             {
-				"text": "N",
-                "nextPhraseID":"fey3_ogrewall_entry_12"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogrewall_entry_12",
-    "switchToNPC": "fey3_ogre_nc3",
-    "message": "In one of the next releases! Hahaha!",
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_10_g"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_g",
+        "message":"Which praye ... Ouch, why are you kicking me ... oh, right: Our prayers have been answered.",
+        "switchToNPC":"fey3_ogre_nc3",
         "replies":[
             {
-				"text": "N",
-                "nextPhraseID":"fey3_ogrewall_entry_14"
-			}
-		]
-  },
-  {
-    "id": "fey3_ogrewall_entry_14",
-    "switchToNPC": "fey3_ogre_nc4",
-    "message": "Somehow it's like breaking the 5th wall.",
+                "text":"What did you pray for?",
+                "nextPhraseID":"fey3_ogre_nc_10_h"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_h",
+        "message":"We traveled a long way to honor the eternal Elythara.",
+        "switchToNPC":"fey3_ogre_nc1",
         "replies":[
             {
-				"text": "You are rather weired, you know.",
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_10_i"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_i",
+        "message":"Yes, exactly.",
+        "switchToNPC":"fey3_ogre_nc3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_10_j"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_j",
+        "message":"And now they deny us entry to the city. They say we are not properly dressed!",
+        "switchToNPC":"fey3_ogre_nc5",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_10_k"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_k",
+        "message":"And above all, we don't have enough gold to bribe the guards.",
+        "switchToNPC":"fey3_ogre_nc4",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_10_m"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_m",
+        "message":"My brother meant we don't have enough gold to make a great sacrifice for Elythara.",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"Gold can be of help sometimes. What will you do now?",
+                "nextPhraseID":"fey3_ogre_nc_10_n"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_n",
+        "message":"We'll take the new entrance. Elythara herself showed us in a vision how we can reach her.",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_10_o"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_o",
+        "message":"Really? How ... Ouch!",
+        "switchToNPC":"fey3_ogre_nc3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_10_p"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_p",
+        "message":"Do you see the little flowers in front of the city walls back there?",
+        "switchToNPC":"fey3_ogre_nc5",
+        "replies":[
+            {
+                "text":"What about them?",
+                "nextPhraseID":"fey3_ogre_nc_10_q"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_q",
+        "message":"A gate will appear there if we perform the invocations correctly.",
+        "switchToNPC":"fey3_ogre_nc5",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_10_r"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_r",
+        "message":"Exactly. Unfortunately, the guards are suspicious, probably because they fear us. They no longer allow us to go there.",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"I see.",
+                "nextPhraseID":"fey3_ogre_nc_10_s"
+            },
+            {
+                "text":"Yeah, so what?",
+                "nextPhraseID":"fey3_ogre_nc_10_s"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_s",
+        "message":"That's why Elythara sent you to us. Will you help us?",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_10_t"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_10_t",
+        "message":"You can also use the new gate yourself.",
+        "switchToNPC":"fey3_ogre_nc4",
+        "replies":[
+            {
+                "text":"Sure, I'll be glad to help.",
+                "nextPhraseID":"fey3_ogre_nc_20"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20",
+        "message":"So you want to help, great! I'll explain what you have to do:",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_ogrewall",
+                "value":51
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_a",
+        "message":"At the flowers near to the wall, the tiny ones, you place one of these crystals each.",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_b"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_b",
+        "message":"No, the torches first!",
+        "switchToNPC":"fey3_ogre_nc2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_c"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_c",
+        "message":"Nonsense. The torches block the passage. If the torches are placed first, you can't get in anymore.",
+        "switchToNPC":"fey3_ogre_nc4",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_d"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_d",
+        "message":"But you can't get out either.",
+        "switchToNPC":"fey3_ogre_nc5",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_e"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_e",
+        "message":"Exactly. First we must ...",
+        "switchToNPC":"fey3_ogre_nc2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_f"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_f",
+        "message":"SILENCE! I'll explain it.",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_g"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_g",
+        "message":"So: First you place all but one crystal.",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_h"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_h",
+        "message":"Then you place all the torches at the bigger plants and light them.",
+        "switchToNPC":"fey3_ogre_nc5",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_i"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_i",
+        "message":"All - except one. That's important.",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_j"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_j",
+        "message":"When all four crystals are placed, an ogre will appear.",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"An ogre?!",
+                "nextPhraseID":"fey3_ogre_nc_20_k"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_k",
+        "message":"Exactly. And he mustn't roam around freely. That's why the torches.",
+        "switchToNPC":"fey3_ogre_nc4",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_m"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_m",
+        "message":"The torches block the way. So make sure to light the last torch from outside.",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_n"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_n",
+        "message":"Otherwise ... hahaha ... you'll be trapped! Hahaha!",
+        "switchToNPC":"fey3_ogre_nc3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_o"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_o",
+        "message":"You don't want to be trapped with the ogre inside a circle of torches.",
+        "switchToNPC":"fey3_ogre_nc5",
+        "replies":[
+            {
+                "text":"But isn't the ogre trapped then?",
+                "nextPhraseID":"fey3_ogre_nc_20_p"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_p",
+        "message":"Uh, yeah. [scratches his head]",
+        "switchToNPC":"fey3_ogre_nc3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_q"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_q",
+        "message":"Of course there will be no torch at the wall. That's where the ogre will go through.",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_r"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_r",
+        "message":"Huh?",
+        "switchToNPC":"fey3_ogre_nc3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_r2"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_r2",
+        "message":"You hang a sign with 'EXIT' in big letters on the wall.",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_s"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_s",
+        "message":"But there is no exit ...",
+        "switchToNPC":"fey3_ogre_nc3",
+        "replies":[
+            {
+                "text":"Not yet.",
+                "nextPhraseID":"fey3_ogre_nc_20_t"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_t",
+        "message":"Exactly - not yet! Clever child.",
+        "switchToNPC":"fey3_ogre_nc4",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_u"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_u",
+        "message":"The ogre will smash the exit into the wall!",
+        "switchToNPC":"fey3_ogre_nc5",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_v"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_v",
+        "message":"Oh, I see! Clever idea from you.",
+        "switchToNPC":"fey3_ogre_nc3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_w"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_w",
+        "message":"Clever idea from Elythara, you mean. [another ouch from the baker]",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_20_x"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_x",
+        "message":"Do you understand it all?",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"I think so. First I'll hang up the sign.",
+                "nextPhraseID":"fey3_ogre_nc_20_y"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_y",
+        "message":"Good.",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"Then I'll place the crystals and torches, leaving one of each until the end.",
+                "nextPhraseID":"fey3_ogre_nc_20_z"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_20_z",
+        "message":"Good.",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"Then the last crystal and finally the last torch. From outside.",
+                "nextPhraseID":"fey3_ogre_nc_30_a"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_30_a",
+        "message":"From outside, yes. Otherwise no one can help you anymore.",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"This will be exciting. Where do you have the items?",
+                "nextPhraseID":"fey3_ogre_nc_30_b"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_30_b",
+        "message":"The baker has them in his pack. Baker, hand ye over the crystals and the torches!",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_30_c"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_30_c",
+        "message":"Finally I don't have to carry them anymore.",
+        "switchToNPC":"fey3_ogre_nc3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_30_d"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_30_d",
+        "message":"Why did I have to carry them all the way anyway?",
+        "switchToNPC":"fey3_ogre_nc3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_30_e"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_30_e",
+        "message":"Because only you could bear the heavy burden of responsibility for them.",
+        "switchToNPC":"fey3_ogre_nc5",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_30_f"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_30_f",
+        "message":"Ah, that's fine then. Hoho.",
+        "switchToNPC":"fey3_ogre_nc3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_30_g"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_30_g",
+        "message":"So here are the four crystals, the six torches, and most important: the sign.",
+        "switchToNPC":"fey3_ogre_nc3",
+        "replies":[
+            {
+                "text":"OK ...",
+                "nextPhraseID":"fey3_ogre_nc_30_h"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_ogrewall",
+                "value":52
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ogrecrystal",
+                "value":4
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ogretorch",
+                "value":6
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ogresign",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_30_h",
+        "message":"And now do all that you know and try all that you don't.",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_30_i"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_30_i",
+        "message":"Not a chance must be wasted today.",
+        "switchToNPC":"fey3_ogre_nc1"
+    },
+    {
+        "id":"fey3_ogre_nc_40",
+        "message":"Oh, you useless kid! Closed the ring of torches without placing the crystals!",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"Sorry.",
+                "nextPhraseID":"fey3_ogre_nc_41"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_41",
+        "message":"Do you want to undo all our efforts? You have to fix this!",
+        "switchToNPC":"fey3_ogre_nc2",
+        "replies":[
+            {
+                "text":"Of course. But how?",
+                "nextPhraseID":"fey3_ogre_nc_42"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_42",
+        "message":"Baker! Go and collect the torches again. This incompetent child needs to do it all again.",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_43"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_43",
+        "message":"Very well! At least I carry out my duties responsibly. Take me as an example.",
+        "switchToNPC":"fey3_ogre_nc3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_44"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_44",
+        "message":"Hurry up, baker!",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogre_nc_45"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_45",
+        "message":"Now at last. Here are the torches again. Do better now!",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"Yes.",
                 "nextPhraseID":"X"
-			}
-		]
-  }
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fey3_ogrewall",
+                "value":11
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fey3_ogrewall",
+                "value":12
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fey3_ogrewall",
+                "value":13
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fey3_ogrewall",
+                "value":14
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fey3_ogrewall",
+                "value":15
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fey3_ogrewall",
+                "value":16
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ogretorch",
+                "value":6
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogre_nc_52",
+        "message":"Go and finish your work. We have hardly a minute to waste!"
+    },
+    {
+        "id":"fey3_ogre_nc_60",
+        "message":"The Ogre hasn't done anything useful yet. It's all your fault."
+    },
+    {
+        "id":"fey3_ogre_nc_70",
+        "message":"Now there's a nice entrance, but the Ogre is watching it. Make him go away!"
+    },
+    {
+        "id":"fey3_ogre_nc_71",
+        "message":"The Ogre is there. But you have forgotten to install the sign! It's all your fault, you blockhead!"
+    },
+    {
+        "id":"fey3_ogre_nc_80",
+        "message":"Why are the torches still burning and barring the way? It's all your fault."
+    },
+    {
+        "id":"fey3_ogre_nc_90",
+        "message":"The entrance is free now. We just have to wait for a good opportunity to go through - probably in the night."
+    },
+    {
+        "id":"fey3_ogrewall_entry",
+        "message":"Hey, kid! Don't you dare to use the entrance before us!",
+        "switchToNPC":"fey3_ogre_nc1",
+        "replies":[
+            {
+                "text":"OK. What are you waiting for?",
+                "nextPhraseID":"fey3_ogrewall_entry_10"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogrewall_entry_10",
+        "message":"For the blessing of Elythara.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogrewall_entry_12"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogrewall_entry_12",
+        "message":"In one of the next releases! Hahaha!",
+        "switchToNPC":"fey3_ogre_nc3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_ogrewall_entry_14"
+            }
+        ]
+    },
+    {
+        "id":"fey3_ogrewall_entry_14",
+        "message":"Somehow it's like breaking the 5th wall.",
+        "switchToNPC":"fey3_ogre_nc4",
+        "replies":[
+            {
+                "text":"You are rather weired, you know.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"feygard3_line",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"feygard3_line0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":5,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"feygard3_line1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":2,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"feygard_line",
+                        "value":15
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"feygard3_line2",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"feygard_line",
+                        "value":15
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":3,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"feygard3_line3",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"feygard_line",
+                        "value":15
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":4,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"feygard3_line1",
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"feygard_line"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"feygard_linenpc1_1",
+                "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"feygard_linenpc2_2",
+                "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"feygard_linenpc3_3",
+                "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_linenpc2_1",
+                "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_linenpc3_2",
+                "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":2
+            }
+        ]
+    },
+    {
+        "id":"feygard3_line2",
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"feygard_line"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":3
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"feygard_linenpc2_1",
+                "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"feygard_linenpc3_2",
+                "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"feygard_linenpc3_1",
+                "mapName":"feygard_outside1"
+            }
+        ]
+    },
+    {
+        "id":"feygard3_line3",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":4
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"feygard_linenpc3_1",
+                "mapName":"feygard_outside1"
+            }
+        ]
+    },
+    {
+        "id":"feygard3_line0",
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"feygard_line"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"feygard3_orfevre",
+        "message":"Go away, no cutting in line!"
+    },
+    {
+        "id":"feygard3_mathers",
+        "message":"Hmph. I thought being this far from Nor City would free me from the nuisance of beggar children trying to snag a coin.",
+        "replies":[
+            {
+                "text":"I'm not a beggar.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You'd better watch your mouth around these parts.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"feygard3_mathers0",
+        "message":"The man is busy waiting for the guards to sort out his papers, and does not pay you any attention.",
+        "switchToNPC":"none"
+    },
+    {
+        "id":"feygard3_roswald",
+        "message":"What is the ma~atter?",
+        "replies":[
+            {
+                "text":"You have a nice singing voice.",
+                "nextPhraseID":"X"
+            }
+        ]
+    }
 ]

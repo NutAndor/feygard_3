@@ -4,75 +4,133 @@
         "name":"fey3_nondisplayed",
         "showInLog":1,
         "stages":[
-			{ 
-				"progress":1, 
-				"logText":"1=Feygard available" 
-			},
-			{ 
-				"progress":10, 
-				"logText":"10=Left gate guard went east" 
-			},
-			{ 
-				"progress":100, 
-				"logText":"100=Pump: water off" 
-			},
-			{ 
-				"progress":101, 
-				"logText":"101=In escalator" 
-			},
-			{ 
-				"progress":102, 
-				"logText":"102=Pump entry free" 
-			}
-		]
-	},
+            {
+                "progress":1,
+                "logText":"1=Feygard available"
+            },
+            {
+                "progress":10,
+                "logText":"10=Left gate guard went east"
+            },
+            {
+                "progress":100,
+                "logText":"100=Pump: water off"
+            },
+            {
+                "progress":101,
+                "logText":"101=In escalator"
+            },
+            {
+                "progress":102,
+                "logText":"102=Pump entry free"
+            },
+            {
+                "progress":2,
+                "logText":"2=first npc in the line"
+            },
+            {
+                "progress":3,
+                "logText":"3=second npc in the line"
+            },
+            {
+                "progress":4,
+                "logText":"4=third npc in the line"
+            },
+            {
+                "progress":5,
+                "logText":"5=line movement started"
+            }
+        ]
+    },
     {
         "id":"fey3_ogrewall",
         "name":"fey3_ogrewall",
         "showInLog":1,
         "stages":[
-  { "progress":1, 
-	"logText":"1=Ogre crystal 1" },
-  { "progress":2, 
-	"logText":"2=Ogre crystal 2" },
-  { "progress":3, 
-	"logText":"3=Ogre crystal 3" },
-  { "progress":4, 
-	"logText":"4=Ogre crystal 4" },
-  { "progress":5, 
-	"logText":"5=Ogre sign put" },
-  { "progress":11, 
-	"logText":"11=Ogre torch 1" },
-  { "progress":12, 
-	"logText":"12=Ogre torch 2" },
-  { "progress":13, 
-	"logText":"13=Ogre torch 3" },
-  { "progress":14, 
-	"logText":"14=Ogre torch 4" },
-  { "progress":15, 
-	"logText":"15=Ogre torch 5" },
-  { "progress":16, 
-	"logText":"16=Ogre torch 6" },
-  { "progress":50, 
-	"logText":"50=Pre story 1" },
-  { "progress":51, 
-	"logText":"51=Pre story 2" },
-  { "progress":52, 
-	"logText":"52=Torches given" },
-  { "progress":60, 
-	"logText":"60=Ogre spawned" },
-  { "progress":61, 
-	"logText":"61=Timer started" },
-  { "progress":62, 
-	"logText":"62=Timer continued" },
-  { "progress":70, 
-	"logText":"70=Hole visible" },
-  { "progress":71, 
-	"logText":"71=Exit sign forgotten" },
-  { "progress":80, 
-	"logText":"80=Ogre despawned" },
-  { "progress":90, 
-	"logText":"90=Wall free" }
-		]
-	}
+            {
+                "progress":1,
+                "logText":"1=Ogre crystal 1"
+            },
+            {
+                "progress":2,
+                "logText":"2=Ogre crystal 2"
+            },
+            {
+                "progress":3,
+                "logText":"3=Ogre crystal 3"
+            },
+            {
+                "progress":4,
+                "logText":"4=Ogre crystal 4"
+            },
+            {
+                "progress":5,
+                "logText":"5=Ogre sign put"
+            },
+            {
+                "progress":11,
+                "logText":"11=Ogre torch 1"
+            },
+            {
+                "progress":12,
+                "logText":"12=Ogre torch 2"
+            },
+            {
+                "progress":13,
+                "logText":"13=Ogre torch 3"
+            },
+            {
+                "progress":14,
+                "logText":"14=Ogre torch 4"
+            },
+            {
+                "progress":15,
+                "logText":"15=Ogre torch 5"
+            },
+            {
+                "progress":16,
+                "logText":"16=Ogre torch 6"
+            },
+            {
+                "progress":50,
+                "logText":"50=Pre story 1"
+            },
+            {
+                "progress":51,
+                "logText":"51=Pre story 2"
+            },
+            {
+                "progress":52,
+                "logText":"52=Torches given"
+            },
+            {
+                "progress":60,
+                "logText":"60=Ogre spawned"
+            },
+            {
+                "progress":61,
+                "logText":"61=Timer started"
+            },
+            {
+                "progress":62,
+                "logText":"62=Timer continued"
+            },
+            {
+                "progress":70,
+                "logText":"70=Hole visible"
+            },
+            {
+                "progress":71,
+                "logText":"71=Exit sign forgotten"
+            },
+            {
+                "progress":80,
+                "logText":"80=Ogre despawned"
+            },
+            {
+                "progress":90,
+                "logText":"90=Wall free"
+            }
+        ]
+    }
 ]

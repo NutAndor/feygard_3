@@ -266,5 +266,35 @@
         "name":"Mathers",
         "iconID":"monsters_ld1:34",
         "phraseID":"feygard3_mathers"
+    },
+    {
+        "id":"feygard3_guard_inspection",
+        "name":"Feygard guard ",
+        "iconID":"monsters_ld1:67",
+        "phraseID":"feygard3_guard_inspection"
+    },
+    {
+        "id":"feygard3_camp_npc",
+        "name":"Rohibon",
+        "iconID":"monsters_men:8",
+        "phraseID":"feygard3_camp_npc"
+    },
+    {
+        "id":"feygard3_horse",
+        "name":"Horse",
+        "iconID":"monsters_ld2:66",
+        "phraseID":"feygard3_horse"
+    },
+    {
+        "id":"feygard3_camp_npc1",
+        "name":"Yiffre",
+        "iconID":"monsters_ld1:17",
+        "phraseID":"feygard3_camp_npc1_2"
+    },
+    {
+        "id":"feygard3_camp_npc2",
+        "name":"Adean",
+        "iconID":"monsters_ld1:77",
+        "phraseID":"feygard3_camp_npc3"
     }
 ]

@@ -1444,6 +1444,10 @@
                 "rewardType":"spawnAll",
                 "rewardID":"fey3_line5_1",
                 "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"fey3_line"
             }
         ]
     },
@@ -1451,11 +1455,22 @@
         "id":"fey3_line_inside",
         "replies":[
             {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"fey3_line",
+                        "value":2,
+						"negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"fey3_line_inside_10",
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"2"
+                        "requireID":"5"
                     }
                 ]
             }
@@ -1470,8 +1485,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"fey3_nd",
-						"value":201,
-						"negate":true
+                        "value":201,
+                        "negate":true
                     }
                 ]
             },
@@ -1481,8 +1496,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"fey3_nd",
-						"value":202,
-						"negate":true
+                        "value":202,
+                        "negate":true
                     }
                 ]
             },
@@ -1492,8 +1507,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"fey3_nd",
-						"value":203,
-						"negate":true
+                        "value":203,
+                        "negate":true
                     }
                 ]
             },
@@ -1503,8 +1518,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"fey3_nd",
-						"value":204,
-						"negate":true
+                        "value":204,
+                        "negate":true
                     }
                 ]
             },
@@ -1514,8 +1529,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"fey3_nd",
-						"value":205,
-						"negate":true
+                        "value":205,
+                        "negate":true
                     }
                 ]
             },
@@ -1536,6 +1551,10 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"fey3_line1_1",
                 "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"fey3_line"
             }
         ]
     },
@@ -1551,6 +1570,10 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"fey3_line2_1",
                 "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"fey3_line"
             }
         ]
     },
@@ -1566,6 +1589,10 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"fey3_line3_1",
                 "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"fey3_line"
             }
         ]
     },
@@ -1581,6 +1608,10 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"fey3_line4_1",
                 "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"fey3_line"
             }
         ]
     },
@@ -1596,13 +1627,17 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"fey3_line5_1",
                 "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"fey3_line"
             }
         ]
     },
     {
         "id":"fey3_line_inside_10_9",
-		"switchToNPC":"fey3_line_guard",
-        "message":"Next, please."
+        "message":"Next, please.",
+        "switchToNPC":"fey3_line_guard"
     },
     {
         "id":"fey3_line_inside6",
@@ -1613,8 +1648,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"fey3_nd",
-						"value":206,
-						"negate":true
+                        "value":206,
+                        "negate":true
                     }
                 ]
             }
@@ -1655,12 +1690,18 @@
     },
     {
         "id":"fey3_line_guard_10",
-		"switchToNPC":"none",
         "message":"The guard stares at you in disbelief. After a while he waves with his hand and you are thrown out of the line.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_line_init"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"mapchange",
-                "rewardID":"south",
+                "rewardID":"fey3_line_out",
                 "mapName":"feygard_outside1"
             }
         ]
@@ -1694,7 +1735,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"scores",
-						"value":22
+                        "value":22
                     }
                 ]
             },
@@ -1704,7 +1745,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"scores",
-						"value":23
+                        "value":23
                     }
                 ]
             },
@@ -1735,10 +1776,16 @@
     },
     {
         "id":"fey3_line_guard_29",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_line_init"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"mapchange",
-                "rewardID":"south",
+                "rewardID":"fey3_line_out",
                 "mapName":"feygard_outside1"
             }
         ]
@@ -1759,8 +1806,8 @@
     },
     {
         "id":"fey3_line_guard_40",
-		"switchToNPC":"none",
         "message":"With practiced movements, the guard rummages through your bag.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -1770,14 +1817,14 @@
     },
     {
         "id":"fey3_line_guard_41",
-       "replies":[
+        "replies":[
             {
                 "nextPhraseID":"fey3_line_guard_42",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"bonemeal",
-						"value":1
+                        "value":1
                     }
                 ]
             },
@@ -1787,7 +1834,7 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"ringshadow",
-						"value":1
+                        "value":1
                     }
                 ]
             },
@@ -1798,8 +1845,8 @@
     },
     {
         "id":"fey3_line_guard_42",
-		"switchToNPC":"fey3_line_guard",
         "message":"I assume you brought the bonemeal so we could destroy it for you?",
+        "switchToNPC":"fey3_line_guard",
         "replies":[
             {
                 "text":"Sure. Take it all.",
@@ -1820,7 +1867,7 @@
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"bonemeal",
-						"value":100
+                        "value":100
                     }
                 ]
             },
@@ -1830,7 +1877,7 @@
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"bonemeal",
-						"value":1
+                        "value":1
                     }
                 ]
             },
@@ -1841,8 +1888,8 @@
     },
     {
         "id":"fey3_line_guard_43",
-		"switchToNPC":"fey3_line_guard",
         "message":"This ring has a highly unpleasant aura. Rather Shadowy. We will not tolerate such things in the city.",
+        "switchToNPC":"fey3_line_guard",
         "replies":[
             {
                 "text":"Sure, take it.",
@@ -1851,7 +1898,7 @@
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"ringshadow",
-						"value":1
+                        "value":1
                     }
                 ]
             },
@@ -1863,8 +1910,8 @@
     },
     {
         "id":"fey3_line_guard_90",
-		"switchToNPC":"fey3_line_guard",
         "message":"Your bag is clean. You could now enter the city.",
+        "switchToNPC":"fey3_line_guard",
         "replies":[
             {
                 "text":"N",
@@ -1874,12 +1921,12 @@
     },
     {
         "id":"fey3_line_guard_92",
-		"switchToNPC":"fey3_line_guard",
         "message":"Unfortunately the city is not prepared yet for your arrival.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"fey3_line_guard_92"
+                "nextPhraseID":"fey3_line_guard_93"
             }
         ]
     },

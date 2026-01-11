@@ -1974,7 +1974,14 @@
     },
     {
         "id":"fey3_line_guard_93",
-        "message":"Come back in a later release."
+        "message":"Come back in a later release.",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"fey3_line_out",
+                "mapName":"feygard_outside1"
+            }
+        ]
     },
     {
         "id":"fey3_line5_1",

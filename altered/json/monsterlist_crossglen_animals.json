@@ -1,0 +1,19 @@
+[
+    {
+        "id":"small_rabid_dog",
+        "name":"Small rabid dog",
+        "iconID":"monsters_dogs:1",
+        "maxHP":6,
+        "monsterClass":"animal",
+        "movementAggressionType":"flee",
+        "attackDamage":{
+            "min":2,
+            "max":2
+        },
+        "spawnGroup":"forestdog",
+        "horizontalFlipChance":25,
+        "droplistID":"canine",
+        "attackCost":9,
+        "attackChance":90
+    }
+]

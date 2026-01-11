@@ -26,19 +26,23 @@
             },
             {
                 "progress":2,
-                "logText":"2=first npc in the line"
+                "logText":"2=first npc in the line entered feygard"
             },
             {
                 "progress":3,
-                "logText":"3=second npc in the line"
+                "logText":"3=second npc in the line entered"
             },
             {
                 "progress":4,
-                "logText":"4=third npc in the line"
+                "logText":"4=third npc in the line entered"
             },
             {
                 "progress":5,
                 "logText":"5=line movement started"
+            },
+            {
+                "progress":6,
+                "logText":"6=Player learnt about the merchant pass"
             }
         ]
     },

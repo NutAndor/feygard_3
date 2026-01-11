@@ -1592,6 +1592,117 @@
         ]
     },
     {
+        "id":"feygard3_guard_inspection",
+        "message":"I'm carrying out my job right now, don't get in the way."
+    },
+    {
+        "id":"feygard3_camp_npc",
+        "message":"Tsk, they do this everytime even though it's just some fish. ",
+        "replies":[
+            {
+                "text":"What do you mean everytime?",
+                "nextPhraseID":"feygard3_camp_npc1"
+            }
+        ]
+    },
+    {
+        "id":"feygard3_camp_npc1",
+        "message":"You need a pretty expensive merchant pass or a citizenship to avoid the inspections, fellows like me have to put up with a few goods going missing until we make it big.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":6
+            }
+        ]
+    },
+    {
+        "id":"feygard3_horse",
+        "message":"Neigh."
+    },
+    {
+        "id":"brightport3_camp_npc2",
+        "message":"Man that line's so long.",
+        "replies":[
+            {
+                "text":"Seems pretty bad for commerce.",
+                "nextPhraseID":"feygard3_camp_npc1_1"
+            }
+        ]
+    },
+    {
+        "id":"feygard3_camp_npc1_1"
+    },
+    {
+        "id":"feygard3_camp_npc1_2",
+        "message":"Make yourself comfortable kid, the line's not going anywhere for a while.",
+        "replies":[
+            {
+                "text":"Line?",
+                "nextPhraseID":"feygard3_camp_npc1_3"
+            }
+        ]
+    },
+    {
+        "id":"feygard3_camp_npc3",
+        "message":"Hello, it'll be quite a while before we get in.",
+        "replies":[
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"feygard3_camp_npc3_1"
+            }
+        ]
+    },
+    {
+        "id":"feygard3_camp_npc1_3",
+        "message":"You need to wait for approval to enter Feygard, simple people like us can't just walk in there.",
+        "replies":[
+            {
+                "text":"Sounds pretty bad for commerce.",
+                "nextPhraseID":"feygard3_camp_npc1_4"
+            }
+        ]
+    },
+    {
+        "id":"feygard3_camp_npc1_4",
+        "message":"The acommodations inside the city are fairly expensive. But you can't simply leave and make camp outside, that's smart of them."
+    },
+    {
+        "id":"feygard3_camp_npc3_1",
+        "message":"We are bodyguards accompanying Sir Mathers for some business inside the city, he's over there at the gate.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"feygard3_camp_npc3_2"
+            }
+        ]
+    },
+    {
+        "id":"feygard3_camp_npc3_2",
+        "message":"No matter how many times we've been here, you just never get used to the waiting.",
+        "replies":[
+            {
+                "text":"Sounds like your employer is an affluent person, why doesn't he just buy a pass.",
+                "nextPhraseID":"feygard3_camp_npc3_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":6
+                    }
+                ]
+            },
+            {
+                "text":"I know the feeling.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"feygard3_camp_npc3_3",
+        "message":"There's no question he can afford it, though we come from Nor City, so it must be a matter of principle. The pay's accomodating enough for the wait."
+    },
+    {
         "id": "dbg_teleport_prj_feygard_3",
         "message": "***  feygard_3  ***",
         "replies": [{ "text": "Feygard Wall", 		"nextPhraseID": "dbg_teleport_prj_feygard_3_wall" },
@@ -1610,6 +1721,5 @@
     {
         "id":"dbg_teleport_prj_feygard_3_wayto_feygard_johny1", 
 		"rewards":[{ "rewardType":"mapchange", "rewardID":"east", "mapName":"wayto_feygard_johny1" }]
-    },
-    
+    }
 ]

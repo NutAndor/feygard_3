@@ -232,40 +232,52 @@
         "droplistID":"fey3_guard"
     },
     {
-        "id":"feygard_linenpc1_1",
+        "id":"fey3_line1_1",
         "name":"Roswald",
         "iconID":"monsters_ld1:8",
+        "movementAggressionType":"flee",
         "phraseID":"feygard3_roswald"
     },
     {
-        "id":"feygard_linenpc2_1",
+        "id":"fey3_line2_1",
         "name":"Orfevre",
         "iconID":"monsters_ld1:97",
+        "movementAggressionType":"flee",
         "phraseID":"feygard3_orfevre"
     },
     {
-        "id":"feygard_linenpc2_2",
-        "name":"Orfevre",
-        "iconID":"monsters_ld1:96",
-        "phraseID":"feygard3_orfevre"
-    },
-    {
-        "id":"feygard_linenpc3_1",
+        "id":"fey3_line3_1",
         "name":"Mathers",
         "iconID":"monsters_ld1:35",
+        "movementAggressionType":"flee",
         "phraseID":"feygard3_mathers0"
     },
     {
-        "id":"feygard_linenpc3_2",
-        "name":"Mathers",
-        "iconID":"monsters_ld1:34",
+        "id":"fey3_line4_1",
+        "name":"Mathers_2",
+        "iconID":"monsters_ld1:33",
+        "movementAggressionType":"flee",
         "phraseID":"feygard3_mathers"
     },
     {
-        "id":"feygard_linenpc3_3",
-        "name":"Mathers",
-        "iconID":"monsters_ld1:34",
+        "id":"fey3_line5_1",
+        "name":"Mathers_3",
+        "iconID":"monsters_ld1:31",
+        "movementAggressionType":"flee",
         "phraseID":"feygard3_mathers"
+    },
+    {
+        "id":"fey3_line6_1",
+        "name":"Mathers_4",
+        "iconID":"monsters_ld1:21",
+        "movementAggressionType":"wholeMap",
+        "phraseID":"feygard3_mathers"
+    },
+    {
+        "id":"fey3_line_guard",
+        "name":"Riboldome",
+        "iconID":"monsters_ld1:67",
+        "phraseID":"fey3_line_guard"
     },
     {
         "id":"feygard3_guard_inspection",

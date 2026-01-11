@@ -43,6 +43,26 @@
             {
                 "progress":6,
                 "logText":"6=Player learnt about the merchant pass"
+            },
+            {
+                "progress":201,
+                "logText":"201=line NPC-1 gone"
+            },
+            {
+                "progress":202,
+                "logText":"202=line NPC-2 gone"
+            },
+            {
+                "progress":203,
+                "logText":"203=line NPC-3 gone"
+            },
+            {
+                "progress":204,
+                "logText":"204=line NPC-4 gone"
+            },
+            {
+                "progress":205,
+                "logText":"205=line NPC-5 gone"
             }
         ]
     },

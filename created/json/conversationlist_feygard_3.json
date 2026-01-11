@@ -1379,188 +1379,513 @@
         ]
     },
     {
-        "id":"feygard3_line",
+        "id":"feygard3_orfevre",
+        "message":"Go away, no cutting in line!"
+    },
+    {
+        "id":"fey3_line_init",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fey3_line6_1",
+                "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fey3_nd",
+                "value":201
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fey3_nd",
+                "value":202
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fey3_nd",
+                "value":203
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fey3_nd",
+                "value":204
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fey3_nd",
+                "value":205
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fey3_nd",
+                "value":206
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"fey3_line1_1",
+                "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"fey3_line2_1",
+                "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"fey3_line3_1",
+                "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"fey3_line4_1",
+                "mapName":"feygard_outside1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"fey3_line5_1",
+                "mapName":"feygard_outside1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_inside",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_line_inside_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_inside_10",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_line_inside_10_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+						"value":201,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fey3_line_inside_10_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+						"value":202,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fey3_line_inside_10_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+						"value":203,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fey3_line_inside_10_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+						"value":204,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fey3_line_inside_10_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+						"value":205,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fey3_line_inside_10_9"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_inside_10_1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":201
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fey3_line1_1",
+                "mapName":"feygard_outside1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_inside_10_2",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":202
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fey3_line2_1",
+                "mapName":"feygard_outside1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_inside_10_3",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":203
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fey3_line3_1",
+                "mapName":"feygard_outside1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_inside_10_4",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":204
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fey3_line4_1",
+                "mapName":"feygard_outside1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_inside_10_5",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":205
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fey3_line5_1",
+                "mapName":"feygard_outside1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_inside_10_9",
+		"switchToNPC":"fey3_line_guard",
+        "message":"Next, please."
+    },
+    {
+        "id":"fey3_line_inside6",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_line_inside6_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+						"value":206,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_inside6_10",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":206
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"fey3_line6_1",
+                "mapName":"feygard_outside1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_guard",
+        "message":"Name and profession?",
+        "replies":[
+            {
+                "text":"My name is $playername, I'm looking for my brother Andor. Have you seen him by chance?",
+                "nextPhraseID":"fey3_line_guard_12"
+            },
+            {
+                "text":"My name is $playername. I have a message for someone in Feygard.",
+                "nextPhraseID":"fey3_line_guard_14"
+            },
+            {
+                "text":"Yes, I have both.",
+                "nextPhraseID":"fey3_line_guard_10"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_guard_10",
+		"switchToNPC":"none",
+        "message":"The guard stares at you in disbelief. After a while he waves with his hand and you are thrown out of the line.",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"south",
+                "mapName":"feygard_outside1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_guard_12",
+        "message":"I can't remember every peasant who passes by. But you're welcome to look for him in town.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"feygard3_line0",
+                "nextPhraseID":"fey3_line_guard_20"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_guard_14",
+        "message":"A message - for whom?",
+        "replies":[
+            {
+                "text":"I forgot.",
+                "nextPhraseID":"fey3_line_guard_10"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_guard_20",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_line_guard_22",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fey3_nd",
-                        "value":5,
-                        "negate":true
+                        "requireID":"scores",
+						"value":22
                     }
                 ]
             },
+            {
+                "nextPhraseID":"fey3_line_guard_23",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"scores",
+						"value":23
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fey3_line_guard_30"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_guard_22",
+        "message":"I have seen your dirty face on the list of unwanted persons. Get lost before my men will take you.",
+        "replies":[
+            {
+                "text":"But...",
+                "nextPhraseID":"fey3_line_guard_29"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_guard_23",
+        "message":"I get the impression that you just want to cause trouble in Feygard. You shall not pass.",
+        "replies":[
+            {
+                "text":"But...",
+                "nextPhraseID":"fey3_line_guard_29"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_guard_29",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"south",
+                "mapName":"feygard_outside1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_guard_30",
+        "message":"Do you have anything to declare at customs? Or any prohibited goods in your possession? Open your bag!",
+        "replies":[
+            {
+                "text":"Sure. I have nothing to hide.",
+                "nextPhraseID":"fey3_line_guard_40"
+            },
+            {
+                "text":"No, I won't open my bag.",
+                "nextPhraseID":"fey3_line_guard_10"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_guard_40",
+		"switchToNPC":"none",
+        "message":"With practiced movements, the guard rummages through your bag.",
+        "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"feygard3_line1",
+                "nextPhraseID":"fey3_line_guard_41"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_guard_41",
+       "replies":[
+            {
+                "nextPhraseID":"fey3_line_guard_42",
                 "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"fey3_nd",
-                        "value":2,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"timerElapsed",
-                        "requireID":"feygard_line",
-                        "value":15
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"fey3_nd",
-                        "value":5
+                        "requireType":"inventoryKeep",
+                        "requireID":"bonemeal",
+						"value":1
                     }
                 ]
             },
+            {
+                "nextPhraseID":"fey3_line_guard_43",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ringshadow",
+						"value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fey3_line_guard_90"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_guard_42",
+		"switchToNPC":"fey3_line_guard",
+        "message":"I assume you brought the bonemeal so we could destroy it for you?",
+        "replies":[
+            {
+                "text":"Sure. Take it all.",
+                "nextPhraseID":"fey3_line_guard_42b"
+            },
+            {
+                "text":"No, I will keep it.",
+                "nextPhraseID":"fey3_line_guard_10"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_guard_42b",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_line_guard_42b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bonemeal",
+						"value":100
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fey3_line_guard_42b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bonemeal",
+						"value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fey3_line_guard_40"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_guard_43",
+		"switchToNPC":"fey3_line_guard",
+        "message":"This ring has a highly unpleasant aura. Rather Shadowy. We will not tolerate such things in the city.",
+        "replies":[
+            {
+                "text":"Sure, take it.",
+                "nextPhraseID":"fey3_line_guard_40",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ringshadow",
+						"value":1
+                    }
+                ]
+            },
+            {
+                "text":"No, I will keep it.",
+                "nextPhraseID":"fey3_line_guard_10"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_guard_90",
+		"switchToNPC":"fey3_line_guard",
+        "message":"Your bag is clean. You could now enter the city.",
+        "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"feygard3_line2",
-                "requires":[
-                    {
-                        "requireType":"timerElapsed",
-                        "requireID":"feygard_line",
-                        "value":15
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"fey3_nd",
-                        "value":3,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"fey3_nd",
-                        "value":2
-                    }
-                ]
-            },
+                "nextPhraseID":"fey3_line_guard_92"
+            }
+        ]
+    },
+    {
+        "id":"fey3_line_guard_92",
+		"switchToNPC":"fey3_line_guard",
+        "message":"Unfortunately the city is not prepared yet for your arrival.",
+        "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"feygard3_line3",
-                "requires":[
-                    {
-                        "requireType":"timerElapsed",
-                        "requireID":"feygard_line",
-                        "value":15
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"fey3_nd",
-                        "value":4,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"fey3_nd",
-                        "value":3
-                    }
-                ]
+                "nextPhraseID":"fey3_line_guard_92"
             }
         ]
     },
     {
-        "id":"feygard3_line1",
-        "rewards":[
-            {
-                "rewardType":"createTimer",
-                "rewardID":"feygard_line"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"feygard_linenpc1_1",
-                "mapName":"feygard_outside1"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"feygard_linenpc2_2",
-                "mapName":"feygard_outside1"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"feygard_linenpc3_3",
-                "mapName":"feygard_outside1"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"feygard_linenpc2_1",
-                "mapName":"feygard_outside1"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"feygard_linenpc3_2",
-                "mapName":"feygard_outside1"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"fey3_nd",
-                "value":2
-            }
-        ]
-    },
-    {
-        "id":"feygard3_line2",
-        "rewards":[
-            {
-                "rewardType":"createTimer",
-                "rewardID":"feygard_line"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"fey3_nd",
-                "value":3
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"feygard_linenpc2_1",
-                "mapName":"feygard_outside1"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"feygard_linenpc3_2",
-                "mapName":"feygard_outside1"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"feygard_linenpc3_1",
-                "mapName":"feygard_outside1"
-            }
-        ]
-    },
-    {
-        "id":"feygard3_line3",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"fey3_nd",
-                "value":4
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"feygard_linenpc3_1",
-                "mapName":"feygard_outside1"
-            }
-        ]
-    },
-    {
-        "id":"feygard3_line0",
-        "rewards":[
-            {
-                "rewardType":"createTimer",
-                "rewardID":"feygard_line"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"fey3_nd",
-                "value":5
-            }
-        ]
-    },
-    {
-        "id":"feygard3_orfevre",
-        "message":"Go away, no cutting in line!"
+        "id":"fey3_line_guard_93",
+        "message":"Come back in a later release."
     },
     {
         "id":"feygard3_mathers",
@@ -1703,23 +2028,55 @@
         "message":"There's no question he can afford it, though we come from Nor City, so it must be a matter of principle. The pay's accomodating enough for the wait."
     },
     {
-        "id": "dbg_teleport_prj_feygard_3",
-        "message": "***  feygard_3  ***",
-        "replies": [{ "text": "Feygard Wall", 		"nextPhraseID": "dbg_teleport_prj_feygard_3_wall" },
-					{ "text": "Feygard0 (line)", 	"nextPhraseID": "dbg_teleport_prj_feygard_3_line" },
-					{ "text": "Way to Feygard", 	"nextPhraseID": "dbg_teleport_prj_wayto_feygard_johny1" },
-					{ "text": "Back", 				"nextPhraseID": "dbg_teleport" }]
+        "id":"dbg_teleport_prj_feygard_3",
+        "message":"***  feygard_3  ***",
+        "replies":[
+            {
+                "text":"Feygard Wall",
+                "nextPhraseID":"dbg_teleport_prj_feygard_3_wall"
+            },
+            {
+                "text":"Feygard0 (line)",
+                "nextPhraseID":"dbg_teleport_prj_feygard_3_line"
+            },
+            {
+                "text":"Way to Feygard",
+                "nextPhraseID":"dbg_teleport_prj_wayto_feygard_johny1"
+            },
+            {
+                "text":"Back",
+                "nextPhraseID":"dbg_teleport"
+            }
+        ]
     },
     {
-        "id":"dbg_teleport_prj_feygard_3_wall", 
-		"rewards":[{ "rewardType":"mapchange", "rewardID":"south", "mapName":"feygard_outside1" }]
+        "id":"dbg_teleport_prj_feygard_3_wall",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"south",
+                "mapName":"feygard_outside1"
+            }
+        ]
     },
     {
-        "id":"dbg_teleport_prj_feygard_3_line", 
-		"rewards":[{ "rewardType":"mapchange", "rewardID":"south", "mapName":"feygard0" }]
+        "id":"dbg_teleport_prj_feygard_3_line",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"south",
+                "mapName":"feygard0"
+            }
+        ]
     },
     {
-        "id":"dbg_teleport_prj_feygard_3_wayto_feygard_johny1", 
-		"rewards":[{ "rewardType":"mapchange", "rewardID":"east", "mapName":"wayto_feygard_johny1" }]
+        "id":"dbg_teleport_prj_feygard_3_wayto_feygard_johny1",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"east",
+                "mapName":"wayto_feygard_johny1"
+            }
+        ]
     }
 ]

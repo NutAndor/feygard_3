@@ -235,43 +235,39 @@
         "id":"fey3_line1_1",
         "name":"Roswald",
         "iconID":"monsters_ld1:8",
-        "movementAggressionType":"flee",
-        "phraseID":"feygard3_roswald"
+        "movementAggressionType":"flee"
     },
     {
         "id":"fey3_line2_1",
         "name":"Orfevre",
         "iconID":"monsters_ld1:97",
-        "movementAggressionType":"flee",
-        "phraseID":"feygard3_orfevre"
+        "movementAggressionType":"flee"
     },
     {
         "id":"fey3_line3_1",
-        "name":"Mathers",
+        "name":"Moffel",
         "iconID":"monsters_ld1:35",
-        "movementAggressionType":"flee",
-        "phraseID":"feygard3_mathers0"
+        "movementAggressionType":"flee"
     },
     {
         "id":"fey3_line4_1",
-        "name":"Mathers_2",
+        "name":"Sycecrawm",
         "iconID":"monsters_ld1:33",
-        "movementAggressionType":"flee",
-        "phraseID":"feygard3_mathers"
+        "movementAggressionType":"flee"
     },
     {
         "id":"fey3_line5_1",
-        "name":"Mathers_3",
+        "name":"Mathers",
         "iconID":"monsters_ld1:31",
         "movementAggressionType":"flee",
-        "phraseID":"feygard3_mathers"
+        "phraseID":"fey3_line5_1"
     },
     {
         "id":"fey3_line6_1",
-        "name":"Mathers_4",
+        "name":"Busy looking man",
         "iconID":"monsters_ld1:21",
         "movementAggressionType":"wholeMap",
-        "phraseID":"feygard3_mathers"
+        "phraseID":"fey3_line6_1"
     },
     {
         "id":"fey3_line_guard",

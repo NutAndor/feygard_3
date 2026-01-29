@@ -470,7 +470,9 @@
     <map area="mt_galmore" id="galmore_85" x="65" y="820"/>
     <map area="mt_galmore" id="galmore_86" x="96" y="820"/>
     <map id="nw_sullengard_1" x="236" y="650"/>
-    <map id="feygard_outside1" x="-74" y="34"/>
+    <map id="feygard_outside1" x="-49" y="38"/>
+    <map id="wayto_feygard_johny1" x="-38" y="86"/>
+    <map id="wayto_feygard_johny2" x="-49" y="69"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>

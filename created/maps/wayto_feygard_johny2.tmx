@@ -192,6 +192,9 @@
  <tileset firstgid="8393" name="map_fence_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_fence_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="8521" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../../../Brightport/created/drawable/map_tree_3.png" width="1024" height="544"/>
+ </tileset>
  <layer id="1" name="Ground" width="25" height="16">
   <data encoding="base64" compression="zlib">
    eJzTlGNg0CQTayNhcs0YDHZojtoxaO0Y9Qtp5uOyg1I3EGMHPvWkuI/SsMJnN63igh52kBsXtEy3AMNsb3k=
@@ -209,7 +212,7 @@
  </layer>
  <layer id="4" name="Walkable" width="25" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMJLBdjkGhh1ypOsDAGAUAaw=
+   eJy7KMbAcJFEjA8gqyHVXGLtwGUnrfxBrj0wPbT0A6lhRo455IQXKW4kN+5x6aPEH/jUEvLDKKA+IKc8oIZ9tLYTWzlBTBom1lx0O/DZAwLb5RgYdsiRbhcAY6l6lg==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">

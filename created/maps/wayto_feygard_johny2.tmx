@@ -193,7 +193,7 @@
   <image source="../drawable/map_fence_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="8521" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
-  <image source="../../../Brightport/created/drawable/map_tree_3.png" width="1024" height="544"/>
+  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
  <layer id="1" name="Ground" width="25" height="16">
   <data encoding="base64" compression="zlib">

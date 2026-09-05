@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="28" nextobjectid="81">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="28" nextobjectid="85">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -194,17 +194,17 @@
  </tileset>
  <layer id="1" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJx7yMnA8HAA8HqFkYWVpEnD1DSLFJyggD2+EoaIvRc5ScMFOOwFiZNq1igexUMNXx4EbhjFgxNTkjZG09UoHi54NC2P4pGCAfsm0jE=
+   eJx7yMnA8JAEHKfAwBCPBScokGbOegXSsBAXbkyqWQNhr5I0aRhfOJNqFikYVzwOFXsvcpKGC3DYCxIn1axRPIqHGr48CNwwigcnpiRtjKarUTxc8GhaHsUjBQMA00nDSg==
   </data>
  </layer>
  <layer id="2" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxr4mRgaBoAPFCAVHdOwuHWiTT270Ic5iwi0SwfWdL45JirJE2+OdQGQdykYWqZRY47SRGnJmATZ2DgQMKc4rS3EwSeizEwXOZE4Bdio/aCABuV44FYe59DxakVHsTaKwb0pwQQS9LZv9QG9LAXW9qgR7rCljboka6wpY3RdDVqL7XLSBhAtheX20AAX1i8EKS+vdROy8TaS0sw0PZS0+7XROSNgQprSuwFAFf+jIo=
+   eJxr4mRgaCIBg0C0LHaaVHOIBVZi+OWtCcgjA1Lc6EXAXG8x2vgXBnCFMynAR5Y0PjnmKkmTbw61QRA3aZhaZpHjTlLEqQnYxBkYOJAwpzjt7QSB58D8cpkTgV+QkG+Hs71sVI4HYu19DhWnVngQa68Y0J8SQCxJZ/9SG9DDXmxpgx7pClvaoEe6wpY2RtPVqL3ULiNhANleXG4DAXxh8UKQ+vZSOy0Tay8twUDbS027XxORNwYqrCmxFwD5CIaY
   </data>
  </layer>
  <layer id="3" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztVT1PwzAQNUOjgIpoQHIFQwUSKwviz9DugEonti5I/AdgYGVj4+MPlB9RBpibtGJGIBbu1Fi+XGzHCYrowJMs2bHP7+752RHiH4uGXuCe7xbMV8E57HlasG8/mK9bZDTXdT+OhBhHeoz9OMrHlN33r2HLxVRb1XrLguvM8b5pjsPvQYG2O20hdtvmOVpfHbXuW3h98Vkip7c1IUYNzTtJY33rQh25zorfpv9dKzs21Ttj/FM2rno3bgk35Z1acq0DyLtH8l/a8Itz+ZniktR41sjyNrfy8VxbG1y+Cg3ncUR8pfTl58rBvVEGPr5SwHxsHvLV2QT0F+et6lWT3o+w/5NFI8V7BfPX0O6hPbT0na4LtF703gjaM8vR9J78RmfFi35Wmqi6KYr85gM80xt2jxQ+pBBf0h1P71css+eaWGKply/IPUL0w7yerjxQz5jNIa9LZ9M7OQTebtowBxN4HiZeH+D/9yDlpWeocuhBm8BehyQnmpeE2G/CtQLjZct7YPII+mosdXuVet0L9LfZnR4S7rI1I9dq+i4nwHHcEeKkM+eYkRxon8YMwvwZo8foGav1+BYkln8rzqt1KgfKQ/u476BCvVxr5PkBR+B81w==
+   eJzVVU1LAzEQjUKXrVTsKmzRQ1Hw6kUEf4vtXaX25K0XQX+DevDqzZsff6D+iHrQc7ctnosiiDN0Q2Znk+xuyqI+CCSbTN7My0tWCDfsLzoG/iNcVOebd0Xbs8+3MuZdcAZ7nmTs2/Fm6/4yaquqHwVCDAI1xn4UpGOK7vvbMOWiq8213qLgOnO8r+vj8LuXoe1WQ4jthn6O1ldGrbsG3rz4KJDT24oQ/YriHcaxeetCHbnOkt+k/109OUbeCePj4zEbu96NW8KNvN/xvmNDrmUAeXdI/gtr+eJsfqa4JDWeVpK8tY10PNfWBJuvfM15HBJfSX35uXJwbxSBzlcmYD4mD+XVWQf0F+d19apO70fY/8mgkeS9gvlraPfQHurqTpcFWi96rw/tmeWoe0/m0Vnyop+lJrJuiiy/5QGe6Q27RxLTUIjP0B5P71cUJs91ZIilXj4n9wjR8dN62vJAPSM2h7w2nfk7iegBbytumIMOPA8dbx7g/3cv5qVnKHNoQxvCXgckJ5pXCLFfhGsJxlXDe6DzCPpqEKr2Gqp1L9DfZHe6R7iL1oxcy/G7PAKOo6YQx80Zx4TkQPs0puunzxg9Rs9Yrse3YGT4t+K8XCdzoDy0j/t2HerlWiPPDycZgDA=
   </data>
  </layer>
  <layer id="4" name="Objects0" width="30" height="30">
@@ -279,17 +279,17 @@
  </layer>
  <layer id="18" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFQw08FqOt+YUKDAxFSLhYgT72NgLtaULCzXSydyLQnklIeDLU3k80tncgwB1JBPs7B4JGFqc1QLaXnoCe9g6HcL5JpluHWjj/oWOchLEi2OSGL60APvfgCk96pmdKQKsAA0ObwEC7gjCgRjgjp+eh4m96g6GengcC0LOcBNn1F8k+dzkGBg850vQQimN09dgASB6mDuYGZH3IbGqlHXckO3DRxLof2UxY+OEzAwBTj1KQ
+   eJxjYKAeiFKgomGDBBxUYGA4hAUfBuIYhYFx02Mx2ppfqMDAUISEixXoY28j0J4mJNxMJ3snAu2ZhIQnQ+39RGN7BwLckUSwv3MgaGRxWgNke+kJ6GnvcAjnm2S6daiF8x86xkkYK4JNbvjSCuBzD67wpGd6pgS0CjAwtAkMtCsIA2qEM3J6Hir+pjcY6ul5IAA9y0mQXX+R7HOXY2DwkCNND6E4RlePDYDkYepgbkDWh8ymVtpxR7IDF02s+5HNhIUfPjMAxstZtA==
   </data>
  </layer>
  <layer id="19" name="Top" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+   eJztxTENAAAIA7BJwL8rHOFgP0n7NKHZ6QMAAHx1YgMDhQ==
   </data>
  </layer>
- <layer id="20" name="Walkable" width="30" height="30" visible="0">
+ <layer id="20" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzFVtsRgCAMYwr3X4mN/OKHK303yZ0nKjSxQMn+1tqEi4UurYycseanO2aG1zuvUWi8KLD2w+FF8N/zf+6MPKPzHeGtaovmeUKT938rmiq8HXwZ7VKdQeG1LrxjKnyVvsh1OwF0jcuiYy9KZ3w2lsbBqt93W3qOxPLGkb5pvmkSLx8naeqqq9a7Tv+meVVrjNU34nssj/xqRyDl7Qd3ZdFZ
+   eJzFVkEOgDAI2yv8/5f2I0+7GBi0IG1i1AUoKYLsZ60tuFToylWhmao+3TEZ3mxdUdx4p6Dqh8M7wf+t/7krdJ7WG+Gt5obqbJ1b/cDkEPl5PKwGrD87N9BYVV0r8L6LrE+Fr2LL6Mzk8BemZxyLis6WrfdfrUKhp9U73jsSKxvHm9HIftQFb4+zcuqaq9FZ5/5221Ujn8gW2XuiHdl7RmDp9gJ0i9Mn
   </data>
  </layer>
  <layer id="21" name="Walkable0" width="30" height="30" visible="0">
@@ -307,7 +307,7 @@
    eJxjYBgFIw1cFIPg4W4vun30sh+bHcPd3oEKZ2x4FIyCUTAKRsEoGAWjYBQQDwB94hPb
   </data>
  </layer>
- <objectgroup id="24" name="Mapevents" visible="0">
+ <objectgroup id="24" name="Mapevents">
   <object id="1" name="south" type="mapchange" x="416" y="928" width="224" height="32">
    <properties>
     <property name="map" value="wayto_feygard_johny2"/>
@@ -324,6 +324,24 @@
    <properties>
     <property name="map" value="feygard0"/>
     <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object id="81" name="east1" type="mapchange" x="928" y="192" width="32" height="192">
+   <properties>
+    <property name="map" value="feygard_outside2"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object id="82" name="east2" type="mapchange" x="928" y="544" width="32" height="384">
+   <properties>
+    <property name="map" value="feygard_manor7"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object id="83" name="west" type="mapchange" x="0" y="192" width="32" height="576">
+   <properties>
+    <property name="map" value="feygard_outside3"/>
+    <property name="place" value="east"/>
    </properties>
   </object>
   <object id="72" name="fey3_line_out" type="mapchange" x="448" y="224" width="32" height="32"/>
@@ -360,6 +378,12 @@
   </object>
   <object id="73" name="fey3_line_init" type="script" x="480" y="480" width="96" height="32"/>
   <object id="78" name="fey3_line_inside6" type="script" x="512" y="384" width="32" height="32"/>
+  <object id="84" name="south2" type="mapchange" x="896" y="928" width="32" height="32">
+   <properties>
+    <property name="map" value="feygard_manor0"/>
+    <property name="place" value="north1"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="25" name="Spawn" visible="0">
   <object id="14" name="fey3_ogre" type="spawn" x="160" y="160" width="64" height="96">
@@ -427,7 +451,7 @@
     <property name="spawngroup" value="fey3_guard_maingate4"/>
    </properties>
   </object>
-  <object id="24" name="fey3_guard_maingate_left" type="spawn" x="64" y="32" width="352" height="32">
+  <object id="24" name="fey3_guard_maingate_left" type="spawn" x="64" y="32" width="288" height="32">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="fey3_guard_maingate_left"/>
@@ -451,14 +475,14 @@
     <property name="spawngroup" value="fey3_guard_maingate_right"/>
    </properties>
   </object>
-  <object id="28" name="fey3_guard_maingate_left2" type="spawn" x="608" y="32" width="32" height="32">
+  <object id="28" name="fey3_guard_maingate_left2" type="spawn" x="576" y="32" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="fey3_guard_maingate_left2"/>
    </properties>
   </object>
-  <object id="29" name="fey3_guard_maingate0_left2" type="spawn" x="512" y="64" width="32" height="32">
+  <object id="29" name="fey3_guard_maingate0_left2" type="spawn" x="512" y="32" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>

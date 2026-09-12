@@ -207,7 +207,7 @@
    eJxjYBgFo2AUjALSAAAEOAAB
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object name="feygard3_line" type="script" x="288" y="96" width="416" height="128">
    <properties>
     <property name="when" value="enter"/>
@@ -220,7 +220,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
- <objectgroup name="Keys"/>
- <objectgroup name="Replace"/>
+ <objectgroup name="Spawn" visible="0"/>
+ <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Replace" visible="0"/>
 </map>

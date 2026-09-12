@@ -186,33 +186,33 @@
  <tileset firstgid="7721" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <tileset firstgid="8265" name="map_poisonland" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+ <tileset firstgid="8265" name="map_poisonland" tilewidth="32" tileheight="32" tilecount="0" columns="15">
   <image source="../drawable/map_poisonland.png" width="480" height="256"/>
  </tileset>
- <tileset firstgid="8385" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8265" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8513" name="map_tree_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8393" name="map_tree_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_tree_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8641" name="map_fence_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8521" name="map_fence_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_fence_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8769" name="map_crate_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8649" name="map_crate_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_crate_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8897" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8777" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_ground_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="9025" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8905" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="9153" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="9033" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_plant_1.png" width="512" height="256"/>
  </tileset>
  <layer id="14" name="Base" width="11" height="9">
   <data encoding="base64" compression="zlib">
-   eJw7qMTAcHAUDwoMAI1qV8o=
+   eJzzVGJg8BzFgwIDAEoOKWI=
   </data>
  </layer>
  <layer id="1" name="Ground" width="11" height="9">
@@ -222,12 +222,12 @@
  </layer>
  <layer id="2" name="Objects" width="11" height="9">
   <data encoding="base64" compression="zlib">
-   eJw7pcjAcIoIfAuIo4DYU5mBIRLKDkNi30Bi34Gq+6YMoUHAHUqDAEzshzJELbpZkUjs71jMhZk1TQliLwyEKSPMh5nrjsO97mjmgkAkklnuONgwc//gcC82cz2R9P9CYkeiuRcAGTkxzA==
+   eJwLUmRgCCICJwHxIwUGhotKDAwPFSDse0jsBGUEO0URoq5OGUKDwHkoDQIwsQZliFp0sx4iseuxmAszS04JYi8M3FNCmA8z9zwO9yKLg9SCwEMkN57HwYaZ26KM3b3YzL2IpL8Jyb0P0dwLAHGFQAk=
   </data>
  </layer>
  <layer id="3" name="Above" width="11" height="9">
   <data encoding="base64" compression="zlib">
-   eJzzUmQAA08g7UWATQogZNZIMRcGiDEXAF4zDig=
+   eJy7pMAABheB9CUCbFIAIbNGirkwQIy5AMhzIBY=
   </data>
  </layer>
  <layer id="13" name="Top" width="11" height="9">
@@ -235,13 +235,13 @@
    eJxjYBgFgwUAAAGMAAE=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="11" height="9">
+ <layer id="4" name="Walkable" width="11" height="9" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFgwUAAAGMAAE=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents" visible="0"/>
- <objectgroup id="6" name="Spawn"/>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="6" name="Spawn" visible="0"/>
+ <objectgroup id="7" name="Keys" visible="0"/>
+ <objectgroup id="8" name="Replace" visible="0"/>
 </map>

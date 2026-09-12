@@ -178,7 +178,7 @@
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
  <tileset firstgid="7881" name="map_poisonland" tilewidth="32" tileheight="32" tilecount="120" columns="15">
-  <image source="../../../../Source/andors-trail/AndorsTrail/res/drawable/map_poisonland.png" width="480" height="256"/>
+  <image source="../drawable/map_poisonland.png" width="480" height="256"/>
  </tileset>
  <tileset firstgid="8001" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>

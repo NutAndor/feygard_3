@@ -193,7 +193,7 @@
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="8953" name="map_poisonland" tilewidth="32" tileheight="32" tilecount="120" columns="15">
-  <image source="../../../../Source/andors-trail/AndorsTrail/res/drawable/map_poisonland.png" width="480" height="256"/>
+  <image source="../map_poisonland.png" width="480" height="256"/>
  </tileset>
  <tileset firstgid="9073" name="map_feygard1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_feygard_1.png" width="512" height="256"/>

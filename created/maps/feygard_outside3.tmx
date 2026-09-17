@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="10" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="10" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="4">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -243,7 +243,7 @@
  </layer>
  <layer id="2" name="Objects" width="10" height="30">
   <data encoding="base64" compression="zlib">
-   eJyr1mBgkAbiEE0IjQuPBKClhMq/r0iZef/w6H9AhNkPKbQfBB4BzbhHwBxsbkEPC2IBuW4mJjywAUJ+I9YukNgjqHijGgmGKeEOY1hY9ALV9CGFJ0g9KG0tAdqzVA1hXx8wn02E5jWQOKM6A8MnNUzMpI5wM4gvpI4wCwRgbEEk/TC3iCsh5J8guQGbfgm0NPAfR7iBQBHQ3XlE4GakskQcav4nNHNhfGQ3PYK6FQCTVkGK
+   eJyr1mBgkAbiEE0IjQuPBKClhMq/r0iZef/w6H9AhNkPKbQfBB4BzbhHwBxsbkEPC2IBuW4mJjywAUJ+I9YukNgjqHijGgmGKeEOY1hY9ALV9CGFJ0g9KG0tAdqzVA1hXx8wn02E5jWQOKM6A8MnNUzMpI5wM4gvpI4wCwRgbEEk/TC3iCsh5J8guQGbfgm0NPAfasZTJL/CwrII6O48InAzUlkiroRpHgh8UkR1ByzMQHwAD/BCgw==
   </data>
  </layer>
  <layer id="3" name="Above" width="10" height="30">
@@ -256,12 +256,31 @@
    eJyT1mAYBaNgFIyCIQEAPqcARA==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="10" height="30" visible="0">
+ <layer id="4" name="Walkable" width="10" height="30">
   <data encoding="base64" compression="zlib">
-   eJzL1GBgyARiEMjUwI2pDfDZRUs8XACxfsGmbqiGA63djZwPSHELLjayGDY1+NIlsemY1HRPjDp65RdC5mNzEwC+FTHZ
+   eJzL1GBgyARiEMjUwI2pDfDZRUs82AGxbqRE3VAIB2yA1u5GzgekuAUXG1kMmxp86ZLYdExquidGHaH8Qq14IBTe2NwEAOIDM4w=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0"/>
+ <objectgroup id="15" name="Mapevents">
+  <object id="1" name="west2" type="mapchange" x="0" y="416" width="32" height="512">
+   <properties>
+    <property name="map" value="feygard_outside4"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object id="3" name="west1" type="mapchange" x="0" y="192" width="32" height="128">
+   <properties>
+    <property name="map" value="feygard_outside7"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object id="2" name="east" type="mapchange" x="288" y="192" width="32" height="704">
+   <properties>
+    <property name="map" value="feygard_outside1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="6" name="Spawn" visible="0"/>
  <objectgroup id="7" name="Keys" visible="0"/>
  <objectgroup id="8" name="Replace" visible="0"/>

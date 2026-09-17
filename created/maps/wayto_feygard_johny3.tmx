@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="31" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="4">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="31" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="4">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -209,25 +209,19 @@
    eJzFVcENwjAMvDXyyP4zwALwgwEyQkcoEqnAYJmz4xIkTqoa147PvqQJAKwFuPUHajx6HypwrHihlfd4UWM7T8NyNpNXvp+6fa4Pv80jPltXxLs+bc0lefR3PZf1xGJ1nowGezRn65Th0D6Gkabemkc5tM00YZA9ZHk83bLw+tZYJvJ7nLKn/4Vf9/QtZtdvFtG+3YtML3bfs3PLqy2rVRQ34orOlUb+4eh+8PhsXCuf5wqrl8XbujI6ZevL9Mq0k5rEvnTf1bl3spptkDxZXe/SJdf+
   </data>
  </layer>
- <layer id="4" name="Walkable" width="31" height="16" visible="0">
+ <layer id="4" name="Walkable" width="31" height="16">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcHGAMAgMlN0DaT+yveS6AZ8+ZIBPjhy70d1OyA58dhNjFiH34zMDmxwuQMhv5AJK9FJiJ6XuHi6AlHCgRXihp0VyzUA3i1i1xOR9Ut2KTx255Qw2c8kpi4jVSw2Mz//0sBeEATsG7Gs=
+   eJy7KMbAcHGAMAgMlN0DaT+yveS6AZ8+ZIBPjhy70d1OyA58dhNjFiH34zMDmxwuQMhv5AJK9FJiJ6XuHi6AlHCgRXihp0VyzUA3i1i1xOR9Ut2KTx255Qw2c8kpi4jVSw1MT7tw2QsAf6vvIA==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
-  <object id="1" name="north" type="mapchange" x="64" y="0" width="224" height="32">
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="west" type="mapchange" x="0" y="96" width="32" height="384">
    <properties>
-    <property name="map" value="wayto_feygard_johny2"/>
-    <property name="place" value="south"/>
+    <property name="map" value="wayto_feygard_johny4"/>
+    <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="2" name="north1" type="mapchange" x="352" y="0" width="32" height="32">
-   <properties>
-    <property name="map" value="wayto_feygard_johny2"/>
-    <property name="place" value="south1"/>
-   </properties>
-  </object>
-  <object id="3" name="east" type="mapchange" x="768" y="480" width="32" height="256">
+  <object id="3" name="east" type="mapchange" x="960" y="256" width="32" height="160">
    <properties>
     <property name="map" value="wayto_feygard_duleian_2"/>
     <property name="place" value="west"/>

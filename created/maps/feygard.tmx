@@ -282,7 +282,14 @@
    eJzt3FtuwyAQBdBsogvr/jfTr0hWBZgB4pjxOVI+4niwK3HDo1ZeLwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA49/uz5gUZ3TUfq+5DdpmxMh+trPT2a/2ZO+n9Lr46H8YP7qDWx6/Ox7GN3vPlg0+LzHFK5xk/yKzVt2rn145F81GqkQ/upDYmnNWU3kfyUbuH1jxPPrjaiv4zM35ErxOtkw9m9IwVV2XoE+SDGdn7T/a/D0ZdPVaRT229HKntXX+06iP7zGfXipwDLb17QT37RtF81NqN3v/M5/Bk8kFGq/q1fJDR7P9KIDP5gLqzPYDacyetY5BF6Zms4/GevWH5ICv5AAAAAAAAAAAAAOAbzp5X7f29hLPfW4CdRbNxrOlpu/Ue7mxk7HjX9bQNuxrNxv9ayGg0G+/anmOwqxVr81KbkMFMJsytyC6SDXiaVWNH6bOR/S64k5H1x+ia5Xg92MHofm5rjOnZ+4IdRPdz5YMn6ZkLRdco8kEWrXX06nzICTuLrDei+ZANKCvlDnYwMpeaXX/IB7v4Rj4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBc/gBskRde
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0"/>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="192" width="32" height="576">
+   <properties>
+    <property name="map" value="feygard_outside3"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="6" name="Spawn" visible="0"/>
  <objectgroup id="7" name="Keys" visible="0"/>
  <objectgroup id="8" name="Replace" visible="0"/>

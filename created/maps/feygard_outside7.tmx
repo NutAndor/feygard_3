@@ -192,80 +192,29 @@
  <tileset firstgid="8393" name="map_transition_6" tilewidth="32" tileheight="32" tilecount="144" columns="18">
   <image source="../drawable/map_transition_6.png" width="576" height="256"/>
  </tileset>
- <tileset firstgid="8537" name="map_fence_4" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_fence_4.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8665" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_window_2.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8793" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_ground_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8921" name="map_chair_table_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_chair_table_1.png" width="512" height="256"/>
- </tileset>
  <tileset firstgid="9049" name="map_feygard1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_feygard_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="9177" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="9305" name="map_transition_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_transition_2.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="9433" name="map_wall_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_wall_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="9561" name="map_sign_ladder_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_sign_ladder_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="9689" name="map_curtain_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_curtain_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="9817" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="9945" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_plant_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="10073" name="map_ground_4" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_ground_4.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="10201" name="map_pillar_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_pillar_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="10329" name="map_poisonland" tilewidth="32" tileheight="32" tilecount="120" columns="15">
   <image source="../drawable/map_poisonland.png" width="480" height="256"/>
  </tileset>
  <layer id="14" name="Base" width="21" height="18">
-  <data encoding="base64" compression="zlib">
-   eJx7oMLA8AAJxytgx5lKCByJhD+oYOL5Cqh4lhJ2jK6OFEwNMyPR/OIHFEMHAVjUoWNCZkYqI4Wd8uAwM1oJFcdhMTMBizp0jM+d5GJizITZP9zMzFQmrGYwmFlJpJmkxDtyuqKGG0mxc7ibCQBfcMph
-  </data>
+  <data encoding="base64" compression="zlib">eJy7IcXAcAMJxytgxw85EfgiEn4hhYnnK6BiIS7sGF0dKZgaZl5E84sfUAwdBGBRh44JmRmpjAg7EHswmHmZExXHYTEzAYs6dIzPneRiYsyE2T/czMxUJqxmMJhZSaSZpMQ7crqihhtJsXO4mwkAdmsp1w==</data>
  </layer>
  <layer id="1" name="Ground" width="21" height="18">
-  <data encoding="base64" compression="zlib">
-   eJxjYCAOrFGE0JtViNRARXBEA5V/SZWBYaMCA8MmNLwZiC+rEm+mlioqxgXQ1aHjQxpDz8wodVSMC6CrQ8fIZn5UQ+jLhcrPQsMgsTw89oEAspnIoFANUy0xcshmIoMPBPSAAB8Wt8L0YTOTEmAFtYtQPOMC+PyDzUxKwhPZTGLCER28w6IHW3q0JJBWBgvAF16g8CEUnujpDFv44AMfCagHAEarPYc=
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYCAOLOGE0NoSRGqgIjiigcr3EmNg2KjAwLAJDW8GYm8x4s1UkkbFuAC6OnR8SGPomRnEjYpxAXR16BjZzJeCCH2pUPlJaBgklobHPhBANhMZvJTErQefHLKZyOCFIKYYOmATwq0Pm5mUACOoXYTiGRfA5x9sZlISnshmEhOO6OAZFj3Y0qMhlvAfjABfeIHCh1B4oqczbOGD134C6gFe4zZ+</data>
  </layer>
  <layer id="2" name="Objects" width="21" height="18">
-  <data encoding="base64" compression="zlib">
-   eJzrVmRg6EbCIPAbSiOzuxWJw7OQ9ILAIVUGnOAwHjlkMAfNTJA9N9UhbBCNzO5GU4sOYO5DN/MxHrc8IuDOOTjM/IxH3ycyzaQEDISZfCoMDAJQLKhCmpkrcZj5XhnB/qCMXQ0uM3EBmJkg84g1E5f7KDGTEBjsZj5TgsS5MDSumYC0IpHxjgt8UyIvzvEBNmXqmwkC5Jr5Xg3BZlSnjpnIAABIYj+u
-  </data>
+  <data encoding="base64" compression="zlib">eJxr5mRgaEbCIBAtywAHMHYzJ3F4EicDCrASY8AJrPHIIYMpaGaC7LkoAGGDaGR2M5padABzH7qZ0Wy49UThkUM2C93MbDz6ssg0kxIwEGayiTMwcEAxpzhpZi7EYeZzpHTzgsw0hMtMkHnEmonLfZSYSQgMdjPjWCBxzg2N619A8ySJjHdcII+FvDjHB+poYCYIkGvmc0EE+6cgmhwV3AkAa8o0ew==</data>
  </layer>
  <layer id="3" name="Above" width="21" height="18">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgaoFsRgUlRi44JgSAFVEwueINkVyLQnCQoTlbArgYbHxmkqKHyC4HmFEFxsQKmemx60EEJmnwj0JwmKG7GYSa6HlwgEY86fHJDDXQRma4oBdQIT3zpazgCXOmfUHjhkyc2/VMCqJ0/QOYBAAMwHIg=
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYBgaoJkTgUlRi44JgSAFVEwu8JFFsBOB5iRBcbICdjXY+MjgjiQqvxBoThEUFytgqsemBx28QZNvBJrTBMXNOMxE14ML3MSjDp/cUANNRKYrSgE1whNf+hqOAFf6JxRe+OSJTf+UAGrnD5B5ADoeHlI=</data>
  </layer>
  <layer id="13" name="Top" width="21" height="18">
-  <data encoding="base64" compression="zlib">
-   eJxjYCAO/FImUuEAAx8FyvT/VsRkv6aB34eKmUMl3kfBKBgFuAEAhdoICQ==
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYCAOfBIjUuEAAx8FyvRHy2KyH9PA70PFzKES76NgFIwC3AAAeOMGWA==</data>
  </layer>
  <layer id="4" name="Walkable" width="21" height="18">
-  <data encoding="base64" compression="zlib">
-   eJy7qczAcJPKmNoAm5mU2k2sflL8PJTMRA9XXGYSEsNmFqUAl5n47CBkP73SJTXMpHY+wmUmpeFJqpnkgsFkJi591Ex/1PYvyDwAtmBqUQ==
-  </data>
+  <data encoding="base64" compression="zlib">eJy7KMbAcJHKmNoAm5mU2k2sflL8PJTMRA9XXGYSEsNmFqUAl5n47CBkP73SJTXMpHY+wmUmpeFJqpnkgsFkJi591Ex/1PYvyDwAVpxhdQ==</data>
  </layer>
  <objectgroup id="17" name="Mapevents">
   <object id="1" name="west" type="mapchange" x="0" y="192" width="32" height="352">

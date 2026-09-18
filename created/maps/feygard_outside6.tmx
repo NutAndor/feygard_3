@@ -189,30 +189,6 @@
  <tileset firstgid="8265" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8393" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
-  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
- </tileset>
- <tileset firstgid="8937" name="map_wall_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_wall_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="9065" name="map_ground_4" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_ground_4.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="9193" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_ground_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="9321" name="map_fence_4" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_fence_4.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="9449" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="9577" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_plant_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="9705" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
  <tileset firstgid="9833" name="map_poisonland" tilewidth="32" tileheight="32" tilecount="120" columns="15">
   <image source="../drawable/map_poisonland.png" width="480" height="256"/>
  </tileset>
@@ -220,29 +196,19 @@
   <image source="../drawable/map_feygard_1.png" width="512" height="256"/>
  </tileset>
  <layer id="14" name="Base" width="19" height="18">
-  <data encoding="base64" compression="zlib">
-   eJz7qczA8JOKeL4CdTCtzHqpTBkeNYs0jBwPg8ksGP6kNjjNYlKnnlmjmP4YABN2V0k=
-  </data>
+  <data encoding="base64" compression="zlib">eJx7yMnA8JCKeL4CdTCtzLrISRkeNYs0jBwPg8ksGP6kNjjNYlKnnlmjmP4YAIqCHzs=</data>
  </layer>
  <layer id="1" name="Ground" width="19" height="18">
-  <data encoding="base64" compression="zlib">
-   eJxjYKAemKcwuM26osbAYKVMGR4KZmUpU4aRzaIWGGxmwcLNS3lwmhVFBbOQ43QU0BcAAPdoK3U=
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYKAemKcwuM26osbAoCRNGR4KZgVxU4aRzaIWGGxmwcLNSHpwmuVEBbOQ43QU0BcAAK1NIMU=</data>
  </layer>
  <layer id="2" name="Objects" width="19" height="18">
-  <data encoding="base64" compression="zlib">
-   eJxbqcLAMJtKeA0QUwvAzFpJBTNhZlHDfYPVLHQzh7NZt6lo1igYBTCgqooptgKLGDJQUUXoY1FFiAEA1m4bFA==
-  </data>
+  <data encoding="base64" compression="zlib">eJybyMnA0EwlPAWIqQVgZk2kgpkws6jhvsFqFrqZw9msw1Q0axSMAhjglcIUExDCr4dHCqHvjSRCDACtmxRZ</data>
  </layer>
  <layer id="3" name="Above" width="19" height="18">
-  <data encoding="base64" compression="zlib">
-   eJxjYBj8oJmTMjwSwBoV6pm1i4pmUROMpPgcBcQBUVXS9YioIvR9UUGIXVdgYLihgKkGpu4kUO6UAqY56GpBAADJ1hO4
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYBj8oJmTMjwSwBQq+nPRIA2zkRSfo4A48FeSdD1/JBH67kgixMzlGBgs5DDVwNRpAuW05DDNQVcLAgDu/hkc</data>
  </layer>
  <layer id="13" name="Top" width="19" height="18">
-  <data encoding="base64" compression="zlib">
-   eJxjYBhZ4LfqqFmjZg0Ns7jUqGfWKKAvAADwBQpR
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYBhZ4LHYqFmjZg0Nsz5R0axRQF8AAP1HCco=</data>
  </layer>
  <layer id="4" name="Walkable" width="19" height="18">
   <data encoding="base64" compression="zlib">

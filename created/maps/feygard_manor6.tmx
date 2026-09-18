@@ -189,28 +189,11 @@
  <tileset firstgid="8257" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8385" name="map_tree_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_tree_2.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8513" name="map_fence_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_fence_2.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8641" name="map_crate_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_crate_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8769" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_ground_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8897" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
  <tileset firstgid="9025" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_plant_1.png" width="512" height="256"/>
  </tileset>
  <layer id="14" name="Base" width="11" height="9">
-  <data encoding="base64" compression="zlib">
-   eJxzVGJgcBzFgwIDAN8hJko=
-  </data>
+  <data encoding="base64" compression="zlib">eJy7yMnAcHEUDwoMAN7QVE8=</data>
  </layer>
  <layer id="1" name="Ground" width="11" height="9">
   <data encoding="base64" compression="zlib">
@@ -218,14 +201,10 @@
   </data>
  </layer>
  <layer id="2" name="Objects" width="11" height="9">
-  <data encoding="base64" compression="zlib">
-   eJzzUmRg8CICRwHxLQUGhpNKDAw3FSDsa0jsCGUEO0YRoq5MGUKDwHEoDQIwsQpliFp0s24iscuxmAszS0wJYi8MXFNCmA8z9zgO9yKLg9SCwE0kNx7HwYaZW6OM3b3o5s5DCgMQqEJy70009wIAglA+Wg==
-  </data>
+  <data encoding="base64" compression="zlib">eJyL4mBgiCICZwHxK0kGhkgxBoaXkhB2GhI7QhnBzuGAqCtThtAgEA6lQQAmVqEMUYtuViYSuxyLuTCzlrFC7IWBNDGE+TBzw3G4F1kcpBYEMpHcGI6DDTO3Rhm7e9HNnYcUBiBQheTeTDT3AgD1ADP6</data>
  </layer>
  <layer id="3" name="Above" width="11" height="9">
-  <data encoding="base64" compression="zlib">
-   eJw7pcAABieB9CkCbFIAIbNGirkwQIy5AO3EHwY=
-  </data>
+  <data encoding="base64" compression="zlib">eJy7JckABjeB9C0CbFIAIbNGirkwQIy5AOS1IDg=</data>
  </layer>
  <layer id="13" name="Top" width="11" height="9">
   <data encoding="base64" compression="zlib">

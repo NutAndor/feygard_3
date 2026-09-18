@@ -243,7 +243,7 @@
  <objectgroup id="15" name="Mapevents">
   <object id="1" name="north2" type="mapchange" x="736" y="0" width="96" height="32">
    <properties>
-    <property name="map" value="feygard_outside3"/>
+    <property name="map" value="feygard_manor4"/>
     <property name="place" value="south1"/>
    </properties>
   </object>

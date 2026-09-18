@@ -480,18 +480,18 @@
     <map id="feygard_manor4" x="3" y="70"/>
     <map id="feygard_manor6" x="28" y="50"/>
     <map id="feygard_manor7" x="-18" y="52"/>
-    <map id="feygard_outside8" x="-98" y="30"/>
-    <map id="feygard_outside9" x="-122" y="22"/>
+    <map id="feygard_outside8" x="-98" y="31"/>
+    <map id="feygard_outside9" x="-122" y="23"/>
     <map id="feygard0" x="-49" y="28"/>
-    <map id="luthaven1" x="-122" y="49"/>
-    <map id="wayto_feygard_johny4" x="-98" y="68"/>
+    <map id="luthaven1" x="-122" y="50"/>
+    <map id="wayto_feygard_johny4" x="-98" y="69"/>
     <map id="wayto_feygard_johny2" x="-49" y="69"/>
-    <map id="wayto_feygard_johny3" x="-81" y="68"/>
+    <map id="wayto_feygard_johny3" x="-81" y="69"/>
     <map id="feygard_chateau_emerion" x="3" y="50"/>
-    <map id="feygard_outside7" x="-82" y="30"/>
-    <map id="feygard_outside4" x="-91" y="49"/>
+    <map id="feygard_outside7" x="-82" y="31"/>
+    <map id="feygard_outside4" x="-91" y="50"/>
     <map id="feygard_outside6" x="8" y="31"/>
-    <map id="feygard_outside3" x="-60" y="37"/>
+    <map id="feygard_outside3" x="-60" y="38"/>
     <map id="feygard_outside5" x="3" y="38"/>
     <map id="feygard_outside2" x="-18" y="38"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>

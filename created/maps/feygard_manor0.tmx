@@ -225,7 +225,7 @@
  </layer>
  <layer id="2" name="Objects" width="25" height="16">
   <data encoding="base64" compression="zlib">
-   eJydVEFuwkAM9KlSb1V7DUgLDX8pv4BbuZRb+xD4WkgR54LyAKCFSthKLCbGuyAsWbtrj51Zr+MsJ+qwinR6RF3WEeu4V9sWoV53vGaAVYzaSvYvWT/YNm1i1acxIsdXos8+0Ve/Pq8DRUWwmYnXM3J8fiHah7Ot4v08v8ynsUfgqTYvbxHacfdILPbbuTdiS6i3V1PlWTZ5KudOKJijNN/28CmbrnuTx3svlQKwWGONS4nFpziKWF6IxTp4b1Ak+tGTVC0rXn9u0McB0cPgPv/hSl8iP+++nmwcHL7Bbzjj3liHjca+f8v/k+p13AsHnUmItXksZ8+vfbcN7d6u4C4yn/6a8ypc/gNiU7ztBZmHknuWt2feKrS5PQHHWJ96tcAcS1MTD+PNB93/A/fYbET8O/snrCcojX8p
+   eJydVEtuAjEM9apSd6jdDkiBDneBW8AONu2uPUh7tekUsQY0B+BfqbZmLN4YJyo8yUrGeXZeHE+ynKjLJuj2iXpsE7Zpv/Z9h3rc8ZgBVznqK3l9wfbKvrcmVtc0RnB+IXofEH0M6u91oCiEm5l4/UaNT89E+3DxVTz/yq/zaewZdKrPy1uEdpzscyusfsWPc27kllBvr6aqs2zyVM6ZEJijNHt7/JRPx73J492XogAu1ljjUrD8lEaB1YVcrIN3B0WiHz2kalnxuPqHPQ6JHob3rZ+c88f0eef1sHF4eAeHcOGN2MaNxfaP3RMi1es4Fw36JiHX5rGavXXtu21o93YFZ5H36dh8L8P1PyA+5dtekPdQcn/m7TdvGdraOqAx1qdeLTDHwtTE43jvg85/QXvsbUT+jNfnbH/kXn9O
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="16">
@@ -240,7 +240,7 @@
  </layer>
  <layer id="4" name="Walkable" width="25" height="16">
   <data encoding="base64" compression="zlib">
-   eJzdVMENACEMchn3n6mbqE8NpaA/m5hLtIViOaO3FnOtiL6vM4LkolqExfAzPoXn7I/hqf2jOjecWnZXyoxuNaj5qj8qvUink1/tM4yXWTo8v8XLzB1PIK9nPJVvlfMbHaqXsl6zL+JgutgbqL4dyn/OMAYKk6TH
+   eJzFVEEOwCAI8zP+/038ZNtxhJYWs4yEmAi2RZHYa8Xtj8V+e7YgudXZCovhIz6FJ+tjeKr+iWbG6eZ2d8p0opiq0cXPcbdOJ7/bZxjTd1Tta/y/7OTNnZ6oeh3xdH2rxCd1qL2EtKK14mB1sRmozg7lnzOMCz0xpc0=
   </data>
  </layer>
  <objectgroup id="15" name="Mapevents">
@@ -258,7 +258,7 @@
   </object>
   <object id="3" name="south2" type="mapchange" x="640" y="480" width="32" height="32">
    <properties>
-    <property name="map" value="feygard_manor4"/>
+    <property name="map" value="feygard_manor1"/>
     <property name="place" value="north1"/>
    </properties>
   </object>

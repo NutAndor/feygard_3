@@ -246,7 +246,7 @@
   </object>
   <object id="2" name="south" type="mapchange" x="32" y="256" width="224" height="32">
    <properties>
-    <property name="map" value="feygard_manor7"/>
+    <property name="map" value="feygard_manor5"/>
     <property name="place" value="south"/>
    </properties>
   </object>

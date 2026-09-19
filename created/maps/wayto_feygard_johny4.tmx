@@ -183,7 +183,13 @@
  <tileset firstgid="7609" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <tileset firstgid="8825" name="map_feygard1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8153" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="8281" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
+ </tileset>
+ <tileset firstgid="8825" name="map_feygard_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_feygard_1.png" width="512" height="256"/>
  </tileset>
  <layer id="9" name="Base" width="16" height="16">
@@ -214,14 +220,14 @@
  <objectgroup id="5" name="Mapevents">
   <object id="1" name="north1" type="mapchange" x="64" y="0" width="64" height="32">
    <properties>
-    <property name="map" value="luthaven_1"/>
+    <property name="map" value="luthaven1"/>
     <property name="place" value="south2"/>
    </properties>
   </object>
   <object id="2" name="north2" type="mapchange" x="256" y="0" width="192" height="32">
    <properties>
     <property name="map" value="feygard_outside4"/>
-    <property name="place" value="north1"/>
+    <property name="place" value="south1"/>
    </properties>
   </object>
   <object id="4" name="east" type="mapchange" x="480" y="96" width="32" height="384">

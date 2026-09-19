@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="4">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="4">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -189,27 +189,31 @@
   </data>
  </layer>
  <layer id="2" name="Objects" width="25" height="25">
-  <data encoding="base64" compression="zlib">eJyNVjtOw0AQXVJE5ld4IwWI5COAFEXiLHADOAD/igIEBQeEBqrYCY5IlUShYQZ78NvJ2OFJK3vs8bz57jpNnMtoRd79Iu06t9Fxf8hI3uk5t9sr5HX3oziUZySPYxeAOQTHrYKDceGr52j7lfx7S0Ib+H4ZhzKju+fcd2mXfWAO9GMI9+9k+yOpbGhbAtZJG2KRODLSOaFYTv2qryinZe6tWMUn4ViUvFsU1+ZecX9G9s9p9UuesZEH5Mvjwu6noYdxYCwYb1bec69YuYqgfvxMZOkJ5Gh1Kg7Bg3crwDwswRfO3SRe1a+LIzN0GZJvXRNGHts9jr2FHIi+qn1+UNnE53Id1sTC84Ec6M8tcdyVPI+KT/e0nh/ksOIY+CpnI8M3q6flmZ5X5MD+1fsCfie25kavopxCb7Vg30Ie0eF4Jir/Lz7k1vlD6N7SPBakrtJXYpeXvMO4pbdm5Tuc+whWE+coDushQJl59lUfW7E1cbL/Yq/tw72iDbOsuaSnBbpukVp6hqzaaK6m2Oaq79gf60xj6H1DzynyWbwL0P8in6fqDMHZ0nPzn/rpNU3q7a2Djs2ae8Y91Hbgw2+vSb6pOccFUkeEzIfmtPbtJ7L/7G09HfMl6V2BLp8hhyQf+XK/B/v6/GE/tf856Ot3Ul+MR/zaBtupdf6qfwG5Wv82Wv4B+xq0Ww==</data>
+  <data encoding="base64" compression="zlib">
+   eJyNVjtOw0AQXVJE5ld4IwWI5COAFEXiLHADOAD/igIEBQeEBqrYCY5IlUShYQZ78NvJ2OFJK3vs8bz57jpNnMtoRd79Iu06t9Fxf8hI3uk5t9sr5HX3oziUZySPYxeAOQTHrYKDceGr52j7lfx7S0Ib+H4ZhzKju+fcd2mXfWAO9GMI9+9k+yOpbGhbAtZJG2KRODLSOaFYTv2qryinZe6tWMUn4ViUvFsU1+ZecX9G9s9p9UuesZEH5Mvjwu6noYdxYCwYb1bec69YuYqgfvxMZOkJ5Gh1Kg7Bg3crwDwswRfO3SRe1a+LIzN0GZJvXRNGHts9jr2FHIi+qn1+UNnE53Id1sTC84Ec6M8tcdyVPI+KT/e0nh/ksOIY+CpnI8M3q6flmZ5X5MD+1fsCfie25kavopxCb7Vg30Ie0eF4Jir/Lz7k1vlD6N7SPBakrtJXYpeXvMO4pbdm5Tuc+whWE+coDushQJl59lUfW7E1cbL/Yq/tw72iDbOsuaSnBbpukVp6hqzaaK6m2Oaq79gf60xj6H1DzynyWbwL0P8in6fqDMHZ0nPzn/rpNU3q7a2Djs2ae8Y91Hbgw2+vSb6pOccFUkeEzIfmtPbtJ7L/7G09HfMl6V2BLp8hhyQf+XK/B/v6/GE/tf856Ot3Ul+MR/zaBtupdf6qfwG5Wv82Wv4B+xq0Ww==
+  </data>
  </layer>
  <layer id="3" name="Above" width="25" height="25">
   <data encoding="base64" compression="zlib">
    eJy1lkESgyAMRXMNF9z/DO1Gd3ZXD+BRtFOcTqaZ3wRIoG+lIN+Q/DAQ+TkmonP6PN8S0T3Z89q7hzlrL+mrYWkt6XesBSvWNes9kr5Xjqn3Xzg2J/u7yH8snR5tiZWHNVgLhPONNWHk/iI54zW7UROvZu17nkdPY//0onmax7R+bUGuK+W917uaBvog2n8W7CvWldrRfJU4FG+NyBsyWk8De2h0bS56eryVZ455K8SNPojUb/uzr7xoMeNZeIHnbhTPnmu53CvnM87J+tb2g2vxLuA9/0re0mKRGmeeexn3An5/A0KFpF8=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="25" visible="0">
-  <data encoding="base64" compression="zlib">eJy9lVEKACEIRDtF97+SN9r9lGh0FCchKHZ4o7mS7bXsX1GY09z2zKqGwgd9V9TRzb9aj9dM8xlvBbvio+ajf7/Dj/yqPJSPuh+3PJAvw0DMbN+tB3HUdxaxlf154aOOiTlkPFRs7xGxs36xb0JFPx3RTCMN0nX9sztg5xvNEOPV7TXz7pznD36Sw9A=</data>
+ <layer id="4" name="Walkable" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJy9lVEKACEIRDtF97+SN9r9lGh0FCchKHZ4o7mS7bXsX1GY09z2zKqGwgd9V9TRzb9aj9dM8xlvBbvio+ajf7/Dj/yqPJSPuh+3PJAvw0DMbN+tB3HUdxaxlf154aOOiTlkPFRs7xGxs36xb0JFPx3RTCMN0nX9sztg5xvNEOPV7TXz7pznD36Sw9A=
+  </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
-  <object id="1" name="north" type="mapchange" x="64" y="0" width="224" height="32">
-   <properties>
-    <property name="map" value="wayto_feygard_johny2"/>
-    <property name="place" value="south"/>
-   </properties>
-  </object>
-  <object id="2" name="north1" type="mapchange" x="352" y="0" width="32" height="32">
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="north1" type="mapchange" x="64" y="0" width="224" height="32">
    <properties>
     <property name="map" value="wayto_feygard_johny2"/>
     <property name="place" value="south1"/>
+   </properties>
+  </object>
+  <object id="2" name="north2" type="mapchange" x="352" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="wayto_feygard_johny2"/>
+    <property name="place" value="south2"/>
    </properties>
   </object>
   <object id="3" name="east" type="mapchange" x="768" y="480" width="32" height="256">

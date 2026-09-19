@@ -183,23 +183,23 @@
  <tileset firstgid="7609" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <tileset firstgid="8825" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8153" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8953" name="map_poisonland" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+ <tileset firstgid="8281" name="map_poisonland" tilewidth="32" tileheight="32" tilecount="120" columns="15">
   <image source="../drawable/map_poisonland.png" width="480" height="256"/>
  </tileset>
- <tileset firstgid="9073" name="map_feygard1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8401" name="map_feygard_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_feygard_1.png" width="512" height="256"/>
  </tileset>
  <layer id="9" name="Base" width="23" height="26">
   <data encoding="base64" compression="zlib">
-   eJy1lT0SgjAUhDPprKHSDk4KjbU2HsGjqJXj0PhT2Tk63kEi7mTNhOQFpfiq+D6W9RnvmVJ3h8OkY6uVurTcJnE2upu5thyn/cC9az//HOC+Tb+Z5xZ2S7wGnr9+nnHOOla5JbUPA8/DjY7XuWVIHzzv5q5KpYqZUnVp3Y0ws3HzPJzIvficLcv0Ptht5uHEbrA7pQ+fG07sCbv3RTrshhNnv7pD8zj7FXbjd/IPLwNvn/vdXeA7DL1rzC3ZkT4/u927r45kBhW5T7qbN57G48Zux/rw5X5oex/62NGZxO177zHcoczoWup13bHMzwS31IvM0ntV2gVnHuIOZeb/glR3LDOePZab92+M3Cn7J3G/AOTd4TQ=
+   eJy1lT0SgjAUhDPprKHShvECHtMjeASPopQOjT8VVI4OhZ5AIuxkZULyAlJ8VXwfy/qMj0SpR4/TouWolbo13BdhDrqdKRvOy2HgzpvP1yPc9+Uv29TCbonXwPNl94xr0rJLLbF9GHgebnS8Ty1j+uD5fu4yU2q9UqrKrLsQZjZunocTuV/d2TuL74PdZh5O7Aa7Y/pwueHEnrB7MwJ2w4mzqW7fPM6mwm78Tv7hZeAdcn+783yHvncNuSU7MuRnd//uqwKZQUnui27njadwuLHboT5cuZ/a3ocucjqTuF3vPYfblxldS719dyhzHeGWepFZeq9Ku+DMY9y+zPxfEOsOZcaz53Lz/s2RO2b/JO4PZJbWOQ==
   </data>
  </layer>
  <layer id="1" name="Ground" width="23" height="26">
   <data encoding="base64" compression="zlib">
-   eJzFlL0OgjAUhZsOxgQXGBCjk65OPoeTr+Cjm/Bj4uIoGLw30PRaS3/A6kkaBm6/e3p6gbFhVZyxY8ZYmRqKQAW832TmGlX7vj4U+wH7Vks7m+q869aQXPOYQd/I0ltV6Dxa/n22yMM1ax+2ax5j2CF1d/D7b23XcoXi/prtMtsm9il6XzjbU9hXLllCeQysWM72VN86iW8d97mwac0T9jX9udGnji3+bb5sk0TWuMf2L9H1b/hnXRFLzyibZ8Gl/XVc1TNmbfNMz3UjuR6S7qlm7TsfWDNPpOdCc3c5yaMVd+x5h4tkmIuqgXtJx7FNKon3esRcq6qUfOj8TWHTe3wBSVBiYQ==
+   eJzFlL0OgjAUhZsOxgQXGBCjg3F28jmcfGUfxYQfExdHweC9gabXWvoDVk/SMHD73dPTC4wNq+KMHTPGytRQBCrg/SYz16ja9/Wh2A/Yt1ra2VTnbbeG5JrHDPpGlt6qQufR8u+zRR6uWfuwXfMYww6pu4Pff2u3lisU99dsl9k2sU/R+8LZnsK+cskSymNgxXK2p/rWSXzruM+FTWuesK/pz40+dWzxb/NlmySyxj22f4muf8M/64pYekbZPAsu7a/jqp4xa5tneq4byfWQdE81a9/5wJp5Ij0XmrvLSR6tuGPPO1wkw1xUDdxLOo5tUkm81yPmWlWl5EPnbwqb3uMLT3RjGw==
   </data>
  </layer>
  <layer id="2" name="Objects" width="23" height="26">
@@ -214,7 +214,7 @@
  </layer>
  <layer id="10" name="Top" width="23" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEShyo/MdiWBSRCZDN+ixGmdmMaO7UQ+KDzP1EwGx0/UxIfEE0OSE0swkBfPoV0eRg4U1seODSjw3AzCMmPPDpJ1VupJpNKaCl2c2ctDObWJCsjBtTai4l8rgAreKD0rIPHyA3rxNrNq3AaFgjACluviNJmtm0cvNNoDtsJKhvLjL4PETSHwBO5S2u
+   eJxjYMAEShyo/MdiWBSRCZDN+ixGmdmMaO7UQ+KDzP1EwGx0/UxIfEE0OSE0swkBfPoV0eRg4U1seODSjw3AzCMmPPDpJ1VupJpNKaCl2c2ctDObWHBYATem1FxK5HEBWsUHpWUfPkBuXifWbFqB0bBGAFLcfEeSNLNp5eabQHfYSFDfXGTweYikPwDwVTDz
   </data>
  </layer>
  <layer id="4" name="Walkable" width="23" height="26">
@@ -225,7 +225,7 @@
  <objectgroup id="5" name="Mapevents">
   <object id="1" name="south" type="mapchange" x="448" y="800" width="256" height="32">
    <properties>
-    <property name="map" value="wayto_feygard_johny2"/>
+    <property name="map" value="luthaven1"/>
     <property name="place" value="north1"/>
    </properties>
   </object>

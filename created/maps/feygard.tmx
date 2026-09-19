@@ -183,7 +183,7 @@
  <tileset firstgid="8001" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8129" name="map_feygard1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8129" name="map_feygard_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_feygard_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="8257" name="map_transition_6" tilewidth="32" tileheight="32" tilecount="144" columns="18">

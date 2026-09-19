@@ -189,11 +189,13 @@
  <tileset firstgid="8257" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="9025" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8385" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_plant_1.png" width="512" height="256"/>
  </tileset>
  <layer id="14" name="Base" width="11" height="9">
-  <data encoding="base64" compression="zlib">eJy7yMnAcHEUDwoMAN7QVE8=</data>
+  <data encoding="base64" compression="zlib">
+   eJy7yMnAcHEUDwoMAN7QVE8=
+  </data>
  </layer>
  <layer id="1" name="Ground" width="11" height="9">
   <data encoding="base64" compression="zlib">
@@ -201,10 +203,14 @@
   </data>
  </layer>
  <layer id="2" name="Objects" width="11" height="9">
-  <data encoding="base64" compression="zlib">eJyL4mBgiCICZwHxK0kGhkgxBoaXkhB2GhI7QhnBzuGAqCtThtAgEA6lQQAmVqEMUYtuViYSuxyLuTCzlrFC7IWBNDGE+TBzw3G4F1kcpBYEMpHcGI6DDTO3Rhm7e9HNnYcUBiBQheTeTDT3AgD1ADP6</data>
+  <data encoding="base64" compression="zlib">
+   eJyL4mBgiCICZwHxK0kGhkgxBoaXkhB2GhL7hgKCncMBUfdNAUKDQDiUBgGY2A8FiFp0szKR2N+xmAszaxkrxF4YSBNDmA8zNxyHe5HFQWpBIBPJjeE42DBz/yhgdy+6uXKKCP+CwC8k92aiuRcAo+g24w==
+  </data>
  </layer>
  <layer id="3" name="Above" width="11" height="9">
-  <data encoding="base64" compression="zlib">eJy7JckABjeB9C0CbFIAIbNGirkwQIy5AOS1IDg=</data>
+  <data encoding="base64" compression="zlib">
+   eJy7JckABjeB9C0CbFIAIbNGirkwQIy5AOS1IDg=
+  </data>
  </layer>
  <layer id="13" name="Top" width="11" height="9">
   <data encoding="base64" compression="zlib">
@@ -226,7 +232,7 @@
   <object id="2" name="south" type="mapchange" x="32" y="256" width="224" height="32">
    <properties>
     <property name="map" value="feygard_manor5"/>
-    <property name="place" value="south"/>
+    <property name="place" value="north1"/>
    </properties>
   </object>
  </objectgroup>

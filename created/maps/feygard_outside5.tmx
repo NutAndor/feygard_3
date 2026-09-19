@@ -186,25 +186,31 @@
  <tileset firstgid="8137" name="map_poisonland" tilewidth="32" tileheight="32" tilecount="120" columns="15">
   <image source="../drawable/map_poisonland.png" width="480" height="256"/>
  </tileset>
- <tileset firstgid="8513" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8257" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_ground_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8769" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8385" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_plant_1.png" width="512" height="256"/>
  </tileset>
  <layer id="14" name="Base" width="4" height="11">
   <data encoding="base64" compression="zlib">
-   eJxLkGdgkAfiBCAOVISw8WFHxYHFAFwdD98=
+   eJxLkGdgkAfiBCAOVICw8WFHhYHFAFNaD74=
   </data>
  </layer>
  <layer id="1" name="Ground" width="4" height="11">
-  <data encoding="base64" compression="zlib">eJxjYGBgMFFgAIPHogwEwSx50vAlLlRMKQAAbBINaQ==</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgMFFgAIPHogwEwSx50vAlLlRMKQAAbBINaQ==
+  </data>
  </layer>
  <layer id="2" name="Objects" width="4" height="11">
-  <data encoding="base64" compression="zlib">eJxr5mRgMFJgYGjmhGBagXAlCB2hhFtNJJIcsro3EgwMDUA+jyQDAwC7qQWq</data>
+  <data encoding="base64" compression="zlib">
+   eJxr5mRgMFJgYGjmhGBagesKEPqGAm41N5HkkNW9kQASigwMPJIMDAAYMQch
+  </data>
  </layer>
  <layer id="3" name="Above" width="4" height="11">
-  <data encoding="base64" compression="zlib">eJxjYMAPmjlRMT3AHQkI/UcCgv9KIMQBgE8HVg==</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPmjlRMT3AHQkI/UcCgv9KIMQBgE8HVg==
+  </data>
  </layer>
  <layer id="13" name="Top" width="4" height="11">
   <data encoding="base64" compression="zlib">
@@ -212,7 +218,9 @@
   </data>
  </layer>
  <layer id="4" name="Walkable" width="4" height="11">
-  <data encoding="base64" compression="zlib">eJy7KMoABhdFIZgQgKkjFlMDXERyIwBNPQ9H</data>
+  <data encoding="base64" compression="zlib">
+   eJy7KMoABhdFIZgQgKkjFlMDXERyIwBNPQ9H
+  </data>
  </layer>
  <objectgroup id="15" name="Mapevents">
   <object id="1" name="west" type="mapchange" x="0" y="192" width="32" height="160">
@@ -223,7 +231,7 @@
   </object>
   <object id="2" name="east" type="mapchange" x="96" y="192" width="32" height="128">
    <properties>
-    <property name="map" value="feygard_outside2"/>
+    <property name="map" value="feygard_outside6"/>
     <property name="place" value="west"/>
    </properties>
   </object>

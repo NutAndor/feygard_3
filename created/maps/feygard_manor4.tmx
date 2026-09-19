@@ -192,26 +192,38 @@
  <tileset firstgid="8385" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="10081" name="map_feygard_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8513" name="map_feygard_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_feygard_1.png" width="512" height="256"/>
  </tileset>
  <layer id="14" name="Base" width="24" height="15">
-  <data encoding="base64" compression="zlib">eJy7yMnAcBGIX0hhxxc5EViKC4GRxamJL9PI3FHzR/EoHsVDDQMAhTUxdg==</data>
+  <data encoding="base64" compression="zlib">
+   eJy7yMnAcBGIX0hhxxc5EViKC4GRxamJL9PI3FHzR/EoHsVDDQMAhTUxdg==
+  </data>
  </layer>
  <layer id="1" name="Ground" width="24" height="15">
-  <data encoding="base64" compression="zlib">eJxjYMAPXggSUECkGlLMeCFGuXnoII6fgeG5GML8BH7qmp+HZn4Blc0HAWTzaQHExBkYJIBYUpw25o+CUTAKSAMAZa4MPw==</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPXggSUECkGlLMeCFGuXnoII6fgeG5GML8BH7qmp+HZn4Blc0HAWTzaQHExBkYJIBYUpw25o+CUTAKSAMAZa4MPw==
+  </data>
  </layer>
  <layer id="2" name="Objects" width="24" height="15">
-  <data encoding="base64" compression="zlib">eJydU71OAzEM9gQHagXJcIiqKiMTDH0ENngBEEio6yHE3r4lS4c+QO9OrcQGOiZs3Zk4Pl+Q+CQr8U8+O7GzzABeUAgfU/iF3O/PAW7OIALpZCcUE+RAqfOwL5BzhVJjzCuupcN4lApl7gMvg2xlDj18om2tpMlbzhHmGaMscf+YEL4f4fkk7IvEGaqdamVsXcjHkPnfL1vbm+BfZXEc434G8DCzfY3IUxk5JW6R467jOfQ2n7RxjMbRgP0/2Bj9SknT9Zze1+q1lp0xIxqli/XTP+53YPhrwZHqAUP2Qp7Tc2hxVapezSdrOfYxR+ZDLP+Dp4E8DJ4/jkn9GZlnaP6tmtlnzfriov0bo0m/Fq1vxd2pj/uBvvC5Wv0ZWlnX9X47+x5SL13//BXWcd29h/ZxHXoeMm+/PePLxX6u4wcIgWQz</data>
+  <data encoding="base64" compression="zlib">
+   eJydU81OwzAM9gkK2gTJoYhpGuIB4LBH4AYvAAIJ7VqEuG9vxcvssAdYW22IG1I5Yas1cVw3SHySlfgnn53YWWYALyiEzyn8Qu735wA3ZxCBdLITiglyoNR52BfIuUKpMeYV19JhPEqFMveBl0G2MocevtC2VtLkLecI84xRlrh/TAjfj/B8EvZF4gzVTrUyti7kY8j875et7U3wr7I4jnE/A3iY2b5G5KmMnBK3yHHX8Rx6m0/aOEbjaMD+H2yMfqWk6XpO72v1WsvOmBGN0sX66R/3OzD8teBI9YAheyHP6Tm0uCpVr+aTtRz7mCPzIZb/wdNAHgbPH8ek/ozMMzT/Vs3ss2Z9cdH+jdGkX4vWt+Lu1Mf9QF/4XK3+DK2s63q/nX0PqZeuf/4K67ju3kP7uA49D5m3357x4WI/1/EDYnhkAw==
+  </data>
  </layer>
  <layer id="3" name="Above" width="24" height="15">
-  <data encoding="base64" compression="zlib">eJy7KckAB6ZCDCjgDlDukxgD2eAPUP9fScLqqAXQ7UPmXxZgYIjnZ2BI4IfQID4ufeZyDAwWctjl0MVg7MdA8/KB5hbwQ+jHAgxYASHzRgHpgJjw0wTGp5Ycpj5yzMJlHi4zcNmNyx5Y+iPGLbjSOyE7YHLY0rqDPIKP7hZS3IasBleeAtEwPi4zCfkLXb+9PMQP+NyPK/4I+Q/dH9jKAlxmY/MnNjayGAAHDWr1</data>
+  <data encoding="base64" compression="zlib">
+   eJy7KckAB6ZCDCjgDlDukxgD2eAPUP9fScLqqAXQ7UPmXxZgYIjnZ2BI4IfQID4ufeZyDAwWctjl0MVg7MdA8/KB5hbwQ+jHAgxYASHzRgHpgJjw0wTGp5Ycpj5yzMJlHi4zcNmNyx5Y+iPGLbjSOyE7YHLY0rqDPIKP7hZS3IasBleeAtEwPi4zCfkLXb+9PMQP+NyPK/4I+Q/dH9jKAlxmY/MnNjayGAAHDWr1
+  </data>
  </layer>
  <layer id="13" name="Top" width="24" height="15">
-  <data encoding="base64" compression="zlib">eJxjYBgF1ACT1FH5B4F8TTkGBi25gXHPKBgF6GA0PQ49AABdkALA</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1ABFiqj8hUC+phwDg5bcwLhnFIwCdDCaHoceAAAVzQJ0
+  </data>
  </layer>
  <layer id="4" name="Walkable" width="24" height="15">
-  <data encoding="base64" compression="zlib">eJy7KMbAcBEPBgEYjQ6Q5dHZxGJyATXsIVUPujg+9djChBQ5XPL43EOK2CggHhATfvjCnZx0T2y80yLdk5qfiXEXqXbjy4P47CPVzdjCmlI3E7KHFHkAahibNQ==</data>
+  <data encoding="base64" compression="zlib">
+   eJy7KMbAcBEPBgEYjQ6Q5dHZxGJyATXsIVUPujg+9djChBQ5XPL43EOK2CggHhATfvjCnZx0T2y80yLdk5qfiXEXqXbjy4P47CPVzdjCmlI3E7KHlHABAH+qnBw=
+  </data>
  </layer>
  <objectgroup id="15" name="Mapevents">
   <object id="1" name="west" type="mapchange" x="0" y="96" width="32" height="192">
@@ -226,16 +238,10 @@
     <property name="place" value="north2"/>
    </properties>
   </object>
-  <object id="3" name="south2" type="mapchange" x="576" y="448" width="32" height="32">
-   <properties>
-    <property name="map" value="feygard_manor2"/>
-    <property name="place" value="north1"/>
-   </properties>
-  </object>
   <object id="4" name="east" type="mapchange" x="736" y="64" width="32" height="288">
    <properties>
     <property name="map" value="feygard_manor5"/>
-    <property name="place" value="west"/>
+    <property name="place" value="west2"/>
    </properties>
   </object>
   <object id="5" name="north" type="mapchange" x="256" y="0" width="384" height="32">

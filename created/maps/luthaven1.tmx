@@ -186,7 +186,7 @@
  <tileset firstgid="8825" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8953" name="map_feygard1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8953" name="map_feygard_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_feygard_1.png" width="512" height="256"/>
  </tileset>
  <layer id="9" name="Base" width="30" height="18">

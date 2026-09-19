@@ -192,47 +192,59 @@
  <tileset firstgid="8393" name="map_transition_6" tilewidth="32" tileheight="32" tilecount="144" columns="18">
   <image source="../drawable/map_transition_6.png" width="576" height="256"/>
  </tileset>
- <tileset firstgid="9049" name="map_feygard1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8537" name="map_feygard_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_feygard_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="10329" name="map_poisonland" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+ <tileset firstgid="8665" name="map_poisonland" tilewidth="32" tileheight="32" tilecount="120" columns="15">
   <image source="../drawable/map_poisonland.png" width="480" height="256"/>
  </tileset>
  <layer id="14" name="Base" width="21" height="18">
-  <data encoding="base64" compression="zlib">eJy7IcXAcAMJxytgxw85EfgiEn4hhYnnK6BiIS7sGF0dKZgaZl5E84sfUAwdBGBRh44JmRmpjAg7EHswmHmZExXHYTEzAYs6dIzPneRiYsyE2T/czMxUJqxmMJhZSaSZpMQ7crqihhtJsXO4mwkAdmsp1w==</data>
+  <data encoding="base64" compression="zlib">
+   eJy7IcXAcAMJxytgxw85EfgiEn4hhYnnK6BiIS7sGF0dKZgaZl5E84sfUAwdBGBRh44JmRmpiAg7EHswmHmZExXHYTEzAYs6dIzPneRiYsyE2T/czMxUJKxmMJhZSaSZpMQ7crqihhtJsXO4mwkAOG0pxQ==
+  </data>
  </layer>
  <layer id="1" name="Ground" width="21" height="18">
-  <data encoding="base64" compression="zlib">eJxjYCAOLOGE0NoSRGqgIjiigcr3EmNg2KjAwLAJDW8GYm8x4s1UkkbFuAC6OnR8SGPomRnEjYpxAXR16BjZzJeCCH2pUPlJaBgklobHPhBANhMZvJTErQefHLKZyOCFIKYYOmATwq0Pm5mUACOoXYTiGRfA5x9sZlISnshmEhOO6OAZFj3Y0qMhlvAfjABfeIHCh1B4oqczbOGD134C6gFe4zZ+</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOLOGE0NoSRGqgInBRQuV7iTEwbFRgYNiEhjcDsbcY8WYqSaNiXABdHTp2Uhp6ZgZxo2JcAF0dOkY286UgQl8qVH4SGgaJpeGxDwSQzUQGLyVx68Enh2wmMnghiCmGDtiEcOvDZiYlwAhqF6F4xgXw+QebmZSEJ7KZxIQjOniGRQ+29GiIJfwHI8AXXqDwIRSe6OkMW/jgtZ+AegBIJC8q
+  </data>
  </layer>
  <layer id="2" name="Objects" width="21" height="18">
-  <data encoding="base64" compression="zlib">eJxr5mRgaEbCIBAtywAHMHYzJ3F4EicDCrASY8AJrPHIIYMpaGaC7LkoAGGDaGR2M5padABzH7qZ0Wy49UThkUM2C93MbDz6ssg0kxIwEGayiTMwcEAxpzhpZi7EYeZzpHTzgsw0hMtMkHnEmonLfZSYSQgMdjPjWCBxzg2N619A8ySJjHdcII+FvDjHB+poYCYIkGvmc0EE+6cgmhwV3AkAa8o0ew==</data>
+  <data encoding="base64" compression="zlib">
+   eJxr5mRgaEbCIBAtywAHMHYzJ3F4EicDCrASY8AJrPHIIYMpaGaC7LkoAGGDaGR2M5padABzH7qZ0Wy49UThkUM2C93MbDz6ssg0kxIwEGayiTMwcEAxpzhpZi7EYeZzpHTzgsw0hMtMkHnEmonLfZSYSQgMdjPjWCBxzg2N619A8ySJjHdcII+FvDjHB+poYCYIkGvmc0EE+6cgmhwV3AkAa8o0ew==
+  </data>
  </layer>
  <layer id="3" name="Above" width="21" height="18">
-  <data encoding="base64" compression="zlib">eJxjYBgaoJkTgUlRi44JgSAFVEwu8JFFsBOB5iRBcbICdjXY+MjgjiQqvxBoThEUFytgqsemBx28QZNvBJrTBMXNOMxE14ML3MSjDp/cUANNRKYrSgE1whNf+hqOAFf6JxRe+OSJTf+UAGrnD5B5ADoeHlI=</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgaoJkTgUlRi44JgSAFVEwu8JFFsBOB5iRBcbICdjXY+MjgjiQqvxBoThEUFytgqsemBx28QZNvBJrTBMXNOMxE14ML3MSjDp/cUANNRKYrSgE1whNf+hqOAFf6JxRe+OSJTf+UAGrnD5B5ADoeHlI=
+  </data>
  </layer>
  <layer id="13" name="Top" width="21" height="18">
-  <data encoding="base64" compression="zlib">eJxjYCAOfBIjUuEAAx8FyvRHy2KyH9PA70PFzKES76NgFIwC3AAAeOMGWA==</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOfBIjUuEAAx8FyvRHy2KyH9PA70PFzKES76NgFIwC3AAAeOMGWA==
+  </data>
  </layer>
  <layer id="4" name="Walkable" width="21" height="18">
-  <data encoding="base64" compression="zlib">eJy7KMbAcJHKmNoAm5mU2k2sflL8PJTMRA9XXGYSEsNmFqUAl5n47CBkP73SJTXMpHY+wmUmpeFJqpnkgsFkJi591Ex/1PYvyDwAVpxhdQ==</data>
+  <data encoding="base64" compression="zlib">
+   eJy7KMbAcJHKmNoAm5mU2k2sflL8PJTMRA9XXGYSEsNmFqUAl5n47CBkP73SJTXMpHY+wmUmpeFJqpnkgsFkJi591Ex/1PYvyDwAVpxhdQ==
+  </data>
  </layer>
  <objectgroup id="17" name="Mapevents">
   <object id="1" name="west" type="mapchange" x="0" y="192" width="32" height="352">
    <properties>
-    <property name="map" value="feygard_outside3"/>
+    <property name="map" value="feygard_outside8"/>
     <property name="place" value="east"/>
    </properties>
   </object>
   <object id="2" name="south" type="mapchange" x="32" y="544" width="608" height="32">
    <properties>
     <property name="map" value="feygard_outside4"/>
-    <property name="place" value="north"/>
+    <property name="place" value="north2"/>
    </properties>
   </object>
-  <object id="3" name="west" type="mapchange" x="640" y="416" width="32" height="128">
+  <object id="3" name="east" type="mapchange" x="640" y="416" width="32" height="128">
    <properties>
     <property name="map" value="feygard_outside3"/>
-    <property name="place" value="east1"/>
+    <property name="place" value="west1"/>
    </properties>
   </object>
  </objectgroup>

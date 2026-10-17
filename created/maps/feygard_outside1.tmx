@@ -287,7 +287,7 @@
    eJztxTENAAAIA7BJwL8rHOFgP0n7NKHZ6QMAAHx1YgMDhQ==
   </data>
  </layer>
- <layer id="20" name="Walkable" width="30" height="30">
+ <layer id="20" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJzFVkEOwCAI8xX7/5f80U5eDBVbEJos2wxQVgcyvzFmw9WFrFw7NOvan+yYCu/tvrI48Vahqx4WbwX/vv/r3qFztd4MbzQ3Vmdr3aoHJQfPD/GoGqj+at9gY0V1jQD9F7c+Eb6IraKzksMrVPc4FRGdLVt0rkbRoadVO+idiXUbB/VoZj7KAprjrJyy+qq3ljm/nWZVz8ezZeYeb0ZGz+x37TY/zoXV3A==
   </data>
@@ -307,7 +307,7 @@
    eJxjYBgFIw1cFIPg4W4vun30sh+bHcPd3oEKZ2x4FIyCUTAKRsEoGAWjYBQQDwB94hPb
   </data>
  </layer>
- <objectgroup id="24" name="Mapevents">
+ <objectgroup id="24" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="416" y="928" width="320" height="32">
    <properties>
     <property name="map" value="wayto_feygard_johny2"/>

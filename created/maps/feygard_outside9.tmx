@@ -217,12 +217,12 @@
    eJxjYMAEShyo/MdiWBSRCZDN+ixGmdmMaO7UQ+KDzP1EwGx0/UxIfEE0OSE0swkBfPoV0eRg4U1seODSjw3AzCMmPPDpJ1VupJpNKaCl2c2ctDObWHBYATem1FxK5HEBWsUHpWUfPkBuXifWbFqB0bBGAFLcfEeSNLNp5eabQHfYSFDfXGTweYikPwDwVTDz
   </data>
  </layer>
- <layer id="4" name="Walkable" width="23" height="26">
+ <layer id="4" name="Walkable" width="23" height="26" visible="0">
   <data encoding="base64" compression="zlib">
    eJy7KMbAcBENIwN0OUrxqNm4zaaFflq5eShjcgCxYUup2cTYO1DpbDhj5HChVjiRmp5IdR81zEbXN1BmU2IutczGZS4u88lxMy3jkBhzSTUbPQxoEY/EupsU8+lpNra0AwBZlIFd
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="448" y="800" width="256" height="32">
    <properties>
     <property name="map" value="luthaven1"/>

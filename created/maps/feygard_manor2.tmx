@@ -209,10 +209,10 @@
    eJxjYBgFQwkAAAGwAAE=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="12" height="9">
+ <layer id="4" name="Walkable" width="12" height="9" visible="0">
   <data encoding="base64" compression="zlib">eJy7KMbAcBEHBgFccqSohQFsfHL1oYthU4cN4NNDrF+oHT6kYAAY20dK</data>
  </layer>
- <objectgroup id="15" name="Mapevents">
+ <objectgroup id="15" name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="128" width="32" height="32">
    <properties>
     <property name="map" value="feygard_manor1"/>

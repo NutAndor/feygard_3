@@ -214,12 +214,12 @@
    eJxjYBgFo2AUjALsgJEDlc8E5QMABVAAFA==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="15" height="18">
+ <layer id="4" name="Walkable" width="15" height="18" visible="0">
   <data encoding="base64" compression="zlib">
    eJy7KMbAcJFMPFCAXPcOJB7KgFj308Ofgz0sh1J843IrerrFlp4BBeJDrg==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="2" name="south2" type="mapchange" x="288" y="544" width="32" height="32">
    <properties>
     <property name="map" value="feygard_outside4"/>

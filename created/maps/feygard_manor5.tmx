@@ -220,12 +220,12 @@
    eJztwYEAAAAAw6D5Ux/gClUBAMAbCigAAQ==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="26" height="25">
+ <layer id="4" name="Walkable" width="26" height="25" visible="0">
   <data encoding="base64" compression="zlib">
    eJztVMkNwCAMY4ruv1I36oMPiuILeDZSJWiCcQ48xrT3mR9ad77qR+fqGWYqXt3fxSlejFvnV/ycfVITlMO6TrC6+5P+JP9TLm5vkE/1mdVtpzeK6403oHJA+XSYqal+s/xUTboYhZG8W8RXmTM36ryTQ7f+7Z6d6GKq+2uMwnLny71vVxfc+jC+LN6xOvspp4qDMGseCC/RavZulT6i+aq+VH9PNR5x+gBbkMsI
   </data>
  </layer>
- <objectgroup id="15" name="Mapevents">
+ <objectgroup id="15" name="Mapevents" visible="0">
   <object id="1" name="west1" type="mapchange" x="0" y="64" width="32" height="160">
    <properties>
     <property name="map" value="feygard_chateau_emerion"/>

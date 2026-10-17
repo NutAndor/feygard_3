@@ -217,12 +217,12 @@
    eJxjYBgFo2AUjIJRMApIBwAGQAAB
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="16">
+ <layer id="4" name="Walkable" width="25" height="16" visible="0">
   <data encoding="base64" compression="zlib">
    eJzFVEEOwCAI8xX+/0v8aNtxhJYWs4yEmAi2RZHYa8Xtj8V+e7YgudXZCovhIz6FJ+tjeKr+iWbG6eZ2d8p0opiq0cXPcbdOJ7/bZxjTd1Tta/y/7OTNnZ6oeh3xdH2rxCd1qL2EtKK14mB1sRmozg7lnzOMCxF0ki8=
   </data>
  </layer>
- <objectgroup id="15" name="Mapevents">
+ <objectgroup id="15" name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="64" width="32" height="384">
    <properties>
     <property name="map" value="wayto_feygard_johny2"/>

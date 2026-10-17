@@ -220,12 +220,12 @@
    eJxjYBgF1ABFiqj8hUC+phwDg5bcwLhnFIwCdDCaHoceAAAVzQJ0
   </data>
  </layer>
- <layer id="4" name="Walkable" width="24" height="15">
+ <layer id="4" name="Walkable" width="24" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJy7KMbAcBEPBgEYjQ6Q5dHZxGJyATXsIVUPujg+9djChBQ5XPL43EOK2CggHhATfvjCnZx0T2y80yLdk5qfiXEXqXbjy4P47CPVzdjCmlI3E7KHlHABAH+qnBw=
   </data>
  </layer>
- <objectgroup id="15" name="Mapevents">
+ <objectgroup id="15" name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="96" width="32" height="192">
    <properties>
     <property name="map" value="feygard_manor0"/>

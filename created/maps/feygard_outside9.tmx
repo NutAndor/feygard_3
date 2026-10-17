@@ -193,14 +193,14 @@
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="8953" name="map_poisonland" tilewidth="32" tileheight="32" tilecount="120" columns="15">
-  <image source="../map_poisonland.png" width="480" height="256"/>
+  <image source="../../../../Source/andors-trail/AndorsTrail/res/drawable/map_poisonland.png" width="480" height="256"/>
  </tileset>
- <tileset firstgid="9073" name="map_feygard1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_feygard_1.png" width="512" height="256"/>
+ <tileset firstgid="9073" name="map_feygard_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../../Source/andors-trail/AndorsTrail/res/drawable/map_feygard_1.png" width="512" height="256"/>
  </tileset>
  <layer id="9" name="Base" width="23" height="26">
   <data encoding="base64" compression="zlib">
-   eJy1lT0SgjAUhDPprKHSDk4KjbU2HsGjqJXj0PhT2Tk63kEi7mTNhOQFpfiq+D6W9RnvmVJ3h8OkY6uVurTcJnE2upu5thyn/cC9az//HOC+Tb+Z5xZ2S7wGnr9+nnHOOla5JbUPA8/DjY7XuWVIHzzv5q5KpYqZUnVp3Y0ws3HzPJzIvficLcv0Ptht5uHEbrA7pQ+fG07sCbv3RTrshhNnv7pD8zj7FXbjd/IPLwNvn/vdXeA7DL1rzC3ZkT4/u927r45kBhW5T7qbN57G48Zux/rw5X5oex/62NGZxO177zHcoczoWup13bHMzwS31IvM0ntV2gVnHuIOZeb/glR3LDOePZab92+M3Cn7J3G/AOTd4TQ=
+   eJy1lT0SgjAUhDPprKHSTk4KjbU2HsGjKJXj0PhT2Tk63kEi7mTNhOQFpdjqsR/L8gj3TKm7o8Ok004rdWl1m8S11Z3n2uo47RfYdXv9cwD7Nv3WIrditoRrxP7r5x7nrNM6t0rtw4j9YKPjTW41pA/2u7nLQqn5TKmqsOxGmNmw2Q8mci8/s1WR3odhsx9M7AbPUvpw2SY3mNgTZu/n6WI/mL7ZL+zK48fsV3E2fCf/4LLA7WO/uwu8wzLwrDG2ZEf6+Mx2z74qkhni93TSnd9wGg8bux3rw8d+aHse+lTTTML2PfcY7FBmdC3luuxY5mcCW8pFZum5Ku2CMw9hhzLzvyCVHcuMe4/F5v0bI3fK/knYLwes4TQ=
   </data>
  </layer>
  <layer id="1" name="Ground" width="23" height="26">
@@ -210,7 +210,7 @@
  </layer>
  <layer id="2" name="Objects" width="23" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYMAELwQhtJQEhP4hiEURDn06UD33ZbDTIPBGkjjzYOCmLAPDLVmE2e9lUGlk8BLq1v9MpNkBAkUCDAxTBXDLw8KDGLAVzf4moLkT8ZhNTXBOBoFhYUeufnwAFh6PxQibSUwa2ieDwKA08lkMYnYzJ3EYWT8MwOSI9RMugKwfZuYoIB3M58eNKQHr+QljfABUdiHnFVLyOgzYsENoL6BeaSA2FcKv3pKIMmoxsMwwB6rzYUeIyZDhNkLguSCkzNLGYvZLLHl3MYllGbqbkcskcsIaBnC5GR0wClPXXErcTIv4AwFiw4IcgM/NsPShBVVDadrAageJbQYQANU5+MymJK+DAC6zQeUIAOPHUHM=
+   eJxjYMAELwQhtJQEhP4hiEURDn06UD33ZbDTIPBGkjjzYOCmLAPDLVmE2e9lUGlk8BLq1v9MpNkBAkUCDAxTBXDLw8KDGLAVzf4moLkT8ZhNTXBOBoFhYUeufnwAFh6PxQibSUwa2ieDwKA08lkMYnYzJ3EYWT8MwOSI9RMugKwfZuYoIB0UK+PGlIASoP5mPLiEgPmgsgs5ryDn9ckE9E6BytuwQ2gvoF5pIDYVwq/PkogyajGwzDAHqvNhR4jJkFAOEQueC0LKLG0sZr/EkncXk1iWobsZuUwipVxFB7jcjA4YhalrLiVupkX8gQCxYUEOwOdmWPrQgqqhNG1gtYPENgMIgOocfGZjy+ukAFxmg8oRAEYWUEI=
   </data>
  </layer>
  <layer id="3" name="Above" width="23" height="26">

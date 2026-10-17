@@ -234,7 +234,7 @@
  <tileset firstgid="10201" name="map_pillar_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_pillar_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="10329" name="map_poisonland" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+ <tileset firstgid="10329" name="map_poisonland" tilewidth="32" tileheight="32" tilecount="0" columns="15">
   <image source="../drawable/map_poisonland.png" width="480" height="256"/>
  </tileset>
  <layer id="14" name="Base" width="21" height="18">

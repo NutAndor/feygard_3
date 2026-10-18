@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="5">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="5">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -183,10 +183,10 @@
  <tileset firstgid="7609" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <tileset firstgid="8825" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8153" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8953" name="map_feygard_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8281" name="map_feygard_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_feygard_1.png" width="512" height="256"/>
  </tileset>
  <layer id="9" name="Base" width="30" height="18">
@@ -196,22 +196,22 @@
  </layer>
  <layer id="1" name="Ground" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJy1VUEOgjAQ3HDAGuMBD7R65erFd+h3/YomPgDB6ANEE+1KN6y1lIJhkk0TOu10Z5oCAFBGADsFH8wkQJGCF+f0m1Mm9Vgk/nWcEy8A1kbzpfUrvd9Stq+LZXO2m0cnZ3MXB2+rml67NBHYK/H2+pzPyM93oWLnCNHkvRJCvCWUFrePZgg3BEqGayKI6/KYMrXz7OMJB2ZKGg8zDsm1D2LT3zXwzHaGLuQdHPKX9+bzbKifLs1/MF/9fvP5xjXHzpH0hNEUlr/Zn/quDEiPY+w+Bbs7wuhPZXMvZVbXGEDNVNZvSMg7MhT4D+I46XfhMFLdzVu+sTSF9vCo52I9TloKOV3zbXsIKyO6X8qsSbMmS7uQ0zXftody3A38D74BG7hcgQ==
+   eJy1lU0KwjAQhYcuakVc2EVTXRXcuvEceg71BOrFvIqCB1AregB/QDM2Q8eYpmmlD0LQecmXmQkpAEDqAUxj+KgjAE4RWHWMvj1pL5tPPfs67mmFACPFfEn+Xe7XF8XrfJGf7WrhHFjsbPBN4jzXMiYKcyXfRp7z6dn9Jt3ZOVyYPFeSS21JqeatwnTxuigW7kwUeU01pp7q/axSEy7sKTEeaq7T1yryVX4XxzPrPTTpUOKh+vLcbDWrW08T8x91B7//2erGmU33kXiBYgZafYd/8k09IB5X03kG7O4Eit8W+b1cJdloQsiMRPaGuLwjdeWH37/38l3YNjRu6i0fa8xFArCTsZmc5wUDPWXxoj0wxkX3a63WLJO8l/pAT1m8aI+1xkXhd/ANT2Jt8g==
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJzjkWJgkJJggANGYQaiwA9BCC0jgV3+jSQDw20g5gGazytFnJmkAFz24gM3ZRHs/0zk2atNwN6XkuSZiw+Q41cYsGEiza/I8Y/NXmr7byvQbdZAe7YD6dlcEDFCYUwNO2F2aElA7Ke1nSCALx6fC9LGTmS/IgNQXriFlB/eIMUrLM+i511S4h7k1ygOTBzNgTA3EoccCIDksjgw3UyMX8X5GRheAMOTTZmBgR0L5gDi62LY5UFyORz47YEBJmHs4SsGNEMcC5aA2otNXoKAvbB8Yo2UXtnQ3E1te9H9tpIV4T8YkKCCvchpD+Y3UPxNZ0V1jxpQjzoUayij8tXR5ED2YpMHyZFaJ5kB9ZhDsYUyKt8cTQ5kLzZ5kFwMWji/oUFdgQ2gxy8PDepjQvYKQesVAKX3Ryc=
+   eJzjkWJgkJJggANGYQaiwA9BCC0jgV3+jSQDw20g5gGazytFnJmkAFz24gM3ZRHs/0zk2atNwN6XkuSZiw+Q41cYsGEiza/I8Y/NXmr7byvQbdZAe7YD6dlcEDFCYUwNO2F2aElA7Ke1nSCALx6fC9LGTmS/IgNQXriFlB/eIMUrLM+i511S4h7k1ygOTBzNgTA3EoccCIDksjgw3UyMX8X5GRheAMMzTYGBIR0LzgDi62LY5UFyORxYjccATMLYw7cMaEY5FlwBtRebfAUBe2H5xBopvSK7H+RuatuL7reVrAj/wUAFFexFTnswv4HibzorqnvagHraobhDAZXfjiYHshebPEiO1DppGlDPdCieoYDKn44mB7IXmzxILgYtnN/QoK7ABtDjl4cG9TEhe4Wg9QoA3+Rokw==
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYGBg4JVioBi8lCRe7U5Zyu0jBG6S4B5igZUExO276OB+dHATaOctJHtp4b+BAOhhCuK/E2Rg+EtD/4HsAAH0MOWRok5ewAf+SKL6DT093ZHEVIuuh5S4h/kVm9/QzSVWjpj8m8lBvBvJBZECDAxRAgg+zK+0BplAO7ME6GsnyJ5KoJ1VAoTVkgvuoMU3yE42cdrZhy+N0ROg+5te4M8g8Du1QQeO9AmLawBzyCs+
+   eJz7K8nAwCvFQDF4KUm82p2y1LETH7hJgnuIBVYSELfvkqW+2YTATaCdt5DspYX/BgKghymI/06QgeEvDf0HsgME0MOUR4r26fKPJKrf0NPTHUlMteh6SIl7mF+x+Q3dXGLldhKR/jM5iHcjuSBSgIEhSgDBh/mV1iATaGeWAH3tBNlTCbSzSoCwWnLBHbT4BtnJJk47+/ClMXoCdH/TC/wZBH6nNujAkT5hcQ0A1JMsew==
   </data>
  </layer>
  <layer id="10" name="Top" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYECAx2IQTE/wGWrnJzrbOxB2wuwdCDAQfiUX/JEcaBeMAkpBJMdAu4C2oENpYOxdQWd7p7PS175RMLwBAIgaDIU=
+   eJxjYECAx2IQTE/wGWrnJzrbOxB2wuwdCDAQfiUX/JEcaBeMAkpBJMdAu4C24IX8wNjLoUBf+6az0te+UTC8AQD16AxA
   </data>
  </layer>
  <layer id="4" name="Walkable" width="30" height="18" visible="0">

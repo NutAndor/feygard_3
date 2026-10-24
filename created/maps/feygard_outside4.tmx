@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="6">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="7">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -204,7 +204,7 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJyVVbFOwzAQtSo1CiUMCSIhqPQXQCDxD8APAAszEzvfxbfA0IGNkAqkslRVWPAjvvp8jR3yJMuOndy7e3fnJEdK7enRh4/Urg+Kdl7rvYle7xTd7wHv4plwNVOq1mdxZp6P/dzcRpW388VIc+X9fhNqjx99+CxdXnASbzXApk+HPnTxdmERsM9zcu3R+X68zbtOLXcIMuccTU/cj2PXRsW4JG9IwySza+Ssy6e3qZ1Rs9/GfqTXu6aGR/vD6koiKlwuYDm1c6Ntl4XlRB0DkpP7f5apXpBuS8b7zHK6qVnGQ74ACbsHQrVENY/+jbLWHmKAbmTzJ3ftc31p77/9AF/qcps/LywPgHuI9hAr50QdD81pqG4rYWtiuCaME5pwfYEkcNfKM57/y1mrN3hh87Bw+3PjszmTOUU/+OJ5iJW66xgcubEZs/gk4O9K87/oMc/DsQJPcZvL88zG9xcD3QOpm0MC6qzx5PKV7srU5af9U9NHJ6Kf5PuUX+hLeezSleaFiTs05sw3/Iuox4hT9gjnQ/64RtwHnlfet1Q/Pt8A+EGxrkyP0HdcDxmvPKee5L58sfWN1vvWaP4Ln+CNtA==
+   eJyVVbFOwzAQtSo1CiUMCZAQVPoLIJAY2YEfABZmJna+i2+BoQMbIRVIZamqsOBHfPX5Gjv0SZYdO7l39+7OSQ6V2tGjDx+pXe8X7bzUeyO93iq63wPexTPhaqJUrc/izDwf+bm5jSpv5/OB5sr7/SbUHj/68Fm6vOAk3moDmz4d+tDF24VZwD7PybVH5/vhOu8ytdwhyJxzND1xPw5dGxXjkrwhDZPMrpGzLp/exnZGzX4b+5Feb5saHuxuVlcSUeFyAfOxnRttuywsJ+oYkJzc/9NM9YJ0mzPeZ5bTVc0yHvIFSNg9EKolqnn0b5S19hADdCObP7lrn+tLe//tB/hSl+v8eWF5ANxDtIdYOSfq2JfTi712SITqthK2RoZrxDihCdcXSAJ3rTzj+b+ctHqDFzYPCrc/Vz6bM5lT9IMvnodYqbuOwZEbmzGLTwL+LjT/ix7TPBwr8BS3uTzLbHx/MdA9kLo5JKDOGk8uX+muTF1+2j8xfXQs+km+T/mFvpTHLl1pnpm4Q2PKfMO/iHqMOGWPcD7kj2vEfeB55X1L9ePzDYAfFOvC9Ah9x/WQ8cpz6knuyxdb32i9b43mv9JOjlg=
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="18">
@@ -222,7 +222,7 @@
    eJy9lMsNACEIRK3C/luiI3evhgFGPiRcVHgDQWSvJZ//Jht7pd05p7hIh8Xt0NBRb0Szxprot5W/q78aN1Mr817jsjleDHGZ2Ghcx05A5xNzqXGq2da/R/yMDm/+O/euxtU03fdV5vUz8t7LndHN/jVmXhj+K9OrHWk7lfaDvw==
   </data>
  </layer>
- <objectgroup id="15" name="Mapevents" visible="0">
+ <objectgroup id="15" name="Mapevents">
   <object id="1" name="west" type="mapchange" x="0" y="64" width="32" height="416">
    <properties>
     <property name="map" value="luthaven1"/>
@@ -251,6 +251,12 @@
    <properties>
     <property name="map" value="wayto_feygard_johny4"/>
     <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object id="6" name="lumberjack" type="mapchange" x="672" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="feygard_outside8"/>
+    <property name="place" value="south2"/>
    </properties>
   </object>
  </objectgroup>

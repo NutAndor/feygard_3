@@ -225,7 +225,7 @@
    eJy7KMbAcJGKmFoAZhY1zEQ2i1p+HMxmUTO8qAVINQufekJmIcujq6VmmiVkFrFmk5uXcPmNWLtxqSE3fAiZh66GEjdSAkjJk9j0EGMOAHKBe6A=
   </data>
  </layer>
- <objectgroup id="15" name="Mapevents">
+ <objectgroup id="15" name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="416" width="32" height="128">
    <properties>
     <property name="map" value="feygard_outside5"/>

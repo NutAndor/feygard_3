@@ -2033,7 +2033,7 @@
     },
     {
         "id":"feygard3_camp_npc1",
-        "message":"You need a pretty expensive merchant pass or a citizenship to avoid the inspections, fellows like me have to put up with a few goods going missing until we make it big.",
+        "message":"You need a pretty expensive merchant pass or citizenship to avoid the inspections, fellows like me have to put up with a few goods going missing until we make it big.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2091,7 +2091,7 @@
     },
     {
         "id":"feygard3_camp_npc1_4",
-        "message":"The acommodations inside the city are fairly expensive. But you can't simply leave and make camp outside, that's smart of them."
+        "message":"The acommodations inside the city are fairly expensive. But the wait makes it so you can't simply leave and make camp outside, that's smart of them."
     },
     {
         "id":"feygard3_camp_npc3_1",

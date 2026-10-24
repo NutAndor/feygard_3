@@ -304,5 +304,41 @@
         "name":"Adean",
         "iconID":"monsters_ld1:77",
         "phraseID":"feygard3_camp_npc3"
+    },
+    {
+        "id":"feygard3_bridgeguard",
+        "name":"Bridge guard",
+        "iconID":"monsters_ld_edit:39"
+    },
+    {
+        "id":"feygard3_shepherdgirl",
+        "name":"Shepherd girl",
+        "iconID":"monsters_ld_edit:21"
+    },
+    {
+        "id":"fey3_troublemaker_1",
+        "name":"Nor Troublemaker",
+        "iconID":"monsters_ld_edit:54"
+    },
+    {
+        "id":"fey3_troublemaker_2",
+        "name":"Nor troublemaker",
+        "iconID":"monsters_ld_edit:63",
+        "horizontalFlipChance":100
+    },
+    {
+        "id":"fey3_caretaker",
+        "name":"Royal caretaker",
+        "iconID":"monsters_rltiles1:83"
+    },
+    {
+        "id":"fey3_lumberjack",
+        "name":"Crossglen lumberjack",
+        "iconID":"monsters_ld_edit:19"
+    },
+    {
+        "id":"fey3_poet",
+        "name":"Feygard poet",
+        "iconID":"monsters_ld_edit:75"
     }
 ]

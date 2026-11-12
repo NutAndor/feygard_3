@@ -223,7 +223,7 @@
    eJy7Kc/AcBOK0QE2cWzqkNWiY0KAkDpizSTGLlzmkuMeYszCZwa57iMVEIoXUt1NDMamj1yzSE1H5LoPX5wSayapeYNcP5NrHq3NRA8LSjE13EiLeKaWmfjUU2IeNj0AiAbNYQ==
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object name="south" type="mapchange" x="32" y="544" width="96" height="32">
    <properties>
     <property name="map" value="feygard_village2"/>

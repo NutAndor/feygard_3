@@ -2179,5 +2179,180 @@
                 "mapName":"wayto_feygard_johny1"
             }
         ]
+    },
+    {
+        "id":"fey3_westgate",
+        "message":"HALT! This is the Craftsmen's Gate. Without a merchant pass, access is not permitted!",
+        "switchToNPC":"fey3_guard_westgate"
+    },
+    {
+        "id":"fey3_guard_westgate",
+        "message":"No pass no entry."
+    },
+    {
+        "id":"fey3_goat",
+        "message":"[The goat munches its cud and looks at you.]",
+        "replies":[
+            {
+                "text":"Hi.",
+                "nextPhraseID":"fey3_goat1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_goat1",
+        "message":"Baaah."
+    },
+    {
+        "id":"fey3_glasgow_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_glasgow"
+            }
+        ]
+    },
+    {
+        "id":"fey3_glasgow",
+        "message":"Do we fine gentlemen look like troublemakers to you? Of course not. The audacity."
+    },
+    {
+        "id":"fey3_zeff_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_zeff"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zeff",
+        "message":"Who're you, kid? Another nuisance's all we needed right now."
+    },
+    {
+        "id":"fey3_caretaker_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_caretaker"
+            }
+        ]
+    },
+    {
+        "id":"fey3_caretaker",
+        "message":"Hello, please ignore this scene and continue on your way, dear traveler.",
+        "replies":[
+            {
+                "text":"What happened?",
+                "nextPhraseID":"fey3_caretaker_selector2"
+            },
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"fey3_caretaker4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":4
+            }
+        ]
+    },
+    {
+        "id":"fey3_caretaker_selector2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_caretaker1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tinlyn",
+                        "value":25,
+                        "negate":false
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_caretaker1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"benbyr",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_caretaker2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tinlyn",
+                        "value":25,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_caretaker2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"benbyr",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fey3_caretaker1",
+        "message":"These two have camped here. Doing so outside the camp zone is frowned upon, but that by itself means little. I have certain suspicions that I have yet to prove.",
+        "replies":[
+            {
+                "text":"I could look into it for you.",
+                "nextPhraseID":"fey3_caretaker3"
+            }
+        ]
+    },
+    {
+        "id":"fey3_caretaker2",
+        "message":"I have certain suspicions about these two. Nevertheless, it's not something I should speak to you about.",
+        "replies":[
+            {
+                "text":"If you say so.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_caretaker3",
+        "message":"Well, I won't say no. I suspect these two have ilegally hunted game in the royal woods, look at their burnt campfire and large bellies.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_caretaker5"
+            }
+        ]
+    },
+    {
+        "id":"fey3_caretaker4",
+        "message":"I am a royal forest caretaker. The woods here are considered part of the royal woods on the west side of the river and are the property of Lord Geomyr. Ensuring suspicious fellows like these aren't up to any trouble is part of my job.",
+        "replies":[
+            {
+                "text":"What happened?",
+                "nextPhraseID":"fey3_caretaker_selector2"
+            }
+        ]
+    },
+    {
+        "id":"fey3_caretaker5",
+        "message":"If you find something, most certainly bring it up with me. Maybe they'll trust you more."
     }
 ]

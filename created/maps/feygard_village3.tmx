@@ -218,7 +218,7 @@
  </layer>
  <layer name="Top" width="31" height="21">
   <data encoding="base64" compression="zlib">
-   eJxjYMANXsvjkaQh+C2P3+5IBQaGKAXa2A2y9xceuyuB9lbR0O6BAITCm5aAUHjT2u6BAiPR7tF0NgpGAvg9wHm7Won+9g5k3raRoH/e/iPJwPBXkr52Its7EPYDAH20Igs=
+   eJxjYMANXsvjkaQh+C2P3+5IBQaGKAXa2A2y9xceuyuB9lbR0O6BAITCm5aAUHjT2u6BAiPR7tF0NgpGAvg9mrfpCmwk6J+3/0gyMPyVpK+dyPYOhP0ADc8hbg==
   </data>
  </layer>
  <layer name="Walkable" width="31" height="21" visible="0">
@@ -226,7 +226,7 @@
    eJy1lFsKgDAMBHuT3v9IvY0IfojkMdnEhYBo62TX1LPXOk/dOluvt6r7uj102MreTJY/bx3lEnmZWs+pZ0Uex1uXsUkv0SxZfGWmiLozqkiZy27eao8V31OZTOdd6ZXmPcGnXMV75O1PZYyOb/VMR31NzlrE+F6rnun56/xLMw/Us1r03ZNMkivZY32DCpvcI3UB1Tg4AA==
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object name="north" type="mapchange" x="608" y="0" width="96" height="32">
    <properties>
     <property name="map" value="feygard_village2"/>
@@ -247,7 +247,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="feygard3_bridgeguard" type="spawn" x="192" y="416" width="96" height="32">
+  <object name="feygard3_bridgeguard" type="spawn" x="288" y="416" width="64" height="32">
    <properties>
     <property name="spawngroup" value="feygard3_bridgeguard"/>
    </properties>

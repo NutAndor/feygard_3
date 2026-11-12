@@ -223,7 +223,7 @@
    eJy7Kc/AcHOIYRjAJoYujk0epgYbIMZMXICQPCF9+PwHE0cXAwAwL0ex
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object name="door" type="mapchange" x="96" y="224" width="64" height="32">
    <properties>
     <property name="map" value="feygard_village4"/>

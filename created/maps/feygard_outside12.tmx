@@ -253,9 +253,15 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="feygard3_shepherdgirl" type="spawn" x="256" y="96" width="96" height="160">
+  <object name="feygard3_shepherdgirl" type="spawn" x="256" y="128" width="96" height="160">
    <properties>
     <property name="spawngroup" value="feygard3_shepherdgirl"/>
+   </properties>
+  </object>
+  <object name="fey3_goat" type="spawn" x="96" y="64" width="352" height="416">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="fey3_goat"/>
    </properties>
   </object>
  </objectgroup>

@@ -223,7 +223,7 @@
    eJytk1EKwDAIQ3uT3f9Ivc3YR2EEm764CWPFamLUzmuMGXyPJfGasyzFrWznd1iaS+py2ITzS+92eZRXNbqZJFpcbhdPY9e5g/fOTWeazq5z53hPfr1P+bWv3V2v/jtdhOvE62qnfSK6/pgzwSQaqrNiUy73BqhONxO3bySGzCndVaK58pN6aD9dP275XieI
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object name="east" type="mapchange" x="608" y="672" width="32" height="64">
    <properties>
     <property name="map" value="wayto_feygard_johny1"/>

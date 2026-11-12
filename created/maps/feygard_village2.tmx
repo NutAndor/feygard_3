@@ -226,7 +226,7 @@
    eJy9k8ENACAIA93E/UdyG7+ESGmrkcSPSq8luuYYC6xY6F7u6c6yZi6W0/Ughspx/fxi/crlctj7t++h8xz1XmRS68WbUr2wc2e95RwqS+mJ57ccp0+ZG8pX6bneTpooqzMHJkvlwdV3y52dqs+wXEbmsbkQq/sHpz1mdujdszrK/6v2Ko0NCUVCqA==
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object name="north" type="mapchange" x="256" y="0" width="96" height="32">
    <properties>
     <property name="map" value="feygard_outside11"/>

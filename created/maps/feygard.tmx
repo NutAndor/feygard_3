@@ -198,19 +198,19 @@
  <tileset firstgid="8657" name="map_ground_6" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_ground_6.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8785" name="map_table_3" tilewidth="32" tileheight="32" tilecount="140" columns="14">
+ <tileset firstgid="8785" name="map_table_3" tilewidth="32" tileheight="32" tilecount="0" columns="14">
   <image source="../drawable/drawable/map_table_3.png" width="448" height="320"/>
  </tileset>
- <tileset firstgid="8925" name="map_painting_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8785" name="map_painting_1" tilewidth="32" tileheight="32" tilecount="0" columns="16">
   <image source="../drawable/drawable/map_painting_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="9053" name="map_painting_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8785" name="map_painting_2" tilewidth="32" tileheight="32" tilecount="0" columns="16">
   <image source="../drawable/drawable/map_painting_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="9181" name="map_crate_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8785" name="map_crate_1" tilewidth="32" tileheight="32" tilecount="0" columns="16">
   <image source="../drawable/drawable/map_crate_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="9309" name="map_brightport" tilewidth="32" tileheight="32" tilecount="112" columns="16">
+ <tileset firstgid="8785" name="map_brightport" tilewidth="32" tileheight="32" tilecount="0" columns="16">
   <image source="../drawable/drawable/map_brightport.png" width="512" height="224"/>
  </tileset>
  <layer id="14" name="Base" width="200" height="165">

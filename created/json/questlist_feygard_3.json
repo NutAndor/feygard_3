@@ -1,0 +1,95 @@
+[
+    {
+        "id":"fey3_goatquest",
+        "name":"Equivalent exchange",
+        "stages":[
+            {
+                "progress":1,
+                "logText":"I met a shepherd girl east of Lutfeld, tending to her goats. She recognized me as the one who helped Tinlyn."
+            },
+            {
+                "progress":2,
+                "logText":"I agreed to help the forest caretaker prove his suspicions about the two people camping."
+            },
+            {
+                "progress":3,
+                "logText":"Apparently, Zeff and Glasgow travelled here from Nor City and know me as the one who helped Benbyr. They asked me to convince the forest caretaker to leave."
+            },
+            {
+                "progress":4,
+                "logText":"I found the fresh carcass of some animal. I should inform the caretaker about it."
+            },
+            {
+                "progress":5,
+                "logText":"The two didn't seem suspicious, so I convinced the caretaker to leave."
+            },
+            {
+                "progress":6,
+                "logText":"I informed the caretaker about the carcass. He thanked me but said that without more evidence, the two can't be arrested, so he'll remain there for now."
+            },
+            {
+                "progress":9,
+                "logText":"I met a shepherd girl east of Lutfeld, tending to her goats. She recognized me as the one who helped Benbyr take revenge on Tinlyn and told me to get away from her or she would call the guards."
+            },
+            {
+                "progress":10,
+                "logText":"One of Melissa\u2019s goats went east into the forest and hasn\u2019t returned. She thinks it might have gotten spooked and climbed up somewhere."
+            },
+            {
+                "progress":15,
+                "logText":"I should look for the goat in the forest to the east. Melissa gave me a rusted key to an old watchtower in case I need a higher vantage point."
+            },
+            {
+                "progress":20,
+                "logText":"I found the goat on the tower\u2019s second floor. It must have climbed in through the window!"
+            },
+            {
+                "progress":25,
+                "logText":"I tried leading the goat downstairs, but it jumped out of the same window."
+            },
+            {
+                "progress":30,
+                "logText":"I chased Melissa\u2019s goat in the forest, and it ran from me again."
+            },
+            {
+                "progress":35,
+                "logText":"The goat returned to Melissa, but another of her goats has been missing even longer. She has already given up on finding it, but said that if I come across it, I should bring it home."
+            },
+            {
+                "progress":36,
+                "logText":"The missing goat reminds me of the carcass I found near the two people camping. But I already sent the caretaker away."
+            },
+            {
+                "progress":37,
+                "logText":"The missing goat reminds me of the carcass I found near the two people camping. I should inform the caretaker."
+            },
+            {
+                "progress":40,
+                "logText":"The caretaker eventually got tired of the two and left. The two insulted my honor and said Nor people should stick together, which I didn\u2019t do.",
+                "finishesQuest":1
+            },
+            {
+                "progress":45,
+                "logText":"I informed the caretaker, and the circumstantial evidence was enough to get the two arrested. He told me to visit the Order of the Caretakers of the Royal Woods when I grow up and said he wouldn't forget my help."
+            },
+            {
+                "progress":50,
+                "logText":"I asked the two if the goat belonged to the shepherd girl's flock, and they admitted that it had wandered up to them and they had eaten it.",
+                "finishesQuest":1
+            },
+            {
+                "progress":55,
+                "logText":"I asked the two if the goat belonged to the shepherd girl's flock, and they admitted that it had wandered up to them and they had eaten it."
+            },
+            {
+                "progress":56,
+                "logText":"Since I had sent the caretaker away, I felt compelled to enact justice on the two thieves myself. I beat them to a bloody pulp."
+            },
+            {
+                "progress":60,
+                "logText":"I informed Melissa about the events. She was sad but thanked me, ending the conversation by muttering some curses at the 'thieves' of Nor City.",
+                "finishesQuest":1
+            }
+        ]
+    }
+]

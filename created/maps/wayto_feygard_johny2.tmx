@@ -250,12 +250,12 @@
     <property name="spawngroup" value="fey3_troublemaker_2"/>
    </properties>
   </object>
-  <object name="fey3_caretaker" type="spawn" x="352" y="256" width="96" height="64">
+  <object name="fey3_caretaker" type="spawn" x="352" y="288" width="128" height="64">
    <properties>
     <property name="spawngroup" value="fey3_caretaker"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Keys"/>
  <objectgroup name="Replace" visible="0"/>
 </map>

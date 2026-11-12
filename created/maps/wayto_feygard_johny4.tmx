@@ -221,7 +221,7 @@
  <objectgroup name="Mapevents">
   <object name="north1" type="mapchange" x="64" y="0" width="64" height="32">
    <properties>
-    <property name="map" value="luthaven1"/>
+    <property name="map" value="feygard_village1"/>
     <property name="place" value="south2"/>
    </properties>
   </object>
@@ -239,14 +239,14 @@
   </object>
   <object name="south1" type="mapchange" x="96" y="480" width="32" height="32">
    <properties>
-    <property name="map" value="feygard_outside4"/>
-    <property name="place" value="south1"/>
+    <property name="map" value="feygard_outside12"/>
+    <property name="place" value="north1"/>
    </properties>
   </object>
   <object name="south" type="mapchange" x="224" y="480" width="256" height="32">
    <properties>
-    <property name="map" value="feygard_outside4"/>
-    <property name="place" value="south1"/>
+    <property name="map" value="feygard_outside12"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
   <object name="west" type="mapchange" x="0" y="64" width="32" height="32">
@@ -256,7 +256,14 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0"/>
+ <objectgroup name="Spawn">
+  <object name="fey3_goat" type="spawn" x="96" y="288" width="288" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="fey3_goat"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys" visible="0"/>
  <objectgroup name="Replace" visible="0"/>
 </map>

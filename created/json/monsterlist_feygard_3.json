@@ -312,24 +312,28 @@
     },
     {
         "id":"feygard3_shepherdgirl",
-        "name":"Shepherd girl",
+        "name":"Melissa",
         "iconID":"monsters_ld_edit:21"
     },
     {
         "id":"fey3_troublemaker_1",
-        "name":"Nor Troublemaker",
-        "iconID":"monsters_ld_edit:54"
+        "name":"Glasgow",
+        "iconID":"monsters_ld_edit:54",
+        "phraseID":"fey3_glasgow_selector"
     },
     {
         "id":"fey3_troublemaker_2",
-        "name":"Nor troublemaker",
+        "name":"Zeff",
         "iconID":"monsters_ld_edit:63",
-        "horizontalFlipChance":100
+        "horizontalFlipChance":100,
+        "phraseID":"fey3_zeff_selector"
     },
     {
         "id":"fey3_caretaker",
-        "name":"Royal caretaker",
-        "iconID":"monsters_rltiles1:83"
+        "name":"Royal forest caretaker",
+        "iconID":"monsters_rltiles1:83",
+        "movementAggressionType":"none",
+        "phraseID":"fey3_caretaker_selector"
     },
     {
         "id":"fey3_lumberjack",
@@ -340,5 +344,22 @@
         "id":"fey3_poet",
         "name":"Feygard poet",
         "iconID":"monsters_ld_edit:75"
+    },
+    {
+        "id":"fey3_goat",
+        "name":"Goat",
+        "iconID":"monsters_rltiles2:55",
+        "phraseID":"fey3_goat"
+    },
+    {
+        "id":"fey3_lostgoat",
+        "name":"Lost goat",
+        "iconID":"monsters_rltiles2:56"
+    },
+    {
+        "id":"fey3_guard_westgate",
+        "name":"Feygard guard",
+        "iconID":"monsters_ld1:67",
+        "phraseID":"fey3_guard_westgate"
     }
 ]

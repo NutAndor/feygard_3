@@ -26,19 +26,19 @@
             },
             {
                 "progress":2,
-                "logText":"2=first npc in the line entered feygard"
+                "logText":"2=Owns merchant's pass."
             },
             {
                 "progress":3,
-                "logText":"3=second npc in the line entered"
+                "logText":"3=agreed to investigate the two suspicious npcs"
             },
             {
                 "progress":4,
-                "logText":"4=third npc in the line entered"
+                "logText":"4=talked with caretaker"
             },
             {
                 "progress":5,
-                "logText":"5=line movement started"
+                "logText":"EMPTY"
             },
             {
                 "progress":6,

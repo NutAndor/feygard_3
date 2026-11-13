@@ -38,11 +38,35 @@
             },
             {
                 "progress":5,
-                "logText":"EMPTY"
+                "logText":"5=caretaker left"
             },
             {
                 "progress":6,
                 "logText":"6=Player learnt about the merchant pass"
+            },
+            {
+                "progress":7,
+                "logText":"7=campers got arrested (In the future spawn them in Feygard prison)"
+            },
+            {
+                "progress":8,
+                "logText":"8=talked about Luthaven"
+            },
+            {
+                "progress":9,
+                "logText":"9=talked about garissons"
+            },
+            {
+                "progress":10,
+                "logText":"10=Has seen the sea"
+            },
+            {
+                "progress":11,
+                "logText":"11=talking with the guard from the west side"
+            },
+            {
+                "progress":12,
+                "logText":"12=guard moved"
             },
             {
                 "progress":201,
@@ -63,6 +87,50 @@
             {
                 "progress":205,
                 "logText":"205=line NPC-5 gone"
+            },
+            {
+                "progress":13,
+                "logText":"13=crossglen garrison"
+            },
+            {
+                "progress":14,
+                "logText":"14=crossroads garrison"
+            },
+            {
+                "progress":15,
+                "logText":"15=foaming flask garrison"
+            },
+            {
+                "progress":16,
+                "logText":"16=loneford garrison"
+            },
+            {
+                "progress":17,
+                "logText":"17=fallhaven garrison"
+            },
+            {
+                "progress":18,
+                "logText":"18=brimhaven garrison"
+            },
+            {
+                "progress":19,
+                "logText":"19=remgard garrison"
+            },
+            {
+                "progress":20,
+                "logText":"20=brightport garrison"
+            },
+            {
+                "progress":21,
+                "logText":"21=sullengard garrison"
+            },
+            {
+                "progress":22,
+                "logText":"22=prim and bwm, not a garrison but dialog"
+            },
+            {
+                "progress":23,
+                "logText":"23=stoutford, not a garrison but dialog"
             }
         ]
     },

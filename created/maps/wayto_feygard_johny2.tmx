@@ -194,7 +194,7 @@
  </layer>
  <layer name="Objects" width="25" height="16">
   <data encoding="base64" compression="zlib">
-   eJx1VEFOwzAQdHsIAYqEHSluOZRf8IfyAXgED4Aj7+i/eAKhUs4QpRd2iRdPNuuRVnYbe2dn1vbmzrkbik1hHH2eM17qaexaN8NX+v20d+55P81lX7/L8wN9e6S4Cnmt5tQcg88cJ585OQfyWDkZvZ/XgN/a6NwZtIgOXCOQ2nvw5D0s86IHzCtaHtZzDoTsEc+xXtbM/wl/qVedoeMH/KpSrbpOzn0flppXbumFcKwb8pu8u4y2X1gXatG5vVvqKp0tDauf6KUvrGfovqOWDvor/n2qe1CFee7jbZ53aU9F+a5TTjzDGnXMITVoXADfCMLYK+4FQji+afxIwVg1WWtdCM2PGiwOxDZOcTa+DXhvFSfmlzsiHP9nQjxNPrQx82EgN+Ya9GEgjLR2p7Qd1Nsxqn3cB81t6UUNf6PBb72VWAffCXnvWsWFPcd3UfaFxs6NnIxX0vMGZ4vPu74b7B32u4Z39xeAF2M/
+   eJx1VEFOwzAQdHsIoS0SdqSYcihf4MQfygfgETwAjryDf/UJTZFyLlF6YZd48Xhjj7Sy29g7O7O2N/fG3FBsCuNo45zxVk9j15oEp/D7ZWfM626ay75+G+d7+vZMsXJxrebUHIONHN82cnIO5MnlZPQ2rQG/td6YC2gRHbhGILX34Mmnm+dFD5hXtDwtUw6E7BHPsV7WzP8Jf6lXXUbHD/hVhVp1nZz7wc01L8zcC+FYNuQ3eXft835hXahF57Zmrqt0tjRy/UQvbWE9Q/cdtXTQX/HvqO5B5dLcX7dx3oU9FeVbh5x4hjVqH0Nq0LgCvhGEsVfcC4RwnGk8hGAsmqi1LoTmRw05DsSdn+KS+TbgvVWcmF/uiHD8nwnxNPjQ+siHgdyYa9CHgTDS2q3Stldvx6j2cR80d04vavgbM/y5txLr4Dsh712ruLDn+C7KPtdMuR+bNDdyMt5JzwecLT7v+m6wd9jvGt7dX5kkY4I=
   </data>
  </layer>
  <layer name="Above" width="25" height="16">
@@ -204,10 +204,10 @@
  </layer>
  <layer name="Walkable" width="25" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcJFEjA8gqyHVXGLtwGUnrfxBrj0wPbT0A6lhRo455IQXKW4kN+5x6aPEH/jUEvLDKKA+IKc8oIZ9tLYTWzlBTBomxVxc5RG6PSBgLsfAYCFHuj0Ako17ZA==
+   eJy7KMbAcJFEjA8gqyHVXGLtwGUnrfxBrj0wPbT0A6lhRo455IQXKW4kN+5x6aPEH/jUEvLDKKA+IKc8oIZ99LATW1mJTY4cM3GZjc0eEDCXY2CwkCPdHgCHknmW
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="north" type="mapchange" x="416" y="0" width="320" height="32">
    <properties>
     <property name="map" value="feygard_outside1"/>
@@ -232,10 +232,15 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object name="west" type="mapchange" x="0" y="256" width="32" height="160">
+  <object name="west" type="mapchange" x="0" y="256" width="32" height="224">
    <properties>
     <property name="map" value="wayto_feygard_johny3"/>
     <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="fey3_carcass" type="script" x="32" y="480" width="32" height="32">
+   <properties>
+    <property name="when" value="always"/>
    </properties>
   </object>
  </objectgroup>

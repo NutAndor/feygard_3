@@ -226,7 +226,7 @@
    eJy1lFsKgDAMBHuT3v9IvY0IfojkMdnEhYBo62TX1LPXOk/dOluvt6r7uj102MreTJY/bx3lEnmZWs+pZ0Uex1uXsUkv0SxZfGWmiLozqkiZy27eao8V31OZTOdd6ZXmPcGnXMV75O1PZYyOb/VMR31NzlrE+F6rnun56/xLMw/Us1r03ZNMkivZY32DCpvcI3UB1Tg4AA==
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="north" type="mapchange" x="608" y="0" width="96" height="32">
    <properties>
     <property name="map" value="feygard_village2"/>
@@ -245,10 +245,26 @@
     <property name="place" value="west1"/>
    </properties>
   </object>
+  <object name="fey3_westbridge_enter" type="script" x="128" y="416" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="fey3_westbridge_exit" type="script" x="96" y="416" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="feygard3_bridgeguard" type="spawn" x="288" y="416" width="64" height="32">
    <properties>
+    <property name="spawngroup" value="feygard3_bridgeguard"/>
+   </properties>
+  </object>
+  <object name="feygard3_bridgeguard1" type="spawn" x="384" y="384" width="64" height="32">
+   <properties>
+    <property name="active" value="false"/>
     <property name="spawngroup" value="feygard3_bridgeguard"/>
    </properties>
   </object>

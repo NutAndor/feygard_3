@@ -17,7 +17,7 @@
             },
             {
                 "progress":4,
-                "logText":"I found the fresh carcass of some animal. I should inform the caretaker about it."
+                "logText":"I found the fresh carcass of some animal. I could inform the caretaker about it."
             },
             {
                 "progress":5,
@@ -25,7 +25,7 @@
             },
             {
                 "progress":6,
-                "logText":"I informed the caretaker about the carcass. He thanked me but said that without more evidence, the two can't be arrested, so he'll remain there for now."
+                "logText":"I informed the caretaker about the carcass. He thanked me but said that without more evidence, the two can't be arrested, so he'll remain here for now."
             },
             {
                 "progress":9,
@@ -70,7 +70,7 @@
             },
             {
                 "progress":45,
-                "logText":"I informed the caretaker, and the circumstantial evidence was enough to get the two arrested. He told me to visit the Order of the Caretakers of the Royal Woods when I grow up and said he wouldn't forget my help."
+                "logText":"I informed the caretaker, and the circumstantial evidence was enough to get the two arrested. He told me to visit the Order of the Caretakers of the Royal Woods when I grow up, and said he wouldn't forget my help."
             },
             {
                 "progress":50,
@@ -79,7 +79,7 @@
             },
             {
                 "progress":55,
-                "logText":"I asked the two if the goat belonged to the shepherd girl's flock, and they admitted that it had wandered up to them and they had eaten it."
+                "logText":"I asked the two if the goat belonged to Melissa's flock, and they admitted that it had wandered up to them and they had eaten it."
             },
             {
                 "progress":56,

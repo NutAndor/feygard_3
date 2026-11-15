@@ -260,6 +260,24 @@
     <property name="spawngroup" value="fey3_caretaker"/>
    </properties>
   </object>
+  <object name="fey3_guard_arrest" type="spawn" x="384" y="256" width="96" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="fey3_guard_arrest"/>
+   </properties>
+  </object>
+  <object name="fey3_guard_arrest_scene" type="script" x="160" y="96" width="416" height="320">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="fey3_guard_arrest1" type="spawn" x="192" y="288" width="128" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="fey3_guard_arrest"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace" visible="0"/>

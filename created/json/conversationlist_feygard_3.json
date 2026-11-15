@@ -2563,11 +2563,6 @@
     },
     {
         "id":"fey3_caretaker_leave",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ],
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
@@ -2696,8 +2691,25 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"fey3_nd",
+                        "value":26,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_goatquest_arrest1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
                         "value":7,
                         "negate":true
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"fey3_campers_arrest",
+                        "value":3
                     }
                 ]
             }
@@ -2709,13 +2721,17 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"fey3_nd",
-                "value":7
+                "value":26
             },
             {
-                
+                "rewardType":"spawnAll",
+                "rewardID":"fey3_guard_arrest",
+                "mapName":"wayto_feygard_johny2"
             },
             {
-                
+                "rewardType":"spawnAll",
+                "rewardID":"fey3_guard_arrest1",
+                "mapName":"wayto_feygard_johny2"
             }
         ]
     },
@@ -2820,7 +2836,7 @@
     },
     {
         "id":"fey3_bridgeguard5",
-        "message":"Going west is the last point of civilization before leaving Aewhata. Luthaven is just north of the border post. It's mostly soldiers and their families living there. There's a manor overlooking the town that belongs to Lady Klassental, a general of Feygard.",
+        "message":"Luthaven west is the last point of civilization before leaving Aewhata. Luthaven is just north of the border post. It's mostly soldiers and their families living there. Up on the mountain there's a manor overlooking the town that belongs to Lady Klassental, a general of Feygard.",
         "replies":[
             {
                 "text":"N",
@@ -2830,7 +2846,7 @@
     },
     {
         "id":"fey3_bridgeguard6",
-        "message":"The border itself is situated between two mountains, probably because it makes it easier to defend against savage barbarian tribes. Going west of it is unbridled wilderness. You might not see another civilized presence, unless you're looking out to sea and spot a boat.",
+        "message":"The border itself is situated between two mountains, probably because it makes it easier to defend against the savage barbarian tribes. Going west past it, is unbridled wilderness. You might never see another civilized presence, unless you're looking out to sea and spot a boat.",
         "replies":[
             {
                 "text":"Have you been there?",
@@ -2875,7 +2891,7 @@
     },
     {
         "id":"fey3_bridgeguard9",
-        "message":"How do you not know, kid? Have you not been inside Feygard to stare out at the sea from its port? It's a shame you haven't seen the sea. It's water as far as the eye can see, very beautiful.",
+        "message":"How do you not know, kid?! Have you not been inside Feygard to stare out at the sea from its port? It's a shame you haven't seen the sea. Water as far as the eye can see, very beautiful.",
         "replies":[
             {
                 "text":"Wow, looking forward to it.",
@@ -2920,7 +2936,7 @@
     },
     {
         "id":"fey3_bridgeguard11",
-        "message":"Your brother is not there, and if he were, I would've known.",
+        "message":"Your brother is not there, if he were, I would've known.",
         "replies":[
             {
                 "text":"Oh okay."
@@ -2929,10 +2945,10 @@
     },
     {
         "id":"fey3_bridgeguard0",
-        "message":"Just keeping guard at the bridge. We're not allowed to chat like this, but none of my superiors are around.",
+        "message":"Just keeping guard at the bridge. We're not allowed to chat like this, but none of my superiors are around so...",
         "replies":[
             {
-                "text":"Sure, why not.",
+                "text":"Sure, let's talk.",
                 "nextPhraseID":"fey3_bridgeguard1"
             }
         ]
@@ -3165,7 +3181,7 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"fey3_brideguard_garrison_ending",
+                "nextPhraseID":"fey3_bridgeguard_garrison_ending",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -3276,7 +3292,7 @@
     },
     {
         "id":"fey3_bridgeguard_garrison_fallhaven",
-        "message":"There's our garrison in the former capital of Fallhaven. Ever since half of it burnt down in the war, refugees have been living in Feygard. Nowadays, there's nothing of note there besides the infamous Thieves' Guild. I hardly believe it's real; they're just draining funds with a story.",
+        "message":"There's our garrison in the former capital of Fallhaven. Ever since half of it burnt down in the war, refugees have been living in Feygard. Nowadays, there's nothing of note there besides the infamous Thieves' Guild. I hardly believe it's real, they're just using the story to drain funds.",
         "replies":[
             {
                 "text":"N",
@@ -3477,16 +3493,19 @@
         ]
     },
     {
-        "id":"fey3_brideguard_garrison_ending",
-        "message":"And I guess that's all. I heard most of this from friends, and some whilst chatting here, just like I am now.",
+        "id":"fey3_bridgeguard_garrison_ending",
+        "message":"And I guess that's all. I heard most of this from friends, and some from rumours whilst chatting here, just like I am now.",
         "replies":[
+            {
+                "text":"Let me ask you something else.",
+                "nextPhraseID":"fey3_bridgeguard1"
+            },
             {
                 "text":"I've been to some of these places so it was fun to hear. Bye.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Let me ask you something else.",
-                "nextPhraseID":"fey3_bridgeguard1"
+                "text":"Then you have a cozy place yourself, get a fishing rod  and you're set."
             }
         ]
     },
@@ -3533,5 +3552,261 @@
                 "nextPhraseID":"fey3_bridgeguard_garrison_selector"
             }
         ]
+    },
+    {
+        "id":"fey3_tower_northwest",
+        "message":"You look to the northwest.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_tower_northwest1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_tower_north",
+        "message":"You look to the north.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_tower_north1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_tower_northeast",
+        "message":"You look to the northeast.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_tower_northeast1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_tower_east",
+        "message":"You look to the east.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_tower_east1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_tower_west",
+        "message":"You look to the west",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_tower_west1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_tower_southwest",
+        "message":"You look to the southwest.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_tower_southwest1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_tower_south",
+        "message":"You look to the south.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_tower_south1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_tower_southeast",
+        "message":"You look to the southeast",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_tower_southeast1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_inside_script",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":24
+            }
+        ]
+    },
+    {
+        "id":"fey3_ladder_script",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":25
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fey3_nd",
+                "value":24
+            }
+        ]
+    },
+    {
+        "id":"fey3_ladder_script0",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"fey3_nd",
+                "value":25
+            }
+        ]
+    },
+    {
+        "id":"fey3_locked_door",
+        "message":"The door to the tower is locked."
+    },
+    {
+        "id":"fey3_tower_northwest1",
+        "message":"The road above cuts through the forest into an open area. You see a golden field of wheat and the blue shimmer of the river."
+    },
+    {
+        "id":"fey3_tower_north1",
+        "message":"You see the Duleian Road cutting the forest in two halves, and past the forest, the magnificent walls of Feygard standing strong."
+    },
+    {
+        "id":"fey3_tower_northeast1",
+        "message":"You see the gates of Feygard and a number of people standing in line to enter. To the right, a large manor situated south of the walls, with an orchard."
+    },
+    {
+        "id":"fey3_tower_east1",
+        "message":"You see the Duleian Road, which you travelled here on, and Rosmara's stand. From a higher vantage point, you notice that the sand patches to the east become larger and larger, looking like a desert amidst the forest before reaching the foot of a mountain."
+    },
+    {
+        "id":"fey3_tower_west1",
+        "message":"You see a village above the entrance of the forest, golden fields of wheat glimmering to its right. Beyond it, a bridge and a guard lazily resting against the stone. All that is visible west of the bridge is dense forest and a mountain in the distance."
+    },
+    {
+        "id":"fey3_tower_southwest1",
+        "message":"You can see the river bend and twist south before cutting through a small mountain. But right at the edge of the horizon, ominous dark clouds gather."
+    },
+    {
+        "id":"fey3_tower_south1",
+        "message":"You see an expanse of forests and lakes, with the occasional structure. But right at the edge of the horizon, ominous dark clouds gather.\n\nYou see an expanse of forests and lakes, with the occasional structure. But right at the edge of the horizon, ominous dark clouds gather.\n"
+    },
+    {
+        "id":"fey3_tower_southeast1",
+        "message":"You see patches of open grass surrounding tiny lakes amidst the forest, with the occasional person fishing near their shores."
+    },
+    {
+        "id":"fey3_guard_arrest",
+        "message":"Thanks for the help, kid. If they come here, they must follow the rules."
+    },
+    {
+        "id":"fey3_goatquest_arrest1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":7
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fey3_troublemaker_1",
+                "mapName":"wayto_feygard_johny2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fey3_troublemaker_2",
+                "mapName":"wayto_feygard_johny2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fey3_guard_arrest",
+                "mapName":"wayto_feygard_johny2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fey3_guard_arrest1",
+                "mapName":"wayto_feygard_johny2"
+            }
+        ]
+    },
+    {
+        "id":"fey3_guard_arrest_scene",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_guard_arrest_scene1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":27,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":26
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fey3_guard_arrest_scene1",
+        "message":"Don't put your hands on me. I have some well-reputed friends in Nor City!",
+        "switchToNPC":"fey3_troublemaker_1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_guard_arrest_scene2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"fey3_campers_arrest"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":27
+            }
+        ]
+    },
+    {
+        "id":"fey3_guard_arrest_scene2",
+        "message":"When in Feygard, you will follow our rules, and anywhere else, you'll follow our rules. Is that clear?",
+        "switchToNPC":"fey3_guard_arrest",
+        "replies":[
+            {
+                "text":"[What fools, to commit a crime when there are a dozen guards teeming at the gates.]",
+                "nextPhraseID":"fey3_guard_arrest_scene3"
+            }
+        ]
+    },
+    {
+        "id":"fey3_guard_arrest_scene3",
+        "message":"Wretched kid! Not a corner of Nor City will be safe for you!",
+        "switchToNPC":"fey3_troublemaker_2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_guard_arrest_scene4"
+            }
+        ]
+    },
+    {
+        "id":"fey3_guard_arrest_scene4",
+        "message":"It was who you helped us, right? Don't mind them and keep going, we'll handle this.",
+        "switchToNPC":"fey3_guard_arrest"
     }
 ]

@@ -131,6 +131,22 @@
             {
                 "progress":23,
                 "logText":"23=stoutford, not a garrison but dialog"
+            },
+            {
+                "progress":24,
+                "logText":"24=inside (for feygard_outside12 tower)"
+            },
+            {
+                "progress":25,
+                "logText":"25=access to ladder"
+            },
+            {
+                "progress":26,
+                "logText":"26=campers arrest sequence started."
+            },
+            {
+                "progress":27,
+                "logText":"27=campers arrest scene"
             }
         ]
     },

@@ -357,12 +357,18 @@
     {
         "id":"fey3_lostgoat",
         "name":"Lost goat",
-        "iconID":"monsters_rltiles2:56"
+        "iconID":"monsters_rltiles2:55"
     },
     {
         "id":"fey3_guard_westgate",
         "name":"Feygard guard",
         "iconID":"monsters_ld1:67",
         "phraseID":"fey3_guard_westgate"
+    },
+    {
+        "id":"fey3_guard_arrest",
+        "name":"Feygard guard",
+        "iconID":"monsters_ld1:67",
+        "phraseID":"fey3_guard_arrest"
     }
 ]

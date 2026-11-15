@@ -15,7 +15,15 @@
         "id":"ogresign",
         "iconID":"items_weapons_3:18",
         "name":"Sign for ogre banning",
-        "description":"E X I T",
-        "category":"quest"
+        "category":"quest",
+        "description":"E X I T"
+    },
+    {
+        "id":"fey3_towerkeys",
+        "iconID":"items_necklaces_1:18",
+        "name":"Bundle of rusted keys",
+        "displaytype":"ordinary",
+        "category":"other",
+        "description":"A bundle of small keys on a string I received from Melissa."
     }
 ]

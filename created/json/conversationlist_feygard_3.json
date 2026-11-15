@@ -2618,7 +2618,7 @@
     },
     {
         "id":"fey3_caretaker12",
-        "message":"The circumstances allign with what I've been suspecting then! I will call the guards and these two will be apprehended.",
+        "message":"The circumstances allign with what I've been suspecting then! I will call the guards and these two will be apprehended soon.",
         "replies":[
             {
                 "text":"N",
@@ -2645,7 +2645,7 @@
     },
     {
         "id":"fey3_caretaker14",
-        "message":"Of course. The west side is where Lord Geomyr's keep is, and only soldiers, members of the nobility, and us caretakers are allowed to freely pass there.",
+        "message":"Of course. The west side is where Lord Geomyr's keep is. Only soldiers, members of the nobility, and us caretakers are allowed to freely pass there.",
         "replies":[
             {
                 "text":"I see, bye.",
@@ -3808,5 +3808,572 @@
         "id":"fey3_guard_arrest_scene4",
         "message":"It was who you helped us, right? Don't mind them and keep going, we'll handle this.",
         "switchToNPC":"fey3_guard_arrest"
+    },
+    {
+        "id":"fey3_lostgoat_selector"
+    },
+    {
+        "id":"fey3_melissa_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa18",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":35
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa14",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa13",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":15
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":9
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"benbyr",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tinlyn",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"benbyr",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa0"
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa",
+        "message":"Hello, traveller. What brings you near Lutfeld?",
+        "replies":[
+            {
+                "text":"I've been searching for my brother Andor have you seen him?",
+                "nextPhraseID":"fey3_melissa1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "negate":false
+                    }
+                ]
+            },
+            {
+                "text":"Can you tell me more about Lutfeld?",
+                "nextPhraseID":"fey3_melissa3"
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa1",
+        "message":"I havent seen your brother. Although, you look familiar...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa_selector1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa_selector1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"benbyr",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tinlyn",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"benbyr",
+                        "value":30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa2",
+        "message":"I remember! You're the child who helped find Tinlyn's missing sheep!",
+        "replies":[
+            {
+                "text":"How do you know that?",
+                "nextPhraseID":"fey3_melissa6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa0",
+        "message":"Hello traveler, have a safe stay around here.",
+        "replies":[
+            {
+                "text":"Have you seen my brother, Andor?",
+                "nextPhraseID":"fey3_melissa9"
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa3",
+        "message":"It's the name of the village to my right. Though we don't accommodate visitors here. Those are the rules Lord Geomyr set for us.",
+        "replies":[
+            {
+                "text":"That sounds intriguing. What rules, and what for?",
+                "nextPhraseID":"fey3_melissa4"
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa4",
+        "message":"Something about increasing the value of accommodations within the walls of Feygard? I'm not really sure. Please don't mind me, I've spoken too much.",
+        "replies":[
+            {
+                "text":"No worries. Have you seen my brother Andor?",
+                "nextPhraseID":"fey3_melissa1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"No worries, I'll bring back your missing goat soon.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":15
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa5",
+        "message":"I- I remember! You're the nasty child who slaughtered Tinlyn's sheep!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa8"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":9
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa6",
+        "message":"My father's name is Elynard. He went on a trip to Brightport and met Tinlyn on the way. He wrote about it in our correspondence.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa7"
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa7",
+        "message":"We shepherds have very tight bonds. You must be a very kind person, $playername. Could you help me out?",
+        "replies":[
+            {
+                "text":"What's the problem?",
+                "nextPhraseID":"fey3_melissa10"
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa8",
+        "message":"Don't approach me or my goats, evildoer. Else, I will call the guards!"
+    },
+    {
+        "id":"fey3_melissa9",
+        "message":"Sorry, I don't think I have.",
+        "replies":[
+            {
+                "text":"It's okay, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa10",
+        "message":"One of my goats named Sweetie, went that way into the forest. I didn't think to look for her until she was far from the entrance. Poor thing must have gotten spooked and run off to climb up somewhere.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa11"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa11",
+        "message":"Since you've helped Tinlyn I thought you'd might have the heart to help me.",
+        "replies":[
+            {
+                "text":"I don't have it in me to refuse a poor shepherd like you. My father's a farmer, so I know what it's like.",
+                "nextPhraseID":"fey3_melissa12"
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa12",
+        "message":"Please look for Sweetie in the forest to the east. There's an old watchtower in case you need a higher vantage point. [Melissa hands you a rusted key.]",
+        "replies":[
+            {
+                "text":"No problem, I'll be back when I find her.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa13",
+        "message":"Have you been able to find my missing goat, $playername?",
+        "replies":[
+            {
+                "text":"I'm still looking.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa14",
+        "message":"Sweetie returned. It's the one in front of us. Thanks a lot, $playername.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa15"
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa15",
+        "message":"Another goat of mine has been missing for a few days now. I've given up on finding her and just kept watching over the rest. If you find her, please bring her home.",
+        "replies":[
+            {
+                "text":"Sure I will.",
+                "nextPhraseID":"fey3_melissa_selector2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":35
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":36,
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":37,
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa_selector2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa16",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":36
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa17",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":37
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa16",
+        "message":"Melissa's goat is missing, and the two campers having caught an animal is what the caretaker suspected. Too bad I sent him away, but it would be worth hearing a confirmation from the two.",
+        "switchToNPC":"none"
+    },
+    {
+        "id":"fey3_melissa17",
+        "message":"Melissa's goat is missing, and the two campers having caught an animal is what the caretaker suspected. I have to go inform him.",
+        "switchToNPC":"none"
+    },
+    {
+        "id":"fey3_melissa18",
+        "message":"Thank you for bringing my goat back $playername, it doesn't make me feel any better about the other one though...",
+        "replies":[
+            {
+                "text":"I have something to tell you about the missing goat.",
+                "nextPhraseID":"fey3_melissa19",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":45
+                    }
+                ]
+            },
+            {
+                "text":"I have something to tell you about the missing goat.",
+                "nextPhraseID":"fey3_melissa19",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":56
+                    }
+                ]
+            },
+            {
+                "text":"[This is not over, I'll find out what happened to it.]",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":45,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":56,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa19",
+        "message":"What is it?!",
+        "replies":[
+            {
+                "text":"Two travellers from Nor City stumbled upon her and ate her. When I found out, I pummeled them into the ground.",
+                "nextPhraseID":"fey3_melissa20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":56
+                    }
+                ]
+            },
+            {
+                "text":"Two travellers from Nor City stumbled upon her and ate her. I told a forest caretaker about it, and he had the two arrested.",
+                "nextPhraseID":"fey3_melissa21",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":45
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa_20",
+        "message":"Hello. You have a very kind heart, $playername.",
+        "replies":[
+            {
+                "text":"I'm happy to help, take care.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa20",
+        "message":"*Sniff* Haha... [She wipes her tears.] Thank you, $playername... *Sniff* Thank you for making me laugh a little.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa22"
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa21",
+        "message":"*Sniff* It won't make it better, but... [She wipes her tears.] At least I'll get compensation from the guards. *Sniff* Thank you, $playername.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa22"
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa22",
+        "message":"Melissa stops her tears from flowing and wipes her face with her sleeve.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa23"
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa23",
+        "message":"This is a keychain I found in the tower. I used to play in it often when I was a child. The lock to the top broke back then, but there are still several other keys I assume are for other towers. I want you to have it.",
+        "switchToNPC":"feygard3_shepherdgirl",
+        "replies":[
+            {
+                "text":"Thanks, I'll try them if I come across a locked door.",
+                "nextPhraseID":"fey3_melissa24"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa24",
+        "message":"I'm glad... Tch, Curse be those Nor City thieves..."
     }
 ]

@@ -314,7 +314,8 @@
     {
         "id":"feygard3_shepherdgirl",
         "name":"Melissa",
-        "iconID":"monsters_ld_edit:21"
+        "iconID":"monsters_ld_edit:21",
+        "phraseID":"fey3_melissa_selector"
     },
     {
         "id":"fey3_troublemaker_1",
@@ -356,8 +357,9 @@
     },
     {
         "id":"fey3_lostgoat",
-        "name":"Lost goat",
-        "iconID":"monsters_rltiles2:55"
+        "name":"Sweetie",
+        "iconID":"monsters_rltiles2:55",
+        "phraseID":"fey3_lostgoat_selector"
     },
     {
         "id":"fey3_guard_westgate",

@@ -2212,7 +2212,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fey3_goatquest",
+                        "requireID":"benbyr",
                         "value":30
                     },
                     {
@@ -2223,7 +2223,15 @@
                 ]
             },
             {
-                "nextPhraseID":"fey3_glasgow12"
+                "text":"N",
+                "nextPhraseID":"fey3_glasgow12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":27
+                    }
+                ]
             },
             {
                 "text":"N",
@@ -2562,7 +2570,7 @@
     },
     {
         "id":"fey3_caretaker3",
-        "message":"Well, I won't say no. I suspect these two have ilegally hunted game in the royal woods, look at their burnt campfire and large bellies.",
+        "message":"Well, I won't say no. I suspect these two have illegally hunted game in the royal woods. Look at their burnt campfire and large bellies.",
         "replies":[
             {
                 "text":"N",
@@ -2603,7 +2611,7 @@
     },
     {
         "id":"fey3_caretaker7",
-        "message":"Thank you, $playername for your help. I will stay here longer to keep an eye on these two.",
+        "message":"Thank you $playername for your help. I will stay here longer to keep an eye on these two.",
         "replies":[
             {
                 "text":"The shepherd girl from Lutfeld said that she's lost a goat which wandered into the woods. Incidentally, it matches with the carcass to the left of here which had horns.",
@@ -2652,10 +2660,10 @@
     },
     {
         "id":"fey3_carcass1",
-        "message":"The carcass looks fresh, but every piece of meat had been stripped clean off the bones and the horned skull.",
+        "message":"The carcass looks fresh, but every piece of meat had been stripped clean from the bones and the horned skull.",
         "replies":[
             {
-                "text":"This must be what the caretaker was suspecting, was it a horned anklebiter?",
+                "text":"This must be what the caretaker was suspecting. Was it a horned anklebiter?",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -2762,11 +2770,6 @@
             },
             {
                 "rewardType":"questProgress",
-                "rewardID":"fey3_nd",
-                "value":5
-            },
-            {
-                "rewardType":"questProgress",
                 "rewardID":"fey3_goatquest",
                 "value":5,
                 "requires":[
@@ -2782,7 +2785,7 @@
     },
     {
         "id":"fey3_caretaker10",
-        "message":"Beside that incessant tone of yours, you are right in theory. I was merely suspicious. My apologies, and I will take my leave.",
+        "message":"Besides that incessant tone of yours, you are right in theory. I was merely suspicious. My apologies, and I will take my leave.",
         "replies":[
             {
                 "text":"N",
@@ -2809,7 +2812,7 @@
     },
     {
         "id":"fey3_caretaker12",
-        "message":"The circumstances allign with what I've been suspecting then! I will call the guards and these two will be apprehended soon.",
+        "message":"The circumstances align with what I've been suspecting then! I will call the guards and these two will be apprehended soon.",
         "replies":[
             {
                 "text":"N",
@@ -4014,11 +4017,13 @@
         "id":"fey3_lostgoat_selector",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"fey3_lostgoat3",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"fey3_goatquest"
+                        "requireID":"fey3_goatquest",
+                        "value":30
                     }
                 ]
             },
@@ -4029,8 +4034,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"fey3_goatquest",
-                        "value":30,
-                        "negate":true
+                        "value":25,
+                        "negate":false
                     }
                 ]
             },
@@ -4336,7 +4341,7 @@
     },
     {
         "id":"fey3_melissa10",
-        "message":"One of my goats named Sweetie, went that way into the forest. I didn't think to look for her until she was far from the entrance. Poor thing must have gotten spooked and run off to climb up somewhere.",
+        "message":"One of my goats, named Sweetie, went that way into the forest. I didn't think to look for her until she was far from the entrance. Poor thing must have gotten spooked and run off to climb up somewhere.",
         "replies":[
             {
                 "text":"N",
@@ -4434,6 +4439,12 @@
                         "requireType":"questProgress",
                         "requireID":"fey3_goatquest",
                         "value":4
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":5,
+                        "negate":true
                     }
                 ]
             }
@@ -4481,7 +4492,7 @@
     },
     {
         "id":"fey3_melissa18",
-        "message":"Thank you for bringing my goat back $playername, it doesn't make me feel any better about the other one though...",
+        "message":"Thank you for bringing my goat back, $playername. It doesn't make me feel any better about the other one, though...",
         "replies":[
             {
                 "text":"I have something to tell you about the missing goat.",
@@ -4676,7 +4687,7 @@
         "message":"Baah.",
         "replies":[
             {
-                "text":"Sweetie you can't scare me like that!",
+                "text":"Sweetie, you can't scare me like that!",
                 "nextPhraseID":"fey3_lostgoat4"
             }
         ]
@@ -4696,7 +4707,7 @@
         "message":"Baaah.",
         "replies":[
             {
-                "text":"Now let's return back to Melissa...",
+                "text":"Now let's return to Melissa...",
                 "nextPhraseID":"fey3_lostgoat5"
             }
         ]
@@ -4965,7 +4976,7 @@
     },
     {
         "id":"fey3_zeff14",
-        "message":"Gad higher hopes for you, kid. You helped our buddy Benbyr, so I thought you were one of us. That caretaker friend of yours left because we're innocent. But you have no honor.",
+        "message":"Had higher hopes for you, kid. You helped our buddy Benbyr, so I thought you were one of us. That caretaker friend of yours left because we're innocent. But you have no honor.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -4990,7 +5001,7 @@
         "message":"I admit it, kid. We did catch a goat. But it had wandered up to us, and there was no shepherd in sight. A man's gotta eat, you understand me?",
         "replies":[
             {
-                "text":"Well, that explain her mood.",
+                "text":"Well, that explains her mood.",
                 "nextPhraseID":"X"
             },
             {
@@ -5271,7 +5282,7 @@
         "message":"Oh yes, I admit it. I did think the goat might belong to someone. But you have to understand our point. When you're hungry and don't know whose it is, it might as well be wild game.",
         "replies":[
             {
-                "text":"Well, that explain her mood.",
+                "text":"Well, that explains her mood.",
                 "nextPhraseID":"X"
             },
             {

@@ -379,6 +379,7 @@
         "id":"fey3_zeff_fight",
         "name":"Zeff",
         "iconID":"monsters_ld_edit:63",
+        "monsterClass":"humanoid",
         "movementAggressionType":"protectSpawn"
     },
     {

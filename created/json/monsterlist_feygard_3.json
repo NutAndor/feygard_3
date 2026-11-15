@@ -322,6 +322,7 @@
         "name":"Glasgow",
         "iconID":"monsters_ld_edit:54",
         "monsterClass":"humanoid",
+        "faction":"fey3_campers",
         "phraseID":"fey3_glasgow_selector"
     },
     {
@@ -329,6 +330,7 @@
         "name":"Zeff",
         "iconID":"monsters_ld_edit:63",
         "monsterClass":"humanoid",
+        "faction":"fey3_campers",
         "horizontalFlipChance":100,
         "phraseID":"fey3_zeff_selector"
     },
@@ -372,5 +374,18 @@
         "name":"Feygard guard",
         "iconID":"monsters_ld1:67",
         "phraseID":"fey3_guard_arrest"
+    },
+    {
+        "id":"fey3_zeff_fight",
+        "name":"Zeff",
+        "iconID":"monsters_ld_edit:63",
+        "movementAggressionType":"protectSpawn"
+    },
+    {
+        "id":"fey3_glasgow_fight",
+        "name":"Glasgow",
+        "iconID":"monsters_ld_edit:54",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"protectSpawn"
     }
 ]

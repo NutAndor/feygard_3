@@ -220,7 +220,7 @@
    eJy9k1EOgCAMQ7mJ9z8StzH+Lcu6R6fRhASZrd0D9rXW/mk8T5zHd1cfPbKXmlfayqfzUrmVX9dL/F7VKdOJf5WpqpHXqYbyEUO3RgypJ8Upa4mT4k4ZHe5vGHb1uFbxIObEcpLf6YH+Nbknnc7Zu+zv7tnkfFO+L8YNkB8EqA==
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="east" type="mapchange" x="640" y="96" width="32" height="64">
    <properties>
     <property name="map" value="feygard_outside10"/>
@@ -240,7 +240,14 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0"/>
+ <objectgroup name="Spawn">
+  <object name="fey3_lostgoat" type="spawn" x="544" y="512" width="64" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="fey3_lostgoat"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys" visible="0"/>
  <objectgroup name="Replace" visible="0"/>
 </map>

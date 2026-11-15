@@ -460,7 +460,7 @@
     },
     {
         "id":"fey3_guard_maingate_right_115",
-        "message":"Well, aren\u2019t you a loyal friend.",
+        "message":"Well, aren't you a loyal friend.",
         "replies":[
             {
                 "text":"N",
@@ -2208,17 +2208,195 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"fey3_glasgow0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fey3_glasgow12"
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_glasgow11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":6
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_glasgow10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"benbyr",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_glasgow9",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"benbyr",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_glasgow4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"fey3_glasgow"
             }
         ]
     },
     {
         "id":"fey3_glasgow",
-        "message":"Do we fine gentlemen look like troublemakers to you? Of course not. The audacity."
+        "message":"Do we fine gentlemen look like troublemakers to you? Of course not. The audacity.",
+        "replies":[
+            {
+                "text":"What happened?",
+                "nextPhraseID":"fey3_glasgow_selector1"
+            }
+        ]
     },
     {
         "id":"fey3_zeff_selector",
         "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_zeff14",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"benbyr",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_zeff13",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":27
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_zeff12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":6
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_zeff11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"benbyr",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_zeff10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"benbyr",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_zeff8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":28
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_zeff5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":3
+                    }
+                ]
+            },
             {
                 "text":"N",
                 "nextPhraseID":"fey3_zeff"
@@ -2227,7 +2405,20 @@
     },
     {
         "id":"fey3_zeff",
-        "message":"Who're you, kid? Another nuisance's all we needed right now."
+        "message":"Who're you, kid? Another annoyance's all we needed right now.",
+        "replies":[
+            {
+                "text":"What happened?",
+                "nextPhraseID":"fey3_zeff_selector1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":28
+            }
+        ]
     },
     {
         "id":"fey3_caretaker_selector",
@@ -3788,7 +3979,7 @@
         "switchToNPC":"fey3_guard_arrest",
         "replies":[
             {
-                "text":"[What fools, to commit a crime when there are a dozen guards teeming at the gates.]",
+                "text":"[What fools, to commit a crime when there are a dozen guards teeming at the gates nearby.]",
                 "nextPhraseID":"fey3_guard_arrest_scene3"
             }
         ]
@@ -3807,10 +3998,55 @@
     {
         "id":"fey3_guard_arrest_scene4",
         "message":"It was who you helped us, right? Don't mind them and keep going, we'll handle this.",
-        "switchToNPC":"fey3_guard_arrest"
+        "switchToNPC":"fey3_guard_arrest",
+        "replies":[
+            {
+                "text":"I'm not afraid of some ants.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"They're being over dramatic.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
-        "id":"fey3_lostgoat_selector"
+        "id":"fey3_lostgoat_selector",
+        "replies":[
+            {
+                "nextPhraseID":"fey3_lostgoat3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_lostgoat2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_lostgoat",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":25,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"fey3_melissa_selector",
@@ -4077,6 +4313,10 @@
             {
                 "text":"What's the problem?",
                 "nextPhraseID":"fey3_melissa10"
+            },
+            {
+                "text":"Sure, I have a knack for adventure.",
+                "nextPhraseID":"fey3_melissa10"
             }
         ]
     },
@@ -4116,7 +4356,7 @@
         "message":"Since you've helped Tinlyn I thought you'd might have the heart to help me.",
         "replies":[
             {
-                "text":"I don't have it in me to refuse a poor shepherd like you. My father's a farmer, so I know what it's like.",
+                "text":"I don't have it in me to refuse a poor shepherd girl like you. My father's a farmer, so I know what it's like.",
                 "nextPhraseID":"fey3_melissa12"
             }
         ]
@@ -4374,6 +4614,704 @@
     },
     {
         "id":"fey3_melissa24",
-        "message":"I'm glad... Tch, Curse be those Nor City thieves..."
+        "message":"I'm glad... Tch, Curse be those Nor City thieves."
+    },
+    {
+        "id":"fey3_lostgoat",
+        "message":"Baah.",
+        "replies":[
+            {
+                "text":"Sweetie?! How did you get here?",
+                "nextPhraseID":"fey3_lostgoat0"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"fey3_lostgoat1",
+        "message":"The goat startles at your sudden movement and jumps through the window.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"Sweetie!?",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":25
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"fey3_lostgoat",
+                "mapName":"feygard_outside13"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fey3_lostgoat",
+                "mapName":"feygard_3tower2"
+            }
+        ]
+    },
+    {
+        "id":"fey3_lostgoat0",
+        "message":"Baaah.",
+        "replies":[
+            {
+                "text":"Come on, Sweetie. Let's go downstairs and back to Melissa.",
+                "nextPhraseID":"fey3_lostgoat1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_lostgoat2",
+        "message":"Baah.",
+        "replies":[
+            {
+                "text":"Sweetie you can't scare me like that!",
+                "nextPhraseID":"fey3_lostgoat4"
+            }
+        ]
+    },
+    {
+        "id":"fey3_lostgoat3",
+        "message":"[The goat munches its cud and looks at you.]",
+        "replies":[
+            {
+                "text":"Hi Sweetie.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_lostgoat4",
+        "message":"Baaah.",
+        "replies":[
+            {
+                "text":"Now let's return back to Melissa...",
+                "nextPhraseID":"fey3_lostgoat5"
+            }
+        ]
+    },
+    {
+        "id":"fey3_lostgoat5",
+        "message":"The goat runs through the foliage and escapes your grasp once again.",
+        "switchToNPC":"none",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":30
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fey3_lostgoat",
+                "mapName":"feygard_outside13"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"fey3_lostgoat",
+                "mapName":"feygard_outside12"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zeff_selector1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_zeff3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"benbyr",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_zeff1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"benbyr",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tinlyn",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_zeff0"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zeff0",
+        "message":"I'll tell you what, kid. It's none of your business."
+    },
+    {
+        "id":"fey3_glasgow_selector1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_glasgow1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"benbyr",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_glasgow2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"tinlyn",
+                        "value":25
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"benbyr",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_glasgow3"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zeff1",
+        "message":"My partner Glasgow over there and I camped here for the night. We're waiting for someone, business stuff, y'know? And this whatchamacallit caretaker comes here and starts running his mouth.",
+        "replies":[
+            {
+                "text":"So what's the problem?",
+                "nextPhraseID":"fey3_zeff2"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zeff2",
+        "message":"Don't be a nuisance kid. Get lost."
+    },
+    {
+        "id":"fey3_zeff3",
+        "message":"Hmm? Is it you, kid?! My buddy Benbyr sang your praises!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_zeff4"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zeff4",
+        "message":"My partner Glasgow over there and I travelled here from Nor City for, y'know, business stuff. We know of your great deeds. Could you convince this high-nosed caretaker to leave us alone?",
+        "replies":[
+            {
+                "text":"I want to ask you for details first.",
+                "nextPhraseID":"fey3_zeff6"
+            },
+            {
+                "text":"I'll see what I can do.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"fey3_zeff5",
+        "message":"It's you, kid! Any luck convincing the caretaker to leave?",
+        "replies":[
+            {
+                "text":"I want to ask you for details first.",
+                "nextPhraseID":"fey3_zeff6"
+            },
+            {
+                "text":"I'll see what I can do.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zeff6",
+        "message":"What is it?",
+        "replies":[
+            {
+                "text":"The caretaker thinks you guys caught an animal illegally, or so he says. Is it true?",
+                "nextPhraseID":"fey3_zeff7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"What are you here for?",
+                "nextPhraseID":"fey3_zeff9"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zeff7",
+        "message":"A man's gotta eat when a man's gotta eat, you know? Lord's forest or not.",
+        "replies":[
+            {
+                "text":"I see.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zeff8",
+        "message":"Gotta apologize for my past tone, kid. You can't trust nobody but your own kind around these parts. Any luck convincing the caretaker to leave?",
+        "replies":[
+            {
+                "text":"I want to ask you for details first.",
+                "nextPhraseID":"fey3_zeff6"
+            },
+            {
+                "text":"I'll see what I can do.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zeff9",
+        "message":"As you know, business stuff. Glasgow and I come from Nor City. All three of us here are kindred spirits."
+    },
+    {
+        "id":"fey3_zeff10",
+        "message":"You were of great help, kid. Now we can rest easy along with our newfound provisions.",
+        "replies":[
+            {
+                "text":"I met a shepherd girl west of here. She was pretty erratic. Could it be that the animal you guys caught and ate was one of her goats?",
+                "nextPhraseID":"fey3_zeff16",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":9
+                    }
+                ]
+            },
+            {
+                "text":"No problem. Those Feygard guys are always in your face.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zeff11",
+        "message":"I don't know what you did, but you were of great help, kid. That nuisance left now.",
+        "replies":[
+            {
+                "text":"Actually, I wanted to ask something. Was the animal you two ate a goat, by any chance?",
+                "nextPhraseID":"fey3_zeff15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":35
+                    }
+                ]
+            },
+            {
+                "text":"No problem. Those Feygard guys are always in your face.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zeff12",
+        "message":"I don't like what you and that caretaker were whispering about. Better stay away from me."
+    },
+    {
+        "id":"fey3_zeff13",
+        "message":"You scoundrel! You got the guards involved! You're nothing without that law of yours!",
+        "replies":[
+            {
+                "text":"Ho ho, I am everything without the law to stop me.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zeff14",
+        "message":"Gad higher hopes for you, kid. You helped our buddy Benbyr, so I thought you were one of us. That caretaker friend of yours left because we're innocent. But you have no honor.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"fey3_glasgow0",
+        "message":"So you thought we wouldn't know? You may say to yourself, \"He can't know about that,\" but we know you informed the caretaker. He got tired and left because we're innocent. Shame on you for being honorless. In this world, all we common folk have is each other.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"fey3_zeff16",
+        "message":"I admit it, kid. We did catch a goat. But it had wandered up to us, and there was no shepherd in sight. A man's gotta eat, you understand me?",
+        "replies":[
+            {
+                "text":"Well, that explain her mood.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You guys think with your stomachs.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"fey3_zeff15",
+        "message":"I admit it, kid. We did catch a goat. But it had wandered up to us, and there was no shepherd in sight. A man's gotta eat, you understand me?",
+        "replies":[
+            {
+                "text":"You made that shepherd girl very sad, and now you two have to repay her.",
+                "nextPhraseID":"fey_zeff1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":55
+            }
+        ]
+    },
+    {
+        "id":"fey_zeff1",
+        "message":"Hit the road, kid. I thought you're siding with us!",
+        "replies":[
+            {
+                "text":"Hit the road? How about I hit you instead. [Fight]",
+                "nextPhraseID":"fey3_troublemakers_fight"
+            }
+        ]
+    },
+    {
+        "id":"fey3_troublemakers_fight",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"fey3_zeff_fight",
+                "mapName":"wayto_feygard_johny2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"fey3_glasgow_fight",
+                "mapName":"wayto_feygard_johny2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fey3_troublemaker_1",
+                "mapName":"wayto_feygard_johny2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fey3_troublemaker_2",
+                "mapName":"wayto_feygard_johny2"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":29
+            }
+        ]
+    },
+    {
+        "id":"fey3_camper_fight",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_camper_fight1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":29
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"fey3_zeff_fight",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"fey3_glasgow_fight",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":56,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fey3_camper_fight1",
+        "message":"You beat the two bloody. They dropped their belongings and scrambled to run south.",
+        "replies":[
+            {
+                "text":"That will teach them a lesson.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":56
+            }
+        ]
+    },
+    {
+        "id":"fey3_glasgow1",
+        "message":"Ho! Are you the person who helped our friend Benbyr along the way?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_glasgow5"
+            }
+        ]
+    },
+    {
+        "id":"fey3_glasgow2",
+        "message":"My partner Zeff and I travelled here on some business matters. And this individual comes here and tells us what we can or cannot do.",
+        "replies":[
+            {
+                "text":"So what's the problem?",
+                "nextPhraseID":"fey3_glassgow3"
+            }
+        ]
+    },
+    {
+        "id":"fey3_glasgow3",
+        "message":"If telling you could fix the problem, we would, unlike those high-nosed Feygardians."
+    },
+    {
+        "id":"fey3_glasgow4",
+        "message":"Ah, my dear friend! Any luck convincing the caretaker to leave?",
+        "replies":[
+            {
+                "text":"I want to ask you for details first.",
+                "nextPhraseID":"fey3_glasgow6"
+            },
+            {
+                "text":"I'll see what I can do.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_glassgow3",
+        "message":"There is no sign here with the rules written on it. Surely, you are a young and bright mind who wouldn't stand by this foul person."
+    },
+    {
+        "id":"fey3_glasgow5",
+        "message":"My partner Zeff and I travelled here on some business matters. And this individual here won't let us camp in peace. Surely, as someone who has helped Benbyr, you could lend us a hand. Please convince him to leave.",
+        "replies":[
+            {
+                "text":"I want to ask you for details first.",
+                "nextPhraseID":"fey3_glasgow6"
+            },
+            {
+                "text":"I'll see what I can do.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"fey3_glasgow6",
+        "message":"Sure, what is it?",
+        "replies":[
+            {
+                "text":"The caretaker thinks you guys caught an animal illegally, or so he says. Is it true?",
+                "nextPhraseID":"fey3_glasgow7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"What are you here for?",
+                "nextPhraseID":"fey3_glasgow8"
+            }
+        ]
+    },
+    {
+        "id":"fey3_glasgow7",
+        "message":"We've been waiting here for a while. They won't allow us in the city. Were we supposed to starve? Of course not! It's the law of nature that we must at least feed ourselves.",
+        "replies":[
+            {
+                "text":"I see.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_glasgow8",
+        "message":"Business matters. The person we're dealing with will leave the city to meet with us. I suppose at least that much is fine to share. We've been waiting for that reason."
+    },
+    {
+        "id":"fey3_glasgow9",
+        "message":"You were of great help, friend. Now we can rest easy along with our newfound provisions.",
+        "replies":[
+            {
+                "text":"I met a shepherd girl west of here. She was pretty erratic. Could it be that the animal you guys caught and ate was one of her goats?",
+                "nextPhraseID":"fey3_glasgow13",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":9
+                    }
+                ]
+            },
+            {
+                "text":"No problem. Those Feygard guys are always in your face.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_glasgow10",
+        "message":"I don't know what you did, but you were of great help. I didn't expect such assistance from a passerby.",
+        "replies":[
+            {
+                "text":"Actually, I wanted to ask something. Was the animal you two ate a goat, by any chance?",
+                "nextPhraseID":"fey3_glasgow14",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":35
+                    }
+                ]
+            },
+            {
+                "text":"No problem. Those Feygard guys are always in your face.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_glasgow11",
+        "message":"I don't like what you and that caretaker were whispering about. Better stay away from me."
+    },
+    {
+        "id":"fey3_glasgow12",
+        "message":"You scoundrel! You got the guards involved! You're nothing without that law of yours!",
+        "replies":[
+            {
+                "text":"Ho ho, I am everything without the law to stop me.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_glasgow13",
+        "message":"Oh yes, I admit it. I did think the goat might belong to someone. But you have to understand our point. When you're hungry and don't know whose it is, it might as well be wild game.",
+        "replies":[
+            {
+                "text":"Well, that explain her mood.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You guys think with your stomachs.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"fey3_glasgow14",
+        "message":"Oh yes, I admit it. I did think the goat might belong to someone. But you have to understand our point. When you're hungry and don't know whose it is, it might as well be wild game.",
+        "replies":[
+            {
+                "text":"You made that shepherd girl very sad, and now you two have to repay her.",
+                "nextPhraseID":"fey3_glasgow15"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_goatquest",
+                "value":55
+            }
+        ]
+    },
+    {
+        "id":"fey3_glasgow15",
+        "message":"I don't think so. We're destitute and at our wits' end, here in Feygard trying to earn some coin. We can't afford it.",
+        "replies":[
+            {
+                "text":"Then I'll take it by force. [Fight]",
+                "nextPhraseID":"fey3_troublemakers_fight"
+            }
+        ]
     }
 ]

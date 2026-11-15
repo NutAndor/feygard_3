@@ -147,6 +147,14 @@
             {
                 "progress":27,
                 "logText":"27=campers arrest scene"
+            },
+            {
+                "progress":28,
+                "logText":"28=talked with zeff for him to apologize"
+            },
+            {
+                "progress":29,
+                "logText":"29=attacked campers"
             }
         ]
     },

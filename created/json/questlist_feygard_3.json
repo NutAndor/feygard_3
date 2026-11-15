@@ -33,7 +33,7 @@
             },
             {
                 "progress":10,
-                "logText":"One of Melissa\u2019s goats went east into the forest and hasn\u2019t returned. She thinks it might have gotten spooked and climbed up somewhere."
+                "logText":"One of Melissa's goats went east into the forest and hasn't returned. She thinks it might have gotten spooked and climbed up somewhere."
             },
             {
                 "progress":15,
@@ -41,7 +41,7 @@
             },
             {
                 "progress":20,
-                "logText":"I found the goat on the tower\u2019s second floor. It must have climbed in through the window!"
+                "logText":"I found the goat on the tower's second floor. It must have climbed in through the window!"
             },
             {
                 "progress":25,
@@ -49,7 +49,7 @@
             },
             {
                 "progress":30,
-                "logText":"I chased Melissa\u2019s goat in the forest, and it ran from me again."
+                "logText":"I chased Melissa's goat in the forest, and it ran from me again."
             },
             {
                 "progress":35,
@@ -65,7 +65,7 @@
             },
             {
                 "progress":40,
-                "logText":"The caretaker eventually got tired of the two and left. The two insulted my honor and said Nor people should stick together, which I didn\u2019t do.",
+                "logText":"The caretaker eventually got tired of the two and left. The two insulted my honor and said Nor people should stick together, which I didn't do.",
                 "finishesQuest":1
             },
             {
@@ -74,12 +74,12 @@
             },
             {
                 "progress":50,
-                "logText":"I asked the two if the goat belonged to the shepherd girl's flock, and they admitted that it had wandered up to them and they had eaten it.",
+                "logText":"I asked the two if the animal they ate was a goat belonging to the shepherd girl's flock, and they admitted that it had wandered over to them and they had eaten it.",
                 "finishesQuest":1
             },
             {
                 "progress":55,
-                "logText":"I asked the two if the goat belonged to Melissa's flock, and they admitted that it had wandered up to them and they had eaten it."
+                "logText":"I asked the two if the animal they ate was a goat belonging to Melissa's flock, and they admitted that it had wandered up to them and they had eaten it."
             },
             {
                 "progress":56,

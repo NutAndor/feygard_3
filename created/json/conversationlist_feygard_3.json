@@ -2187,7 +2187,13 @@
     },
     {
         "id":"fey3_guard_westgate",
-        "message":"No pass no entry."
+        "message":"No pass no entry.",
+        "replies":[
+            {
+                "text":"How do I get a pass?",
+                "nextPhraseID":"fey3_guard_westgate1"
+            }
+        ]
     },
     {
         "id":"fey3_goat",
@@ -2416,8 +2422,12 @@
         "message":"Who're you, kid? Another annoyance's all we needed right now.",
         "replies":[
             {
-                "text":"What happened?",
+                "text":"What's wrong?",
                 "nextPhraseID":"fey3_zeff_selector1"
+            },
+            {
+                "text":"Likewise. Bye.",
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -2597,7 +2607,7 @@
     },
     {
         "id":"fey3_caretaker5",
-        "message":"If you find something, bring it up with me. Maybe they'll trust you more."
+        "message":"If you find something, bring it up with me. I'll trust your judgement."
     },
     {
         "id":"fey3_caretaker6",
@@ -2752,7 +2762,7 @@
     },
     {
         "id":"fey3_caretaker9",
-        "message":"I was debating whether I should leave them be or keep pressuring them, but you've helped me make up my mind. I will take my leave. Goodbye, traveler.",
+        "message":"I was debating whether I should leave or keep pressuring them, but you've helped me make up my mind. I will take my leave. Goodbye, traveler.",
         "replies":[
             {
                 "text":"N",
@@ -2785,7 +2795,7 @@
     },
     {
         "id":"fey3_caretaker10",
-        "message":"Besides that incessant tone of yours, you are right in theory. I was merely suspicious. My apologies, and I will take my leave.",
+        "message":"Despite that incessant tone of yours, your reasoning is sound. I allowed my suspicions to get the better of me. My apologies. I shall take my leave.",
         "replies":[
             {
                 "text":"N",
@@ -2941,7 +2951,7 @@
     },
     {
         "id":"fey3_bridgeguard1",
-        "message":"What do you want to talk about?",
+        "message":"What do you want to know?",
         "replies":[
             {
                 "text":"Do you like your job?",
@@ -2980,10 +2990,6 @@
                         "value":8
                     }
                 ]
-            },
-            {
-                "text":"It was fun chatting with you, bye.",
-                "nextPhraseID":"X"
             }
         ]
     },
@@ -3030,7 +3036,7 @@
     },
     {
         "id":"fey3_bridgeguard5",
-        "message":"Luthaven west is the last point of civilization before leaving Aewhata. Luthaven is just north of the border post. It's mostly soldiers and their families living there. Up on the mountain there's a manor overlooking the town that belongs to Lady Klassental, a general of Feygard.",
+        "message":"The path west leads to the last point of civilization before leaving Aewhata. Luthaven is just north of the border post. It's mostly soldiers and their families living there. Up on the mountain there's a manor overlooking the town that belongs to Lady Klassental, a general of Feygard.",
         "replies":[
             {
                 "text":"N",
@@ -3040,7 +3046,7 @@
     },
     {
         "id":"fey3_bridgeguard6",
-        "message":"The border itself is situated between two mountains, probably because it makes it easier to defend against the savage barbarian tribes. Going west past it, is unbridled wilderness. You might never see another civilized presence, unless you're looking out to sea and spot a boat.",
+        "message":"The border itself is situated between two mountains because it makes it easier to defend against the savage barbarian tribes. Going west past it is unbridled wilderness. You might never see another civilized presence unless you're looking out to sea and spot a boat.",
         "replies":[
             {
                 "text":"Have you been there?",
@@ -3053,7 +3059,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"fey3_nd",
-                        "value":10
+                        "value":30,
+                        "negate":true
                     }
                 ]
             }
@@ -3118,7 +3125,7 @@
                         "requireType":"questProgress",
                         "requireID":"fey3_nd",
                         "value":11,
-                        "negate":true
+                        "negate":false
                     }
                 ]
             },
@@ -3139,7 +3146,7 @@
     },
     {
         "id":"fey3_bridgeguard0",
-        "message":"Just keeping guard at the bridge. We're not allowed to chat like this, but none of my superiors are around so...",
+        "message":"Just keeping guard at the bridge. We're not allowed to chat like this, but none of my superiors are around so... Wanna talk?",
         "replies":[
             {
                 "text":"Sure, let's talk.",
@@ -3442,7 +3449,7 @@
     },
     {
         "id":"fey3_bridgeguard_garrison_crossglen",
-        "message":"There's the Crossglen garrison. It must be a quiet and idyllic place, considering how little I've heard of them.",
+        "message":"There's the Crossglen garrison. It must be a quiet and idyllic place, considering how little I've heard about them.",
         "replies":[
             {
                 "text":"Sure is.",
@@ -3688,7 +3695,7 @@
     },
     {
         "id":"fey3_bridgeguard_garrison_ending",
-        "message":"And I guess that's all. I heard most of this from friends, and some from rumours whilst chatting here, just like I am now.",
+        "message":"That's all. I heard most of this from friends, and some from rumours whilst chatting here, just like I am now.",
         "replies":[
             {
                 "text":"Let me ask you something else.",
@@ -3697,9 +3704,6 @@
             {
                 "text":"I've been to some of these places so it was fun to hear. Bye.",
                 "nextPhraseID":"X"
-            },
-            {
-                "text":"Then you have a cozy place yourself, get a fishing rod  and you're set."
             }
         ]
     },
@@ -3868,15 +3872,15 @@
     },
     {
         "id":"fey3_tower_northwest1",
-        "message":"The road above cuts through the forest into an open area. You see a golden field of wheat and the blue shimmer of the river."
+        "message":"The road above cuts through the forest into an open area. You see a golden field of wheat and the blue shimmer of a river, going straight into the city of Feygard."
     },
     {
         "id":"fey3_tower_north1",
-        "message":"You see the Duleian Road cutting the forest in two halves, and past the forest, the magnificent walls of Feygard standing strong."
+        "message":"You see the Duleian Road cutting the forest in two halves, and past the forest, the magnificent walls of Feygard standing strong. Tall buildings rise majestically beyond them."
     },
     {
         "id":"fey3_tower_northeast1",
-        "message":"You see the gates of Feygard and a number of people standing in line to enter. To the right, a large manor situated south of the walls, with an orchard."
+        "message":"You see the gates of Feygard and a number of people standing in line to enter. To the right, a large estate stands south of the wall. You can see someone sitting at a table in the garden."
     },
     {
         "id":"fey3_tower_east1",
@@ -3892,7 +3896,7 @@
     },
     {
         "id":"fey3_tower_south1",
-        "message":"You see an expanse of forests and lakes, with the occasional structure. But right at the edge of the horizon, ominous dark clouds gather.\n\nYou see an expanse of forests and lakes, with the occasional structure. But right at the edge of the horizon, ominous dark clouds gather.\n"
+        "message":"You see an expanse of forests and lakes, with the occasional structure. But right at the edge of the horizon, ominous dark clouds gather."
     },
     {
         "id":"fey3_tower_southeast1",
@@ -4161,17 +4165,10 @@
         "replies":[
             {
                 "text":"I've been searching for my brother Andor have you seen him?",
-                "nextPhraseID":"fey3_melissa1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"fey3_nd",
-                        "negate":false
-                    }
-                ]
+                "nextPhraseID":"fey3_melissa1"
             },
             {
-                "text":"Can you tell me more about Lutfeld?",
+                "text":"Lutfeld? Where is that.",
                 "nextPhraseID":"fey3_melissa3"
             }
         ]
@@ -4247,17 +4244,17 @@
     },
     {
         "id":"fey3_melissa3",
-        "message":"It's the name of the village to my right. Though we don't accommodate visitors here. Those are the rules Lord Geomyr set for us.",
+        "message":"It's the name of the village to my right. Though we don't accommodate visitors like you here for the night. Those are the rules Lord Geomyr set for us.",
         "replies":[
             {
-                "text":"That sounds intriguing. What rules, and what for?",
+                "text":"That sounds intriguing. What kind of rules?",
                 "nextPhraseID":"fey3_melissa4"
             }
         ]
     },
     {
         "id":"fey3_melissa4",
-        "message":"Something about increasing the value of accommodations within the walls of Feygard? I'm not really sure. Please don't mind me, I've spoken too much.",
+        "message":"Something about making the accommodations within Feygard's walls more valuable? I'm not entirely sure. Please don't mind me, I've probably said too much already.",
         "replies":[
             {
                 "text":"No worries. Have you seen my brother Andor?",
@@ -4320,7 +4317,7 @@
                 "nextPhraseID":"fey3_melissa10"
             },
             {
-                "text":"Sure, I have a knack for adventure.",
+                "text":"Sure, I don't mind a small detour.",
                 "nextPhraseID":"fey3_melissa10"
             }
         ]
@@ -4405,10 +4402,10 @@
     },
     {
         "id":"fey3_melissa15",
-        "message":"Another goat of mine has been missing for a few days now. I've given up on finding her and just kept watching over the rest. If you find her, please bring her home.",
+        "message":"I'm so glad shemade it back. I only wish I could say the same for my other goat. She's been gone for a few days now. I've given up looking and just stayed here to watch over the rest.",
         "replies":[
             {
-                "text":"Sure I will.",
+                "text":"Another goat? If I spot her I'll bring her back.",
                 "nextPhraseID":"fey3_melissa_selector2"
             }
         ],
@@ -4482,7 +4479,7 @@
     },
     {
         "id":"fey3_melissa16",
-        "message":"Melissa's goat is missing, and the two campers having caught an animal is what the caretaker suspected. Too bad I sent him away, but it would be worth hearing a confirmation from the two.",
+        "message":"Melissa's goat is missing, and the two campers having caught an animal is what the caretaker suspected. I already sent him away, but it would be worth questioning the two.",
         "switchToNPC":"none"
     },
     {
@@ -4541,7 +4538,7 @@
         "message":"What is it?!",
         "replies":[
             {
-                "text":"Two travellers from Nor City stumbled upon her and ate her. When I found out, I pummeled them into the ground.",
+                "text":"Two travellers from Nor City stumbled upon your goat and ate her. When I found out, I pummeled them into the ground.",
                 "nextPhraseID":"fey3_melissa20",
                 "requires":[
                     {
@@ -4552,7 +4549,7 @@
                 ]
             },
             {
-                "text":"Two travellers from Nor City stumbled upon her and ate her. I told a forest caretaker about it, and he had the two arrested.",
+                "text":"Two travellers from Nor City stumbled upon your goat and ate her. I told a forest caretaker about it, and he had the two arrested.",
                 "nextPhraseID":"fey3_melissa21",
                 "requires":[
                     {
@@ -4576,7 +4573,7 @@
     },
     {
         "id":"fey3_melissa20",
-        "message":"*Sniff* Haha... [She wipes her tears.] Thank you, $playername... *Sniff* Thank you for making me laugh a little.",
+        "message":"*Sniff* Haha, pummeled... [She wipes her tears.] Thank you, $playername... *Sniff* Thank you for making me laugh a little.",
         "replies":[
             {
                 "text":"N",
@@ -4607,11 +4604,11 @@
     },
     {
         "id":"fey3_melissa23",
-        "message":"This is a keychain I found in the tower. I used to play in it often when I was a child. The lock to the top broke back then, but there are still several other keys I assume are for other towers. I want you to have it.",
+        "message":"I used to play in the tower often when I was a child. This is a keychain I found there. The lock to the top broke back then, but there are still several other keys that I assume are for other towers. I want you to have it.",
         "switchToNPC":"feygard3_shepherdgirl",
         "replies":[
             {
-                "text":"Thanks, I'll try them if I come across a locked door.",
+                "text":"Thanks, I'll try them if I ever come across another tower.",
                 "nextPhraseID":"fey3_melissa24"
             }
         ],
@@ -4625,7 +4622,12 @@
     },
     {
         "id":"fey3_melissa24",
-        "message":"I'm glad... Tch, Curse be those Nor City thieves."
+        "message":"Tch, Curse be those Nor City thieves.",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"fey3_lostgoat",
@@ -4815,18 +4817,18 @@
         "message":"My partner Glasgow over there and I camped here for the night. We're waiting for someone, business stuff, y'know? And this whatchamacallit caretaker comes here and starts running his mouth.",
         "replies":[
             {
-                "text":"So what's the problem?",
+                "text":"You sound pretty rude. No wonder he thinks ill of you.",
                 "nextPhraseID":"fey3_zeff2"
             }
         ]
     },
     {
         "id":"fey3_zeff2",
-        "message":"Don't be a nuisance kid. Get lost."
+        "message":"If you wanted manners, you should've talked to Glasgow. Now get lost, kid."
     },
     {
         "id":"fey3_zeff3",
-        "message":"Hmm? Is it you, kid?! My buddy Benbyr sang your praises!",
+        "message":"Hmm? Is that you, kid?! My buddy Benbyr sang your praises!",
         "replies":[
             {
                 "text":"N",
@@ -5138,7 +5140,7 @@
         "message":"My partner Zeff and I travelled here on some business matters. And this individual comes here and tells us what we can or cannot do.",
         "replies":[
             {
-                "text":"So what's the problem?",
+                "text":"N",
                 "nextPhraseID":"fey3_glassgow3"
             }
         ]
@@ -5163,7 +5165,7 @@
     },
     {
         "id":"fey3_glassgow3",
-        "message":"There is no sign here with the rules written on it. Surely, you are a young and bright mind who wouldn't stand by this foul person."
+        "message":"There is no sign here with the rules written on it. Surely, you are a young and bright mind who wouldn't stand by this foul behavior."
     },
     {
         "id":"fey3_glasgow5",
@@ -5317,11 +5319,29 @@
     },
     {
         "id":"fey3_glasgow15",
-        "message":"I don't think so. We're destitute and at our wits' end, here in Feygard trying to earn some coin. We can't afford it.",
+        "message":"I don't think you understand. We're destitute and at our wits' end, here in Feygard trying to earn some coin. We can't afford it.",
         "replies":[
             {
                 "text":"Then I'll take it by force. [Fight]",
                 "nextPhraseID":"fey3_troublemakers_fight"
+            }
+        ]
+    },
+    {
+        "id":"fey3_guard_westgate1",
+        "message":"Work hard, and someday you might get one from Feygard's Merchant Guild.",
+        "replies":[
+            {
+                "text":"So I still need to enter city first...",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
             }
         ]
     }

@@ -388,5 +388,10 @@
         "iconID":"monsters_ld_edit:54",
         "monsterClass":"humanoid",
         "movementAggressionType":"protectSpawn"
+    },
+    {
+        "id":"fey3_sewerguard",
+        "name":"Sewer guard",
+        "iconID":"monsters_ld_edit:39"
     }
 ]

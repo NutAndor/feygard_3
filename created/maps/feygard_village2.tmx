@@ -235,7 +235,7 @@
   </object>
   <object name="north1" type="mapchange" x="672" y="0" width="32" height="32">
    <properties>
-    <property name="map" value="wayto_feygard_johny2"/>
+    <property name="map" value="feygard_outside11"/>
     <property name="place" value="south1"/>
    </properties>
   </object>

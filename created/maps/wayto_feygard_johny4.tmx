@@ -257,7 +257,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="fey3_goat" type="spawn" x="96" y="320" width="320" height="128">
+  <object name="fey3_goat" type="spawn" x="160" y="352" width="224" height="96">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="fey3_goat"/>

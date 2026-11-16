@@ -237,7 +237,13 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0"/>
+ <objectgroup name="Spawn">
+  <object name="fey3_sewerguard" type="spawn" x="512" y="512" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="fey3_sewerguard"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys" visible="0"/>
  <objectgroup name="Replace" visible="0"/>
 </map>

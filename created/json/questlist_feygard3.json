@@ -57,10 +57,6 @@
                 "logText":"9=talked about garissons"
             },
             {
-                "progress":10,
-                "logText":"10=Has seen the sea"
-            },
-            {
                 "progress":11,
                 "logText":"11=talking with the guard from the west side"
             },
@@ -155,6 +151,10 @@
             {
                 "progress":29,
                 "logText":"29=attacked campers"
+            },
+            {
+                "progress":30,
+                "logText":"30=Has seen the sea"
             }
         ]
     },

@@ -2,7 +2,6 @@
     {
         "id":"fey3_nd",
         "name":"fey3_nondisplayed",
-        "showInLog":1,
         "stages":[
             {
                 "progress":1,
@@ -155,6 +154,14 @@
             {
                 "progress":30,
                 "logText":"30=Has seen the sea"
+            },
+            {
+                "progress":31,
+                "logText":"31=triggered the dialog in Luthaven mayor's house"
+            },
+            {
+                "progress":32,
+                "logText":"32= unlocked the tower hatch"
             }
         ]
     },

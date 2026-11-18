@@ -2600,7 +2600,7 @@
         "message":"I am a royal forest caretaker. The woods here are considered part of the royal woods on the west side of the river and are the property of Lord Geomyr. Ensuring suspicious fellows like these aren't up to any trouble is part of my job.",
         "replies":[
             {
-                "text":"What happened?",
+                "text":"What suspicious things were those two travelers up to?",
                 "nextPhraseID":"fey3_caretaker_selector2"
             }
         ]
@@ -2624,7 +2624,7 @@
         "message":"Thank you $playername for your help. I will stay here longer to keep an eye on these two.",
         "replies":[
             {
-                "text":"The shepherd girl from Lutfeld said that she's lost a goat which wandered into the woods. Incidentally, it matches with the carcass to the left of here which had horns.",
+                "text":"A shepherd girl from Lutfeld said that she's lost a goat which wandered into the woods. It mactches with the carcass to the left of here which had horns.",
                 "nextPhraseID":"fey3_caretaker12",
                 "requires":[
                     {
@@ -2743,7 +2743,7 @@
                 ]
             },
             {
-                "text":"The shepherd girl from Lutfeld said that she's lost a goat which wandered into the woods. Incidentally, I also found a carcass to the left of here which had horns.",
+                "text":"A shepherd girl from Lutfeld said that she's lost a goat which wandered into the woods. Incidentally, I also found a carcass to the left of here which had horns.",
                 "nextPhraseID":"fey3_caretaker12",
                 "requires":[
                     {
@@ -2762,7 +2762,7 @@
     },
     {
         "id":"fey3_caretaker9",
-        "message":"I was debating whether I should leave or keep pressuring them, but you've helped me make up my mind. I will take my leave. Goodbye, traveler.",
+        "message":"I was debating whether I should leave or keep questioning them, but you've helped me make up my mind. I will take my leave. Goodbye, traveler.",
         "replies":[
             {
                 "text":"N",
@@ -2787,6 +2787,19 @@
                         "requireType":"questProgress",
                         "requireID":"fey3_goatquest",
                         "value":6,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":5,
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":5,
                         "negate":true
                     }
                 ]
@@ -2832,7 +2845,7 @@
     },
     {
         "id":"fey3_caretaker13",
-        "message":"You've been a great help, $playername. Study hard, enroll in the military academy, and visit our Order of Royal Forest Caretakers on the west side of the river. Praise be to Elythara, glory to Feygard!",
+        "message":"You've been a great help, $playername. Enroll in the military academy, and visit our Order of Royal Forest Caretakers on the west side of the river. Praise be to Elythara, glory to Feygard!",
         "replies":[
             {
                 "text":"Can I ask why I would need to join the academy to visit your Order?",
@@ -3092,7 +3105,7 @@
     },
     {
         "id":"fey3_bridgeguard9",
-        "message":"How do you not know, kid?! Have you not been inside Feygard to stare out at the sea from its port? It's a shame you haven't seen the sea. Water as far as the eye can see, very beautiful.",
+        "message":"How do you not know, kid?! Have you not been inside Feygard to stare out at the sea from its port? It's a shame you haven't seen it. Water as far as the eye can see, very beautiful.",
         "replies":[
             {
                 "text":"Wow, looking forward to it.",
@@ -4402,10 +4415,10 @@
     },
     {
         "id":"fey3_melissa15",
-        "message":"I'm so glad shemade it back. I only wish I could say the same for my other goat. She's been gone for a few days now. I've given up looking and just stayed here to watch over the rest.",
+        "message":"I'm so glad she made it back. I only wish I could say the same for another goat of mine. She's been gone for a few days now. I've given up looking and just stayed here to watch over the rest.",
         "replies":[
             {
-                "text":"Another goat? If I spot her I'll bring her back.",
+                "text":"Another goat? If I find her, I'll bring her back.",
                 "nextPhraseID":"fey3_melissa_selector2"
             }
         ],
@@ -4539,7 +4552,7 @@
         "replies":[
             {
                 "text":"Two travellers from Nor City stumbled upon your goat and ate her. When I found out, I pummeled them into the ground.",
-                "nextPhraseID":"fey3_melissa20",
+                "nextPhraseID":"fey_melissa20alt",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -4550,7 +4563,7 @@
             },
             {
                 "text":"Two travellers from Nor City stumbled upon your goat and ate her. I told a forest caretaker about it, and he had the two arrested.",
-                "nextPhraseID":"fey3_melissa21",
+                "nextPhraseID":"fey3_melissa21alt",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -4566,7 +4579,7 @@
         "message":"Hello. You have a very kind heart, $playername.",
         "replies":[
             {
-                "text":"I'm happy to help, take care.",
+                "text":"Happy to help, take care.",
                 "nextPhraseID":"X"
             }
         ]
@@ -4574,6 +4587,7 @@
     {
         "id":"fey3_melissa20",
         "message":"*Sniff* Haha, pummeled... [She wipes her tears.] Thank you, $playername... *Sniff* Thank you for making me laugh a little.",
+        "switchToNPC":"feygard3_shepherdgirl",
         "replies":[
             {
                 "text":"N",
@@ -4584,6 +4598,7 @@
     {
         "id":"fey3_melissa21",
         "message":"*Sniff* It won't make it better, but... [She wipes her tears.] At least I'll get compensation from the guards. *Sniff* Thank you, $playername.",
+        "switchToNPC":"feygard3_shepherdgirl",
         "replies":[
             {
                 "text":"N",
@@ -4625,7 +4640,8 @@
         "message":"Tch, Curse be those Nor City thieves.",
         "replies":[
             {
-                "nextPhraseID":"X"
+                "text":"N",
+                "nextPhraseID":"fey3_exit_dialog"
             }
         ]
     },
@@ -4894,7 +4910,7 @@
     },
     {
         "id":"fey3_zeff7",
-        "message":"A man's gotta eat when a man's gotta eat, you know? Lord's forest or not.",
+        "message":"A man's gotta eat when hes hes hungry, you know? Lord's forest or not.",
         "replies":[
             {
                 "text":"I see.",
@@ -4918,7 +4934,7 @@
     },
     {
         "id":"fey3_zeff9",
-        "message":"As you know, business stuff. Glasgow and I come from Nor City. All three of us here are kindred spirits."
+        "message":"As you know, business stuff. Glasgow and I come from Nor City. All three of us here are kindred spirits in that sense."
     },
     {
         "id":"fey3_zeff10",
@@ -4971,7 +4987,7 @@
         "message":"You scoundrel! You got the guards involved! You're nothing without that law of yours!",
         "replies":[
             {
-                "text":"Ho ho, I am everything without the law to stop me.",
+                "text":"Ha! I am everything without the law to stop me.",
                 "nextPhraseID":"X"
             }
         ]
@@ -5021,10 +5037,10 @@
     },
     {
         "id":"fey3_zeff15",
-        "message":"I admit it, kid. We did catch a goat. But it had wandered up to us, and there was no shepherd in sight. A man's gotta eat, you understand me?",
+        "message":"Yes, it was a goat. But it had wandered up to us, and there was no shepherd in sight. A man's gotta eat, you understand me?",
         "replies":[
             {
-                "text":"You made that shepherd girl very sad, and now you two have to repay her.",
+                "text":"You made a shepherd girl very sad, and now you two have to repay her.",
                 "nextPhraseID":"fey_zeff1"
             }
         ],
@@ -5147,7 +5163,7 @@
     },
     {
         "id":"fey3_glasgow3",
-        "message":"If telling you could fix the problem, we would, unlike those high-nosed Feygardians."
+        "message":"If telling you could fix the problem, we would, unlike this high-nosed Feygardian in front of us."
     },
     {
         "id":"fey3_glasgow4",
@@ -5165,7 +5181,13 @@
     },
     {
         "id":"fey3_glassgow3",
-        "message":"There is no sign here with the rules written on it. Surely, you are a young and bright mind who wouldn't stand by this foul behavior."
+        "message":"There is no sign here with the rules written on it. Surely, you are a young and bright mind who wouldn't stand by this foul behavior.",
+        "replies":[
+            {
+                "text":"You have a keen eye. I definitely have a bright mind.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"fey3_glasgow5",
@@ -5267,14 +5289,14 @@
     },
     {
         "id":"fey3_glasgow11",
-        "message":"I don't like what you and that caretaker were whispering about. Better stay away from me."
+        "message":"It's very shady that you and that caretaker were whispering to each other. Better stay away from me."
     },
     {
         "id":"fey3_glasgow12",
         "message":"You scoundrel! You got the guards involved! You're nothing without that law of yours!",
         "replies":[
             {
-                "text":"Ho ho, I am everything without the law to stop me.",
+                "text":"Ha! I am everything without the law to stop me.",
                 "nextPhraseID":"X"
             }
         ]
@@ -5302,10 +5324,10 @@
     },
     {
         "id":"fey3_glasgow14",
-        "message":"Oh yes, I admit it. I did think the goat might belong to someone. But you have to understand our point. When you're hungry and don't know whose it is, it might as well be wild game.",
+        "message":"Yes, it was a goat. I did think it might belong to someone. But you have to understand our point. When you're hungry and don't know whose it is, it might as well be wild game.",
         "replies":[
             {
-                "text":"You made that shepherd girl very sad, and now you two have to repay her.",
+                "text":"You made a shepherd girl very sad, and now you two have to repay her.",
                 "nextPhraseID":"fey3_glasgow15"
             }
         ],
@@ -5342,6 +5364,119 @@
                         "negate":true
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"fey_melissa20alt",
+        "message":"Tears well up in Melissa's eyes.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa20"
+            }
+        ]
+    },
+    {
+        "id":"fey3_melissa21alt",
+        "message":"Tears well up in Melissa's eyes.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_melissa21"
+            }
+        ]
+    },
+    {
+        "id":"fey3_exit_dialog",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_tower_teleport",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_tower_teleport0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":32
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fey3_tower_hatch",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_tower_hatch1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":32
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fey3_tower_hatch1",
+        "message":"The hatch leading to the top of the tower is locked.",
+        "replies":[
+            {
+                "text":"[Use the bundle of keys to unlock it.] [Works]",
+                "nextPhraseID":"fey3_tower_hatch2",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"fey3_towerkeys",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"[Use the bundle of keys to unlock it.] [Release version]",
+                "nextPhraseID":"fey3_tower_hatch3"
+            }
+        ]
+    },
+    {
+        "id":"fey3_tower_hatch2",
+        "message":"The lock opens smoothly, and you climb out.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":32
+            },
+            {
+                "rewardType":"mapchange",
+                "rewardID":"ladder",
+                "mapName":"feygard_outside10"
+            }
+        ]
+    },
+    {
+        "id":"fey3_tower_hatch3",
+        "message":"The lock is too rusted to budge."
+    },
+    {
+        "id":"fey3_tower_teleport0",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"ladder",
+                "mapName":"feygard_outside10"
             }
         ]
     }

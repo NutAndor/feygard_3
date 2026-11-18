@@ -2,6 +2,7 @@
     {
         "id":"fey3_goatquest",
         "name":"Equivalent exchange",
+        "showInLog":1,
         "stages":[
             {
                 "progress":1,

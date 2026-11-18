@@ -307,7 +307,7 @@
    eJxjYBgFIw1cFIPg4W4vun30sh+bHcPd3oEKZ2x4FIyCUTAKRsEoGAWjYBQQDwB94hPb
   </data>
  </layer>
- <objectgroup id="24" name="Mapevents">
+ <objectgroup id="24" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="416" y="928" width="320" height="32">
    <properties>
     <property name="map" value="wayto_feygard_johny2"/>

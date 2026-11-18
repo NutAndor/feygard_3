@@ -249,14 +249,14 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object name="fey3_guard_westgate" type="spawn" x="160" y="192" width="64" height="64">
    <properties>
     <property name="spawngroup" value="fey3_guard_westgate"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys">
+ <objectgroup name="Keys" visible="0">
   <object name="Object" type="key" x="160" y="160" width="128" height="32">
    <properties>
     <property name="phrase" value="fey3_westgate"/>

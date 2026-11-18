@@ -207,7 +207,7 @@
    eJy7KMbAcJFEjA8gqyHVXGLtwGUnrfxBrj0wPbT0A6lhRo455IQXKW4kN+5x6aPEH/jUEvLDKKA+IKc8oIZ99LATW1mJTY4cM3GZjc0eEDCXY2CwkCPdHgCHknmW
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object name="north" type="mapchange" x="416" y="0" width="320" height="32">
    <properties>
     <property name="map" value="feygard_outside1"/>
@@ -249,7 +249,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object name="fey3_troublemaker_1" type="spawn" x="320" y="192" width="64" height="64">
    <properties>
     <property name="spawngroup" value="fey3_troublemaker_1"/>
@@ -272,7 +272,7 @@
     <property name="spawngroup" value="fey3_guard_arrest"/>
    </properties>
   </object>
-  <object name="fey3_guard_arrest_scene" type="script" x="160" y="96" width="416" height="320">
+  <object name="fey3_guard_arrest_scene" type="script" x="160" y="224" width="352" height="192">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -296,6 +296,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys"/>
+ <objectgroup name="Keys" visible="0"/>
  <objectgroup name="Replace" visible="0"/>
 </map>

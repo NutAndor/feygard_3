@@ -203,7 +203,7 @@
    eJy9lVEKACEIRDtF97+SN9r9lGh0FCchKHZ4o7mS7bXsX1GY09z2zKqGwgd9V9TRzb9aj9dM8xlvBbvio+ajf7/Dj/yqPJSPuh+3PJAvw0DMbN+tB3HUdxaxlf154aOOiTlkPFRs7xGxs36xb0JFPx3RTCMN0nX9sztg5xvNEOPV7TXz7pznD36Sw9A=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="north1" type="mapchange" x="64" y="0" width="224" height="32">
    <properties>
     <property name="map" value="wayto_feygard_johny2"/>

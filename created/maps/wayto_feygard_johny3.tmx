@@ -208,7 +208,7 @@
    eJy7KMbAcHGAMAgMlN0DaT+yveS6AZ8+ZIBPjhy70d1OyA58dhNjFiH34zMDmxwuQMhv5AJK9FJiJ6XuHi6AlDCgRXihp0VyzUA3i1i1xOR9Ut2KTx255Qw2c8kpi4jVSw1Mb/uw+RsAd6btUg==
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
+ <objectgroup id="6" name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="96" width="32" height="384">
    <properties>
     <property name="map" value="wayto_feygard_johny4"/>
@@ -228,7 +228,7 @@
   </object>
  </objectgroup>
  <objectgroup id="7" name="Spawn" visible="0"/>
- <objectgroup id="8" name="Keys">
+ <objectgroup id="8" name="Keys" visible="0">
   <object id="3" name="carcass" type="key" x="960" y="448" width="32" height="32">
    <properties>
     <property name="phrase" value="fey3_carcass0"/>

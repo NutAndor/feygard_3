@@ -219,7 +219,7 @@
    eJzFklEKACEIRDvF3v9K3Wi/hEVGGSdthSArfM7YftbawrKw/ffMcvTeh8rMavreUK8nWitMRWfmZTVUZqSF7UH9U5lO1n+VpXrMclkNU9xMK7qrvJlaVR7rDXNfqXWTq8zghOvn381FfHTeyY2YkxHpYXrtnO8fXMtfGq4mOg==
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
+ <objectgroup id="7" name="Mapevents" visible="0">
   <object id="1" name="north2" type="mapchange" x="832" y="0" width="128" height="32">
    <properties>
     <property name="map" value="feygard_outside8"/>

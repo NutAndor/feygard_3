@@ -260,7 +260,7 @@
   <object name="south2" type="mapchange" x="480" y="768" width="64" height="32">
    <properties>
     <property name="map" value="feygard_manor3"/>
-    <property name="place" value="north1"/>
+    <property name="place" value="north2"/>
    </properties>
   </object>
  </objectgroup>

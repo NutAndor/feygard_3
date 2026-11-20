@@ -243,9 +243,9 @@
     <property name="spawngroup" value="fey3_villager1"/>
    </properties>
   </object>
-  <object name="Object" type="spawn" x="0" y="0" width="32" height="32">
+  <object name="fey3_villager2" type="spawn" x="320" y="128" width="64" height="64">
    <properties>
-    <property name="spawngroup" value="Object"/>
+    <property name="spawngroup" value="fey3_villager2"/>
    </properties>
   </object>
  </objectgroup>

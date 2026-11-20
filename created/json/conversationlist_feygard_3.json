@@ -2732,7 +2732,7 @@
                 ]
             },
             {
-                "text":"I found the carcass of a medium-sized animal in the forest just to the left of here. It seemed fresh, but all the meat had been picked clean.",
+                "text":"I found the carcass of an animal in the forest near here. It seemed fresh, but all the meat had been stripped clean.",
                 "nextPhraseID":"fey3_caretaker11",
                 "requires":[
                     {
@@ -2743,7 +2743,7 @@
                 ]
             },
             {
-                "text":"A shepherd girl from Lutfeld said that she's lost a goat which wandered into the woods. Incidentally, I also found a carcass to the left of here which had horns.",
+                "text":"A shepherd girl from Lutfeld said that she's lost a goat which wandered into the woods. Incidentally, I also found a carcass in the forest near here which had horns.",
                 "nextPhraseID":"fey3_caretaker12",
                 "requires":[
                     {
@@ -2772,6 +2772,11 @@
     },
     {
         "id":"fey3_caretaker_leave",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
@@ -2808,7 +2813,7 @@
     },
     {
         "id":"fey3_caretaker10",
-        "message":"Despite that incessant tone of yours, your reasoning is sound. I allowed my suspicions to get the better of me. My apologies. I shall take my leave.",
+        "message":"Despite that tone of yours, your reasoning is sound. I allowed my suspicions to get the better of me. My apologies. I shall take my leave.",
         "replies":[
             {
                 "text":"N",
@@ -2818,7 +2823,7 @@
     },
     {
         "id":"fey3_caretaker11",
-        "message":"I was right to trust my suspicions. Though unfortunately, a clean carcass isn't enough evidence to call the guards over.",
+        "message":"I was right to trust my suspicions. Unfortunately, a clean carcass isn't enough evidence to call the guards over.",
         "replies":[
             {
                 "text":"N",
@@ -3054,6 +3059,13 @@
             {
                 "text":"N",
                 "nextPhraseID":"fey3_bridgeguard6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":8
             }
         ]
     },
@@ -4257,7 +4269,7 @@
     },
     {
         "id":"fey3_melissa3",
-        "message":"It's the name of the village to my right. Though we don't accommodate visitors like you here for the night. Those are the rules Lord Geomyr set for us.",
+        "message":"It's the name of the village to my right. Though we don't accommodate visitors for the night. Those are the rules Lord Geomyr set for us.",
         "replies":[
             {
                 "text":"That sounds intriguing. What kind of rules?",
@@ -4948,6 +4960,12 @@
                         "requireType":"questProgress",
                         "requireID":"fey3_goatquest",
                         "value":9
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":50,
+                        "negate":true
                     }
                 ]
             },
@@ -5005,7 +5023,13 @@
     },
     {
         "id":"fey3_glasgow0",
-        "message":"So you thought we wouldn't know? You may say to yourself, \"He can't know about that,\" but we know you informed the caretaker. He got tired and left because we're innocent. Shame on you for being honorless. In this world, all we common folk have is each other.",
+        "message":"So you thought we wouldn't know? You may say to yourself, \"He can't know about that,\" but we know you informed the caretaker. He got tired and left because we're innocent.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_glasgow16"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -5257,6 +5281,12 @@
                         "requireType":"questProgress",
                         "requireID":"fey3_goatquest",
                         "value":9
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_goatquest",
+                        "value":50,
+                        "negate":true
                     }
                 ]
             },
@@ -5354,7 +5384,7 @@
         "message":"Work hard, and someday you might get one from Feygard's Merchant Guild.",
         "replies":[
             {
-                "text":"So I still need to enter city first...",
+                "text":"So I still need to enter the city first...",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -5544,7 +5574,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"fey3_nd",
-                        "value":43
+                        "value":43,
+                        "negate":true
                     }
                 ]
             }
@@ -6565,5 +6596,32 @@
                 "nextPhraseID":"fey3_robinzo1"
             }
         ]
+    },
+    {
+        "id":"fey3_glasgow16",
+        "message":"Shame on you for being honorless. In this world, all we common folk have is each other."
+    },
+    {
+        "id":"fey3_verdden_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_verdden1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_verdden1",
+        "message":"See, this is what hard work does. The field I've sown has grown, and now I'm harvesting golden wheat!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_verdden2"
+            }
+        ]
+    },
+    {
+        "id":"fey3_verdden2",
+        "message":"Been a hard day out here. I've been working since morning and only rested for a few hours under that tree over there. Look how much there is still to gather. Wish they paid farmhands to help over here."
     }
 ]

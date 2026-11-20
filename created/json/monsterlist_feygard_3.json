@@ -396,8 +396,9 @@
     },
     {
         "id":"fey3_villager",
-        "name":"Lutfeld villager",
-        "iconID":"monsters_ld1:8"
+        "name":"Verdden",
+        "iconID":"monsters_ld1:8",
+        "phraseID":"fey3_verdden_selector"
     },
     {
         "id":"fey3_innkeeper",
@@ -425,5 +426,10 @@
         "id":"fey3_courier",
         "name":"Courier",
         "iconID":"monsters_ld1:141"
+    },
+    {
+        "id":"fey3_farmhand",
+        "name":"Hired farmhand",
+        "iconID":"monsters_man1:0"
     }
 ]

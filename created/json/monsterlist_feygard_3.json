@@ -393,5 +393,37 @@
         "id":"fey3_sewerguard",
         "name":"Sewer guard",
         "iconID":"monsters_ld_edit:39"
+    },
+    {
+        "id":"fey3_villager",
+        "name":"Lutfeld villager",
+        "iconID":"monsters_ld1:8"
+    },
+    {
+        "id":"fey3_innkeeper",
+        "name":"Lutfeld inn keeper",
+        "iconID":"monsters_ld1:124"
+    },
+    {
+        "id":"fey3_villager1",
+        "name":"Cruzo",
+        "iconID":"monsters_ld_edit:71",
+        "phraseID":"fey3_cruzo"
+    },
+    {
+        "id":"fey3_villager2",
+        "name":"Robinzo",
+        "iconID":"monsters_ld_edit:33",
+        "phraseID":"fey3_robinzo_selector0"
+    },
+    {
+        "id":"fey3_lutfeld_leader",
+        "name":"Lutfeld leader",
+        "iconID":"monsters_ld1:83"
+    },
+    {
+        "id":"fey3_courier",
+        "name":"Courier",
+        "iconID":"monsters_ld1:141"
     }
 ]

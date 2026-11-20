@@ -204,7 +204,7 @@
  </tileset>
  <layer name="Base" width="18" height="8">
   <data encoding="base64" compression="zlib">
-   eJxz4GJg8MeBHdBofOpA+IcUdoxPDl0dCHNIY8f45NDVgbAeDuyPRw4Zw/xtrwxkI2FHZYg8yM0wtehqkNX5Q9VGA/kxSDgWKg9yM8wcX6CYHxr2R7IPWS0+jG4Xun2cXPgxzBxC6gDyijRQ
+   eJxz4GJg8MeCHXCI41ILwj+kMDEucVxqQZhDGhPjEselFoT1sGB/HOLYMCwM7JWBbCh2VIbIgdyLrBZZDbpaf6j6aCA/BopjoXIg9yKb4wsU90PD/kh2oqvHhZHtwmYnJxd+DDOHkDoAr+Az7Q==
   </data>
  </layer>
  <layer name="Ground" width="18" height="8">
@@ -214,17 +214,17 @@
  </layer>
  <layer name="Objects" width="18" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYKAeYJVlYOhXYmCYAMRf+SB8ZLndbAwMe4B4LxDXAtXUKSHkkIEoHj6IfRqo/wwQnwXiL6xAu4D4JytELoQFVS8XEHMj8W/wQegpYgixB8oMDCxAs1iBmJMNIpaCZo4UEEsj8V9AzdkixkB10Ag0swmKm4E4HM0th1mw68MGQHrR9VMTAABC1BZc
+   eJxjYKAeYJVlYOhXYmCYAMRf+SB8ZLndbAwMe4B4LxDXAtXUKSHkkIEoHj6IfRqo/wwQnwXiL6xAu4D4JytELoQFVS8XEHND2Tf4IPQUMVQ1D5QZGFiAZrECMScbRCwFzRwpIJaGsl9AzdmCZg61QCPQ3CYobgbicDS3HGbBrg8bAOlF109NAABQFBZc
   </data>
  </layer>
  <layer name="Above" width="18" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYKAeyGHDzYexZQUI67vOip2NDHSB5lxQxu+e56zY2SDAq4Jf70CDm/wMDDZAN/IMcncCAPx/CF8=
+   eJxjYKAeyGHDzYexZQUI67vOip2NDHSB5lxQxu+e56zY2bwq+PUNBnCTn4HBBuhOnkHuVgD9Qwhf
   </data>
  </layer>
  <layer name="Top" width="18" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYKAeeC1PntyoOQwMv0gwhxS1tAYAh8kLjQ==
+   eJxjYKAeeC1PmvioORDwi0RzSFVPSwAAnM0LjQ==
   </data>
  </layer>
  <layer name="Walkable" width="18" height="8" visible="0">
@@ -232,15 +232,41 @@
    eJy7Kc/AcHOEYBBA58MAIXXoenCZgw0QUofPLeTaSYx7CIUVMWoBbTVg4Q==
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="door" type="mapchange" x="256" y="224" width="64" height="32">
    <properties>
     <property name="map" value="feygard_village0"/>
     <property name="place" value="house"/>
    </properties>
   </object>
+  <object name="fey3_leaderhouse_narration" type="script" x="224" y="160" width="128" height="64">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0"/>
- <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Spawn">
+  <object name="fey3_lutfeld_leader" type="spawn" x="320" y="128" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="fey3_lutfeld_leader"/>
+   </properties>
+  </object>
+  <object name="fey3_courier" type="spawn" x="352" y="192" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="fey3_courier"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="Object" type="key" x="192" y="192" width="32" height="32">
+   <properties>
+    <property name="phrase" value="fey3_lockedroom"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Replace" visible="0"/>
 </map>

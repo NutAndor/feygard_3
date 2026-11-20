@@ -258,7 +258,13 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0"/>
+ <objectgroup name="Spawn">
+  <object name="fey3_villager" type="spawn" x="640" y="384" width="160" height="96">
+   <properties>
+    <property name="spawngroup" value="fey3_villager"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys" visible="0"/>
  <objectgroup name="Replace" visible="0"/>
 </map>

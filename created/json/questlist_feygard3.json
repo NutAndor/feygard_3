@@ -153,7 +153,7 @@
             },
             {
                 "progress":30,
-                "logText":"30=Has seen the sea"
+                "logText":"30=Has seen the sea (Create an achievement to be amazed when the player sees the sea for the first time anywhere in the world, and give this then. Soonest might be Feygard's port as intended)"
             },
             {
                 "progress":31,
@@ -162,6 +162,54 @@
             {
                 "progress":32,
                 "logText":"32= unlocked the tower hatch"
+            },
+            {
+                "progress":33,
+                "logText":"33=player chose rock"
+            },
+            {
+                "progress":34,
+                "logText":"34=player chose blanket"
+            },
+            {
+                "progress":35,
+                "logText":"35=player chose gargoyle"
+            },
+            {
+                "progress":36,
+                "logText":"36=robinzo chose rock"
+            },
+            {
+                "progress":37,
+                "logText":"37=robinzo chose blanket"
+            },
+            {
+                "progress":38,
+                "logText":"38=robinzo chose gargoyle"
+            },
+            {
+                "progress":39,
+                "logText":"39=(robinzo memory) player chose rock past round"
+            },
+            {
+                "progress":40,
+                "logText":"40=(robinzo memory) player chose blanket past round"
+            },
+            {
+                "progress":41,
+                "logText":"41=(robinzo memory) player chose gargoyle past round"
+            },
+            {
+                "progress":42,
+                "logText":"42=met Ahrensbach (give this when talking to him in Feygard proper)"
+            },
+            {
+                "progress":43,
+                "logText":"43=narration in lutfeld leader's house."
+            },
+            {
+                "progress":44,
+                "logText":"44=left rock blanket gargoyle mid game"
             }
         ]
     },

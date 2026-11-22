@@ -1,0 +1,16 @@
+[
+    {
+        "id":"fey3_refreshment",
+        "iconID":"actorconditions_1:35",
+        "name":"Refreshment",
+        "description":"You feel refreshed.",
+        "category":"physical",
+        "isPositive":1,
+        "roundEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":2
+            }
+        }
+    }
+]

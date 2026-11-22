@@ -2419,7 +2419,7 @@
     },
     {
         "id":"fey3_zeff",
-        "message":"Who're you, kid? Another annoyance's all we needed right now.",
+        "message":"Stick your nose somewhere else. Another annoyance's all we needed right now.",
         "replies":[
             {
                 "text":"What's wrong?",
@@ -3165,7 +3165,12 @@
         "message":"Your brother is not there, if he were, I would've known.",
         "replies":[
             {
-                "text":"Oh okay."
+                "text":"Let me ask you something else.",
+                "nextPhraseID":"fey3_bridgeguard1"
+            },
+            {
+                "text":"Oh, OK.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -3229,6 +3234,22 @@
     {
         "id":"fey3_bridgeguard_garrison_selector",
         "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_bridgeguard_garrison_thalgard",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":55,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"random",
+                        "requireID":"1/12"
+                    }
+                ]
+            },
             {
                 "text":"N",
                 "nextPhraseID":"fey3_bridgeguard_garrison_crossglen",
@@ -3463,6 +3484,11 @@
                         "requireType":"questProgress",
                         "requireID":"fey3_nd",
                         "value":23
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":55
                     }
                 ]
             },
@@ -5583,7 +5609,7 @@
     },
     {
         "id":"fey3_leaderhouse_narration0",
-        "message":"...Those were the entire contents of the correspondence.",
+        "message":"...Those were the contents of the correspondence.",
         "switchToNPC":"fey3_courier",
         "replies":[
             {
@@ -5596,15 +5622,20 @@
                 "rewardType":"questProgress",
                 "rewardID":"fey3_nd",
                 "value":43
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"fey3_courier_despawn"
             }
         ]
     },
     {
         "id":"fey3_leaderhouse_narration1",
-        "message":"Excellent! Transmit to Sir Ahrensbach that I shall continue to remain under his patronage.",
+        "message":"Excellent. Transmit to Sir Ahrensbach that I continue to remain under his patronage!",
         "switchToNPC":"fey3_lutfeld_leader",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"fey3_leaderhouse_narration2"
             }
         ]
@@ -5649,6 +5680,7 @@
         "message":"Blanket...",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"fey3_robinzo5"
             }
         ]
@@ -5766,6 +5798,16 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"fey3_robinzo_chosegargoyle",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"fey3_robinzo_choserock",
                 "requires":[
                     {
@@ -5781,16 +5823,6 @@
                     {
                         "requireType":"random",
                         "requireID":"30/100"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"fey3_robinzo_chosegargoyle",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"50/100"
                     }
                 ]
             },
@@ -5844,16 +5876,6 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"fey3_robinzo_choserock",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"30/100"
-                    }
-                ]
-            },
-            {
-                "text":"N",
                 "nextPhraseID":"fey3_robinzo_choseblanket",
                 "requires":[
                     {
@@ -5869,6 +5891,16 @@
                     {
                         "requireType":"random",
                         "requireID":"40/100"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_robinzo_choserock",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"30/100"
                     }
                 ]
             },
@@ -6623,5 +6655,355 @@
     {
         "id":"fey3_verdden2",
         "message":"Been a hard day out here. I've been working since morning and only rested for a few hours under that tree over there. Look how much there is still to gather. Wish they paid farmhands to help over here."
+    },
+    {
+        "id":"fey3_bridgeguard_garrison_thalgard",
+        "message":"There's Thalgard. There's not much of an established garrison there. It's always been part of the northern domains. Recently, they've required some support after the salt mines to the east collapsed.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_bridgeguard_garrison_selector"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":55
+            }
+        ]
+    },
+    {
+        "id":"fey3_courier",
+        "message":"My visit here is done. I'll take my leave soon, but I still have this wonderful tea and cookies to finish.",
+        "replies":[
+            {
+                "text":"Alright.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_farmhand",
+        "message":"Another day out in the fields."
+    },
+    {
+        "id":"fey3_farmhand0",
+        "message":"Need some water brought up?",
+        "replies":[
+            {
+                "text":"What do you do here?",
+                "nextPhraseID":"fey3_farmhand1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_farmhand1",
+        "message":"We poor people from Feygard come here to earn a little extra for a living. Working here for Hartwig in Lutfeld nets us more than odd jobs in Feygard do, often with some vegetables to take back home.",
+        "replies":[
+            {
+                "text":"I see, good luck with that.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_mayen"
+    },
+    {
+        "id":"fey3_well",
+        "message":"Before you is a well with a strange chain mechanism attached to the bucket's rope.",
+        "replies":[
+            {
+                "text":"[Pull the chain.]",
+                "nextPhraseID":"fey3_well1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_well1",
+        "message":"You pull on the chain, and a bucket of water comes up with ease.",
+        "replies":[
+            {
+                "text":"[Drink water.]",
+                "nextPhraseID":"fey3_well2"
+            },
+            {
+                "text":"Amazing. Doing this by hand would be tiring work.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_well2",
+        "message":"You drink some cold water and feel refreshed.",
+        "replies":[
+            {
+                "text":"The wonders of technology.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fey3_refreshment",
+                "value":4
+            }
+        ]
+    },
+    {
+        "id":"fey3_hartwig_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_hartwig1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":59
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_hartwig",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":56
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_hartwig0"
+            }
+        ]
+    },
+    {
+        "id":"fey3_hartwig0",
+        "message":"Don't spook me like that, child! Now hush, hush. I have guests over at the moment."
+    },
+    {
+        "id":"fey3_courier_despawn",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_courier_despawn0",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"fey3_courier_despawn",
+                        "value":3
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":43
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":56,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fey3_courier_despawn0",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fey3_courier",
+                "mapName":"feygard_village_leaderhouse"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":56
+            }
+        ]
+    },
+    {
+        "id":"fey3_zecre",
+        "message":"Hello, what can I do for you?",
+        "replies":[
+            {
+                "text":"Do you sell any supplies?",
+                "nextPhraseID":"fey3_zecre2"
+            },
+            {
+                "text":"Can you tell me what you think about the Shadow believers again?",
+                "nextPhraseID":"fey3_zecre4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":57
+                    }
+                ]
+            },
+            {
+                "text":"Can you tell me about Elythara again?",
+                "nextPhraseID":"fey3_zecre9",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fey3_nd",
+                        "value":58
+                    }
+                ]
+            },
+            {
+                "text":"Can I rest here?",
+                "nextPhraseID":"fey3_zecre0"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zecre0",
+        "message":"The beds you see here are not accommodations for travelers. During harvest season, not all the hired workers can return home in time, so they rest here for the night.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_zecre1"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zecre1",
+        "message":"I used to think it was a missed opportunity not to earn some extra coin housing travelers. But over time, I came to realize that Lord Geomyr's judgment keeps us safe from troublemakers and other hoodlums. It's much safer this way. After all, not everyone follows the laws like we do.",
+        "replies":[
+            {
+                "text":"I've traveled around Dhayavar, and there are nice people everywhere. Some aren't, yes, but it's not that bad.",
+                "nextPhraseID":"fey3_zecre4"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zecre2",
+        "message":"Some bread, some vegetables, yes. Have a look.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_zecre3"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zecre3",
+        "replies":[
+            {
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zecre4",
+        "message":"Not saying there aren't good people, but those who come here with evil in their blood keep low and strike from the shadows. We in Feygard know very well. No wonder they still can't rid our city of that rotten cult of the Shadow.",
+        "replies":[
+            {
+                "text":"What's happened in the city?",
+                "nextPhraseID":"fey3_zecre5"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":57
+            }
+        ]
+    },
+    {
+        "id":"fey3_zecre5",
+        "message":"Well, it's not as though anything has happened recently. It's always been that new people move in with their ideas and this nonsense cult, trying to have a say in what we should believe and how we should live.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_zecre6"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zecre6",
+        "message":"We've long tolerated the presence of their temple in our magnificent city. It wasn't until a few years ago that Lord Geomyr's steward finally took action, first by transferring the temple to the Elytharan cult, which worships the goddess of light we've long revered here in the north.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_zecre7"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zecre7",
+        "message":"The recent kingdom-wide bonemeal ban had only been a continuation of what started here in Feygard years ago.",
+        "replies":[
+            {
+                "text":"You seem very knowledgeable on this.",
+                "nextPhraseID":"fey3_zecre8"
+            },
+            {
+                "text":"Can you tell me more about Elythara?",
+                "nextPhraseID":"fey3_zecre9"
+            },
+            {
+                "text":"A fool. that's all I can say about you.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zecre8",
+        "message":"I'm only saying what a true-born Feygardian should. Within the great city, you might find folk from the central lands and the south proudly claiming to be from Feygard, but they'd run south as refugees just as quickly as they came here.",
+        "replies":[
+            {
+                "text":"I see, so people from all walks of life. I don't necessarily believe your words, but I understand your point of view.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I am one of those from the south, so all I can say is that you're a fool.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_zecre9",
+        "message":"Ever since I was a wee kid, my ma used to tell me about Elythara, the light warding bad dreams away. The one who keeps the shadow figures away from the corner of your eye.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_zecre10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fey3_nd",
+                "value":58
+            }
+        ]
+    },
+    {
+        "id":"fey3_zecre10",
+        "message":"Truth be told, she's a simple goddess for simple folk. But the nobility and the priests of Elythara who happen to be employed by them know something we don't, and they worship differently, I heard.",
+        "replies":[
+            {
+                "text":"It was interesting to hear the perspective of a local. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fey3_hartwig",
+        "message":"So what was it that you wanted to ask, important enough not to knock on the door?"
+    },
+    {
+        "id":"fey3_hartwig1",
+        "message":"Don't be running around my home, child!"
     }
 ]

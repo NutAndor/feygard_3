@@ -232,7 +232,7 @@
    eJy7Kc/AcHOEYBBA58MAIXXoenCZgw0QUofPLeTaSYx7CIUVMWoBbTVg4Q==
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object name="door" type="mapchange" x="256" y="224" width="64" height="32">
    <properties>
     <property name="map" value="feygard_village0"/>
@@ -245,7 +245,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object name="fey3_lutfeld_leader" type="spawn" x="256" y="96" width="96" height="64">
    <properties>
     <property name="spawngroup" value="fey3_lutfeld_leader"/>
@@ -257,7 +257,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys">
+ <objectgroup name="Keys" visible="0">
   <object name="Object" type="key" x="192" y="192" width="32" height="32">
    <properties>
     <property name="phrase" value="fey3_lockedroom"/>

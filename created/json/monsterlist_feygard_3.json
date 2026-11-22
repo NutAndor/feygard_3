@@ -348,7 +348,7 @@
     },
     {
         "id":"fey3_poet",
-        "name":"Feygard poet",
+        "name":"Tarasten",
         "iconID":"monsters_ld_edit:75"
     },
     {
@@ -402,8 +402,11 @@
     },
     {
         "id":"fey3_innkeeper",
-        "name":"Lutfeld inn keeper",
-        "iconID":"monsters_ld1:124"
+        "name":"Zecre",
+        "iconID":"monsters_ld1:124",
+        "spawnGroup":"",
+        "phraseID":"fey3_zecre",
+        "droplistID":"fey3_zecre"
     },
     {
         "id":"fey3_villager1",
@@ -419,17 +422,32 @@
     },
     {
         "id":"fey3_lutfeld_leader",
-        "name":"Lutfeld leader",
-        "iconID":"monsters_ld1:83"
+        "name":"Hartwig",
+        "iconID":"monsters_ld1:83",
+        "phraseID":"fey3_hartwig_selector"
     },
     {
         "id":"fey3_courier",
         "name":"Courier",
-        "iconID":"monsters_ld1:141"
+        "iconID":"monsters_ld1:141",
+        "phraseID":"fey3_courier"
     },
     {
         "id":"fey3_farmhand",
         "name":"Hired farmhand",
-        "iconID":"monsters_man1:0"
+        "iconID":"monsters_man1:0",
+        "phraseID":"fey3_farmhand"
+    },
+    {
+        "id":"fey3_farmhand1",
+        "name":"Hired farmhand",
+        "iconID":"monsters_ld_edit:69",
+        "phraseID":"fey3_farmhand0"
+    },
+    {
+        "id":"fey3_villager3",
+        "name":"Mayen",
+        "iconID":"monsters_ld_edit:51",
+        "phraseID":"fey3_mayen"
     }
 ]

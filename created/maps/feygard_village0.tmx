@@ -223,7 +223,7 @@
    eJy1lNEJACAIRNuk/Udym+ojiEg90xP8COWdmiW9NZm+THrOLQaTr1mUrTFe5+rZnHEW35uLFc/MHs3xdK0evB6j9f9Yxb4hfFQzw2b04N2H1uOvafOK5CN8xi5tfjWPXfOtw2AifyBLo+KNnT4AGNfZ+Q==
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="north" type="mapchange" x="64" y="0" width="32" height="32">
    <properties>
     <property name="map" value="feygard_village1"/>
@@ -270,6 +270,11 @@
    <properties>
     <property name="map" value="feygard_village_inn"/>
     <property name="place" value="door"/>
+   </properties>
+  </object>
+  <object name="fey3_courier_despawn" type="script" x="320" y="192" width="128" height="32">
+   <properties>
+    <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>

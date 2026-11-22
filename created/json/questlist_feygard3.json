@@ -210,6 +210,26 @@
             {
                 "progress":44,
                 "logText":"44=left rock blanket gargoyle mid game"
+            },
+            {
+                "progress":55,
+                "logText":"55=Thalgard garrison"
+            },
+            {
+                "progress":56,
+                "logText":"56=courier despawned"
+            },
+            {
+                "progress":57,
+                "logText":"57=zecre's tangent"
+            },
+            {
+                "progress":58,
+                "logText":"58=Zecre's elytharan view"
+            },
+            {
+                "progress":59,
+                "logText":"59=hartwig realizes you're not here for anything serious"
             }
         ]
     },

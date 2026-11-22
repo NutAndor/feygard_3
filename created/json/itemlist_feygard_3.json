@@ -25,5 +25,25 @@
         "displaytype":"ordinary",
         "category":"other",
         "description":"A bundle of small keys on a string I received from Melissa."
+    },
+    {
+        "id":"fey3_potatoes",
+        "iconID":"items_japozero:500",
+        "name":"Potatoes",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":5,
+        "category":"food",
+        "description":"A hardy tuber that can grow even in rocky soil.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":4,
+                    "duration":1,
+                    "chance":"100"
+                }
+            ]
+        }
     }
 ]

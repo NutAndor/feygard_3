@@ -214,7 +214,7 @@
    eJxjYECAx2IQTE/wGWrnJzrbOxB2wuwdCDAQfiUX/JEcaBeMAkpBJMdAu4C24IX8wNjLoUBf+6az0te+UTC8AQD16AxA
   </data>
  </layer>
- <layer id="6" name="Walkable" width="30" height="18">
+ <layer id="6" name="Walkable" width="30" height="18" visible="0">
   <data encoding="base64" compression="zlib">
    eJzFklEKACEIRDvF3v9K3Wi/hJBRxkl3haBSfDPWftbawrKw/XlnZ1TvQ2VmPb02pPXGa4Wp+MxmWQ2VGXlhNah/KvPJzl9lqTNmuayHKW7mFeUqNVOrymNnw+Qrvb7ispxOrn//bi7io/tObsScjMgPo7Xzff/g2vkFn1clUw==
   </data>
@@ -275,7 +275,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Keys">
+ <objectgroup id="9" name="Keys" visible="0">
   <object id="10" name="well_lever" type="key" x="128" y="384" width="32" height="32">
    <properties>
     <property name="phrase" value="fey3_well"/>

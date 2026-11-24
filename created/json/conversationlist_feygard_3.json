@@ -6921,7 +6921,7 @@
     },
     {
         "id":"fey3_zecre5",
-        "message":"Well, it's not as though anything has happened recently. It's always been that new people move in with their ideas and this nonsense cult, trying to have a say in what we should believe and how we should live.",
+        "message":"It's always been that new people move in with their ideas and this nonsense cult, trying to have a say in what we should believe and how we should live.",
         "replies":[
             {
                 "text":"N",
@@ -6952,7 +6952,7 @@
                 "nextPhraseID":"fey3_zecre9"
             },
             {
-                "text":"A fool. that's all I can say about you.",
+                "text":"That sounds quite foolish to me.",
                 "nextPhraseID":"X"
             }
         ]
@@ -6966,7 +6966,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"I am one of those from the south, so all I can say is that you're a fool.",
+                "text":"I am one of those from the south, so it sounds foolish.",
                 "nextPhraseID":"X"
             }
         ]

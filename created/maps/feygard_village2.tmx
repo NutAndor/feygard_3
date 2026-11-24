@@ -212,7 +212,7 @@
  </layer>
  <layer id="4" name="Above" width="27" height="21">
   <data encoding="base64" compression="zlib">
-   eJz7K8kABnegNAj8AbL/IvGpBSIVGBiiFIiz4z8TfrOsJPDL4zKbVn7DBm7SwB5i3U9p+IFAhgJpduKzh5iwQE4f9AbI6X8WE/7wIybsiAWE4onUMKEkzVUC7akiwa50BUQaIQWQGn6gtHcHh78IhR8IkJJ+yUnrkQLAOBKAsHmkGBh4pTDVzGTFFMNlDz4/ZQLtyYLatQKLmYQAcnoilMYrgfZUCZBuBwyQmp7IAaTkD5CfYPljNRlhBwLI6RBf+FGzniEUT7jSHLGAHHeSW1aTEi6gsIaVMbjSEb7yDgChYz9w
+   eJy9lUEOgjAQRRsSd5h0qax6Dm9SL6BwA7iJnsDEE5lwFInOKI1NaKczBXwbCiTzO7+/7bBXH/rxiTxhPHjvS2GNUkfD03gVdK3Djv4fq71WbyEeK+hw5z/XP+RsZJqUDscLPx//xs//taD943jHJbVOUk/mZK4FnU6gdTK/jEiQ+ofZ6yN9pfxDbAUeVjytnKxbDfX1d1yDThPQumym32I6VE816DSj1i1QM4Wfp1TGW9DptFzDIc1TDpL9gT25/XHP8A7xc0j5t+Q9k1qnEvK2ZeY7RM48c89qiS/otTtjYjmizrs3MC8+5g==
   </data>
  </layer>
  <layer id="5" name="Top" width="27" height="21">
@@ -220,7 +220,7 @@
    eJxjYCAe/JZnYHgtj1/NS0kSDMQDQPb8ImAXtQAhP1ELEBN+1AKj4Ue5PfQIv6EWT4wchNVQK54UibCLXuE3mNJehxJ17CIm7FZQ0S56gMEUT9QCQ62MGCx2AQBujyxG
   </data>
  </layer>
- <layer id="6" name="Walkable" width="27" height="21">
+ <layer id="6" name="Walkable" width="27" height="21" visible="0">
   <data encoding="base64" compression="zlib">
    eJy9k9ENACEIQ93k9h/Jbe6XECltMZLczyl9LcH9rbXBFwvdyz3dWdbMxXK6HsRQOa6fV6xXuVwOe3+6D53nqHcjk1o3dkr1ws6d9ZZzqCylJ55POU6fMjeUr9JzvZ00UdbpHCpu5UHdt2m5s1P1GZbLyDw2F2J17+D0j5kd2ntWR3l/1b9K4wdjF0Gw
   </data>
@@ -257,7 +257,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="6" name="fey3_villager" type="spawn" x="640" y="384" width="160" height="96">
    <properties>
     <property name="spawngroup" value="fey3_villager"/>
@@ -269,7 +269,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Keys">
+ <objectgroup id="9" name="Keys" visible="0">
   <object id="8" name="well_lever" type="key" x="448" y="448" width="32" height="32">
    <properties>
     <property name="phrase" value="fey3_well"/>

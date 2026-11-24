@@ -449,5 +449,17 @@
         "name":"Mayen",
         "iconID":"monsters_ld_edit:51",
         "phraseID":"fey3_mayen"
+    },
+    {
+        "id":"fey3_servant",
+        "name":"Teremy",
+        "iconID":"monsters_ld1:84",
+        "horizontalFlipChance":100
+    },
+    {
+        "id":"fey3_servant0",
+        "name":"Jimothy",
+        "iconID":"monsters_ld1:86",
+        "horizontalFlipChance":100
     }
 ]

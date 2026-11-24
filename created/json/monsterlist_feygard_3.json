@@ -454,12 +454,70 @@
         "id":"fey3_servant",
         "name":"Teremy",
         "iconID":"monsters_ld1:84",
-        "horizontalFlipChance":100
+        "horizontalFlipChance":1
     },
     {
         "id":"fey3_servant0",
         "name":"Jimothy",
-        "iconID":"monsters_ld1:86",
+        "iconID":"monsters_ld_edit:9",
         "horizontalFlipChance":100
+    },
+    {
+        "id":"fey3_emerion",
+        "name":"Lord Emerion",
+        "iconID":"monsters_fatboy73:22"
+    },
+    {
+        "id":"fey3_ronathan",
+        "name":"Ronathan",
+        "iconID":"monsters_ld_edit:71"
+    },
+    {
+        "id":"fey3_chateau_cook",
+        "name":"Ella",
+        "iconID":"monsters_fatboy73:22"
+    },
+    {
+        "id":"fey3_chateau_cook1",
+        "name":"Hugo",
+        "iconID":"monsters_fatboy73:22"
+    },
+    {
+        "id":"fey3_servant1",
+        "name":"Hektor",
+        "iconID":"monsters_ld1:28"
+    },
+    {
+        "id":"fey3_servant2",
+        "name":"Chateau ochard man",
+        "iconID":"monsters_ld_edit:27"
+    },
+    {
+        "id":"fey3_basement_npc",
+        "name":"Mina",
+        "iconID":"monsters_ld1:92",
+        "phraseID":"fey3_mina"
+    },
+    {
+        "id":"fey3_elvira",
+        "name":"Lady Elvira",
+        "iconID":"monsters_ld1:225",
+        "horizontalFlipChance":100
+    },
+    {
+        "id":"fey3_imprisoned",
+        "name":"Imprisoned man",
+        "iconID":"monsters_ld_edit:64",
+        "horizontalFlipChance":100
+    },
+    {
+        "id":"fey3_chateauguard",
+        "name":"Chateau guard",
+        "iconID":"monsters_rltiles3:14"
+    },
+    {
+        "id":"fey3_basement_npc0",
+        "name":"Sugoi",
+        "iconID":"monsters_ld_edit:16"
     }
 ]

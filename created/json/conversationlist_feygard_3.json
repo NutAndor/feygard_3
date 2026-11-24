@@ -2624,7 +2624,7 @@
         "message":"Thank you $playername for your help. I will stay here longer to keep an eye on these two.",
         "replies":[
             {
-                "text":"A shepherd girl from Lutfeld said that she's lost a goat which wandered into the woods. It mactches with the carcass to the left of here which had horns.",
+                "text":"A shepherd girl from Lutfeld said that she's lost a goat which wandered into the woods. The story matches with the carcass to the left of here which had horns.",
                 "nextPhraseID":"fey3_caretaker12",
                 "requires":[
                     {
@@ -2743,7 +2743,7 @@
                 ]
             },
             {
-                "text":"A shepherd girl from Lutfeld said that she's lost a goat which wandered into the woods. Incidentally, I also found a carcass in the forest near here which had horns.",
+                "text":"A shepherd girl from Lutfeld said that she's lost a goat which wandered into the woods. Incidentally, I also found a carcass to the left of here which had horns.",
                 "nextPhraseID":"fey3_caretaker12",
                 "requires":[
                     {
@@ -7005,5 +7005,25 @@
     {
         "id":"fey3_hartwig1",
         "message":"Don't be running around my home, child!"
+    },
+    {
+        "id":"fey3_mina",
+        "message":"Hey, kid. Do you know what's up with these walls?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fey3_mina0"
+            }
+        ]
+    },
+    {
+        "id":"fey3_mina0",
+        "message":"I've been stuck here all day, I'm at loss what to do.",
+        "replies":[
+            {
+                "text":"Good luck with that.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

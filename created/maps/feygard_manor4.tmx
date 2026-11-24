@@ -217,7 +217,7 @@
  </layer>
  <layer id="13" name="Top" width="24" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF1ABFiqj8hUC+phwDg5bcwLhnFIwCdDCaHoceAAAVzQJ0
+   eJxjYBgFtAALFRkYNOUYGLTkBtolo2AUQMBoehx6AACXOQHh
   </data>
  </layer>
  <layer id="4" name="Walkable" width="24" height="15" visible="0">

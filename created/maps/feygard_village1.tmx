@@ -264,7 +264,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object name="fey3_farmhand1" type="spawn" x="96" y="384" width="160" height="96">
    <properties>
     <property name="spawngroup" value="fey3_farmhand1"/>
